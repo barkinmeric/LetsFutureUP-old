@@ -1,0 +1,27 @@
+{
+	"nav": {
+		"us": {
+			"title": "Biz Kimiz?",
+			"1": "Hikayemiz",
+			"2": "Hakkımızda",
+			"3": "Proje Ekibi",
+			"4": "SSS"
+		},
+
+		"do": {
+			"title": "Neler Yapıyoruz?",
+			"1": "Haberler",
+			"2": "Etkinlikler",
+			"3": "Duyurular"
+		},
+		"career": {
+			"title": "Kariyerine MerhabaDE",
+			"1": "Mentorluk Programı",
+			"2": "Öğrenci Gelişim Programı",
+			"3": "StartUP",
+			"4": "WeTalk",
+			"5": "AdviceUP",
+			"6": "TalentUP"
+		}
+	}
+}

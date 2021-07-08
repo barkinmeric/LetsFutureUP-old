@@ -1,0 +1,27 @@
+{
+	"nav": {
+		"us": {
+			"title": "Who Are We?",
+			"1": "Our Story",
+			"2": "About Us",
+			"3": "Project Team",
+			"4": "FAQ"
+		},
+
+		"do": {
+			"title": "What Are We Doing?",
+			"1": "News",
+			"2": "Events",
+			"3": "Announcements"
+		},
+		"career": {
+			"title": "Hello Career",
+			"1": "Mentorluk Programı",
+			"2": "Öğrenci Gelişim Programı",
+			"3": "StartUP",
+			"4": "WeTalk",
+			"5": "AdviceUP",
+			"6": "TalentUP"
+		}
+	}
+}
