@@ -13,7 +13,12 @@
 
 <script>
 export default {
-	name: "List",
+	head() {
+		return {
+			title: this.$i18n.t("announcements.title"),
+			meta: [],
+		};
+	},
 };
 </script>
 
