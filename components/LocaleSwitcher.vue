@@ -3,13 +3,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12" align="right">
-					<span @click="switchLocale('tr')">
-						TR
-					</span>
+					<NuxtLink to="/tr">
+						<span>
+							TR
+						</span>
+					</NuxtLink>
+
 					/
-					<span @click="switchLocale('en')">
-						EN
-					</span>
+					<NuxtLink to="/en">
+						<span>
+							EN
+						</span>
+					</NuxtLink>
 				</div>
 			</div>
 		</div>
@@ -19,13 +24,6 @@
 <script>
 export default {
 	name: "LocaleSwitcher",
-	methods: {
-		switchLocale(locale) {
-			if (this.$i18n.locale !== locale) {
-				this.$i18n.locale = locale;
-			}
-		}
-	}
 };
 </script>
 

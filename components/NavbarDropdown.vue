@@ -1,10 +1,10 @@
 <template>
 	<div class="dropdown">
-		<button class="dropbtn">{{ title }}</button>
+		<button class="dropbtn">{{ $t(`${tab}.title`) }}</button>
 		<div class="dropdown-content">
-			<router-link v-for="item in content" :key="item" :to="`/${toUrl(item)}`">
+			<NuxtLink v-for="(item, index) in $t(`${tab}.content`)" :key="item" :to="localePath(toUrl($t(`${tab}.content`, 'en')[index]))">
 				<span>{{ item }}</span>
-			</router-link>
+			</NuxtLink>
 		</div>
 	</div>
 </template>
@@ -13,8 +13,7 @@
 export default {
 	name: "NavbarDropdown",
 	props: {
-		title: String,
-		content: Array,
+		tab: String,
 	},
 	methods: {
 		toUrl(text) {

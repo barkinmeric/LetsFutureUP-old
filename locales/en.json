@@ -2,26 +2,37 @@
 	"nav": {
 		"us": {
 			"title": "Who Are We?",
-			"1": "Our Story",
-			"2": "About Us",
-			"3": "Project Team",
-			"4": "FAQ"
+			"content": ["Our Story", "About Us", "Project Team", "FAQ"]
 		},
 
 		"do": {
 			"title": "What Are We Doing?",
-			"1": "News",
-			"2": "Events",
-			"3": "Announcements"
+			"content": ["News", "Events", "Announcements"]
 		},
 		"career": {
 			"title": "Hello Career",
-			"1": "Mentorluk Programı",
-			"2": "Öğrenci Gelişim Programı",
-			"3": "StartUP",
-			"4": "WeTalk",
-			"5": "AdviceUP",
-			"6": "TalentUP"
+			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		}
+	},
+	"announcements": {
+		"title": "Announcements",
+		"content": [
+			{ "title": "Announcement1", "text": "Deneme12321", "date": "10.07.2021" },
+			{ "title": "Announcement2", "text": "Deneme12321", "date": "10.07.2021" }
+		]
+	},
+	"events": {
+		"title": "Events",
+		"content": [
+			{ "title": "Event1", "text": "Deneme12321", "date": "10.07.2021" },
+			{ "title": "Event2", "text": "Deneme12321", "date": "10.07.2021" }
+		]
+	},
+	"news": {
+		"title": "News",
+		"content": [
+			{ "title": "New1", "text": "Deneme12321", "date": "10.07.2021" },
+			{ "title": "New2", "text": "Deneme12321", "date": "10.07.2021" }
+		]
 	}
 }

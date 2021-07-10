@@ -1,4 +1,4 @@
-import i18n from "./config/i18n";
+import { i18n, pages } from "./config/i18n";
 
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
@@ -11,16 +11,16 @@ export default {
 			{ charset: "utf-8" },
 			{
 				name: "viewport",
-				content: "width=device-width, initial-scale=1"
+				content: "width=device-width, initial-scale=1",
 			},
 			{ hid: "description", name: "description", content: "" },
-			{ name: "format-detection", content: "telephone=no" }
+			{ name: "format-detection", content: "telephone=no" },
 		],
-		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["@/assets/bootstrap.min.css"],
+	css: ["~/assets/css/bootstrap.min.css", "~/assets/css/style.scss"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
@@ -41,14 +41,22 @@ export default {
 			"nuxt-i18n",
 			{
 				locales: [
-					{ code: "tr", iso: "tr-TR" },
-					{ code: "en", iso: "en-US" }
+					{ code: "tr", iso: "tr-TR", name: "Türkçe" },
+					{ code: "en", iso: "en-US", name: "English" },
 				],
+				detectBrowserLanguage: {
+					useCookie: true,
+					cookieKey: "i18n_redirected",
+					onlyOnRoot: true,
+				},
 				defaultLocale: "tr",
 				strategy: "prefix",
-				vueI18n: i18n
-			}
-		]
+				seo: true,
+				parsePages: false,
+				pages: pages,
+				vueI18n: i18n,
+			},
+		],
 	],
 
 	// Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -57,10 +65,10 @@ export default {
 	// PWA module configuration: https://go.nuxtjs.dev/pwa
 	pwa: {
 		manifest: {
-			lang: "en"
-		}
+			lang: "en",
+		},
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
-	build: {}
+	build: {},
 };

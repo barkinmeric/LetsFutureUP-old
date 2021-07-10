@@ -4,42 +4,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-2 logo">
-						<router-link to="/"
-							><img src="@/assets/img/logo/logo.png"
-						/></router-link>
+						<NuxtLink :to="`/${this.$i18n.locale}`"><img src="@/assets/img/logo/logo.png"/></NuxtLink>
 					</div>
 					<div class="col-lg-10 head-menu">
 						<nav>
 							<ul>
-								<navbar-dropdown
-									:title="$t('nav.us.title')"
-									:content="[
-										$t('nav.us.1'),
-										$t('nav.us.2'),
-										$t('nav.us.3'),
-										$t('nav.us.4')
-									]"
-								/>
-								<navbar-dropdown
-									:title="$t('nav.do.title')"
-									:content="[
-										$t('nav.do.1'),
-										$t('nav.do.2'),
-										$t('nav.do.3')
-									]"
-								/>
-								<navbar-dropdown
-									:title="$t('nav.career.title')"
-									:content="[
-										$t('nav.career.1'),
-										$t('nav.career.2'),
-										$t('nav.career.3'),
-										$t('nav.career.4'),
-										$t('nav.career.5'),
-										$t('nav.career.6')
-									]"
-								/>
-
+								<navbar-dropdown tab="nav.us" />
+								<navbar-dropdown tab="nav.do" />
+								<!-- <navbar-dropdown tab="nav.career" /> -->
 								<a href="bize-katil">
 									<li>Bize Katıl</li>
 								</a>
@@ -50,28 +22,14 @@
 			</div>
 		</div>
 		<div class="mobile-menu-button" @click="openMobileMenu">
-			<icon-base
-				icon-name="bars"
-				width="32px"
-				height="32px"
-				iconColor="black"
-				iconViewBox="0 0 448 512"
-				><icon-bars
-			/></icon-base>
+			<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 448 512"><icon-bars /></icon-base>
 		</div>
 		<div class="mobile-menu" :class="{ active: isMobileMenuActive }">
 			<div class="mobile-logo">
 				<a href=""><img src="@/assets/img/logo/logo.png" alt=""/></a>
 			</div>
 			<div class="mobile-menu-close" @click="closeMobileMenu">
-				<icon-base
-					icon-name="bars"
-					width="32px"
-					height="32px"
-					iconColor="black"
-					iconViewBox="0 0 352 512"
-					><icon-times
-				/></icon-base>
+				<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 352 512"><icon-times /></icon-base>
 			</div>
 			<div class="container">
 				<div class="row">
@@ -79,14 +37,7 @@
 						<a href="javascript:;">
 							<div class="drop-menu-head b-efect">Biz Kimiz?</div>
 							<div class="angle-down">
-								<icon-base
-									icon-name="bars"
-									width="32px"
-									height="32px"
-									iconColor="black"
-									iconViewBox="0 0 320 512"
-									><icon-angle-down
-								/></icon-base>
+								<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 320 512"><icon-angle-down /></icon-base>
 							</div>
 						</a>
 						<div class="drop-menu">
@@ -110,14 +61,7 @@
 								Neler Yapıyoruz?
 							</div>
 							<div class="angle-down">
-								<icon-base
-									icon-name="bars"
-									width="32px"
-									height="32px"
-									iconColor="black"
-									iconViewBox="0 0 320 512"
-									><icon-angle-down
-								/></icon-base>
+								<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 320 512"><icon-angle-down /></icon-base>
 							</div>
 						</a>
 						<div class="drop-menu">
@@ -138,14 +82,7 @@
 								Kariyerine Merhaba DE
 							</div>
 							<div class="angle-down">
-								<icon-base
-									icon-name="bars"
-									width="32px"
-									height="32px"
-									iconColor="black"
-									iconViewBox="0 0 320 512"
-									><icon-angle-down
-								/></icon-base>
+								<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 320 512"><icon-angle-down /></icon-base>
 							</div>
 						</a>
 						<div class="drop-menu">
@@ -181,7 +118,6 @@
 				</div>
 			</div>
 		</div>
-		<navbar-dropdown />
 	</div>
 </template>
 
@@ -189,7 +125,7 @@
 export default {
 	data() {
 		return {
-			isMobileMenuActive: false
+			isMobileMenuActive: false,
 		};
 	},
 	methods: {
@@ -198,8 +134,8 @@ export default {
 		},
 		closeMobileMenu: function() {
 			this.isMobileMenuActive = false;
-		}
-	}
+		},
+	},
 };
 </script>
 
