@@ -14,6 +14,41 @@
 			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		}
 	},
+	"about": {
+		"title": "About Us",
+		"content": {
+			"WHAT IS THE LET’S FUTUREUP PROJECT?": "Let’s FutureUP Projesi, gelecekteki kariyerlerine şimdiden merhaba demek isteyen genç üniversite öğrencilerine , mentorluk programı ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir. Öğrenci gelişim programı olan Let’s FutureUP, iş dünyası ile üniversiteli gençler arasında bir köprü vaziyetindedir.",
+			"THE AIM OF THE PROJECT": "Let’s FutureUP, mentorluk programı ve eğitim programları ile üniversitedeki farklı kültürlerden gelen öğrencilerin sürdürülebilir kariyer gelişimlerini destekleyerek, gençlerin hayallerini gerçekleştirmek için değişime ve gelişime liderlik ederek, evrensel değerler çerçevesinde onların bakış açılarını çeşitlendirmek, onlara bilim ve teknoloji alanında inovatif düşünmeye sevk edecek yetkinlikleri kazandırmak için kurulmuş bir öğrenci gelişim programıdır.",
+			"OUR GOALS": [
+				"• Contributing to the career development of university students with mentoring programs and by providing future-oriented individual and general training with student development programs.",
+				"• To lead young people to be valuable individuals for society by enabling them to take part in social responsibility projects.",
+				"• Helping people with experience in business life and university students to provide effective transfer of experience by creating a bridge with the mentoring program.",
+				"• To provide students with new competencies through student development programs regardless of time and place in their university education.",
+				"• By following the change and development in the world, to ensure that university students gain new habits with education programs.",
+				"• As a social responsibility project to complement the education and social lives of university students."
+			],
+			"LET’S FUTURE UP PROJECT VISION-MISSION": "We aim to be a universal project that guides the careers of university students, contributes to their development, helps them become valuable individuals for society, and enables them to get to know the business world through the student development program and mentorship program we offer."
+		}
+	},
+	"story": {
+		"title": "Our Story",
+		"content": "Team"
+	},
+	"team": {
+		"title": "Project Team",
+		"desc": "Let’s FutureUP mentorship and student improvement project consist of five departments including Human Resources, Business Development, Corporate Communication, External Affairs and Social Media and Digital Marketing. Students from various universities of Turkey comprise these departments.",
+		"content": {
+			"HUMAN RESOURCES DEPARTMENT": "Arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members to Let’s Future UP events. They act to avoid motivation loss among students and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
+			"CORPORATE COMMUNICATION DEPARTMENT": "They contact with high level managers/executives and offer them to be spokesperson/trainer/mentor in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and weTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertize for the project. Of note, they attend the meetings of the Consultative Committee as well.",
+			"BUSINESS DEVELOPMENT DEPARTMENT": "Members of this department discuss about how the project can be improved further and they come up with new ideas or they try to reform the existing concepts. Next, they gather with the Human Resources department to determine how these new ideas can be integrated to the project. Additionally, they explore new collaboration opportunities.",
+			"EXTERNAL AFFAIRS DEPARTMENT": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and weTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
+			"SOCIAL MEDIA AND DIGITAL MARKETING DEPARTMENT": "They are responsible for construction and maintenance of the project website. Further, they provide effective utility of the social media accounts of the project by preparing posts and informative materials which announce the weTALK events and other training activities of the project."
+		}
+	},
+	"faq": {
+		"title": "FAQ",
+		"content": "FAQ"
+	},
 	"announcements": {
 		"title": "Announcements",
 		"content": [

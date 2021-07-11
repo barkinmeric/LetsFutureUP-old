@@ -20,7 +20,7 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["~/assets/css/bootstrap.min.css", "~/assets/css/style.scss"],
+	css: ["@/assets/css/bootstrap.min.css", "@/assets/css/style.scss"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
@@ -32,41 +32,30 @@ export default {
 	buildModules: [],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: [
-		// https://go.nuxtjs.dev/axios
-		"@nuxtjs/axios",
-		// https://go.nuxtjs.dev/pwa
-		"@nuxtjs/pwa",
-		[
-			"nuxt-i18n",
-			{
-				locales: [
-					{ code: "tr", iso: "tr-TR", name: "Türkçe" },
-					{ code: "en", iso: "en-US", name: "English" },
-				],
-				detectBrowserLanguage: {
-					useCookie: true,
-					cookieKey: "i18n_redirected",
-					onlyOnRoot: true,
-				},
-				defaultLocale: "tr",
-				strategy: "prefix",
-				seo: true,
-				parsePages: false,
-				pages: pages,
-				vueI18n: i18n,
-			},
-		],
-	],
+	modules: ["@nuxtjs/pwa", "nuxt-i18n"],
 
-	// Axios module configuration: https://go.nuxtjs.dev/config-axios
-	axios: {},
-
-	// PWA module configuration: https://go.nuxtjs.dev/pwa
 	pwa: {
 		manifest: {
 			lang: "en",
 		},
+	},
+
+	i18n: {
+		locales: [
+			{ code: "tr", iso: "tr-TR", name: "Türkçe" },
+			{ code: "en", iso: "en-US", name: "English" },
+		],
+		detectBrowserLanguage: {
+			useCookie: true,
+			cookieKey: "i18n_redirected",
+			onlyOnRoot: true,
+		},
+		defaultLocale: "tr",
+		strategy: "prefix",
+		seo: true,
+		parsePages: false,
+		pages: pages,
+		vueI18n: i18n,
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build

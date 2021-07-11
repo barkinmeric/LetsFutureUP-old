@@ -18,7 +18,7 @@ const pages = {
 	},
 	"project-team": {
 		tr: "/proje-ekibi",
-		en: "/about-us",
+		en: "/project-team",
 	},
 	faq: {
 		tr: "/sss",
