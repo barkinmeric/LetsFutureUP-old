@@ -24,6 +24,30 @@ const pages = {
 		tr: "/sss",
 		en: "/faq",
 	},
+	"mentorship-program": {
+		tr: "/mentorluk-programi",
+		en: "/mentorship-program",
+	},
+	"student-program": {
+		tr: "/ogrenci-gelisim-programi",
+		en: "/student-program",
+	},
+	startup: {
+		tr: "/startup",
+		en: "/startup",
+	},
+	wetalk: {
+		tr: "/wetalk",
+		en: "/wetalk",
+	},
+	talentup: {
+		tr: "/talentup",
+		en: "/talentup",
+	},
+	adviceup: {
+		tr: "/adviceup",
+		en: "/adviceup",
+	},
 	"announcements/index": {
 		tr: "/duyurular",
 		en: "/announcements",

@@ -9,12 +9,13 @@
 		"generate": "nuxt generate"
 	},
 	"dependencies": {
-		"@nuxtjs/pwa": "^3.3.5",
 		"core-js": "^3.15.1",
 		"nuxt": "^2.15.7",
 		"nuxt-i18n": "^6.27.2"
 	},
 	"devDependencies": {
+		"@nuxt/image": "^0.5.0",
+		"@nuxtjs/pwa": "^3.3.5",
 		"fibers": "^5.0.0",
 		"sass": "^1.35.2",
 		"sass-loader": "^10.2.0"

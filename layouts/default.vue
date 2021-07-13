@@ -1,7 +1,8 @@
 <template>
 	<div>
 		<locale-switcher />
-		<navbar />
+		<desktop-navbar />
+		<mobile-navbar />
 		<nuxt />
 	</div>
 </template>
@@ -10,4 +11,21 @@
 export default {};
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.mobile-navbar {
+	display: block;
+}
+
+.desktop-navbar {
+	display: none;
+}
+
+@media (min-width: 992px) {
+	.mobile-navbar {
+		display: none;
+	}
+	.desktop-navbar {
+		display: block;
+	}
+}
+</style>

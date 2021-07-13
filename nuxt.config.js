@@ -29,16 +29,18 @@ export default {
 	components: true,
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	buildModules: [],
+	buildModules: ["@nuxtjs/pwa", "@nuxt/image"],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["@nuxtjs/pwa", "nuxt-i18n"],
+	modules: ["nuxt-i18n"],
 
 	pwa: {
 		manifest: {
 			lang: "en",
 		},
 	},
+
+	image: {},
 
 	i18n: {
 		locales: [

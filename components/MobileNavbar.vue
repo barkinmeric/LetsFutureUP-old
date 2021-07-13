@@ -1,32 +1,15 @@
 <template>
-	<div>
-		<div class="main-header">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-2 logo">
-						<NuxtLink :to="`/${this.$i18n.locale}`"><img src="@/assets/img/logo/logo.png"/></NuxtLink>
-					</div>
-					<div class="col-lg-10 head-menu">
-						<nav>
-							<ul>
-								<navbar-dropdown tab="nav.us" />
-								<navbar-dropdown tab="nav.do" />
-								<!-- <navbar-dropdown tab="nav.career" /> -->
-								<a href="bize-katil">
-									<li>Bize Katıl</li>
-								</a>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
+	<div class="mobile-navbar">
+		<div class="col-lg-2 logo">
+			<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-picture src="/img/placeholder.png" alt=""/></NuxtLink>
 		</div>
+
 		<div class="mobile-menu-button" @click="openMobileMenu">
 			<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 448 512"><icon-bars /></icon-base>
 		</div>
 		<div class="mobile-menu" :class="{ active: isMobileMenuActive }">
 			<div class="mobile-logo">
-				<a href=""><img src="@/assets/img/logo/logo.png" alt=""/></a>
+				<a href=""><nuxt-picture src="/img/placeholder.png" alt=""/></a>
 			</div>
 			<div class="mobile-menu-close" @click="closeMobileMenu">
 				<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 352 512"><icon-times /></icon-base>
@@ -141,205 +124,124 @@ export default {
 
 <style lang="scss" scoped>
 $anaRenk: #12203c;
-.main-header {
-	width: 100%;
-	height: 70px;
-	background: #fff;
-	line-height: 70px;
-	transition: all ease 0.4s;
-	img {
-		height: 50px;
-		width: 135px;
-	}
-	.head-menu {
-		display: flex;
-		justify-content: flex-end;
-		nav {
-			ul {
-				display: flex;
-				a,
-				li.menu {
-					cursor: pointer;
-					padding-left: 20px;
-					font-size: 12px;
-					padding-right: 20px;
-					letter-spacing: 2px;
-					font-weight: 600;
-					transition: all ease 0.4s;
-					&:hover {
-						background: $anaRenk;
-						color: #fff;
-					}
-				}
-				li.menu {
-					position: relative;
-					&:hover {
-						.drop-menu {
-							z-index: 5;
-							opacity: 1;
-							top: 70px;
-							visibility: visible;
-						}
-					}
-					.drop-menu {
-						background: #fff;
-						left: 0px;
-						min-width: 100%;
-						display: flex;
-						flex-direction: column;
-						position: absolute;
-						top: 100px;
-						z-index: -1;
-						opacity: 0;
-						visibility: hidden;
-						transition: all ease 0.6s;
-						a {
-							letter-spacing: 1px;
-							white-space: nowrap;
-							width: 100%;
-							height: 50px;
-							line-height: 50px;
-							font-size: 12px;
-							font-weight: 400;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-.mobile-menu-button,
-.mobile-menu {
-	display: none;
-}
 
-@media screen and (max-width: 768px) {
-	.main-header {
-		.head-menu {
-			display: none;
-			nav {
-				display: none;
-			}
-		}
-		.logo {
-			text-align: center;
-			img {
-				max-height: 60px;
-				width: auto;
-				margin: auto;
-			}
-		}
+.logo {
+	text-align: center;
+	img {
+		max-height: 60px;
+		width: auto;
+		margin: auto;
 	}
-	.mobile-menu-button {
-		display: block;
+}
+.mobile-menu-button {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	line-height: 70px;
+	font-size: 30px;
+	cursor: pointer;
+	img {
+		width: "32px";
+		height: "32px";
+	}
+}
+.mobile-menu-button.active {
+	position: fixed;
+	z-index: 5;
+}
+.mobile-menu {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	max-height: 100%;
+	overflow: scroll;
+	top: 0px;
+	left: 100%;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	transition: all ease 0.5s;
+	z-index: 20;
+	.container {
+		margin-top: 100px;
+	}
+	.mobile-menu-close {
 		position: absolute;
-		top: 0px;
+		top: 10px;
 		right: 15px;
-		line-height: 70px;
 		font-size: 30px;
 		cursor: pointer;
-		img {
-			width: "32px";
-			height: "32px";
-		}
 	}
-	.mobile-menu-button.active {
-		position: fixed;
-		z-index: 5;
+	.b-efect {
+		font-weight: 500;
+		border-bottom: 1px solid #292929;
 	}
-	.mobile-menu {
-		position: fixed;
+	.menu-item {
 		width: 100%;
-		height: 100vh;
-		max-height: 100%;
-		overflow: scroll;
-		top: 0px;
-		left: 100%;
-		background: #fff;
-		display: flex;
-		justify-content: center;
-		transition: all ease 0.5s;
-		z-index: 20;
-		.container {
-			margin-top: 100px;
+		padding: 0px;
+		margin: 5px auto;
+		a {
+			div {
+				padding: 5px;
+			}
+			.drop-menu-head {
+				width: 100%;
+				display: inline-block;
+			}
+			.angle-down {
+				transition: all ease 0.5s;
+				position: absolute;
+				display: inline-block;
+				right: 10px;
+			}
 		}
-		.mobile-menu-close {
-			position: absolute;
-			top: 10px;
-			right: 15px;
-			font-size: 30px;
-			cursor: pointer;
-		}
-		.b-efect {
-			font-weight: 500;
-			border-bottom: 1px solid #292929;
-		}
-		.menu-item {
-			width: 100%;
-			padding: 0px;
-			margin: 5px auto;
+		&:hover {
+			background: #12203c;
 			a {
-				div {
-					padding: 5px;
-				}
-				.drop-menu-head {
-					width: 100%;
-					display: inline-block;
-				}
-				.angle-down {
-					transition: all ease 0.5s;
-					position: absolute;
-					display: inline-block;
-					right: 10px;
+				color: #fff;
+			}
+			.drop-menu {
+				background: #fff;
+				a {
+					color: #000;
 				}
 			}
+		}
+	}
+	.drop-menu {
+		display: none;
+		.drop-menu-item {
+			font-size: 14px;
+			padding-left: 10px;
 			&:hover {
 				background: #12203c;
+				color: #fff;
 				a {
 					color: #fff;
 				}
-				.drop-menu {
-					background: #fff;
-					a {
-						color: #000;
-					}
-				}
 			}
+		}
+	}
+	.menu-item.active {
+		.angle-down {
+			transform: rotate(180deg);
 		}
 		.drop-menu {
-			display: none;
-			.drop-menu-item {
-				font-size: 14px;
-				padding-left: 10px;
-				&:hover {
-					background: #12203c;
-					color: #fff;
-					a {
-						color: #fff;
-					}
-				}
-			}
-		}
-		.menu-item.active {
-			.angle-down {
-				transform: rotate(180deg);
-			}
-			.drop-menu {
-				display: block;
-				animation: openEfect 1s normal;
-			}
-		}
-		.mobile-logo {
-			position: absolute;
-			top: 10px;
-			img {
-				max-height: 70px;
-				width: auto;
-			}
+			display: block;
+			animation: openEfect 1s normal;
 		}
 	}
-	.mobile-menu.active {
-		left: 0px;
+	.mobile-logo {
+		position: absolute;
+		top: 10px;
+		img {
+			max-height: 70px;
+			width: auto;
+		}
 	}
+}
+.mobile-menu.active {
+	left: 0px;
 }
 </style>

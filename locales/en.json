@@ -11,14 +11,14 @@
 		},
 		"career": {
 			"title": "Hello Career",
-			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
+			"content": ["Mentorship Program", "Student Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		}
 	},
 	"about": {
 		"title": "About Us",
 		"content": {
-			"WHAT IS THE LET’S FUTUREUP PROJECT?": "Let’s FutureUP Projesi, gelecekteki kariyerlerine şimdiden merhaba demek isteyen genç üniversite öğrencilerine , mentorluk programı ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir. Öğrenci gelişim programı olan Let’s FutureUP, iş dünyası ile üniversiteli gençler arasında bir köprü vaziyetindedir.",
-			"THE AIM OF THE PROJECT": "Let’s FutureUP, mentorluk programı ve eğitim programları ile üniversitedeki farklı kültürlerden gelen öğrencilerin sürdürülebilir kariyer gelişimlerini destekleyerek, gençlerin hayallerini gerçekleştirmek için değişime ve gelişime liderlik ederek, evrensel değerler çerçevesinde onların bakış açılarını çeşitlendirmek, onlara bilim ve teknoloji alanında inovatif düşünmeye sevk edecek yetkinlikleri kazandırmak için kurulmuş bir öğrenci gelişim programıdır.",
+			"WHAT IS THE LET’S FUTUREUP PROJECT?": "Let's FutureUP Project is an international social responsibility project that guides young university students who want to greet their future careers with mentoring and training programs. Let's FutureUP is a student development program that stands as a bridge between the business world and university students.",
+			"THE AIM OF THE PROJECT": "Let's FutureUP is a student development program established to support the sustainable career development of students from different cultures at the university with its mentoring program and training programs. It helps to lead change and development to realize the dreams of young people, diversify their perspectives within the framework of universal values, and provide them with competencies that will prompt them to think innovatively in science and technology.",
 			"OUR GOALS": [
 				"• Contributing to the career development of university students with mentoring programs and by providing future-oriented individual and general training with student development programs.",
 				"• To lead young people to be valuable individuals for society by enabling them to take part in social responsibility projects.",

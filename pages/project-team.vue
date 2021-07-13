@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 img">
-					<img src="@/assets/img/placeholder.png" alt="" />
+					<nuxt-picture src="/img/placeholder.png" alt="" />
 				</div>
 				<div class="col-lg-12 col-12 text mt-1 mb-1">
 					<h2>{{ $t("team.title") }}</h2>
