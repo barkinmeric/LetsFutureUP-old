@@ -1,20 +1,11 @@
 <template>
 	<div class="top-header">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12" align="right">
-					<NuxtLink to="/tr">
-						<span>
-							TR
-						</span>
-					</NuxtLink>
-
+			<div class="grid-container">
+				<div>
+					<NuxtLink to="/tr"><span>TR</span></NuxtLink>
 					/
-					<NuxtLink to="/en">
-						<span>
-							EN
-						</span>
-					</NuxtLink>
+					<NuxtLink to="/en"><span>EN</span></NuxtLink>
 				</div>
 			</div>
 		</div>
@@ -35,16 +26,24 @@ export default {
 	color: #eee;
 	font-size: 12px;
 	line-height: 30px;
-	b {
-		color: #00ff00;
-	}
-	span {
-		color: #eee;
-		-webkit-transition: all ease 0.5s;
-		transition: all ease 0.5s;
-		cursor: pointer;
-		&:hover {
-			color: #00ff00;
+	.container {
+		width: 100%;
+		padding-right: 0.75rem;
+		padding-left: 0.75rem;
+		margin-right: auto;
+		margin-left: auto;
+		.grid-container {
+			display: grid;
+			justify-content: end;
+			margin-right: 16px;
+			span {
+				color: #eee;
+				transition: all ease 0.5s;
+				cursor: pointer;
+				&:hover {
+					color: #00ff00;
+				}
+			}
 		}
 	}
 }

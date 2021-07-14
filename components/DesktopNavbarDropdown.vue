@@ -72,7 +72,7 @@ $anaRenk: #12203c;
 		visibility: hidden;
 		position: absolute;
 		background-color: #fff;
-		min-width: 100%;
+		width: 100%;
 		z-index: 1;
 		span {
 			letter-spacing: 1px;
@@ -95,52 +95,4 @@ $anaRenk: #12203c;
 		}
 	}
 }
-
-// a,
-// .menu {
-// 	cursor: pointer;
-// 	padding-left: 20px;
-// 	font-size: 12px;
-// 	padding-right: 20px;
-// 	letter-spacing: 2px;
-// 	font-weight: 600;
-// 	transition: all ease 0.4s;
-// 	&:hover {
-// 		background: $anaRenk;
-// 		color: #fff;
-// 	}
-// }
-// .menu {
-// 	position: relative;
-// 	&:hover {
-// 		.drop-menu {
-// 			z-index: 5;
-// 			opacity: 1;
-// 			top: 70px;
-// 			visibility: visible;
-// 		}
-// 	}
-// 	.drop-menu {
-// 		background: #fff;
-// 		left: 0px;
-// 		min-width: 100%;
-// 		display: flex;
-// 		flex-direction: column;
-// 		position: absolute;
-// 		top: 100px;
-// 		z-index: -1;
-// 		opacity: 0;
-// 		visibility: hidden;
-// 		transition: all ease 0.6s;
-// 		a {
-// 			letter-spacing: 1px;
-// 			white-space: nowrap;
-// 			width: 100%;
-// 			height: 50px;
-// 			line-height: 50px;
-// 			font-size: 12px;
-// 			font-weight: 400;
-// 		}
-// 	}
-// }
 </style>
