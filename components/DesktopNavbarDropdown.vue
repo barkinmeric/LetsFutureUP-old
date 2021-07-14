@@ -11,7 +11,7 @@
 
 <script>
 export default {
-	name: "NavbarDropdown",
+	name: "DesktopNavbarDropdown",
 	props: {
 		tab: String,
 	},
@@ -32,8 +32,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$anaRenk: #12203c;
-
 .dropdown {
 	position: relative;
 	display: inline-block;
@@ -43,13 +41,13 @@ $anaRenk: #12203c;
 			transform: translateY(0);
 			visibility: visible;
 			span {
-				color: $anaRenk;
+				color: $mainColor;
 				transform: translateY(0);
 				visibility: visible;
 			}
 		}
 		.dropbtn {
-			background-color: $anaRenk;
+			background-color: $mainColor;
 			color: #fff;
 		}
 	}
@@ -61,7 +59,7 @@ $anaRenk: #12203c;
 		letter-spacing: 2px;
 		transition: all ease 0.2s;
 		background-color: #fff;
-		color: $anaRenk;
+		color: $mainColor;
 		padding: 16px;
 		border: none;
 		cursor: pointer;
@@ -89,7 +87,7 @@ $anaRenk: #12203c;
 			visibility: hidden;
 			display: block;
 			&:hover {
-				background-color: $anaRenk;
+				background-color: $mainColor;
 				color: #fff;
 			}
 		}

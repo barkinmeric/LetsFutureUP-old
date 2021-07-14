@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="grid-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-picture src="/img/logo/logo.png" height="70" width="200"/></NuxtLink>
+					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img src="/img/logo/logo.png" height="70" width="230" fit="inside"/></NuxtLink>
 				</div>
 				<div class="content">
 					<desktop-navbar-dropdown tab="nav.us" />
@@ -17,40 +17,33 @@
 </template>
 
 <script>
-export default {};
+export default {
+	name: "DesktopNavbar",
+};
 </script>
 
 <style lang="scss" scoped>
-$anaRenk: #12203c;
-
 .desktop-navbar {
-	.container {
-		width: 100%;
-		padding-right: 0.75rem;
-		padding-left: 0.75rem;
-		margin-right: auto;
-		margin-left: auto;
-		.grid-container {
-			display: grid;
-			justify-content: space-between;
-			grid-template-columns: 200px auto;
-			.content button {
-				height: 100%;
-				line-height: 40px;
-				font-weight: 600;
-				font-size: 12px;
-				letter-spacing: 2px;
-				transition: all ease 0.2s;
-				background-color: #fff;
-				color: $anaRenk;
-				padding: 16px;
-				border: none;
-				cursor: pointer;
-				&:hover {
-					background: $anaRenk;
-					a {
-						color: #fff;
-					}
+	.grid-container {
+		display: grid;
+		justify-content: space-between;
+		grid-template-columns: 200px auto;
+		.content button {
+			height: 100%;
+			line-height: 40px;
+			font-weight: 600;
+			font-size: 12px;
+			letter-spacing: 2px;
+			transition: all ease 0.2s;
+			background-color: #fff;
+			color: $mainColor;
+			padding: 16px;
+			border: none;
+			cursor: pointer;
+			&:hover {
+				background: $mainColor;
+				a {
+					color: #fff;
 				}
 			}
 		}

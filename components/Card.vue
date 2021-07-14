@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-12 card-item">
 					<div class="card-head">
-						<img :src="`https://picsum.photos/130/130?random=${item.title}`" alt="" />
+						<img :src="`https://picsum.photos/75/75?random=${item.title}`" alt="" />
 					</div>
 					<div class="card-body">
 						<NuxtLink :to="`${localePath(section)}/${toUrl(item.title)}`"
@@ -49,8 +49,6 @@ section.cards {
 		padding: 10px;
 		width: 100%;
 		height: auto;
-		display: -webkit-inline-box;
-		display: -ms-inline-flexbox;
 		display: inline-flex;
 		background: #292929;
 		border-radius: 10px;
@@ -78,7 +76,7 @@ section.cards {
 					left: 0px;
 					width: 50px;
 					height: 2px;
-					background: #00ff00;
+					background: $sideColor;
 				}
 			}
 			p {
@@ -91,7 +89,7 @@ section.cards {
 				position: absolute;
 				bottom: 0px;
 				right: 10px;
-				color: #00ff00;
+				color: $sideColor;
 			}
 		}
 	}

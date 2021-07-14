@@ -26,23 +26,16 @@ export default {
 	color: #eee;
 	font-size: 12px;
 	line-height: 30px;
-	.container {
-		width: 100%;
-		padding-right: 0.75rem;
-		padding-left: 0.75rem;
-		margin-right: auto;
-		margin-left: auto;
-		.grid-container {
-			display: grid;
-			justify-content: end;
-			margin-right: 16px;
-			span {
-				color: #eee;
-				transition: all ease 0.5s;
-				cursor: pointer;
-				&:hover {
-					color: #00ff00;
-				}
+	.grid-container {
+		display: grid;
+		justify-content: end;
+		margin-right: 16px;
+		span {
+			color: #eee;
+			transition: all ease 0.5s;
+			cursor: pointer;
+			&:hover {
+				color: $sideColor;
 			}
 		}
 	}

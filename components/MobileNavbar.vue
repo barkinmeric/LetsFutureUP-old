@@ -1,9 +1,9 @@
 <template>
 	<div class="mobile-navbar">
 		<div class="container">
-			<div class="grid-container">
+			<div class="flex-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-picture src="/img/logo/logo.png" alt="" width="200" height="70"/></NuxtLink>
+					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img src="/img/logo/logo.png" alt="" width="164" height="50" fit="inside"/></NuxtLink>
 				</div>
 
 				<div class="mobile-menu-button" @click="toggleMobileMenu()" v-show="!isMobileMenuActive">
@@ -29,47 +29,42 @@
 import IconTimes from "@/components/icons/IconTimes.vue";
 import IconBars from "@/components/icons/IconBars.vue";
 export default {
+	name: "MobileNavbar",
 	components: { IconTimes, IconBars },
 	data() {
 		return {
 			isMobileMenuActive: false,
 		};
 	},
-	watch: {
-		$route(to, from) {
-			this.isMobileMenuActive = false;
-		},
-	},
 	methods: {
 		toggleMobileMenu: function() {
 			this.isMobileMenuActive = !this.isMobileMenuActive;
+		},
+	},
+	watch: {
+		$route(to, from) {
+			this.isMobileMenuActive = false;
 		},
 	},
 };
 </script>
 
 <style lang="scss" scoped>
-$anaRenk: #12203c;
-
 .mobile-navbar {
-	.container {
-		width: 100%;
-		padding-right: 0.75rem;
-		padding-left: 0.75rem;
-		margin-right: auto;
-		margin-left: auto;
-		.grid-container {
-			display: grid;
-			grid-template-columns: 20% auto 20%;
-			.logo {
-				grid-column: 2 / 3;
-				text-align: center;
-			}
-			.mobile-menu-button {
-				text-align: right;
-				padding: 18px 16px 16px 16px;
-				cursor: pointer;
-			}
+	.flex-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.logo {
+			vertical-align: middle;
+			left: 0;
+			padding: 8px 16px 8px 16px;
+		}
+		.mobile-menu-button {
+			vertical-align: middle;
+			right: 0;
+			padding: 8px 16px 8px 16px;
+			cursor: pointer;
 		}
 	}
 }

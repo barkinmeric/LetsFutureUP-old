@@ -20,7 +20,11 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["@/assets/css/bootstrap.min.css", "@/assets/css/style.scss"],
+	css: [
+		// "@/assets/css/bootstrap.min.css",
+		"@/assets/scss/colors.scss",
+		"@/assets/scss/style.scss",
+	],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
@@ -29,7 +33,7 @@ export default {
 	components: true,
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	buildModules: ["@nuxtjs/pwa", "@nuxt/image"],
+	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources"],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: ["nuxt-i18n"],
@@ -41,6 +45,10 @@ export default {
 	},
 
 	image: {},
+
+	styleResources: {
+		scss: ["./assets/scss/colors.scss"],
+	},
 
 	i18n: {
 		locales: [

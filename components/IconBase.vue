@@ -9,6 +9,7 @@
 
 <script>
 export default {
+	name: "IconBase",
 	props: {
 		iconName: {
 			type: String,
@@ -38,6 +39,5 @@ export default {
 svg {
 	display: inline-block;
 	vertical-align: baseline;
-	margin-bottom: -2px; /* yes, I'm that particular about formatting */
 }
 </style>

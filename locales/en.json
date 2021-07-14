@@ -32,7 +32,7 @@
 	},
 	"story": {
 		"title": "Our Story",
-		"content": "Team"
+		"content": ["Team"]
 	},
 	"team": {
 		"title": "Project Team",
