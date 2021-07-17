@@ -1,0 +1,164 @@
+<template>
+	<div class="mobile-footer">
+		<div class="container">
+			<div class="grid-container">
+				<div class="footer-fast-menu">
+					<h4>{{ $t("nav.us.title") }}</h4>
+					<NuxtLink v-for="(item, index) in $t('nav.us.content')" :key="item" :to="localePath(toUrl($t('nav.us.content', 'en')[index]))">
+						<span>{{ item }}</span>
+					</NuxtLink>
+				</div>
+				<div class="footer-fast-menu">
+					<h4>{{ $t("nav.do.title") }}</h4>
+					<NuxtLink v-for="(item, index) in $t('nav.do.content')" :key="item" :to="localePath(toUrl($t('nav.do.content', 'en')[index]))">
+						<span>{{ item }}</span>
+					</NuxtLink>
+				</div>
+				<div class="footer-fast-menu">
+					<h4>{{ $t("nav.career.title") }}</h4>
+					<NuxtLink v-for="(item, index) in $t('nav.career.content')" :key="item" :to="localePath(toUrl($t('nav.career.content', 'en')[index]))">
+						<span>{{ item }}</span>
+					</NuxtLink>
+				</div>
+				<div class="social-media-icons">
+					<div class="twitter">
+						<a href="https://twitter.com/LetsFutureUP" target="_blank">
+							<icon-base icon-name="twitter" width="24px" height="24px" iconColor="black" iconViewBox="0 0 56.69 56.69"><icon-twitter /></icon-base>
+						</a>
+					</div>
+					<div class="instagram">
+						<a href="https://www.instagram.com/letsfutureup" target="_blank">
+							<icon-base icon-name="instagram" width="24px" height="24px" iconColor="black" iconViewBox="0 0 56.69 56.69"><icon-instagram /></icon-base>
+						</a>
+					</div>
+					<div class="facebook">
+						<a href="https://www.facebook.com/letsfutureup.315" target="_blank">
+							<icon-base icon-name="facebook" width="24px" height="24px" iconColor="black" iconViewBox="0 0 310 310"><icon-facebook /></icon-base>
+						</a>
+					</div>
+					<div class="linkedin">
+						<a href="https://www.linkedin.com/in/let-s-future-up-176a291aa/" target="_blank">
+							<icon-base icon-name="linkedin" width="24px" height="24px" iconColor="black" iconViewBox="0 0 56.69 56.69"><icon-linkedin /></icon-base>
+						</a>
+					</div>
+					<div class="youtube">
+						<a href="https://www.youtube.com/channel/UCU0m0_xCHakxtQqAH3PztQQ?view_as=subscriber" target="_blank">
+							<icon-base icon-name="youtube" width="24px" height="24px" iconColor="black" iconViewBox="-21 -117 682.66672 682"><icon-youtube /></icon-base>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+import IconFacebook from "@/components/icons/IconFacebook.vue";
+import IconInstagram from "@/components/icons/IconInstagram.vue";
+import IconLinkedin from "@/components/icons/IconLinkedin.vue";
+import IconTwitter from "@/components/icons/IconTwitter.vue";
+import IconYoutube from "@/components/icons/IconYoutube.vue";
+export default {
+	components: { IconFacebook, IconInstagram, IconLinkedin, IconTwitter, IconYoutube },
+	methods: {
+		toUrl(text) {
+			return text
+				.toLowerCase()
+				.replace(/ /gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
+		},
+	},
+};
+</script>
+
+<style lang="scss" scoped>
+.mobile-footer {
+	width: 100%;
+	height: auto;
+	background: #292929;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	.container {
+		.grid-container {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+			.footer-fast-menu {
+				margin: 10px;
+				color: #ffffff90;
+				position: relative;
+				font-size: 14px;
+				h4 {
+					white-space: nowrap;
+					color: #fff;
+					font-size: 20px;
+					margin-bottom: 10px;
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					width: 30%;
+					top: 27px;
+					height: 3px;
+					background: #00ff00;
+				}
+				span {
+					color: #ffffff90;
+					display: block;
+					margin-bottom: 2px;
+				}
+			}
+			.social-media-icons {
+				margin: 10px auto;
+				color: #fff;
+				font-size: 20px;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				div {
+					margin: 0px 2.5px;
+					width: 40px;
+					height: 40px;
+					text-align: center;
+					border-radius: 100%;
+					cursor: pointer;
+					a {
+						color: #fff;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						height: 100%;
+					}
+				}
+				div.facebook {
+					background: #3b5998;
+					position: relative;
+				}
+				div.instagram {
+					background: #833ab4;
+					position: relative;
+				}
+				div.twitter {
+					background: #00acee;
+					position: relative;
+				}
+
+				div.linkedin {
+					background: #0e76a8;
+					position: relative;
+				}
+
+				div.youtube {
+					background: #c4302b;
+					position: relative;
+				}
+			}
+		}
+	}
+}
+</style>
