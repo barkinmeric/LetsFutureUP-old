@@ -1,5 +1,5 @@
 <template>
-	<section class="data-page">
+	<div class="data-page">
 		<div class="container">
 			<div class="img">
 				<nuxt-img src="/img/placeholder.png" alt="" />
@@ -9,7 +9,7 @@
 				<p>{{ content.text }}</p>
 			</div>
 		</div>
-	</section>
+	</div>
 </template>
 
 <script>

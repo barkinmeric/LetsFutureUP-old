@@ -6,7 +6,7 @@
 				.reverse()"
 			:key="item.title"
 		>
-			<Card :item="item" section="news" />
+			<list-card :item="item" section="news" />
 		</div>
 	</div>
 </template>

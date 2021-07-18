@@ -1,5 +1,5 @@
 <template>
-	<div class="dropdown">
+	<div class="mobile-navbar-dropdown">
 		<div class="container">
 			<div class="flex-container" @click="toggleDropdown()">
 				<button class="dropbtn">{{ $t(`${tab}.title`) }}</button>
@@ -52,7 +52,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.dropdown {
+.mobile-navbar-dropdown {
 	.flex-container {
 		cursor: pointer;
 		display: flex;

@@ -58,7 +58,7 @@ export default {
 		.logo {
 			vertical-align: middle;
 			left: 0;
-			padding: 8px 16px 8px 16px;
+			padding: 8px 16px 0px 16px;
 		}
 		.mobile-menu-button {
 			vertical-align: middle;

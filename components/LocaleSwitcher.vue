@@ -1,5 +1,5 @@
 <template>
-	<div class="top-header">
+	<div class="locale-switcher">
 		<div class="container">
 			<div class="grid-container">
 				<div>
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.top-header {
+.locale-switcher {
 	width: 100%;
 	height: 30px;
 	background: #292929;

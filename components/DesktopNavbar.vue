@@ -32,7 +32,7 @@ export default {
 			height: 100%;
 			line-height: 40px;
 			font-weight: 600;
-			font-size: 12px;
+			font-size: 14px;
 			letter-spacing: 2px;
 			transition: all ease 0.2s;
 			background-color: #fff;

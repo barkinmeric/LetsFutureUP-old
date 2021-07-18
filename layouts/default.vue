@@ -36,6 +36,9 @@ export default {};
 	.desktop-navbar {
 		display: block;
 	}
+}
+
+@media (min-width: 768px) {
 	.mobile-footer {
 		display: none;
 	}

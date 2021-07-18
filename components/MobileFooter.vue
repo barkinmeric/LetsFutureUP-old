@@ -59,6 +59,7 @@ import IconLinkedin from "@/components/icons/IconLinkedin.vue";
 import IconTwitter from "@/components/icons/IconTwitter.vue";
 import IconYoutube from "@/components/icons/IconYoutube.vue";
 export default {
+	name: "MobileFooter",
 	components: { IconFacebook, IconInstagram, IconLinkedin, IconTwitter, IconYoutube },
 	methods: {
 		toUrl(text) {
@@ -90,21 +91,16 @@ export default {
 			.footer-fast-menu {
 				margin: 10px;
 				color: #ffffff90;
-				position: relative;
 				font-size: 14px;
 				h4 {
+					display: inline-block;
 					white-space: nowrap;
 					color: #fff;
 					font-size: 20px;
 					margin-bottom: 10px;
-				}
-				&::after {
-					content: "";
-					position: absolute;
-					width: 30%;
-					top: 27px;
-					height: 3px;
-					background: #00ff00;
+					border-bottom: 1px solid $sideColor;
+					border-bottom-width: 3px;
+					padding-bottom: 3px;
 				}
 				span {
 					color: #ffffff90;
@@ -137,25 +133,20 @@ export default {
 				}
 				div.facebook {
 					background: #3b5998;
-					position: relative;
 				}
 				div.instagram {
 					background: #833ab4;
-					position: relative;
 				}
 				div.twitter {
 					background: #00acee;
-					position: relative;
 				}
 
 				div.linkedin {
 					background: #0e76a8;
-					position: relative;
 				}
 
 				div.youtube {
 					background: #c4302b;
-					position: relative;
 				}
 			}
 		}

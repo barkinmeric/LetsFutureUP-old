@@ -1,5 +1,5 @@
 <template>
-	<div class="dropdown">
+	<div class="desktop-navbar-dropdown">
 		<button class="dropbtn">{{ $t(`${tab}.title`) }}</button>
 		<div class="dropdown-content">
 			<NuxtLink v-for="(item, index) in $t(`${tab}.content`)" :key="item" :to="localePath(toUrl($t(`${tab}.content`, 'en')[index]))">
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.dropdown {
+.desktop-navbar-dropdown {
 	position: relative;
 	display: inline-block;
 	transition: all ease 0.2s;
@@ -55,7 +55,7 @@ export default {
 		height: 100%;
 		line-height: 40px;
 		font-weight: 600;
-		font-size: 12px;
+		font-size: 14px;
 		letter-spacing: 2px;
 		transition: all ease 0.2s;
 		background-color: #fff;

@@ -59,6 +59,7 @@ import IconLinkedin from "@/components/icons/IconLinkedin.vue";
 import IconTwitter from "@/components/icons/IconTwitter.vue";
 import IconYoutube from "@/components/icons/IconYoutube.vue";
 export default {
+	name: "DesktopFooter",
 	components: { IconFacebook, IconInstagram, IconLinkedin, IconTwitter, IconYoutube },
 	methods: {
 		toUrl(text) {
@@ -90,22 +91,18 @@ export default {
 			.footer-fast-menu {
 				margin: 10px;
 				color: #ffffff90;
-				position: relative;
 				font-size: 14px;
 				h4 {
+					display: inline-block;
 					white-space: nowrap;
 					color: #fff;
 					font-size: 20px;
 					margin-bottom: 10px;
+					border-bottom: 1px solid $sideColor;
+					border-bottom-width: 3px;
+					padding-bottom: 3px;
 				}
-				&::after {
-					content: "";
-					position: absolute;
-					width: 30%;
-					top: 27px;
-					height: 3px;
-					background: #00ff00;
-				}
+
 				span {
 					margin-bottom: 2px;
 					display: block;
@@ -121,10 +118,7 @@ export default {
 				margin: 10px auto;
 				color: #fff;
 				font-size: 20px;
-				text-align: center;
 				display: flex;
-				align-items: center;
-				justify-content: space-between;
 				div {
 					margin: 0px 2.5px;
 					width: 40px;
@@ -144,7 +138,6 @@ export default {
 					background: #3b5998;
 					position: relative;
 					&:hover {
-						-webkit-animation: facebook 1s infinite;
 						animation: facebook 1s infinite;
 						&::before {
 							opacity: 1;
@@ -167,7 +160,6 @@ export default {
 						border-radius: 20px;
 						bottom: -50px;
 						left: -75%;
-						-webkit-transition: all ease 0.4s;
 						transition: all ease 0.4s;
 					}
 				}
@@ -175,7 +167,6 @@ export default {
 					background: #833ab4;
 					position: relative;
 					&:hover {
-						-webkit-animation: instagram 1s infinite;
 						animation: instagram 1s infinite;
 						&::before {
 							opacity: 1;
@@ -198,7 +189,6 @@ export default {
 						border-radius: 20px;
 						bottom: -50px;
 						left: -75%;
-						-webkit-transition: all ease 0.4s;
 						transition: all ease 0.4s;
 					}
 				}
@@ -206,7 +196,6 @@ export default {
 					background: #00acee;
 					position: relative;
 					&:hover {
-						-webkit-animation: twitter 1s infinite;
 						animation: twitter 1s infinite;
 						&::before {
 							opacity: 1;
@@ -229,7 +218,6 @@ export default {
 						border-radius: 20px;
 						bottom: -50px;
 						left: -75%;
-						-webkit-transition: all ease 0.4s;
 						transition: all ease 0.4s;
 					}
 				}
@@ -238,7 +226,6 @@ export default {
 					background: #0e76a8;
 					position: relative;
 					&:hover {
-						-webkit-animation: linkedin 1s infinite;
 						animation: linkedin 1s infinite;
 						&::before {
 							opacity: 1;
@@ -261,7 +248,6 @@ export default {
 						border-radius: 20px;
 						bottom: -50px;
 						left: -75%;
-						-webkit-transition: all ease 0.4s;
 						transition: all ease 0.4s;
 					}
 				}
@@ -270,7 +256,6 @@ export default {
 					background: #c4302b;
 					position: relative;
 					&:hover {
-						-webkit-animation: youtube 1s infinite;
 						animation: youtube 1s infinite;
 						&::before {
 							opacity: 1;
@@ -293,7 +278,6 @@ export default {
 						border-radius: 20px;
 						bottom: -50px;
 						left: -75%;
-						-webkit-transition: all ease 0.4s;
 						transition: all ease 0.4s;
 					}
 				}
