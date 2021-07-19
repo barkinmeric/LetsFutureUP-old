@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<motto />
 		<hello-career />
 	</div>
 </template>
