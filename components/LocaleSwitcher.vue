@@ -7,7 +7,6 @@
 					/
 					<NuxtLink :to="!('name' in this.$route.params) ? switchLocalePath('en') : '/en'"><span :class="{ active: this.$i18n.locale === 'en' }">EN</span></NuxtLink>
 				</div>
-				<h1>{{ !("name" in this.$route.params) }}</h1>
 			</div>
 		</div>
 	</div>
