@@ -20,17 +20,15 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: [
-		// "@/assets/css/bootstrap.min.css",
-		"@/assets/scss/colors.scss",
-		"@/assets/scss/style.scss",
-	],
+	css: ["@/assets/css/normalize.css", "@/assets/scss/colors.scss", "@/assets/scss/style.scss"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
-	components: true,
+	components: {
+		dirs: ["~/components", "~/components/icons"],
+	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources"],

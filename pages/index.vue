@@ -1,5 +1,7 @@
 <template>
-	<div></div>
+	<div>
+		<hello-career />
+	</div>
 </template>
 
 <script>

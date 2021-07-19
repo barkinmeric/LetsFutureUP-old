@@ -14,6 +14,39 @@
 			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		}
 	},
+	"hello-career": {
+		"title": "Kariyerine MerhabaDE",
+		"mentorship": {
+			"title": "Mentorluk Programı",
+			"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+			"icon": "/icon/mentorluk-programi/mp1-01.svg"
+		},
+		"student": {
+			"title": "Öğrenci Gelişim Programı",
+			"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+			"icon": "/icon/ogrenci-gelisim-programi/ogp1-01.svg"
+		},
+		"startup": {
+			"title": "StartUP",
+			"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+			"icon": "/icon/sosyal-sorumluluk/ss1-01.svg"
+		},
+		"wetalk": {
+			"title": "WeTalk",
+			"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+			"icon": "/icon/wetalk/wetalk1-01.svg"
+		},
+		"adviceup": {
+			"title": "AdviceUP",
+			"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+			"icon": "/icon/adviceup/au1-01.svg"
+		},
+		"talentup": {
+			"title": "TalentUP",
+			"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+			"icon": "/icon/talentup/tu1-01.svg"
+		}
+	},
 	"about": {
 		"title": "Hakkımızda",
 		"content": {

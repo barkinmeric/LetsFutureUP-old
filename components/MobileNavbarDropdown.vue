@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="flex-container" @click="toggleDropdown()">
 				<button class="dropbtn">{{ $t(`${tab}.title`) }}</button>
-				<icon-base color="black" icon-name="angle-down" iconViewBox="0 0 320 512" width="24px" height="24px"><icon-angle-down /></icon-base>
+				<icon-angle-down color="black" icon-name="angle-down" width="24px" height="24px" />
 			</div>
 			<div class="dropdown-content" v-show="isDropdownActive">
 				<NuxtLink v-for="(item, index) in $t(`${tab}.content`)" :key="item" :to="localePath(toUrl($t(`${tab}.content`, 'en')[index]))">
@@ -15,10 +15,8 @@
 </template>
 
 <script>
-import IconAngleDown from "@/components/icons/IconAngleDown.vue";
 export default {
 	name: "MobileNavbarDropdown",
-	components: { IconAngleDown },
 	props: {
 		tab: String,
 	},

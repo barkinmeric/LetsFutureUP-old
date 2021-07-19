@@ -7,11 +7,11 @@
 				</div>
 
 				<div class="mobile-menu-button" @click="toggleMobileMenu()" v-show="!isMobileMenuActive">
-					<icon-base icon-name="bars" width="32px" height="32px" iconColor="black" iconViewBox="0 0 448 512"><icon-bars /></icon-base>
+					<icon-bars width="32px" height="32px" iconColor="black" />
 				</div>
 
 				<div class="mobile-menu-button" @click="toggleMobileMenu()" v-show="isMobileMenuActive">
-					<icon-base icon-name="times" width="32px" height="32px" iconColor="black" iconViewBox="0 0 352 512"><icon-times /></icon-base>
+					<icon-times width="32px" height="32px" iconColor="black" />
 				</div>
 			</div>
 		</div>
@@ -26,11 +26,8 @@
 </template>
 
 <script>
-import IconTimes from "@/components/icons/IconTimes.vue";
-import IconBars from "@/components/icons/IconBars.vue";
 export default {
 	name: "MobileNavbar",
-	components: { IconTimes, IconBars },
 	data() {
 		return {
 			isMobileMenuActive: false,
@@ -63,7 +60,7 @@ export default {
 		.mobile-menu-button {
 			vertical-align: middle;
 			right: 0;
-			padding: 8px 16px 8px 16px;
+			padding: 8px 16px 1px 16px;
 			cursor: pointer;
 		}
 	}

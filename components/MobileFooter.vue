@@ -23,27 +23,27 @@
 				<div class="social-media-icons">
 					<div class="twitter">
 						<a href="https://twitter.com/LetsFutureUP" target="_blank">
-							<icon-base icon-name="twitter" width="24px" height="24px" iconColor="black" iconViewBox="0 0 56.69 56.69"><icon-twitter /></icon-base>
+							<icon-twitter width="24px" height="24px" iconColor="black" />
 						</a>
 					</div>
 					<div class="instagram">
 						<a href="https://www.instagram.com/letsfutureup" target="_blank">
-							<icon-base icon-name="instagram" width="24px" height="24px" iconColor="black" iconViewBox="0 0 56.69 56.69"><icon-instagram /></icon-base>
+							<icon-instagram width="24px" height="24px" iconColor="black" />
 						</a>
 					</div>
 					<div class="facebook">
 						<a href="https://www.facebook.com/letsfutureup.315" target="_blank">
-							<icon-base icon-name="facebook" width="24px" height="24px" iconColor="black" iconViewBox="0 0 310 310"><icon-facebook /></icon-base>
+							<icon-facebook width="24px" height="24px" iconColor="black" />
 						</a>
 					</div>
 					<div class="linkedin">
 						<a href="https://www.linkedin.com/in/let-s-future-up-176a291aa/" target="_blank">
-							<icon-base icon-name="linkedin" width="24px" height="24px" iconColor="black" iconViewBox="0 0 56.69 56.69"><icon-linkedin /></icon-base>
+							<icon-linkedin width="24px" height="24px" iconColor="black" />
 						</a>
 					</div>
 					<div class="youtube">
 						<a href="https://www.youtube.com/channel/UCU0m0_xCHakxtQqAH3PztQQ?view_as=subscriber" target="_blank">
-							<icon-base icon-name="youtube" width="24px" height="24px" iconColor="black" iconViewBox="-21 -117 682.66672 682"><icon-youtube /></icon-base>
+							<icon-youtube width="24px" height="24px" iconColor="black" />
 						</a>
 					</div>
 				</div>
@@ -53,14 +53,8 @@
 </template>
 
 <script>
-import IconFacebook from "@/components/icons/IconFacebook.vue";
-import IconInstagram from "@/components/icons/IconInstagram.vue";
-import IconLinkedin from "@/components/icons/IconLinkedin.vue";
-import IconTwitter from "@/components/icons/IconTwitter.vue";
-import IconYoutube from "@/components/icons/IconYoutube.vue";
 export default {
 	name: "MobileFooter",
-	components: { IconFacebook, IconInstagram, IconLinkedin, IconTwitter, IconYoutube },
 	methods: {
 		toUrl(text) {
 			return text
