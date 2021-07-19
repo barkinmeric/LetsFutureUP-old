@@ -3,9 +3,9 @@
 		<div class="container">
 			<div class="grid-container">
 				<div>
-					<NuxtLink to="/tr"><span>TR</span></NuxtLink>
+					<NuxtLink :to="switchLocalePath('tr')"><span :class="{ active: this.$i18n.locale === 'tr' }">TR</span></NuxtLink>
 					/
-					<NuxtLink to="/en"><span>EN</span></NuxtLink>
+					<NuxtLink :to="switchLocalePath('en')"><span :class="{ active: this.$i18n.locale === 'en' }">EN</span></NuxtLink>
 				</div>
 			</div>
 		</div>
@@ -15,6 +15,18 @@
 <script>
 export default {
 	name: "LocaleSwitcher",
+	watch: {
+		$route(to, from) {
+			console.log(to);
+			if (to.params.name) {
+				if (to.fullPath.split("/")[1] != from.fullPath.split("/")[1]) {
+					console.log(to);
+
+					this.$router.push(to.fullPath.replace(to.params.name, ""));
+				}
+			}
+		},
+	},
 };
 </script>
 
@@ -37,6 +49,10 @@ export default {
 			&:hover {
 				color: $sideColor;
 			}
+		}
+		.active {
+			color: $sideColor;
+			font-weight: bold;
 		}
 	}
 }

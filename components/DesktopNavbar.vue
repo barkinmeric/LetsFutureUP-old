@@ -9,7 +9,9 @@
 					<desktop-navbar-dropdown tab="nav.us" />
 					<desktop-navbar-dropdown tab="nav.do" />
 					<desktop-navbar-dropdown tab="nav.career" />
-					<button><a href="bize-katil">Bize Katıl</a></button>
+					<button>
+						<a href="#">{{ $t("nav.join-us") }}</a>
+					</button>
 				</div>
 			</div>
 		</div>

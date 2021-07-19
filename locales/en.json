@@ -12,7 +12,8 @@
 		"career": {
 			"title": "Hello To Career",
 			"content": ["Mentorship Program", "Student Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
-		}
+		},
+		"join-us": "Join Us"
 	},
 	"hello-career": {
 		"title": "Hello Career",
