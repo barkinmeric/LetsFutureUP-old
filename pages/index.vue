@@ -1,7 +1,9 @@
 <template>
 	<div>
+		<carousel />
 		<motto />
 		<hello-career />
+		<board />
 	</div>
 </template>
 
