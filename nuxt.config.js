@@ -57,6 +57,7 @@ export default {
 			useCookie: true,
 			cookieKey: "i18n_redirected",
 			onlyOnRoot: true,
+			alwaysRedirect: true,
 		},
 		defaultLocale: "tr",
 		strategy: "prefix",
