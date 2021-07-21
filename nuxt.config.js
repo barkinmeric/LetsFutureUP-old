@@ -53,12 +53,11 @@ export default {
 			{ code: "tr", iso: "tr-TR", name: "Türkçe" },
 			{ code: "en", iso: "en-US", name: "English" },
 		],
-		// detectBrowserLanguage: {
-		// 	useCookie: true,
-		// 	cookieKey: "i18n_redirected",
-		// 	onlyOnRoot: true,
-		// 	alwaysRedirect: true,
-		// },
+		detectBrowserLanguage: {
+			useCookie: true,
+			cookieKey: "i18n_redirected",
+			onlyOnRoot: true,
+		},
 		defaultLocale: "tr",
 		strategy: "prefix",
 		seo: true,
