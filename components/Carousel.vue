@@ -22,7 +22,6 @@ export default {
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				autoplay: true,
-				speed: 2000,
 				autoplaySpeed: 2000,
 			},
 		};
@@ -32,13 +31,12 @@ export default {
 
 <style lang="scss" scoped>
 .carousel {
-	height: 500px;
-	div {
-		img {
-			cursor: grab;
-			height: 500px;
-			width: 100%;
-		}
+	max-height: 500px;
+	img {
+		max-height: 500px;
+		cursor: grab;
+		height: auto;
+		width: 100%;
 	}
 }
 </style>
