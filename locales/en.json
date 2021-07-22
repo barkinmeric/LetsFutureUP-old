@@ -82,7 +82,20 @@
 	},
 	"faq": {
 		"title": "FAQ",
-		"content": "FAQ"
+		"content": {
+			"1-) How long does the project last?": "Let’s FutureUP Project lasts for 8 months which includes the months between October to May. During this time, the project offers chosen students a Mentorship and Student Growth Program and other activities.",
+			"2-) Who can apply as a mentee?": "Whoever is in the grade 3 or 4 in all cities worldwide can apply for the project as a mentee. Other grade students (preparation year, first grade, second grade) can apply for other Student Growth programs that Let’s FutureUP Project offers.",
+			"3-) If it is possible to apply from all cities worldwide, where will the activities take place?": "Mentorship Program, Student Growth Program or any other activities that Let’s FutureUP Project offers will be held online.",
+			"4-) How many mentee quota are there?": "As long as they satisfy the qualifications and expectations, in the term 2020-2021 there will be 20 students involved in the Let’s FutureUP Projects as a mentee.",
+			"5-) Who is evaluating the applications?": "Application evaluations are made meticulously with the contributions of the advisory board formed by the Let's FutureUP project team, and students are selected for the most appropriate mentor-mentee matching.",
+			"6-) How are Mentor-Mentee pairings made?": "In line with the mentoring program, Let's FutureUP team members take great thoroughness to match the appropriate mentor and mentee. While making pairings; Many factors such as the expectations, goals, interests of the mentors and mentees from the project, and the department where the mentee is studying and the field where the mentor works are taken into consideration.",
+			"7-) How does the mentor selection process work?": "After completing the application form for the Mentoring Program, Let's FutureUP team conducts online interviews with mentor candidates. As a result of the evaluations, the most suitable mentors for the Mentoring Program are included in our project.",
+			"8-) How does the mentee selection process work?": "After the mentee application form is filled, the Let's FutureUP team evaluates the applications, the suitable candidates are invited to the online interview and as a result of the interview, the suitable candidates are included in our project.",
+			"9-) Will a certificate be given at the end of the project?": "Yes, at the end of the project, everyone who meets the conditions will be given an English certificate by Let's FutureUP that they can add to their resume.",
+			"10-) What are the requirements to graduate from the program?": "Participating at least 80% in all events organized by the Let's FutureUP project and taking part in the social responsibility project determined within the scope of the project are the conditions for graduation.",
+			"11-) What departments does the project team consist of?": "Let's FutureUP Mentoring Program and Student Development Program project team consists of five departments: Human Resources Department, Business Development Department, Corporate Communications Department, Foreign Relations Department and, Social Media and Digital Marketing Department. These departments are composed of young university students from universities all over the World.",
+			"12-) What should I do to become a project team member?": "To become a Let's FutureUP team member, you must follow our team member recruitments on our social media accounts, fill out the application form on our website, and express yourself clearly in both application form and the interview."
+		}
 	},
 	"announcements": {
 		"title": "Announcements",

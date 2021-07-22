@@ -1,5 +1,5 @@
 <template>
-	<section class="side-page">
+	<section class="our-story">
 		<div class="container">
 			<div class="img">
 				<nuxt-img src="/img/placeholder.png" alt="" />
@@ -23,8 +23,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.side-page {
+<style lang="scss" scoped>
+.our-story {
 	.img {
 		max-height: 300px;
 		z-index: -1;
@@ -42,36 +42,17 @@ export default {
 			font-size: 16px;
 			font-weight: normal;
 		}
-		ul {
-			padding: 0px;
-		}
 		h2 {
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
 			text-transform: uppercase;
-			position: relative;
 			padding: 5px 0px;
 			color: #000;
-			&::before {
-				content: "";
-				position: absolute;
-				height: 2px;
-				width: 75px;
-				bottom: 0px;
-				left: 0px;
-				background: #00ff00;
-			}
-		}
-		h3 {
-			font-size: 18px;
-			font-weight: 550;
-			letter-spacing: 1px;
-			text-transform: uppercase;
-			position: relative;
-			padding: 5px 0px;
-			margin: 10px 0px 0px 0px;
-			color: #000;
+			display: inline-block;
+			margin-bottom: 10px;
+			border-bottom: 1px solid $sideColor;
+			border-bottom-width: 3px;
 		}
 	}
 }
