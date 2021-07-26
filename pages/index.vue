@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<newsletter />
 		<carousel />
 		<motto />
 		<hello-career />

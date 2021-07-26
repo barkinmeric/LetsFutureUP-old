@@ -67,7 +67,11 @@
 	},
 	"story": {
 		"title": "Our Story",
-		"content": ["Team"]
+		"content": [
+			"Before the beginning of 2020, If you asked what pandemic is, we would definitely search at Google. It was not the situation we have experienced before. Yet, now, we know that this was an outbreak that make people stay at their homes, construct social distance with other people and enforce them to embrace New World Order. While New World Order was mentioned during Pandemic, we intended to build this new order together and we took the road with the notion “Guiding to Future”.",
+			"While people are trying to fit their lives into their homes, exploring themselves and the environment during the Pandemic, they are feeling worried about not finding self-satisfying answers to question which is “where is our existence in this process ?”. Spending whole time at homes, people understood the importance of such notions as personal growth, social responsibility and awareness. The whole world turned into their inside and thought of what type of changes they would love to make in their lives. People realized that they forgot finding themselves in their daily lives and they felt the significance of gaining their life experiences again.",
+			"Therefore, in this pursuit, in order to be an answer for people, by inspiring from the quote of Mahatma Gandhi “If we could change ourselves, the tendencies in the world would also change. As a man changes his own nature, so does the attitude of the world change towards him. We need not wait to see what others do.”, we developed Let’s FutureUP project for young people who care about their development and want to say hello to their future career."
+		]
 	},
 	"team": {
 		"title": "Project Team",

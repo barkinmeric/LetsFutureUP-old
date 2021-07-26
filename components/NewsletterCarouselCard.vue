@@ -1,15 +1,15 @@
 <template>
-	<div class="list-card">
+	<div class="newsletter-carousel-card">
 		<div class="container">
 			<div class="card-item">
 				<div class="card-head">
-					<img :src="`https://picsum.photos/280/180?random=${item.title}`" alt="" />
+					<img draggable="false" :src="`https://picsum.photos/280/180?random=${item.title}`" alt="" />
 				</div>
 				<div class="card-body">
 					<NuxtLink :to="`${localePath(section)}/${toUrl(item.title)}`"
 						><h2>{{ item.title }}</h2>
 					</NuxtLink>
-					<p>{{ truncate(item.text, 500) }}</p>
+					<p>{{ truncate(item.text, 200) }}</p>
 					<span>{{ item.date }}</span>
 				</div>
 			</div>
@@ -19,7 +19,7 @@
 
 <script>
 export default {
-	name: "ListCard",
+	name: "NewsletterCarouselCard",
 	props: {
 		item: Object,
 		section: String,
@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.list-card {
+.newsletter-carousel-card {
 	padding: 10px;
 	.card-item {
 		display: grid;
@@ -99,8 +99,8 @@ export default {
 		}
 	}
 }
-@media (max-width: 767px) {
-	.list-card {
+@media (max-width: 1199px) {
+	.newsletter-carousel-card {
 		padding: 10px;
 		.card-item {
 			display: grid;
