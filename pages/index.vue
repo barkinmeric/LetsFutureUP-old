@@ -1,9 +1,10 @@
 <template>
 	<div>
-		<newsletter />
 		<carousel />
 		<motto />
 		<hello-career />
+		<newsletter />
+		<e-bulletin />
 		<board />
 	</div>
 </template>

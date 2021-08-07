@@ -59,7 +59,7 @@ export default {
 		justify-content: start;
 		padding: 10px;
 		height: auto;
-		background: #292929;
+		background: #12203c;
 		border-radius: 10px;
 		.card-head {
 			width: 280px;
@@ -108,7 +108,7 @@ export default {
 			justify-content: center;
 			padding: 10px;
 			height: auto;
-			background: #292929;
+			background: #12203c;
 			border-radius: 10px;
 
 			.card-head {

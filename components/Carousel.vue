@@ -1,7 +1,11 @@
 <template>
 	<div class="carousel">
 		<VueSlickCarousel v-bind="settings">
-			<div><nuxt-img draggable="false" src="/img/placeholder.png" alt="" /></div>
+			<div>
+				<video controls height="500vw" width="100%">
+					<source src="/videos/tr.mp4" type="video/mp4" />
+				</video>
+			</div>
 			<div><nuxt-img draggable="false" src="/img/placeholder.png" alt="" /></div>
 			<div><nuxt-img draggable="false" src="/img/placeholder.png" alt="" /></div>
 		</VueSlickCarousel>

@@ -19,11 +19,11 @@ export default {};
 	grid-template-columns: 50% 50%;
 }
 @media (max-width: 991px) {
-	.grid-container {
-		display: grid;
-		grid-template-columns: 100%;
-		.newsletter-carousel {
-			margin-bottom: 100px;
+	.newsletter {
+		margin-bottom: 20px;
+		.grid-container {
+			display: grid;
+			grid-template-columns: 100%;
 		}
 	}
 }
