@@ -4,7 +4,7 @@
 		<motto />
 		<hello-career />
 		<newsletter />
-		<e-bulletin />
+		<!-- <e-bulletin /> -->
 		<mobile-board />
 		<desktop-board />
 	</div>
