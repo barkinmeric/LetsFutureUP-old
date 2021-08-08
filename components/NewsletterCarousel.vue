@@ -12,7 +12,8 @@
 			<newsletter-carousel-card :item="item" :section="section" />
 		</div>
 		<div class="controller">
-			<span v-for="i in slidesLength" :key="i" @click="carouselIndex = i - 1" class="dot" :style="carouselIndex == i - 1 ? 'background-color:black;' : 'border-color:white;'"></span>
+			<span @click.prevent="prev" class="btn btn-prev">&#9664;</span>
+			<span @click.prevent="next" class="btn btn-next">&#9654;</span>
 		</div>
 	</div>
 </template>
@@ -110,21 +111,16 @@ export default {
 	}
 	.controller {
 		position: absolute;
-		bottom: -5px;
+		bottom: -20px;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		.dot {
+		.btn {
 			margin: 0 2px;
 			cursor: pointer;
-			height: 15px;
-			width: 15px;
-			background-color: white;
-			border: 1px solid black;
-			border-radius: 50%;
-			display: inline-block;
+			font-size: 30px;
+			color: white;
 			&:hover {
-				background-color: black;
-				border-color: black;
+				color: black;
 			}
 		}
 	}
