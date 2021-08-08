@@ -16,7 +16,7 @@
 		</div>
 		<div class="modal" v-show="showModal">
 			<span @click="showModal = false" class="close">&times;</span>
-			<video class="video" controls>
+			<video class="video" controls preload="none">
 				<source src="/videos/tr.mp4" type="video/mp4" />
 			</video>
 		</div>
