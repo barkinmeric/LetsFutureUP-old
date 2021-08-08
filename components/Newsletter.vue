@@ -20,6 +20,7 @@ export default {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 50% 50%;
+		column-gap: 15px;
 	}
 }
 @media (max-width: 991px) {

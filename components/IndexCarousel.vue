@@ -84,10 +84,6 @@ export default {
 		&:active {
 			cursor: grabbing;
 		}
-		video {
-			width: 100%;
-			max-height: 500px;
-		}
 		img {
 			width: 100%;
 			max-height: 500px;
@@ -95,7 +91,7 @@ export default {
 	}
 	.controller {
 		position: absolute;
-		bottom: 4px;
+		bottom: -5px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		.dot {

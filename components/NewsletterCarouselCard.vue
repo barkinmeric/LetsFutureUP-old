@@ -71,6 +71,7 @@ export default {
 			padding-left: 16px;
 			display: grid;
 			grid-template-rows: auto auto auto;
+			text-align: left;
 			h2 {
 				display: inline-block;
 				font-size: 18px;

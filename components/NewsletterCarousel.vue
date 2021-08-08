@@ -1,5 +1,6 @@
 <template>
 	<div class="newsletter-carousel" @mousedown="setDesktopCurrentX($event)" @mouseup="checkDesktopSlide($event)" @touchstart="setMobileCurrentX($event)" @touchend="checkMobileSlide($event)" tabindex="0">
+		<div class="title">{{ $t(`${section}.title`) }}</div>
 		<div
 			class="carousel-slide"
 			v-for="(item, index) in $t(`${section}.content`)
@@ -75,11 +76,22 @@ export default {
 
 <style lang="scss" scoped>
 .newsletter-carousel {
+	background: #12203c;
+	border-radius: 10px;
+	margin: 10px;
 	position: relative;
 	text-align: center;
 	width: 100%;
 	max-height: 500px;
 	user-select: none;
+	.title {
+		display: inline-block;
+		padding-top: 15px;
+		color: white;
+		font-weight: 500;
+		font-size: 22px;
+		border-bottom: 2px solid $sideColor;
+	}
 	.carousel-slide {
 		cursor: grab;
 		width: 100%;
@@ -98,7 +110,7 @@ export default {
 	}
 	.controller {
 		position: absolute;
-		bottom: 4px;
+		bottom: -5px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		.dot {
