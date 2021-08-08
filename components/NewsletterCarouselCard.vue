@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="card-item">
 				<div class="card-head">
-					<img draggable="false" :src="`https://picsum.photos/280/180?random=${item.title}`" alt="" />
+					<nuxt-img draggable="false" src="/img/placeholder.png" height="180" width="280" alt="" />
 				</div>
 				<div class="card-body">
 					<NuxtLink :to="`${localePath(section)}/${toUrl(item.title)}`"
