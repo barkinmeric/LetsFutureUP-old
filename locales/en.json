@@ -104,22 +104,46 @@
 	"announcements": {
 		"title": "Announcements",
 		"content": [
-			{ "title": "Announcement1", "text": "Deneme12321", "date": "10.07.2021" },
-			{ "title": "Announcement2", "text": "Deneme12321", "date": "10.07.2021" }
+			{
+				"title": "Announcement1",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
+				"date": "10.07.2021"
+			},
+			{
+				"title": "Announcement2",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
+				"date": "10.07.2021"
+			}
 		]
 	},
 	"events": {
 		"title": "Events",
 		"content": [
-			{ "title": "Event1", "text": "Deneme12321", "date": "10.07.2021" },
-			{ "title": "Event2", "text": "Deneme12321", "date": "10.07.2021" }
+			{
+				"title": "Event1",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
+				"date": "10.07.2021"
+			},
+			{
+				"title": "Event2",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
+				"date": "10.07.2021"
+			}
 		]
 	},
 	"news": {
 		"title": "News",
 		"content": [
-			{ "title": "New1", "text": "Deneme12321", "date": "10.07.2021" },
-			{ "title": "New2", "text": "Deneme12321", "date": "10.07.2021" }
+			{
+				"title": "New1",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
+				"date": "10.07.2021"
+			},
+			{
+				"title": "New2",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
+				"date": "10.07.2021"
+			}
 		]
 	}
 }

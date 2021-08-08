@@ -18,7 +18,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+	name: "EBulletin",
+};
 </script>
 
 <style lang="scss" scoped>

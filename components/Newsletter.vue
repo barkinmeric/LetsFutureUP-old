@@ -10,13 +10,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+	name: "Newsletter",
+};
 </script>
 
 <style lang="scss" scoped>
-.grid-container {
-	display: grid;
-	grid-template-columns: 50% 50%;
+.newsletter {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
 }
 @media (max-width: 991px) {
 	.newsletter {

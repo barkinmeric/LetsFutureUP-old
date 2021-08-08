@@ -27,6 +27,7 @@
 import lottie from "vue-lottie/src/lottie.vue";
 import * as animationData from "~/static/lottie/bulletin.json";
 export default {
+	name: "EBulletinForm",
 	components: {
 		lottie,
 	},

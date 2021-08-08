@@ -9,7 +9,7 @@
 
 <script>
 export default {
-	name: "e-bulletin-item",
+	name: "EBulletinItem",
 	props: {
 		pdfName: String,
 		pdfLink: String,

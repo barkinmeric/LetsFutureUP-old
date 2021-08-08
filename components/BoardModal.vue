@@ -19,6 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 .board-modal {
+	user-select: none;
 	padding: 40px;
 	.board-img {
 		border-radius: 100%;
