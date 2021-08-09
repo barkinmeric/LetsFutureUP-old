@@ -7,10 +7,10 @@
 				</div>
 			</carousel-slider>
 			<carousel-slider class="carousel-slider">
-				<nuxt-img draggable="false" src="/img/carousel/carousel2.jpg" alt="carousel2" />
+				<nuxt-img draggable="false" src="/img/carousel/carousel2.png" alt="carousel2" />
 			</carousel-slider>
 			<carousel-slider class="carousel-slider">
-				<nuxt-img draggable="false" src="/img/carousel/carousel3.jpg" alt="carousel3" />
+				<nuxt-img draggable="false" src="/img/carousel/carousel3.png" alt="carousel3" />
 			</carousel-slider>
 		</carousel>
 		<div class="modal" v-show="showModal">
@@ -35,16 +35,19 @@ export default {
 
 <style lang="scss" scoped>
 .index-carousel {
-	.carousel-slider {
-		.modalContainer {
-			cursor: pointer;
-			height: 100%;
-			width: 100%;
-		}
+	.carousel {
+		height: 500px;
+		.carousel-slider {
+			.modalContainer {
+				cursor: pointer;
+				height: 100%;
+				width: 100%;
+			}
 
-		img {
-			height: 100%;
-			width: 100%;
+			img {
+				height: 100%;
+				width: 100%;
+			}
 		}
 	}
 
@@ -71,6 +74,27 @@ export default {
 		}
 		.video {
 			width: 70%;
+		}
+	}
+}
+@media (max-width: 1192px) {
+	.index-carousel {
+		.carousel {
+			height: 400px;
+		}
+	}
+}
+@media (max-width: 922px) {
+	.index-carousel {
+		.carousel {
+			height: 300px;
+		}
+	}
+}
+@media (max-width: 620px) {
+	.index-carousel {
+		.carousel {
+			height: 200px;
 		}
 	}
 }

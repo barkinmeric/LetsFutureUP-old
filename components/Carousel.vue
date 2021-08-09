@@ -75,7 +75,7 @@ export default {
 	height: 500px;
 	.pagination {
 		position: absolute;
-		bottom: -5px;
+		bottom: -15px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		.dot {
