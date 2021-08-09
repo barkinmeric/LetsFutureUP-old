@@ -2,11 +2,11 @@
 	<div class="mobile-board">
 		<div class="container">
 			<div class="board-title">Danışma Kurulu</div>
-			<carousel :pagination="true">
-				<carousel-slider class="carousel-slider" v-for="i in 8" :key="i">
+			<slider :pagination="true" :enableClick="true">
+				<slider-inner v-for="i in 8" :key="i">
 					<board-modal />
-				</carousel-slider>
-			</carousel>
+				</slider-inner>
+			</slider>
 		</div>
 	</div>
 </template>
@@ -31,9 +31,6 @@ export default {
 		border-bottom: 1px solid $sideColor;
 		border-bottom-width: 3px;
 		padding-bottom: 3px;
-	}
-	.carousel {
-		height: 325px;
 	}
 }
 </style>

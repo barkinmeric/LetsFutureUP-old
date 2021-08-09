@@ -102,7 +102,7 @@ export default {
 }
 @media (max-width: 1199px) {
 	.newsletter-carousel-card {
-		padding: 10px;
+		padding: 0;
 		.card-item {
 			display: grid;
 			grid-template-columns: 100%;
