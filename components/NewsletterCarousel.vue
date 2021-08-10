@@ -1,6 +1,8 @@
 <template>
 	<div class="newsletter-carousel">
-		<div class="title">{{ $t(`${section}.title`) }}</div>
+		<NuxtLink :to="localePath(toUrl($t(`${section}.title`, 'en')))">
+			<div class="title">{{ $t(`${section}.title`) }}</div>
+		</NuxtLink>
 		<slider :pagination="true" :enableClick="true">
 			<slider-inner
 				v-for="item in $t(`${section}.content`)
@@ -19,6 +21,19 @@ export default {
 	name: "NewsletterCarousel",
 	props: {
 		section: String,
+	},
+	methods: {
+		toUrl(text) {
+			return text
+				.toLowerCase()
+				.replace(/ /gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
+		},
 	},
 };
 </script>
