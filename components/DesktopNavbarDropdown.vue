@@ -36,6 +36,7 @@ export default {
 	position: relative;
 	display: inline-block;
 	transition: all ease 0.2s;
+	height: 100%;
 	&:hover {
 		.dropdown-content {
 			transform: translateY(0);

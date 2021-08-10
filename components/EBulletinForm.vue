@@ -12,9 +12,9 @@
 						E-BÜLTEN'E MAİL İLE KAYIT OL!
 					</div>
 					<div class="body">
-						<form action="/mail" method="POST">
-							<input type="email" name="mail" placeholder="Mail Adresiniz" required />
-							<input type="submit" name="GONDER" value="BİZE KATIL!" />
+						<form action="https://hotmail.us6.list-manage.com/subscribe/post?u=10ada8958c932da0807f896f2&amp;id=7689a21846" name="mc-embedded-subscribe-form" method="post" target="_blank" novalidate>
+							<input type="email" name="EMAIL" placeholder="Mail Adresiniz" required />
+							<input type="submit" name="subscribe" value="BİZE KATIL!" />
 						</form>
 					</div>
 				</div>

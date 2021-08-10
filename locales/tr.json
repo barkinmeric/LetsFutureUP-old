@@ -102,6 +102,48 @@
 			"12-) PROJE EKİP ÜYESİ OLMAK İÇİN NELER YAPMALIYIM?": "Let’s FutureUP ekip üyesi olmak için ekip üyesi alımlarımızı sosyal medya hesaplarımızdan takip ederek web sitemide bulunan başvuru formunu doldurmalı ve mülakatlarda kendinizi açık ve net olarak ifade etmeniz gerekmektedir."
 		}
 	},
+	"mentorship": {
+		"title": "Mentorluk Programı",
+		"desc": "Projeye seçilen mentor ve öğrencilerin; beklentileri, çalışma alanları, ilgi alanları vb. birçok durum dikkate alınarak  eşleştirmeleri yapılır. Proje süresince ayda bir kez, en az 45 dk olmak üzere toplam 7 görüşme gerçekleştirilir. Buluşmalar mentor ve öğrencinin ortak kararına göre online olarak veya yüz yüze gerçekleştirilir ve 7 buluşmadan daha fazla buluşma yapmak onların insiyatifine bırakılır.",
+		"content": {
+			"Mentee Nedir?": "Let’s FutureUP projesindeki menteeler; gelecekteki kariyerleri için şimdiden bir adım atmak ve sektörle ilgili bilgi-becerilerini geliştirmek isteyen, bir problemle karşılaştığında en verimli şekilde nasıl çözebileceğini merak eden ve bu problemlerin oluşumunu engellemek isteyen, bunun için de bir mentora başvuran öğrencilerdir. Let’s FutureUP Projesi kapsamında üniversitelerin 3 veya 4. sınıflarında okuyan 25 kişi mülakatlar ile mentee olarak seçilir ve onlara uygun mentor ataması yapılır. Menteeler mentorler eşliğinde 7 aylık bir süreç geçirirler. Bu süreçte mentorları ile görüşmeler gerçekleştirirler. Her görüşme sonrası o görüşmede kendilerine neler kattıklarını ve sonraki görüşmenin konusunu belirlerler. Bütün görüşmelerin sonunda sorularına yanıt bulurlar, bilgi- becerilerini geliştirirler, problemlere karşı farklı çözüm yolları geliştirmeyi ve değişikliğe uyum sağlamayı öğrenirler.",
+			"Mentor Nedir?": "Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından alanında uzman kişiler detaylı bir şekilde araştırılır ve  ilgili kişilere mentorluk teklifi götürülür. Seçilen her mentorun sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorler menteelerini en iyi şekilde kariyer yolculuklarına hazırlar."
+		}
+	},
+	"student": {
+		"title": "Öğrenci Gelişim Programı",
+		"content": "Let’s FutureUP Projesi süresince Öğrenci Gelişim Programı kapsamında alanında uzman gönüllü eğitimcilerimizin desteği ile öğrencilerin gelişimine katkı sağlayacak çeşitli eğitimler düzenlenir. Öğrenci gelişim programı öğrencilerin iş hayatında kullanacakları altın değerindeki bilgileri üniversite zamanlarında onlara aktarmanın yanı sıra; iş hayatına başladıklarında onları bilgi ve donanımları ile bir adım öne geçirmeyi amaçlamaktadır. Let’s FutureUP ile kariyer yolculuğuna dahil olmuş her öğrenci proje süresince bu eğitimlere katılır. Hedeflerine ulaşması için ona faydalı olacak bu yeni bilgileri edinir ve güçlü adımlar ile kariyer yolculuğuna devam eder."
+	},
+	"startup": {
+		"title": "StartUP",
+		"content": {}
+	},
+	"wetalk": {
+		"title": "WeTalk"
+	},
+	"adviceup": {
+		"title": "AdviceUP",
+		"content": "Let’s FutureUP ile kariyer yolculuğuna dahil olmuş her öğrenci AdviceUP programı adı altında belirlenen sosyal sorumluluk projelerinde yer alır. Menteeler kendileri ile eşleştirilmiş lise son sınıf öğrencilerine mentorlerinden öğrendikleri, kendi bilgi ve donanımları ile özellikle de Üniversiteye giriş sınavı konusunda mentorluk yaparlar. Bu programın temel amacı öğrencilerin toplumsal yaşamın sürdürülebilirliği konusunda bilgilendirilmesidir. Ayrıca bu program sayesinde öğrencilerin toplumsal duyarlılık, toplumsal sorumluluk ve toplumsal farkındalık bilincinin gelişimi desteklenmiş olur. Let's FutureUP projesine dahil olan her öğrenci, AdviceUP ile sosyal sorumluluk bilincini arttırır ve yaygınlaştırır."
+	},
+	"talentup": {
+		"title": "TalentUP",
+		"desc": "TalentUP yetenek geliştirme programımız; Üniversite Hazırlık, 1. Ve 2. Sınıf öğrencilerinin katılabileceği birbirinden değerli beş eğitimden oluşur. Toplamda 15 öğrencinin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına büyük fırsat yakalamanın yanı sıra, uzman ve alanında profesyonel kişilerden alacakları eğitimler ile gelecekteki kariyerleri için büyük bir avantaj yakalarlar. TalentUP yetenek geliştirme programımızın 5 temel amacı bulunmaktadır. Bunlar sırasıyla: Öğrencilere geniş bir ‘Network’ ağı sağlamak, ‘Uzman deneyimi’ eşliğinde kariyer yolculuklarındaki kişisel gelişimlerine katkı sağlamak, ‘Gönüllük’ esaslı takım çalışmalarında yer almak, yaptıkları tüm işlerde maksimum ‘Verim’ alabilmek ve öğrencileri hayallerine ulaşmasına ‘Teşvik’ etmektir.",
+		"content": {
+			"TalentUP Yetenek Geliştirme Programı Nedir?": "Let’s FutureUP, öğrencilerin kariyerlerine başarılı bir adım atmak için katılabilecekleri çeşitli eğitim programları sunar. Bu öğrenci geliştirme programlardan biri TalentUP yetenek geliştirme programıdır. TalentUP yetenek geliştirme programımız; hazırlık, 1. Ve 2. Sınıf öğrencilerinin katılabileceği birbirinden değerli beş eğitimden oluşur. Toplamda 15 öğrencinin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına büyük fırsat yakalamanın yanı sıra, uzman ve alanında profesyonel kişilerden alacakları eğitimlerle gelecek kariyerleri için büyük bir avantaj yakalarlar.",
+			"TalentUP Yetenek Geliştirme Programı Neyi Amaçlar?": [
+				"Let’s FutureUP projesi TalentUP programında temel olarak 5 madde amaçlar.",
+				"Bunlardan ilki, diğer öğrenci geliştirme programlarımızda olduğu gibi seçilen öğrencilerin program kapsamındaki diğer öğrencilerle ve proje ekibi ile ‘’Network’’lerini genişletmelerdir.",
+				"İkinci olarak mentorluk programımız kapsamındaki  ‘’Uzman Deneyimi’’ ile alanında uzman kişilerden alacakları eğitimler sayesinde yeteneklerini geliştirmelerini, yeni bakış açıları kazanmalarını ve dinledikleri deneyimleri kendi hayatları ile senkronize etmelerini hedefler.",
+				"Bir diğer amacımız, projemize seçilen öğrencilere ‘’gönüllük’’ esaslı takım çalışmasını öğretmeyi amaçlıyoruz. Bunun yanı sıra yer alacakları sosyal sorumluluk projeleriyle, sosyal sorumluluk bilincini kazandırmak hedeflerimiz arasında yer alır.",
+				"Dördüncü olarak öğrenci gelişim programlarımız ‘’Verimliliği’’ ele alır ve öğrencileri ‘Verimli çalışma nasıl olur?, Bir işten maksimum verim nasıl alınır?” gibi konularda bilgi sahibi etmeyi hedefler.",
+				"Son olarak öğrencilerin, öğrenci gelişim programları kapsamında eğitimini tamamlayıp potansiyellerini ortaya çıkardıktan sonra onları hayallerine ve hedeflerine ulaşmalarına teşvik etmeyi hedefler."
+			],
+			"TalentUP Projesi Hangi Eğitimleri Veriyor?": [
+				"Let’s FutureUP öğrenci gelişim programlarında birçok eğitim sunuyor ve sunmaya da devam ediyor. TalentUP programı kapsamında mentorluk programı dâhilinde öğrencilere ‘Zaman Yönetimi, CV hazırlama teknikleri, Üniversitede Girişimcilik’ gibi çeşitli eğitimler vermeyi amaçlıyor.",
+				"Lets FutureUP tarafından programa seçilen öğrenciler öğrenci gelişim programı içinde bulunan eğitimler ile daha üniversite başında pek çok konuda bilgi sahibi olmuş olarak, kendilerine fark yaratacak özellikler katacak ve geniş vizyona sahip bireyler olarak programı tamamlayacaklardır."
+			]
+		}
+	},
 	"announcements": {
 		"title": "Duyurular",
 		"content": [
