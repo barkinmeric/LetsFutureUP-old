@@ -2,7 +2,7 @@
 	<section class="about-us">
 		<div class="container">
 			<div class="img">
-				<nuxt-img src="/img/placeholder.png" alt="" />
+				<nuxt-img :src="$t('about.img')" alt="" />
 			</div>
 			<div class="text">
 				<h2>{{ $t("about.title") }}</h2>
@@ -33,11 +33,10 @@ export default {
 
 <style lang="scss" scoped>
 .about-us {
+	margin-bottom: 10px;
 	.img {
-		max-height: 300px;
 		z-index: -1;
 		img {
-			max-height: 300px;
 			width: 100%;
 			height: auto;
 		}

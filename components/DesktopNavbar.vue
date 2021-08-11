@@ -29,23 +29,32 @@ export default {
 	.grid-container {
 		display: grid;
 		justify-content: space-between;
-		grid-template-columns: 200px auto;
-		.content button {
+		grid-template-columns: 2px auto;
+		.logo {
 			height: 100%;
-			line-height: 40px;
-			font-weight: 600;
-			font-size: 14px;
-			letter-spacing: 2px;
-			transition: all ease 0.2s;
-			background-color: #fff;
-			color: $mainColor;
-			padding: 16px;
-			border: none;
-			cursor: pointer;
-			&:hover {
-				background: $mainColor;
-				a {
-					color: #fff;
+			img {
+				height: 100%;
+				width: auto;
+			}
+		}
+		.content {
+			button {
+				height: 100%;
+				line-height: 40px;
+				font-weight: 600;
+				font-size: 14px;
+				letter-spacing: 2px;
+				transition: all ease 0.2s;
+				background-color: #fff;
+				color: $mainColor;
+				padding: 16px;
+				border: none;
+				cursor: pointer;
+				&:hover {
+					background: $mainColor;
+					a {
+						color: #fff;
+					}
 				}
 			}
 		}
