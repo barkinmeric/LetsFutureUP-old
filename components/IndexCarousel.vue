@@ -10,7 +10,7 @@
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img draggable="false" src="/img/carousel/carousel2.png" alt="carousel2" />
+					<nuxt-img draggable="false" src="/img/carousel/2.png" alt="carousel2" />
 				</div>
 			</slider-inner>
 			<slider-inner>
@@ -50,12 +50,12 @@ export default {
 	.slide-el {
 		height: 100%;
 		width: 100%;
-		max-height: 500px;
+		// max-height: 700px;
 		img,
 		video {
 			background-color: $mainColor;
 			min-height: 200px;
-			max-height: 500px;
+			// max-height: 700px;
 			height: 100%;
 			width: 100%;
 			cursor: pointer;

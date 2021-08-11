@@ -3,8 +3,20 @@
 		<div class="container">
 			<div class="board-title">Danışma Kurulu</div>
 			<slider :pagination="true" :enableClick="true">
-				<slider-inner v-for="i in 8" :key="i">
-					<board-modal />
+				<slider-inner>
+					<board-modal imgLink="/img/danisma-kurulu/erol-sapci.png" name="Erol Sapçı" />
+				</slider-inner>
+				<slider-inner>
+					<board-modal imgLink="/img/danisma-kurulu/gurkan-kantarci.png" name="Gürkan Kantarcı" />
+				</slider-inner>
+				<slider-inner>
+					<board-modal imgLink="/img/danisma-kurulu/iskender-ulusay.png" name="İskender Ulusay" />
+				</slider-inner>
+				<slider-inner>
+					<board-modal imgLink="/img/danisma-kurulu/tanju-ozkonuk.jpg" name="Tanju Özkonuk" />
+				</slider-inner>
+				<slider-inner>
+					<board-modal imgLink="/img/danisma-kurulu/yusuf-ziya-yuce.jpg" name="Yusuf Ziya Yüce" />
 				</slider-inner>
 			</slider>
 		</div>

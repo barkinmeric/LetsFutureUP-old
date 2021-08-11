@@ -1,12 +1,12 @@
 <template>
 	<div class="board-modal">
 		<div class="board-img">
-			<nuxt-img draggable="false" src="/img/danisma-kurulu/yusuf-ziya-yuce.jpg" alt="" sizes="xl:150px xxl:200px" />
+			<nuxt-img draggable="false" :src="imgLink" alt="" sizes="xl:150px xxl:200px" />
 		</div>
 		<div class="board-text">
-			<div class="name">Yusuf Ziya Yüce</div>
-			<div class="corp">Limak Enerji</div>
-			<div class="title">Kurumsal İletişim Müdürü</div>
+			<div class="name">{{ name }}</div>
+			<div class="corp">{{ corp }}</div>
+			<div class="title">{{ title }}</div>
 		</div>
 	</div>
 </template>
@@ -14,6 +14,12 @@
 <script>
 export default {
 	name: "BoardModal",
+	props: {
+		imgLink: String,
+		name: String,
+		corp: String,
+		title: String,
+	},
 };
 </script>
 

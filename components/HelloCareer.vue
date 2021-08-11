@@ -9,8 +9,8 @@
 			<div class="grid-container">
 				<hello-career-card content="hello-career.mentorship" />
 				<hello-career-card content="hello-career.student" />
-				<hello-career-card content="hello-career.startup" />
 				<hello-career-card content="hello-career.wetalk" />
+				<hello-career-card content="hello-career.startup" />
 				<hello-career-card content="hello-career.adviceup" />
 				<hello-career-card content="hello-career.talentup" />
 			</div>
