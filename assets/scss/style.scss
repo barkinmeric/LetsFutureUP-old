@@ -16,6 +16,11 @@ a:hover {
 	color: #000;
 }
 
+::selection {
+	background: #f1f1f1;
+	color: #292929;
+}
+
 ::-webkit-scrollbar {
 	background: #292929;
 	width: 6px;
