@@ -1,7 +1,7 @@
 <template>
 	<div class="mobile-supporter">
 		<div class="container">
-			<div class="supporter-title">Danışma Kurulu</div>
+			<div class="supporter-title">Destekçilerimiz</div>
 			<slider :pagination="true" :enableClick="true">
 				<slider-inner>
 					<supporter-modal imgLink="/img/index/supporters/aktas.png" />
