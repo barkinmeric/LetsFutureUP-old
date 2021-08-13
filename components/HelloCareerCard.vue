@@ -62,6 +62,12 @@ export default {
 		left: 50%;
 		top: 0px;
 		transform: translate(-50%, -50%);
+		img {
+			filter: grayscale(1);
+			&:hover {
+				filter: grayscale(0);
+			}
+		}
 	}
 	.hc-body {
 		padding: 50px 5px 10px 5px;
