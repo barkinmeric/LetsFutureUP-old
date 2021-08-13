@@ -7,6 +7,10 @@
 		<e-bulletin />
 		<mobile-board />
 		<desktop-board />
+		<mobile-supporter />
+		<desktop-supporter />
+		<mobile-partner />
+		<desktop-partner />
 	</div>
 </template>
 
@@ -28,11 +32,37 @@ export default {
 .desktop-board {
 	display: none;
 }
+.mobile-supporter {
+	display: block;
+}
+.desktop-supporter {
+	display: none;
+}
+.mobile-partner {
+	display: block;
+}
+.desktop-partner {
+	display: none;
+}
 @media (min-width: 992px) {
 	.mobile-board {
 		display: none;
 	}
 	.desktop-board {
+		display: block;
+	}
+}
+@media (min-width: 1200px) {
+	.mobile-supporter {
+		display: none;
+	}
+	.desktop-supporter {
+		display: block;
+	}
+	.mobile-partner {
+		display: none;
+	}
+	.desktop-partner {
 		display: block;
 	}
 }
