@@ -3,19 +3,19 @@
 		<slider :pagination="true" :arrows="true">
 			<slider-inner>
 				<div class="slide-el">
-					<video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls poster="/img/carousel/carousel1-tr.png" preload="none">
-						<source src="/videos/tr.mp4" type="video/mp4" />
+					<video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls :poster="$t('slider.thumbnail')" preload="none">
+						<source :src="$t('slider.1')" type="video/mp4" />
 					</video>
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img draggable="false" src="/img/carousel/2.png" alt="carousel2" />
+					<nuxt-img draggable="false" :src="$t('slider.2')" alt="carousel2" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img draggable="false" src="/img/carousel/carousel3.png" alt="carousel3" />
+					<nuxt-img draggable="false" :src="$t('slider.3')" alt="carousel3" />
 				</div>
 			</slider-inner>
 		</slider>
@@ -50,12 +50,12 @@ export default {
 	.slide-el {
 		height: 100%;
 		width: 100%;
-		// max-height: 700px;
+		max-height: 700px;
 		img,
 		video {
 			background-color: $mainColor;
 			min-height: 200px;
-			// max-height: 700px;
+			max-height: 700px;
 			height: 100%;
 			width: 100%;
 			cursor: pointer;

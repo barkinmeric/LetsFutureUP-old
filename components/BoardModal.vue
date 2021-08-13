@@ -1,7 +1,7 @@
 <template>
 	<div class="board-modal">
 		<div class="board-img">
-			<nuxt-img draggable="false" :src="imgLink" alt="" sizes="xl:150px xxl:200px" />
+			<nuxt-img draggable="false" :src="imgLink" alt="" width="150px" />
 		</div>
 		<div class="board-text">
 			<div class="name">{{ name }}</div>
@@ -26,7 +26,7 @@ export default {
 <style lang="scss" scoped>
 .board-modal {
 	user-select: none;
-	padding: 40px;
+	padding: 20px;
 	.board-img {
 		border-radius: 100%;
 		img {

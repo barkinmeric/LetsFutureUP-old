@@ -3,11 +3,11 @@
 		<div class="container">
 			<div class="board-title">Danışma Kurulu</div>
 			<div class="grid-container">
-				<board-modal imgLink="/img/danisma-kurulu/erol-sapci.png" name="Erol Sapçı" />
-				<board-modal imgLink="/img/danisma-kurulu/gurkan-kantarci.png" name="Gürkan Kantarcı" />
-				<board-modal imgLink="/img/danisma-kurulu/iskender-ulusay.png" name="İskender Ulusay" />
-				<board-modal imgLink="/img/danisma-kurulu/tanju-ozkonuk.jpg" name="Tanju Özkonuk" />
-				<board-modal imgLink="/img/danisma-kurulu/yusuf-ziya-yuce.jpg" name="Yusuf Ziya Yüce" />
+				<board-modal imgLink="/img/index/board/erol-sapci.png" name="Erol Sapçı" />
+				<board-modal imgLink="/img/index/board/gurkan-kantarci.png" name="Gürkan Kantarcı" />
+				<board-modal imgLink="/img/index/board/iskender-ulusay.png" name="İskender Ulusay" />
+				<board-modal imgLink="/img/index/board/tanju-ozkonuk.png" name="Tanju Özkonuk" />
+				<board-modal imgLink="/img/index/board/yusuf-ziya-yuce.png" name="Yusuf Ziya Yüce" />
 			</div>
 		</div>
 	</div>
@@ -36,7 +36,7 @@ export default {
 	}
 	.grid-container {
 		display: grid;
-		grid-template-columns: auto auto auto auto;
+		grid-template-columns: auto auto auto auto auto;
 	}
 }
 </style>
