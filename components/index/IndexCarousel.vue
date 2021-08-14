@@ -2,11 +2,11 @@
 	<div class="index-carousel">
 		<slider :pagination="true" :autoplay="true">
 			<slider-inner>
-				<!-- <div class="slide-el">
+				<div class="slide-el">
 					<video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls :poster="$t('slider.thumbnail')" preload="none">
 						<source :src="$t('slider.1')" type="video/mp4" />
 					</video>
-				</div> -->
+				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
@@ -49,15 +49,22 @@ export default {
 	user-select: none;
 	.slide-el {
 		height: 100%;
-		width: 100%;
+		width: 1920px;
 		max-height: 700px;
-		img,
-		video {
+		img {
 			background-color: $mainColor;
 			min-height: 200px;
 			max-height: 700px;
 			height: 100%;
 			width: 100%;
+			cursor: pointer;
+		}
+		video {
+			background-color: $mainColor;
+			min-height: 200px;
+			max-height: 700px;
+			height: 100%;
+			// width: 100%;
 			cursor: pointer;
 		}
 	}

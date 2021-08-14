@@ -81,7 +81,7 @@ export default {
 			padding-bottom: 3px;
 		}
 		.text {
-			text-align: left;
+			text-align: center;
 			font-weight: 500;
 			padding: 10px 0px 10px 0px;
 			font-size: 14px;
