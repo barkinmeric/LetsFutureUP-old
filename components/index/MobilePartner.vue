@@ -2,7 +2,7 @@
 	<div class="mobile-partner">
 		<div class="container">
 			<div class="partner-title">İşbirlikçilerimiz</div>
-			<slider :pagination="true" :enableClick="true">
+			<slider :pagination="true" :enableClick="true" :autoplay="true">
 				<slider-inner>
 					<supporter-modal imgLink="/img/index/partners/adler.png" />
 				</slider-inner>

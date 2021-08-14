@@ -2,7 +2,7 @@
 	<div class="mobile-board">
 		<div class="container">
 			<div class="board-title">Danışma Kurulu</div>
-			<slider :pagination="true" :enableClick="true">
+			<slider :pagination="true" :enableClick="true" :autoplay="true">
 				<slider-inner>
 					<board-modal imgLink="/img/index/board/erol-sapci.png" name="Erol Sapçı" />
 				</slider-inner>

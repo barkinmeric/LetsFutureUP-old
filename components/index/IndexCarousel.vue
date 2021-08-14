@@ -1,12 +1,12 @@
 <template>
 	<div class="index-carousel">
-		<slider :pagination="true">
+		<slider :pagination="true" :autoplay="true">
 			<slider-inner>
-				<div class="slide-el">
+				<!-- <div class="slide-el">
 					<video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls :poster="$t('slider.thumbnail')" preload="none">
 						<source :src="$t('slider.1')" type="video/mp4" />
 					</video>
-				</div>
+				</div> -->
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">

@@ -28,9 +28,11 @@ export default {
 		enableClick: Boolean,
 		arrows: Boolean,
 		pagination: Boolean,
+		autoplay: Boolean,
 	},
 	mounted() {
 		this.slidesLength = this.$children.length;
+		this.autoplay ? this.autoplayFunc() : null;
 	},
 	methods: {
 		next() {
@@ -50,6 +52,11 @@ export default {
 		scroll(i) {
 			this.coordinate = i * -100;
 			this.$children.forEach((item) => (item.$el.style.transform = `translateX(${this.coordinate}%)`));
+		},
+		autoplayFunc() {
+			window.setInterval(() => {
+				this.next();
+			}, 5000);
 		},
 	},
 };

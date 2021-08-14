@@ -2,7 +2,7 @@
 	<div class="mobile-supporter">
 		<div class="container">
 			<div class="supporter-title">Destekçilerimiz</div>
-			<slider :pagination="true" :enableClick="true">
+			<slider :pagination="true" :enableClick="true" :autoplay="true">
 				<slider-inner>
 					<supporter-modal imgLink="/img/index/supporters/aktas.png" />
 				</slider-inner>
