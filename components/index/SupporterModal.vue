@@ -1,7 +1,7 @@
 <template>
 	<div class="supporter-modal">
 		<div class="supporter-img">
-			<nuxt-img draggable="false" :src="imgLink" alt="" width="300px" />
+			<nuxt-img draggable="false" :src="imgLink" alt="" width="240px" />
 		</div>
 	</div>
 </template>
@@ -19,7 +19,6 @@ export default {
 .supporter-modal {
 	user-select: none;
 	padding: 10px;
-	margin-bottom: 12px;
 	.supporter-img {
 		border-radius: 10px;
 		img {

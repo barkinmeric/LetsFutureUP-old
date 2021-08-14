@@ -7,10 +7,10 @@
 		<e-bulletin />
 		<mobile-board />
 		<desktop-board />
-		<mobile-supporter />
-		<desktop-supporter />
 		<mobile-partner />
 		<desktop-partner />
+		<mobile-supporter />
+		<desktop-supporter />
 	</div>
 </template>
 

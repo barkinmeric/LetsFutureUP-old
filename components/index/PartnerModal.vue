@@ -1,7 +1,7 @@
 <template>
 	<div class="partner-modal">
 		<div class="partner-img">
-			<nuxt-img draggable="false" :src="imgLink" alt="" width="300px" />
+			<nuxt-img draggable="false" :src="imgLink" alt="" width="240px" />
 		</div>
 	</div>
 </template>
@@ -19,7 +19,6 @@ export default {
 .partner-modal {
 	user-select: none;
 	padding: 10px;
-	margin-bottom: 12px;
 	.partner-img {
 		border-radius: 10px;
 		img {

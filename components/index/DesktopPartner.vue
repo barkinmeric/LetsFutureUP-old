@@ -34,6 +34,7 @@ export default {
 		padding-bottom: 3px;
 	}
 	.grid-container {
+		padding-top: 10px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
