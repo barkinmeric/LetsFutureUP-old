@@ -43,6 +43,7 @@ export default {
 	}
 	.slider-inner {
 		margin-bottom: 12px;
+		padding-top: 5px;
 	}
 }
 </style>
