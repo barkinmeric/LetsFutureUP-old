@@ -21,6 +21,7 @@ export default {
 	letter-spacing: 1px;
 	span.green {
 		color: #00ff00;
+		font-weight: 700;
 	}
 }
 </style>

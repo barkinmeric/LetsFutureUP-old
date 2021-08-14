@@ -1,6 +1,6 @@
 <template>
 	<div class="index-carousel">
-		<slider :pagination="true" :arrows="true">
+		<slider :pagination="true">
 			<slider-inner>
 				<div class="slide-el">
 					<video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls :poster="$t('slider.thumbnail')" preload="none">
