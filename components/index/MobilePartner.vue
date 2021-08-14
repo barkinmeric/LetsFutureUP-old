@@ -41,5 +41,8 @@ export default {
 		border-bottom-width: 3px;
 		padding-bottom: 3px;
 	}
+	.slider-inner {
+		margin-bottom: 12px;
+	}
 }
 </style>
