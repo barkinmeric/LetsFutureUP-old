@@ -1,7 +1,7 @@
 <template>
 	<div class="hello-career-card">
 		<div class="hc-head">
-			<nuxt-img draggable="false" :src="icon" alt="" width="64px" height="64px" />
+			<nuxt-img draggable="false" :src="require('~/assets/icons/' + icon + '.svg?data')" width="64px" height="64px" />
 		</div>
 		<div class="hc-body">
 			<div class="title">

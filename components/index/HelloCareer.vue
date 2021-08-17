@@ -7,12 +7,12 @@
 				<span class="green">{{ $t("hello-career.title") }}</span>
 			</div>
 			<div class="grid-container">
-				<hello-career-card content="hello-career.mentorship" icon="/img/index/icons/mentorship.svg" />
-				<hello-career-card content="hello-career.student" icon="/img/index/icons/student.svg" />
-				<hello-career-card content="hello-career.wetalk" icon="/img/index/icons/wetalk.svg" />
-				<hello-career-card content="hello-career.startup" icon="/img/index/icons/startup.svg" />
-				<hello-career-card content="hello-career.adviceup" icon="/img/index/icons/adviceup.svg" />
-				<hello-career-card content="hello-career.talentup" icon="/img/index/icons/talentup.svg" />
+				<hello-career-card content="hello-career.mentorship" icon="mentorship" />
+				<hello-career-card content="hello-career.student" icon="student" />
+				<hello-career-card content="hello-career.wetalk" icon="wetalk" />
+				<hello-career-card content="hello-career.startup" icon="startup" />
+				<hello-career-card content="hello-career.adviceup" icon="adviceup" />
+				<hello-career-card content="hello-career.talentup" icon="talentup" />
 			</div>
 		</div>
 	</div>

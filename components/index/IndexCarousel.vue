@@ -3,9 +3,9 @@
 		<slider :pagination="true" :autoplay="true">
 			<slider-inner>
 				<div class="slide-el">
-					<video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls :poster="$t('slider.thumbnail')" preload="none">
+					<!-- <video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls :poster="$t('slider.thumbnail')" preload="none">
 						<source :src="$t('slider.1')" type="video/mp4" />
-					</video>
+					</video> -->
 				</div>
 			</slider-inner>
 			<slider-inner>
