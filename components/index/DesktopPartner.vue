@@ -3,10 +3,10 @@
 		<div class="container">
 			<div class="partner-title">İşbirlikçilerimiz</div>
 			<div class="grid-container">
-				<supporter-modal imgLink="/img/index/partners/adler.png" />
-				<supporter-modal imgLink="/img/index/partners/haci-hasan.png" />
-				<supporter-modal imgLink="/img/index/partners/hrpeak.png" />
-				<supporter-modal imgLink="/img/index/partners/workinton.png" />
+				<partner-modal imgLink="/img/index/partners/adler.png" />
+				<partner-modal imgLink="/img/index/partners/haci-hasan.png" />
+				<partner-modal imgLink="/img/index/partners/hrpeak.png" />
+				<partner-modal imgLink="/img/index/partners/workinton.png" />
 			</div>
 		</div>
 	</div>
@@ -22,7 +22,7 @@ export default {
 .desktop-partner {
 	background: #eee;
 	color: $mainColor;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	text-align: center;
 	.partner-title {
 		padding: 20px 0px 10px 0px;

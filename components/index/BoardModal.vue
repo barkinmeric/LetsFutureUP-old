@@ -28,9 +28,9 @@ export default {
 	user-select: none;
 	padding: 20px;
 	.board-img {
-		border-radius: 100%;
+		border-radius: 50%;
 		img {
-			border-radius: 100%;
+			border-radius: 50%;
 			filter: grayscale(100%);
 			transition: all ease 0.5s;
 			&:hover {

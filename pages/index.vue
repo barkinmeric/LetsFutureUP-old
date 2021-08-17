@@ -3,6 +3,7 @@
 		<index-carousel />
 		<motto />
 		<hello-career />
+		<opinion />
 		<newsletter />
 		<e-bulletin />
 		<mobile-board />

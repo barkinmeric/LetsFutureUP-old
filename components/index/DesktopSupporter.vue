@@ -26,7 +26,7 @@ export default {
 .desktop-supporter {
 	background: #eee;
 	color: $mainColor;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	text-align: center;
 	.supporter-title {
 		padding: 20px 0px 10px 0px;

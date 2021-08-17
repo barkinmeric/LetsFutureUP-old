@@ -21,6 +21,7 @@ export default {
 	padding: 10px;
 	.supporter-img {
 		border-radius: 10px;
+		padding: 10px 20px;
 		img {
 			box-shadow: 0px 0px 5px 1px #292929;
 			border-radius: 10px;

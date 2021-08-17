@@ -23,7 +23,7 @@ export default {
 .desktop-board {
 	background: #292929;
 	color: #fff;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	text-align: center;
 	.board-title {
 		padding: 20px 0px 10px 0px;

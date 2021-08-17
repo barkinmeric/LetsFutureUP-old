@@ -22,6 +22,7 @@ export default {
 		return {
 			coordinate: 0,
 			slidesLength: 0,
+			intervalId: 0,
 		};
 	},
 	props: {
@@ -54,7 +55,7 @@ export default {
 			this.$children.forEach((item) => (item.$el.style.transform = `translateX(${this.coordinate}%)`));
 		},
 		autoplayFunc() {
-			window.setInterval(() => {
+			this.intervalId = window.setInterval(() => {
 				this.next();
 			}, 5000);
 		},

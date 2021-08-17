@@ -4,16 +4,16 @@
 			<div class="partner-title">İşbirlikçilerimiz</div>
 			<slider :pagination="true" :enableClick="true" :autoplay="true">
 				<slider-inner>
-					<supporter-modal imgLink="/img/index/partners/adler.png" />
+					<partner-modal imgLink="/img/index/partners/adler.png" />
 				</slider-inner>
 				<slider-inner>
-					<supporter-modal imgLink="/img/index/partners/haci-hasan.png" />
+					<partner-modal imgLink="/img/index/partners/haci-hasan.png" />
 				</slider-inner>
 				<slider-inner>
-					<supporter-modal imgLink="/img/index/partners/hrpeak.png" />
+					<partner-modal imgLink="/img/index/partners/hrpeak.png" />
 				</slider-inner>
 				<slider-inner>
-					<supporter-modal imgLink="/img/index/partners/workinton.png" />
+					<partner-modal imgLink="/img/index/partners/workinton.png" />
 				</slider-inner>
 			</slider>
 		</div>

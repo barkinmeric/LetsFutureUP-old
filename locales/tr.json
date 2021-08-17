@@ -49,6 +49,12 @@
 			"text": "TalentUP yetenek geliştirme programımız; Üniversite Hazırlık, 1. ve 2. sınıf öğrencilerinin katılabileceği birbirinden değerli çeşitli eğitimlerden oluşur. Seçilmiş öğrencilerin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına fırsatlar yakalamanın yanı sıra uzman ve alanında profesyonel kişilerden alacakları eğitimler ile gelecekteki kariyerleri için büyük bir avantaj yakalarlar. TalentUP yetenek geliştirme programımızın 5 temel amacı bulunmaktadır. Bunlar sırasıyla: Öğrencilere geniş bir ‘’network’’ oluşturmak, ‘’uzman deneyimi’’ eşliğinde kariyer yolculuklarındaki kişisel gelişimlerine katkı sağlamak, ‘’gönüllük’’ esaslı takım çalışmalarında yer almak, yaptıkları tüm işlerde maksimum ‘’verim’’ alabilmek ve öğrencileri hayallerine ulaşmasına ‘’teşvik’’ etmektir."
 		}
 	},
+	"opinion": {
+		"title": "Let's FutureUP Hakkında Neler Düşünülüyor",
+		"content": {
+			"Erol Sapçı": "Çalışma hayatım boyunca, yeni işe başlayan arkadaşlarımın bazen de uzun yıllar çalışma tecrübesi olanların strateji oluşturma, hedef belirleme ve karar verme konularında eksiklikler yaşadığını gördüm. Bunun her zaman çözülebilir bir sorun olduğunu düşündüm. Ancak bunun için danışmaya istekli bir kişinin olması gerekiyordu. Bu platform tam da en uygun zamanda ve uygun şekilde, öğrencilerin hayata atılmadan, tecrübeleri en üstün düzeydeki mentörlerden bu desteği almalarını sağlıyor. Program aynı zamanda mentörler için yeni jenerasyonu tanıma, onların beklentilerini anlama yolunda da müthiş bir karşılıklı eğitime dönüşüyor"
+		}
+	},
 	"about": {
 		"title": "Hakkımızda",
 		"img": "/img/pages/tr/hakkimizda.png",

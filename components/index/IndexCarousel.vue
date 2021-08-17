@@ -35,6 +35,7 @@ export default {
 			if (this.isPlaying == false) {
 				event.target.play();
 				this.isPlaying = true;
+				window.clearInterval(this.$children[0].intervalId);
 			} else {
 				event.target.pause();
 				this.isPlaying = false;
@@ -49,10 +50,12 @@ export default {
 	user-select: none;
 	.slide-el {
 		height: 100%;
-		width: 1920px;
+		width: 100%;
 		max-height: 700px;
+		display: grid;
+		justify-content: center;
+		background-color: $mainColor;
 		img {
-			background-color: $mainColor;
 			min-height: 200px;
 			max-height: 700px;
 			height: 100%;
@@ -60,11 +63,10 @@ export default {
 			cursor: pointer;
 		}
 		video {
-			background-color: $mainColor;
 			min-height: 200px;
 			max-height: 700px;
 			height: 100%;
-			// width: 100%;
+			width: 100%;
 			cursor: pointer;
 		}
 	}

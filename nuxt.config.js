@@ -32,7 +32,7 @@ export default {
 	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources"],
+	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources", "@nuxtjs/google-fonts"],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: ["nuxt-i18n"],
@@ -66,6 +66,17 @@ export default {
 		parsePages: false,
 		pages: pages,
 		vueI18n: i18n,
+	},
+
+	googleFonts: {
+		download: true,
+		prefetch: true,
+		families: {
+			Montserrat: {
+				wght: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+				ital: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+			},
+		},
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
