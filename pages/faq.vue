@@ -6,9 +6,9 @@
 			</div>
 			<div class="text">
 				<h2>{{ $t("faq.title") }}</h2>
-				<div v-for="item in Object.keys($t('faq.content'))" :key="item">
-					<h3>{{ item }}</h3>
-					<p>{{ $t(`faq.content.${item}`) }}</p>
+				<div v-for="item in $t('faq.content')" :key="item.title">
+					<h3>{{ item.title }}</h3>
+					<p>{{ item.text }}</p>
 				</div>
 			</div>
 		</div>

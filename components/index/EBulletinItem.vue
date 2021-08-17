@@ -1,9 +1,9 @@
 <template>
 	<div class="e-bulletin-item">
 		<div class="e-bulletin-img">
-			<a :href="pdfLink" target="_blank"><nuxt-img src="/img/placeholder.png" alt=""/></a>
+			<a :href="item.file" target="_blank"><nuxt-img :src="item.image" alt=""/></a>
 		</div>
-		<div class="e-bulletin-text">{{ pdfName }}</div>
+		<div class="e-bulletin-text">{{ item.text }}</div>
 	</div>
 </template>
 
@@ -11,26 +11,23 @@
 export default {
 	name: "EBulletinItem",
 	props: {
-		pdfName: String,
-		pdfLink: String,
+		item: Object,
 	},
 };
 </script>
 
 <style lang="scss" scoped>
 .e-bulletin-item {
-	padding: 20px;
+	margin: 20px;
 	.e-bulletin-img {
 		border-radius: 10px;
 		box-shadow: 0px 0px 5px 1px #292929;
+		height: 160px;
+		width: 240px;
 		img {
-			width: 100%;
+			height: 160px;
+			width: 240px;
 			border-radius: 10px;
-			filter: grayscale(100%);
-			transition: all ease 0.5s;
-			&:hover {
-				filter: grayscale(0%);
-			}
 		}
 	}
 	.e-bulletin-text {

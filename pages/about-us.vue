@@ -6,14 +6,14 @@
 			</div>
 			<div class="text">
 				<h2>{{ $t("about.title") }}</h2>
-				<div v-for="item in Object.keys($t('about.content'))" :key="item">
-					<h3>{{ item }}</h3>
-					<ul v-if="item == `LET’S FUTUREUP PROJE HEDEFLERİMİZ` || item == 'OUR GOALS'">
-						<li v-for="text in $t(`about.content.${item}`)" :key="text">
+				<div v-for="item in $t('about.content')" :key="item.title">
+					<h3>{{ item.title }}</h3>
+					<ul v-if="item.title == `HEDEFLERİMİZ` || item.title == 'OUR GOALS'">
+						<li v-for="text in item.text" :key="text">
 							{{ text }}
 						</li>
 					</ul>
-					<p v-else>{{ $t(`about.content.${item}`) }}</p>
+					<p v-else>{{ item.text }}</p>
 				</div>
 			</div>
 		</div>

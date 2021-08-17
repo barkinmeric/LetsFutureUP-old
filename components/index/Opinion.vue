@@ -3,8 +3,8 @@
 		<div class="container">
 			<div class="opinion-title">{{ $t("opinion.title") }}</div>
 			<slider :pagination="true" :enableClick="true" :autoplay="true">
-				<slider-inner v-for="item in Object.keys($t('opinion.content'))" :key="item">
-					<opinion-modal :imgLink="`/img/index/board/${toUrl(item)}.png`" :text="$t(`opinion.content.${item}`)" />
+				<slider-inner v-for="item in $t('opinion.content')" :key="item.name">
+					<opinion-modal :item="item" />
 				</slider-inner>
 			</slider>
 		</div>
@@ -14,19 +14,6 @@
 <script>
 export default {
 	name: "Opinion",
-	methods: {
-		toUrl(text) {
-			return text
-				.toLowerCase()
-				.replace(/ /gim, "-")
-				.replace(/ğ/gim, "g")
-				.replace(/ü/gim, "u")
-				.replace(/ş/gim, "s")
-				.replace(/ı/gim, "i")
-				.replace(/ö/gim, "o")
-				.replace(/ç/gim, "c");
-		},
-	},
 };
 </script>
 

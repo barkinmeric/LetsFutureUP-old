@@ -1,15 +1,55 @@
 <template>
 	<div class="e-bulletin">
 		<div class="container">
-			<div class="e-bulletin-head">E-Bülten</div>
+			<div class="e-bulletin-head">{{ $t("e-bulletin.title") }}</div>
 			<div class="e-bulletin-body">
-				<div class="container">
-					<div class="grid-container">
-						<e-bulletin-item pdfName="MART 2021" pdfLink="/files/e-bulletin/03-2021.pdf" />
-						<e-bulletin-item pdfName="ŞUBAT 2021" pdfLink="/files/e-bulletin/02-2021.pdf" />
-						<e-bulletin-item pdfName="OCAK 2021" pdfLink="/files/e-bulletin/01-2021.pdf" />
-						<e-bulletin-item pdfName="ARALIK 2020" pdfLink="/files/e-bulletin/12-2020.pdf" />
+				<div class="large">
+					<div class="flex-container">
+						<e-bulletin-item :item="$t('e-bulletin.content')[3]" />
+						<e-bulletin-item :item="$t('e-bulletin.content')[2]" />
+						<e-bulletin-item :item="$t('e-bulletin.content')[1]" />
+						<e-bulletin-item :item="$t('e-bulletin.content')[0]" />
 					</div>
+				</div>
+				<div class="medium">
+					<slider :pagination="true" :autoplay="true">
+						<slider-inner>
+							<div class="flex-container">
+								<e-bulletin-item :item="$t('e-bulletin.content')[3]" />
+								<e-bulletin-item :item="$t('e-bulletin.content')[2]" />
+							</div>
+						</slider-inner>
+						<slider-inner>
+							<div class="flex-container">
+								<e-bulletin-item :item="$t('e-bulletin.content')[1]" />
+								<e-bulletin-item :item="$t('e-bulletin.content')[0]" />
+							</div>
+						</slider-inner>
+					</slider>
+				</div>
+				<div class="small">
+					<slider :pagination="true" :autoplay="true">
+						<slider-inner>
+							<div class="flex-container">
+								<e-bulletin-item :item="$t('e-bulletin.content')[3]" />
+							</div>
+						</slider-inner>
+						<slider-inner>
+							<div class="flex-container">
+								<e-bulletin-item :item="$t('e-bulletin.content')[2]" />
+							</div>
+						</slider-inner>
+						<slider-inner>
+							<div class="flex-container">
+								<e-bulletin-item :item="$t('e-bulletin.content')[1]" />
+							</div>
+						</slider-inner>
+						<slider-inner>
+							<div class="flex-container">
+								<e-bulletin-item :item="$t('e-bulletin.content')[0]" />
+							</div>
+						</slider-inner>
+					</slider>
 				</div>
 			</div>
 			<e-bulletin-form />
@@ -37,9 +77,50 @@ export default {
 		padding-bottom: 3px;
 	}
 	.e-bulletin-body {
-		.grid-container {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+		.large {
+			display: none;
+		}
+		.medium {
+			display: none;
+		}
+		.small {
+			display: block;
+		}
+		.flex-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.e-bulletin {
+		.e-bulletin-body {
+			.large {
+				display: none;
+			}
+			.medium {
+				display: block;
+			}
+			.small {
+				display: none;
+			}
+		}
+	}
+}
+@media (min-width: 1400px) {
+	.e-bulletin {
+		.e-bulletin-body {
+			.large {
+				display: block;
+			}
+			.medium {
+				display: none;
+			}
+			.small {
+				display: none;
+			}
 		}
 	}
 }

@@ -2,10 +2,8 @@
 	<div class="index-carousel">
 		<slider :pagination="true" :autoplay="true">
 			<slider-inner>
-				<div class="slide-el">
-					<!-- <video @mousedown="playVideo($event)" @touchstart="playVideo($event)" class="video" controls :poster="$t('slider.thumbnail')" preload="none">
-						<source :src="$t('slider.1')" type="video/mp4" />
-					</video> -->
+				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
+					<nuxt-img draggable="false" :src="$t('slider.thumbnail')" alt="carousel2" height="700px" width="1920px" style="cursor:pointer;" />
 				</div>
 			</slider-inner>
 			<slider-inner>
@@ -19,6 +17,12 @@
 				</div>
 			</slider-inner>
 		</slider>
+		<div class="videoModal" v-show="toggleModal">
+			<span @click="(toggleModal = false) & pauseVideo()" class="close"><icon-times width="32px" height="32px" iconColor="#ccc"/></span>
+			<video @click="!$event.target.paused ? pauseVideo() : playVideo()" @touchstart="!$event.target.paused ? pauseVideo() : playVideo()" controls preload="none">
+				<source :src="$t('slider.1')" type="video/mp4" />
+			</video>
+		</div>
 	</div>
 </template>
 
@@ -27,19 +31,16 @@ export default {
 	name: "IndexCarousel",
 	data() {
 		return {
-			isPlaying: false,
+			toggleModal: false,
 		};
 	},
 	methods: {
-		playVideo(event) {
-			if (this.isPlaying == false) {
-				event.target.play();
-				this.isPlaying = true;
-				window.clearInterval(this.$children[0].intervalId);
-			} else {
-				event.target.pause();
-				this.isPlaying = false;
-			}
+		playVideo() {
+			this.$el.lastChild.lastChild.play();
+			window.clearInterval(this.$children[0].intervalId);
+		},
+		pauseVideo() {
+			this.$el.lastChild.lastChild.pause();
 		},
 	},
 };
@@ -51,23 +52,45 @@ export default {
 	.slide-el {
 		height: 100%;
 		width: 100%;
+		min-height: 200px;
 		max-height: 700px;
-		display: grid;
-		justify-content: center;
 		background-color: $mainColor;
 		img {
 			min-height: 200px;
 			max-height: 700px;
+			max-width: 1920px;
 			height: 100%;
 			width: 100%;
-			cursor: pointer;
+		}
+	}
+	.videoModal {
+		position: fixed;
+		z-index: 1;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba($color: #000000, $alpha: 0.8);
+		text-align: center;
+		.close {
+			width: 100%;
+			height: 52px;
+			padding: 10px;
+			display: inline-block;
+			text-align: right;
+			font-weight: bold;
+			&:hover {
+				cursor: pointer;
+				svg {
+					// background-color: $mainColor;
+					filter: grayscale(1);
+				}
+			}
 		}
 		video {
-			min-height: 200px;
-			max-height: 700px;
-			height: 100%;
-			width: 100%;
-			cursor: pointer;
+			background-color: $mainColor;
+			width: 80%;
 		}
 	}
 }

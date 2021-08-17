@@ -57,7 +57,7 @@ export default {
 		autoplayFunc() {
 			this.intervalId = window.setInterval(() => {
 				this.next();
-			}, 5000);
+			}, 7000);
 		},
 	},
 };
@@ -83,8 +83,8 @@ export default {
 				cursor: pointer;
 				height: 15px;
 				width: 15px;
-				background-color: white;
-				border: 1px solid black;
+				background-color: rgba($color: white, $alpha: 0.5);
+				border: 1px solid rgba($color: black, $alpha: 0.5);
 				border-radius: 50%;
 				display: inline-block;
 				&:hover {

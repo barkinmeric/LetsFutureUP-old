@@ -13,7 +13,10 @@
 			"title": "Hello To Career",
 			"content": ["Mentorship Program", "Student Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		},
-		"join-us": "Join Us"
+		"join-us": {
+			"title": "Join Us!",
+			"link": ""
+		}
 	},
 	"slider": {
 		"1": "/img/index/slider/en/1.mp4",
@@ -51,27 +54,86 @@
 	},
 	"opinion": {
 		"title": "Opinions",
-		"content": {
-			"Eman Martin-Vignerte": "There’s probably been countless moments in your life where you’ve leaned on someone you trust for advice or assistance. Whether the person you turn to is a professor, friend, family member, athletic coach or other, the importance of mentors/trainers is undeniable. This project can help to guide, direct, and shape the student present situation and future opportunities for the better!",
-			"Mirsada Kudric": "In the time of technological advancement, when technology is replacing the man in an ever-widening segment, I find mentoring programs such as this one to be more important than ever before. Human contact, in all segments, has gained a significant importance. The same applies to mentoring. Unfortunately, young people have a limited access to other people's knowledge, experience, support – to everything that can significantly help them on their development path. And this is precisely the responsibility of those who can and should share this wealth selflessly. In this way both sides are ennobled. It is an opportunity for the mentor to pass on a part of his acquired experience and knowledge to new generations on which the world rests, thus indirectly influencing the creation of a better tomorrow."
-		}
+		"content": [
+			{
+				"name": "Taner KARSLIOĞLU",
+				"position": "CEO of Feka Group",
+				"text": "Thousands of students graduating from universities every year and they are trying to prepare themselves for the future life. This process could be a very challenging process with a lot of questions. Through mentorship program, with sharing our experiences, helping students to their next choices; tempted me and I participated this program. The benefits of this project can be ordered like sharing mentors’ experiences with students, seeing students’ strong and weak sides as a third eye and helping to improve them, increase their self-confidence. With these factors the awareness of the students will increase and they will make more proper choices. I believe in my heart to this chance could even change their careers."
+			},
+			{
+				"name": "Gürkan KANTARCI",
+				"position": "RB Karesi Textile Production Manager",
+				"text": "As a voluntary-basis social responsibility project; I saw Let’s FutureUP as an instrument to support for growing up qualified new generations. I wanted to participate in Let’s FutureUP to contribute to new generation with my experiences. In the end of the project ; I believe that the aspirants who could explain themselves better, determine their aims more clear, be aware of their abilities, conscious with professional life and contribute themselves with qualified trainings will be more advantageous compared to the aspirants who can’t get that chance. Therefore, I believe that this project can change a student’s career."
+			},
+			{
+				"name": "Yusuf Ziya YÜCE",
+				"position": "Limak Energy I.C. Corporate Communications Manager",
+				"text": "To me, contributing to someone and seeing their successes; in a way of “growing people” is social responsibility of my job. This Project can change students’ careers and even their lives with the experiences that it will bring to them. Because, in my personal opinion; the most precious thing in this life is experience.  "
+			},
+			{
+				"name": "Tanju ÖZKONUK",
+				"position": "Bosch Rexroth Commercial General Manager",
+				"text": "Just like the past; today’s generation will shape the future with their goals and awareness. I believe that meeting them through true channels, listening and understanding them and encouraging them for the new opportunities is very precious. Let’s FutureUP helped me to this goal. All of the students that participated in this project worked and spent time without any compulsive factors; with their personal awareness and goals. In my meetings, sometimes they were interrogatives, sometimes audiences and most of the time they were enthusiastic to talk about the future possibilities. In my opinion, the most impressive side of the project was their solution- oriented sight. A youth who focused on not to the problems but the opportunities coming with the problems could have fears about their careers?"
+			},
+			{
+				"name": "Ali Yaşar TOPÇU",
+				"position": "Farba Automotive Factory Manager",
+				"text": "I participated in this project to help our future- colleagues to choose the most suitable sector or department for themselves before graduate and make them feel like they are working in a business with responsibilities. We saw the deficient points in our new colleagues and our biggest motivation was satisfy these points on aspirant students and make them participate in the profession with enthusiasm. Personally, I have learned a lot of things in the first year of my professional life. And I believe that obtaining these experiences before graduating will make a great difference for these students. Getting the support of mentors; is a great opportunity and a chance. As mentors, also we could learn new things with this project."
+			},
+			{
+				"name": "Erol SAPCI",
+				"position": "CEO of FKT Couches",
+				"text": "During my professional career, I saw some lacks in developing strategies, determining goals and making decisions in my new colleagues or the colleagues who have a long-term working experience. I always thought that this is a solvable problem. With Let’s FutureUP; we could solve these problems with helping the students with our experiences. Also this program is a chance for mentors to recognize the new generation. In my opinion, participating in a productive, initiative and communication- oriented project process is very important for our students. This process can help to understand the place of theoretical knowledge and perform them in the coming years. Moreover, students can learn from their mentors about solving problems, communication, critical thinking, making decisions, taking responsibilities and establishing networks with this Project. In brief, I believe that this Project could affect students’ careers in better ways. Also, I’d like to thank everyone to gathering these people around a purpose and getting results in the period of pandemic. "
+			},
+			{
+				"name": "Eman Martin- Vignerte",
+				"position": "Director of External Affairs, Governmenal& Political Relations at Robert Bosch UK",
+				"text": "There’s probably been countless moments in your life where you’ve leaned on someone you trust for advice or assistance. Whether the person you turn to is a professor, friend, family member, athletic coach or other, the importance of mentors/trainers is undeniable. This project can help to guide, direct, and shape the student present situation and future opportunities for the better!"
+			},
+			{
+				"name": "Mirseda Kudric",
+				"position": "General Manager of Robert Bosch Croatia& Robert Bosch Slovenia",
+				"text": "In the time of technological advancement, when technology is replacing the man in an ever-widening segment, I find mentoring programs such as this one to be more important than ever before. Human contact, in all segments, has gained a significant importance. The same applies to mentoring. Unfortunately, young people have a limited access to other people's knowledge, experience, support – to everything that can significantly help them on their development path. And this is precisely the responsibility of those who can and should share this wealth selflessly. In this way both sides are ennobled. It is an opportunity for the mentor to pass on a part of his acquired experience and knowledge to new generations on which the world rests, thus indirectly influencing the creation of a better tomorrow."
+			}
+		]
+	},
+	"e-bulletin": {
+		"title": "E-Bulletin",
+		"content": [
+			{ "text": "DECEMBER 2020", "image": "/img/index/e-bulletin/en/12-2020.png", "file": "/files/e-bulletin/en/12-2020.pdf" },
+			{ "text": "JANUARY 2021", "image": "/img/index/e-bulletin/en/01-2021.png", "file": "/files/e-bulletin/en/01-2021.pdf" },
+			{ "text": "MARCH 2021", "image": "/img/index/e-bulletin/en/03-2021.png", "file": "/files/e-bulletin/en/03-2021.pdf" },
+			{ "text": "APRIL 2021", "image": "/img/index/e-bulletin/en/04-2021.png", "file": "/files/e-bulletin/en/04-2021.pdf" }
+		]
 	},
 	"about": {
 		"title": "About Us",
 		"img": "/img/pages/tr/hakkimizda.png",
-		"content": {
-			"LET’S FUTURE UP PROJECT VISION-MISSION": "We aim to be a universal project that guides the careers of university students, contributes to their development, helps them become beneficial individuals for society, and enables them to get to know the business world through the student development program and mentorship program we offer.",
-			"WHAT IS THE LET’S FUTUREUP PROJECT?": "Let's FutureUP Project is an international social responsibility project that guides university students who want to greet their future careers with mentoring and training programs. Let's FutureUP is a student development program that stands as a bridge between the business world and university students.",
-			"THE AIM OF THE PROJECT": "Let's FutureUP is a student development program established to support the sustainable career development of students from different cultures at the university with its mentoring program and training programs. It helps to lead change and development to realize the dreams of young people, diversify their perspectives within the framework of universal values, and provide them with competencies that will prompt them to think innovatively in science and technology.",
-			"OUR GOALS": [
-				"• Contributing to the career development of university students with mentoring programs and providing future-oriented individual and general training with student development programs.",
-				"• Leading students to become valuable individuals for society by enabling them to take part in social responsibility projects.",
-				"• Helping people with experience in business life and university students to provide effective transfer of experience by creating a bridge with the mentoring program.",
-				"• Providing students with new competencies through student development programs regardless of time and place in their university education.",
-				"• Ensuring university students gain new habits with education programs by following the change and development in the world.",
-				"• Becoming the complement of the education and social lives of university students as being a social responsibility project."
-			]
-		}
+		"content": [
+			{
+				"title": "LET’S FUTURE UP PROJECT VISION-MISSION",
+				"text": "We aim to be a universal project that guides the careers of university students, contributes to their development, helps them become beneficial individuals for society, and enables them to get to know the business world through the student development program and mentorship program we offer."
+			},
+			{
+				"title": "WHAT IS THE LET’S FUTUREUP PROJECT?",
+				"text": "Let's FutureUP Project is an international social responsibility project that guides university students who want to greet their future careers with mentoring and training programs. Let's FutureUP is a student development program that stands as a bridge between the business world and university students."
+			},
+			{
+				"title": "THE AIM OF THE PROJECT",
+				"text": "Let's FutureUP is a student development program established to support the sustainable career development of students from different cultures at the university with its mentoring program and training programs. It helps to lead change and development to realize the dreams of young people, diversify their perspectives within the framework of universal values, and provide them with competencies that will prompt them to think innovatively in science and technology."
+			},
+			{
+				"title": "OUR GOALS",
+				"text": [
+					"• Contributing to the career development of university students with mentoring programs and providing future-oriented individual and general training with student development programs.",
+					"• Leading students to become valuable individuals for society by enabling them to take part in social responsibility projects.",
+					"• Helping people with experience in business life and university students to provide effective transfer of experience by creating a bridge with the mentoring program.",
+					"• Providing students with new competencies through student development programs regardless of time and place in their university education.",
+					"• Ensuring university students gain new habits with education programs by following the change and development in the world.",
+					"• Becoming the complement of the education and social lives of university students as being a social responsibility project."
+				]
+			}
+		]
 	},
 	"story": {
 		"title": "Our Story",
@@ -87,40 +149,97 @@
 		"title": "Project Team",
 		"img": "/img/pages/tr/proje-ekibi.png",
 		"desc": "Let’s FutureUP project consists of six departments including Human Resources, Business Development, Corporate Communication, External Affairs, Startup, Social Media and Digital Marketing. Students from various universities comprise these departments.",
-		"content": {
-			"HUMAN RESOURCES DEPARTMENT": "This department arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members to Let’s FutureUP events. They act to keep motivation of students high and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
-			"CORPORATE COMMUNICATION DEPARTMENT": "They contact with high level managers/executives and offer them to be spokesperson/trainer/mentor in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertize for the project.",
-			"BUSINESS DEVELOPMENT DEPARTMENT": "Members of this department, produce innovative ideas by encouraging the development of strategies through vision-mission. In this context, it leads the departments to embrace new ideas and bring about these. They work collaboratively with other departments regarding how these new concepts can be integrated into the project.",
-			"EXTERNAL AFFAIRS DEPARTMENT": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
-			"SOCIAL MEDIA AND DIGITAL MARKETING DEPARTMENT": "They are responsible for effective utility of the social media accounts of the project. At the same time, they play essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
-			"STARTUP DEPARTMENT": "They are well prepared for startup based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team are responsible for writing the codes of the programs that execute and digitalize the project."
-		}
+		"content": [
+			{
+				"title": "HUMAN RESOURCES DEPARTMENT",
+				"text": "This department arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members to Let’s FutureUP events. They act to keep motivation of students high and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs."
+			},
+			{
+				"title": "CORPORATE COMMUNICATION DEPARTMENT",
+				"text": "They contact with high level managers/executives and offer them to be spokesperson/trainer/mentor in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertize for the project."
+			},
+			{
+				"title": "BUSINESS DEVELOPMENT DEPARTMENT",
+				"text": "Members of this department, produce innovative ideas by encouraging the development of strategies through vision-mission. In this context, it leads the departments to embrace new ideas and bring about these. They work collaboratively with other departments regarding how these new concepts can be integrated into the project."
+			},
+			{
+				"title": "EXTERNAL AFFAIRS DEPARTMENT",
+				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally."
+			},
+			{
+				"title": "SOCIAL MEDIA AND DIGITAL MARKETING DEPARTMENT",
+				"text": "They are responsible for effective utility of the social media accounts of the project. At the same time, they play essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project."
+			},
+			{
+				"title": "STARTUP DEPARTMENT",
+				"text": "They are well prepared for startup based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team are responsible for writing the codes of the programs that execute and digitalize the project."
+			}
+		]
 	},
 	"faq": {
 		"title": "FAQ",
 		"img": "/img/pages/tr/sss.png",
-		"content": {
-			"1-) How long does the project last?": "Let’s FutureUP Project lasts for 7 months which includes the months between November and May. During this time, the project offers chosen students a Mentorship and Student Growth Program and other activities.",
-			"2-) Who can apply as a mentee?": "3rd or 4th grade university students in all cities worldwide can apply for the project as a mentee. Students in other grades (preparation year, first grade, second grade) can apply for other Student Growth programs that Let’s FutureUP Project offers.",
-			"3-) If it is possible to apply from all cities worldwide, where will the activities take place?": "Mentorship Program, Student Growth Program or any other activities that Let’s FutureUP Project offers will be held online.",
-			"4-) How many mentee quota are there?": "As long as they satisfy the qualifications and expectations, in the term 2021-2022 it will be 20 students involved in the Let’s FutureUP Projects as a mentee.",
-			"5-) Who is evaluating the applications?": "Application evaluations are made meticulously with the contributions of the advisory board formed by the Let's FutureUP project team, and students are selected for the most appropriate mentor-mentee matching.",
-			"6-) How are Mentor-Mentee pairings made?": "In line with the mentoring program, Let's FutureUP team members take great thoroughness to match the appropriate mentor and mentee. While making pairings; many factors such as the expectations, goals, interests of the mentors and mentees from the project, and the department where the mentee is studying and the field where the mentor works are taken into consideration.",
-			"7-) How does the mentor selection process work?": "After completing the application form for the Mentoring Program, Let's FutureUP team conducts online interviews with mentor candidates. As a result of the evaluations, the most suitable mentors for the Mentoring Program are included in our project.",
-			"8-) How does the mentee selection process work?": "After the mentee application form is filled, the Let's FutureUP team evaluates the applications, the suitable candidates are invited to the online interviews and as a result of the interviews, the suitable candidates are included in our project.",
-			"9-) Will a certificate be given at the end of the project?": "Yes, at the end of the project, everyone who meets the conditions will be given an English certificate by Let's FutureUP so that they can add to their resume.",
-			"10-) What are the requirements to graduate from the program?": "Participating at least 80% of all events organized by the Let's FutureUP project and terminating the social responsibility project determined within the scope of the project are the conditions for graduation.",
-			"11-) What departments does the project team consist of?": "Let's FutureUP Mentoring Program and Student Development Program project team consists of six departments: Human Resources, Business Development, Corporate Communication, Foreign Relations, Startup and, Social Media and Digital Marketing. These departments are composed of university students from universities all over the World.",
-			"12-) What should I do to become a project team member?": "To become a Let's FutureUP team member, you must follow our team member recruitments on our social media accounts, fill out the application form on our website, and express yourself clearly in both application form and the interview."
-		}
+		"content": [
+			{
+				"title": "1-) How long does the project last?",
+				"text": "Let’s FutureUP Project lasts for 7 months which includes the months between November and May. During this time, the project offers chosen students a Mentorship and Student Growth Program and other activities."
+			},
+			{
+				"title": "2-) Who can apply as a mentee?",
+				"text": "3rd or 4th grade university students in all cities worldwide can apply for the project as a mentee. Students in other grades (preparation year, first grade, second grade) can apply for other Student Growth programs that Let’s FutureUP Project offers."
+			},
+			{
+				"title": "3-) If it is possible to apply from all cities worldwide, where will the activities take place?",
+				"text": "Mentorship Program, Student Growth Program or any other activities that Let’s FutureUP Project offers will be held online."
+			},
+			{ "title": "4-) How many mentee quota are there?", "text": "As long as they satisfy the qualifications and expectations, in the term 2021-2022 it will be 20 students involved in the Let’s FutureUP Projects as a mentee." },
+			{
+				"title": "5-) Who is evaluating the applications?",
+				"text": "Application evaluations are made meticulously with the contributions of the advisory board formed by the Let's FutureUP project team, and students are selected for the most appropriate mentor-mentee matching."
+			},
+			{
+				"title": "6-) How are Mentor-Mentee pairings made?",
+				"text": "In line with the mentoring program, Let's FutureUP team members take great thoroughness to match the appropriate mentor and mentee. While making pairings; many factors such as the expectations, goals, interests of the mentors and mentees from the project, and the department where the mentee is studying and the field where the mentor works are taken into consideration."
+			},
+			{
+				"title": "7-) How does the mentor selection process work?",
+				"text": "After completing the application form for the Mentoring Program, Let's FutureUP team conducts online interviews with mentor candidates. As a result of the evaluations, the most suitable mentors for the Mentoring Program are included in our project."
+			},
+			{
+				"title": "8-) How does the mentee selection process work?",
+				"text": "After the mentee application form is filled, the Let's FutureUP team evaluates the applications, the suitable candidates are invited to the online interviews and as a result of the interviews, the suitable candidates are included in our project."
+			},
+			{
+				"title": "9-) Will a certificate be given at the end of the project?",
+				"text": "Yes, at the end of the project, everyone who meets the conditions will be given an English certificate by Let's FutureUP so that they can add to their resume."
+			},
+			{
+				"title": "10-) What are the requirements to graduate from the program?",
+				"text": "Participating at least 80% of all events organized by the Let's FutureUP project and terminating the social responsibility project determined within the scope of the project are the conditions for graduation."
+			},
+			{
+				"title": "11-) What departments does the project team consist of?",
+				"text": "Let's FutureUP Mentoring Program and Student Development Program project team consists of six departments: Human Resources, Business Development, Corporate Communication, Foreign Relations, Startup and, Social Media and Digital Marketing. These departments are composed of university students from universities all over the World."
+			},
+			{
+				"title": "12-) What should I do to become a project team member?",
+				"text": "To become a Let's FutureUP team member, you must follow our team member recruitments on our social media accounts, fill out the application form on our website, and express yourself clearly in both application form and the interview."
+			}
+		]
 	},
 	"mentorship": {
 		"title": "Mentorship Program",
 		"desc": "While matching mentors and mentees, many conditions such as expectations, work/interest fields of them are taken into consideration. During the project, 7 meetings are arranged in total. These meetings lasts at least 45 minutes every month. Meetings could be organized face-to-face or online based on decision of mentor and mentee. It is possible that they are able to meet more than 7 times.",
-		"content": {
-			"Who is a Mentee?": "Mentees in the Let's FutureUP project are students who aim to take a step for their future careers, want to improve their knowledge and skills about the sector, wonder how to solve a problem in the most efficient way when they encounter it, apply for a mentor for this. Within the scope of the Let's FutureUP Project, 25 students studying in the 3rd and 4th grades of universities are selected as mentees through interviews and they are matched with the most suitable mentor. Mentees go through a period of 7 months in the company of mentors. In this process, they hold meetings with their mentor. After each meeting, they determine what they have contributed to them in that meeting and the topic of their next meeting. At the end of all interviews, they find answers to their questions, improve their knowledge-skills, learn to develop different solutions to problems and adapt to change.",
-			"Who is a Mentor?": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
-		}
+		"content": [
+			{
+				"title": "Who is a Mentee?",
+				"text": "Mentees in the Let's FutureUP project are students who aim to take a step for their future careers, want to improve their knowledge and skills about the sector, wonder how to solve a problem in the most efficient way when they encounter it, apply for a mentor for this. Within the scope of the Let's FutureUP Project, 25 students studying in the 3rd and 4th grades of universities are selected as mentees through interviews and they are matched with the most suitable mentor. Mentees go through a period of 7 months in the company of mentors. In this process, they hold meetings with their mentor. After each meeting, they determine what they have contributed to them in that meeting and the topic of their next meeting. At the end of all interviews, they find answers to their questions, improve their knowledge-skills, learn to develop different solutions to problems and adapt to change."
+			},
+			{
+				"title": "Who is a Mentor?",
+				"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
+			}
+		]
 	},
 	"student": {
 		"title": "Student Program",
@@ -129,10 +248,16 @@
 	"startup": {
 		"title": "StartUP",
 		"desc": "Let’s FutureUP carries out Startups by enabling production of ideas that are innovative and making differences within an approach which are susceptible to social and environmental issues.",
-		"content": {
-			"What is a StartUP?": "The word “StartUp” is naturalized into Turkish as “attempt” and has the meaning of “to begin”. “STARTUP” can be called briefly the entrepreneurial ideas that have continuity and are suitable for development and advance by providing service to large masses on that subject that someone can offer and use technology to determine a missing or new opinion.",
-			"How to build a StartUP?": "The word “StartUp” is naturalized into Turkish as “attempt” and has the meaning of “to begin”. “STARTUP” can be called briefly the entrepreneurial ideas that have continuity and are suitable for development and advance by providing service to large masses on that subject that someone can offer and use technology to determine a missing or new opinion."
-		}
+		"content": [
+			{
+				"title": "What is a StartUP?",
+				"text": "The word “StartUp” is naturalized into Turkish as “attempt” and has the meaning of “to begin”. “STARTUP” can be called briefly the entrepreneurial ideas that have continuity and are suitable for development and advance by providing service to large masses on that subject that someone can offer and use technology to determine a missing or new opinion."
+			},
+			{
+				"title": "How to build a StartUP?",
+				"text": "The word “StartUp” is naturalized into Turkish as “attempt” and has the meaning of “to begin”. “STARTUP” can be called briefly the entrepreneurial ideas that have continuity and are suitable for development and advance by providing service to large masses on that subject that someone can offer and use technology to determine a missing or new opinion."
+			}
+		]
 	},
 	"wetalk": {
 		"title": "WeTalk",
@@ -144,21 +269,30 @@
 	},
 	"talentup": {
 		"title": "TalentUP",
-		"content": {
-			"What is TalentUP Talent Development Program?": "Let’s FutureUP, offers various education programs at which students can participate to take a step to their careers. One of these education programs is TalentUP Skills Development Program. This program consists of valuable tranings which are suitable for preparatory, 1st and 2nd grades. In this program with chosen students, students have chance to improve themselves alongside taking advantage of courses they will take from experts and professionals in their sectors.",
-			"What does TalentUP Talent Development Program Aim?": [
-				"Let’s FutureUP project aims 5 fundamental points with TalentUP program:",
-				"• Likewise in our other student development programs, it aims for chosen students to gain networks from other chosen students and project team members.",
-				"• TalentUP Program aims to enhance abilities of its students, maket them gain new perspectives, synchronize their experiences which are obtained during the program with their own lives, under favor of the professionals’ experience and training they will receive from C level managers with the extent of our TalentUP Program.",
-				"• Teaching team work through volunteering and bringing social consciousness to chosen students through social responsibility projects are among our aims.",
-				"• Student development program focuses on efficiency and inform students in the topic of “How would the efficient study be?” and “How maximum efficiency can be taken from the work we do?”",
-				"• It encourages students to reach their dreams and goals after completing their education within the scope of student development programs and revealing their potential."
-			],
-			"What Trainings Does the TalentUP Project Provide?": [
-				"Let's FutureUP offers and continues to offer many trainings with student development programs.  Within the scope of the program, TalentUP aims to provide students various trainings such as “Time Management, CV Preparation Techniques, Entrepreneurship at University, Awareness, Design-Oriented Thinking”.",
-				"Students selected to the program by Let's FutureUP will acquire information regarding many subjects in the first years of the university with the trainings included in the student development program. They will gain skills that will make a difference and graduate the program as individuals with an international vision."
-			]
-		}
+		"content": [
+			{
+				"title": "What is TalentUP Talent Development Program?",
+				"text": "Let’s FutureUP, offers various education programs at which students can participate to take a step to their careers. One of these education programs is TalentUP Skills Development Program. This program consists of valuable tranings which are suitable for preparatory, 1st and 2nd grades. In this program with chosen students, students have chance to improve themselves alongside taking advantage of courses they will take from experts and professionals in their sectors."
+			},
+			{
+				"title": "What does TalentUP Talent Development Program Aim?",
+				"text": [
+					"Let’s FutureUP project aims 5 fundamental points with TalentUP program:",
+					"• Likewise in our other student development programs, it aims for chosen students to gain networks from other chosen students and project team members.",
+					"• TalentUP Program aims to enhance abilities of its students, maket them gain new perspectives, synchronize their experiences which are obtained during the program with their own lives, under favor of the professionals’ experience and training they will receive from C level managers with the extent of our TalentUP Program.",
+					"• Teaching team work through volunteering and bringing social consciousness to chosen students through social responsibility projects are among our aims.",
+					"• Student development program focuses on efficiency and inform students in the topic of “How would the efficient study be?” and “How maximum efficiency can be taken from the work we do?”",
+					"• It encourages students to reach their dreams and goals after completing their education within the scope of student development programs and revealing their potential."
+				]
+			},
+			{
+				"title": "What Trainings Does the TalentUP Project Provide?",
+				"text": [
+					"Let's FutureUP offers and continues to offer many trainings with student development programs.  Within the scope of the program, TalentUP aims to provide students various trainings such as “Time Management, CV Preparation Techniques, Entrepreneurship at University, Awareness, Design-Oriented Thinking”.",
+					"Students selected to the program by Let's FutureUP will acquire information regarding many subjects in the first years of the university with the trainings included in the student development program. They will gain skills that will make a difference and graduate the program as individuals with an international vision."
+				]
+			}
+		]
 	},
 	"announcements": {
 		"title": "Announcements",

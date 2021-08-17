@@ -1,10 +1,12 @@
 <template>
 	<div class="opinion-modal">
 		<div class="opinion-img">
-			<nuxt-img draggable="false" :src="imgLink" alt="" width="150px" />
+			<nuxt-img draggable="false" :src="`/img/index/opinions/${toUrl(item.name)}.png`" alt="" width="150px" />
 		</div>
-		<div class="opinion-text">
-			<div class="text">{{ text }}</div>
+		<div class="opinion-body">
+			<span class="name">{{ item.name }}</span>
+			<span class="position">{{ item.position }}</span>
+			<div class="text">{{ item.text }}</div>
 		</div>
 	</div>
 </template>
@@ -13,8 +15,20 @@
 export default {
 	name: "OpinionModal",
 	props: {
-		imgLink: String,
-		text: String,
+		item: Object,
+	},
+	methods: {
+		toUrl(text) {
+			return text
+				.toLowerCase()
+				.replace(/ /gim, "-")
+				.replace(/ğ/gim, "g")
+				.replace(/ü/gim, "u")
+				.replace(/ş/gim, "s")
+				.replace(/ı/gim, "i")
+				.replace(/ö/gim, "o")
+				.replace(/ç/gim, "c");
+		},
 	},
 };
 </script>
@@ -35,10 +49,20 @@ export default {
 			}
 		}
 	}
-	.opinion-text {
+	.opinion-body {
 		padding: 10px 0px;
-		display: flex;
-		justify-content: center;
+
+		.name {
+			display: block;
+			font-weight: 800;
+			font-size: 20px;
+		}
+		.position {
+			display: block;
+			font-weight: 800;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
 		.text {
 			font-weight: 500;
 			font-size: 18px;
