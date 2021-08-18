@@ -2,7 +2,7 @@
 	<div class="data-page">
 		<div class="container">
 			<div class="img">
-				<nuxt-img src="/img/placeholder.png" alt="" />
+				<nuxt-img draggable="false" :src="content.image" alt="" height="360" width="360" />
 			</div>
 			<div class="text">
 				<h2>{{ content.title }}</h2>
@@ -23,14 +23,9 @@ export default {
 
 <style lang="scss" scoped>
 .data-page {
+	margin-bottom: 10px;
 	.img {
-		max-height: 300px;
-		z-index: -1;
-		img {
-			max-height: 300px;
-			width: 100%;
-			height: auto;
-		}
+		text-align: center;
 	}
 	.text {
 		p {

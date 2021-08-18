@@ -45,7 +45,6 @@ export default {
 	margin: 10px 0;
 	text-align: center;
 	width: 100%;
-	max-height: 500px;
 	user-select: none;
 	.title {
 		display: inline-block;

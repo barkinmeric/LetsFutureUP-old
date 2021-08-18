@@ -2,7 +2,7 @@
 	<section class="project-team">
 		<div class="container">
 			<div class="img">
-				<nuxt-img :src="$t('team.img')" alt="" />
+				<nuxt-img draggable="false" :src="$t('team.img')" alt="" />
 			</div>
 			<div class="text">
 				<h2>{{ $t("team.title") }}</h2>

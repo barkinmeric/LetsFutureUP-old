@@ -4,17 +4,17 @@
 			<slider-inner>
 				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
 					<icon-play-button width="96px" height="96px" />
-					<nuxt-img draggable="false" :src="$t('slider.thumbnail')" alt="carousel2" height="700px" width="1920px" style="cursor:pointer;" />
+					<nuxt-img draggable="false" :src="$t('slider.thumbnail')" alt="carousel2" style="cursor:pointer;" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img draggable="false" :src="$t('slider.2')" alt="carousel2" />
+					<nuxt-img draggable="false" :src="$t('slider.2')" alt="carousel2" loading="lazy" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img draggable="false" :src="$t('slider.3')" alt="carousel3" />
+					<nuxt-img draggable="false" :src="$t('slider.3')" alt="carousel3" loading="lazy" />
 				</div>
 			</slider-inner>
 		</slider>

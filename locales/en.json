@@ -20,8 +20,8 @@
 	},
 	"slider": {
 		"1": "/img/index/slider/en/1.mp4",
-		"2": "/img/index/slider/tr/2.png",
-		"3": "/img/index/slider/tr/3.png",
+		"2": "/img/index/slider/en/2.png",
+		"3": "/img/index/slider/en/3.png",
 		"thumbnail": "/img/index/slider/en/thumbnail.png"
 	},
 	"motto": "gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
@@ -86,12 +86,12 @@
 				"text": "During my professional career, I saw some lacks in developing strategies, determining goals and making decisions in my new colleagues or the colleagues who have a long-term working experience. I always thought that this is a solvable problem. With Let’s FutureUP; we could solve these problems with helping the students with our experiences. Also this program is a chance for mentors to recognize the new generation. In my opinion, participating in a productive, initiative and communication- oriented project process is very important for our students. This process can help to understand the place of theoretical knowledge and perform them in the coming years. Moreover, students can learn from their mentors about solving problems, communication, critical thinking, making decisions, taking responsibilities and establishing networks with this Project. In brief, I believe that this Project could affect students’ careers in better ways. Also, I’d like to thank everyone to gathering these people around a purpose and getting results in the period of pandemic. "
 			},
 			{
-				"name": "Eman Martin- Vignerte",
+				"name": "Eman Martin-Vignerte",
 				"position": "Director of External Affairs, Governmenal& Political Relations at Robert Bosch UK",
 				"text": "There’s probably been countless moments in your life where you’ve leaned on someone you trust for advice or assistance. Whether the person you turn to is a professor, friend, family member, athletic coach or other, the importance of mentors/trainers is undeniable. This project can help to guide, direct, and shape the student present situation and future opportunities for the better!"
 			},
 			{
-				"name": "Mirseda Kudric",
+				"name": "Mirsada Kudric",
 				"position": "General Manager of Robert Bosch Croatia& Robert Bosch Slovenia",
 				"text": "In the time of technological advancement, when technology is replacing the man in an ever-widening segment, I find mentoring programs such as this one to be more important than ever before. Human contact, in all segments, has gained a significant importance. The same applies to mentoring. Unfortunately, young people have a limited access to other people's knowledge, experience, support – to everything that can significantly help them on their development path. And this is precisely the responsibility of those who can and should share this wealth selflessly. In this way both sides are ennobled. It is an opportunity for the mentor to pass on a part of his acquired experience and knowledge to new generations on which the world rests, thus indirectly influencing the creation of a better tomorrow."
 			}
@@ -108,7 +108,7 @@
 	},
 	"about": {
 		"title": "About Us",
-		"img": "/img/pages/tr/hakkimizda.png",
+		"img": "/img/pages/en/about.png",
 		"content": [
 			{
 				"title": "LET’S FUTURE UP PROJECT VISION-MISSION",
@@ -137,7 +137,7 @@
 	},
 	"story": {
 		"title": "Our Story",
-		"img": "/img/pages/tr/hikayemiz.png",
+		"img": "/img/pages/en/story.png",
 		"content": [
 			"Before the beginning of 2020, If you asked what pandemic is, we would definitely search at Google. It was not the situation we have experienced before.",
 			"Now, we know that this was an outbreak that make people stay at their homes, construct social distance with other people and enforce them to embrace New World Order. While New World Order was mentioned during Pandemic, we intended to build this new order together and we took the road with the notion “Guiding to Future”.",
@@ -147,7 +147,7 @@
 	},
 	"team": {
 		"title": "Project Team",
-		"img": "/img/pages/tr/proje-ekibi.png",
+		"img": "/img/pages/en/team.png",
 		"desc": "Let’s FutureUP project consists of six departments including Human Resources, Business Development, Corporate Communication, External Affairs, Startup, Social Media and Digital Marketing. Students from various universities comprise these departments.",
 		"content": [
 			{
@@ -177,8 +177,8 @@
 		]
 	},
 	"faq": {
-		"title": "FAQ",
-		"img": "/img/pages/tr/sss.png",
+		"title": "Frequently Asked Questions",
+		"img": "/img/pages/en/faq.png",
 		"content": [
 			{
 				"title": "1-) How long does the project last?",
