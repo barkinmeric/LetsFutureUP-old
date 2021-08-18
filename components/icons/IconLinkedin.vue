@@ -1,7 +1,6 @@
 <template>
-	<svg viewBox="0 0 56.69 56.69" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" aria-labelledby="icon-linkedin" role="presentation">
-		<title id="icon-linkedin" lang="en">Linkedin icon</title>
-		<g :fill="iconColor">
+	<svg viewBox="0 0 56.69 56.69" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height">
+		<g>
 			<path
 				d="M6.95,21.79h9.17v29.5H6.95V21.79z M11.54,7.13c2.93,0,5.31,2.38,5.31,5.32c0,2.93-2.38,5.31-5.31,5.31
 			c-2.94,0-5.31-2.38-5.31-5.31C6.22,9.51,8.6,7.13,11.54,7.13"
@@ -25,10 +24,6 @@ export default {
 		height: {
 			type: [Number, String],
 			default: 18,
-		},
-		iconColor: {
-			type: String,
-			default: "currentColor",
 		},
 	},
 };

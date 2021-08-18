@@ -1,7 +1,6 @@
 <template>
-	<svg viewBox="0 0 310 310" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" aria-labelledby="icon-facebook" role="presentation">
-		<title id="icon-facebook" lang="en">Facebook icon</title>
-		<g :fill="iconColor">
+	<svg viewBox="0 0 310 310" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height">
+		<g>
 			<path
 				d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
 		c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
@@ -24,10 +23,6 @@ export default {
 		height: {
 			type: [Number, String],
 			default: 18,
-		},
-		iconColor: {
-			type: String,
-			default: "currentColor",
 		},
 	},
 };

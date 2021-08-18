@@ -4,7 +4,7 @@
 			<slider-inner>
 				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
 					<icon-play-button width="96px" height="96px" />
-					<nuxt-img draggable="false" :src="$t('slider.thumbnail')" alt="carousel2" style="cursor:pointer;" />
+					<nuxt-img draggable="false" :src="$t('slider.thumbnail')" alt="thumbnail" style="cursor:pointer;" />
 				</div>
 			</slider-inner>
 			<slider-inner>
@@ -19,8 +19,8 @@
 			</slider-inner>
 		</slider>
 		<div class="videoModal" v-show="toggleModal">
-			<span @click="(toggleModal = false) & pauseVideo()" class="close"><icon-times width="32px" height="32px" iconColor="#ccc"/></span>
-			<video @click="!$event.target.paused ? pauseVideo() : playVideo()" @touchstart="!$event.target.paused ? pauseVideo() : playVideo()" controls preload="none">
+			<span @click="(toggleModal = false) & pauseVideo()" class="close"><icon-times width="32px" height="32px" color="#ccc"/></span>
+			<video @click="!$event.target.paused ? pauseVideo() : playVideo()" @touchstart="!$event.target.paused ? pauseVideo() : playVideo()" preload="none">
 				<source :src="$t('slider.1')" type="video/mp4" />
 			</video>
 		</div>
@@ -91,8 +91,7 @@ export default {
 			&:hover {
 				cursor: pointer;
 				svg {
-					// background-color: $mainColor;
-					filter: grayscale(1);
+					color: white;
 				}
 			}
 		}

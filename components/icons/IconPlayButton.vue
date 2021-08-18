@@ -1,7 +1,6 @@
 <template>
-	<svg viewBox="0 0 477.867 477.867" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" aria-labelledby="icon-play-button" role="presentation">
-		<title id="icon-play-button" lang="en">Play Button icon</title>
-		<g :fill="iconColor">
+	<svg viewBox="0 0 477.867 477.867" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height">
+		<g>
 			<path
 				d="M238.933,0C106.974,0,0,106.974,0,238.933s106.974,238.933,238.933,238.933s238.933-106.974,238.933-238.933
 			C477.726,107.033,370.834,0.141,238.933,0z M339.557,246.546c-1.654,3.318-4.343,6.008-7.662,7.662v0.085L195.362,322.56
@@ -23,10 +22,6 @@ export default {
 		height: {
 			type: [Number, String],
 			default: 18,
-		},
-		iconColor: {
-			type: String,
-			default: "currentColor",
 		},
 	},
 };

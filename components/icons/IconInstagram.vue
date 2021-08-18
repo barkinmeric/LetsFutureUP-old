@@ -1,7 +1,6 @@
 <template>
-	<svg viewBox="0 0 56.69 56.69" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" aria-labelledby="icon-instagram" role="presentation">
-		<title id="icon-instagram" lang="en">Instagram icon</title>
-		<g :fill="iconColor">
+	<svg viewBox="0 0 56.69 56.69" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height">
+		<g>
 			<path
 				d="M38.7,2.18H18.62C9.71,2.18,2.49,9.4,2.49,18.3v20.09c0,8.91,7.22,16.12,16.13,16.12H38.7c8.91,0,16.13-7.22,16.13-16.12
 			V18.3C54.83,9.4,47.61,2.18,38.7,2.18z M49.81,36.46c0,7.2-5.84,13.03-13.03,13.03H20.54c-7.2,0-13.03-5.83-13.03-13.03V20.23
@@ -31,10 +30,6 @@ export default {
 		height: {
 			type: [Number, String],
 			default: 18,
-		},
-		iconColor: {
-			type: String,
-			default: "currentColor",
 		},
 	},
 };

@@ -7,11 +7,11 @@
 				</div>
 
 				<div class="mobile-menu-button" @click="toggleMobileMenu()" v-show="!isMobileMenuActive">
-					<icon-bars width="32px" height="32px" iconColor="black" />
+					<icon-bars width="32px" height="32px" color="black" />
 				</div>
 
 				<div class="mobile-menu-button" @click="toggleMobileMenu()" v-show="isMobileMenuActive">
-					<icon-times width="32px" height="32px" iconColor="black" />
+					<icon-times width="32px" height="32px" color="black" />
 				</div>
 			</div>
 		</div>
