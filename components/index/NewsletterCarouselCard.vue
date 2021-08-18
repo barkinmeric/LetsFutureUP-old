@@ -3,13 +3,13 @@
 		<div class="container">
 			<div class="card-item">
 				<div class="card-head">
-					<nuxt-img draggable="false" src="/img/placeholder.png" height="180" width="280" alt="" />
+					<nuxt-img draggable="false" :src="item.image" height="180" width="180" alt="" />
 				</div>
 				<div class="card-body">
 					<NuxtLink :to="`${localePath(section)}/${toUrl(item.title)}`"
 						><h2>{{ item.title }}</h2>
 					</NuxtLink>
-					<p>{{ truncate(item.text, 200) }}</p>
+					<p>{{ truncate(item.text, 250) }}</p>
 					<span>{{ item.date }}</span>
 				</div>
 			</div>
@@ -55,14 +55,14 @@ export default {
 	padding: 10px;
 	.card-item {
 		display: grid;
-		grid-template-columns: 280px 1fr;
+		grid-template-columns: 180px 1fr;
 		justify-content: start;
 		padding: 10px;
 		height: auto;
 		background: #12203c;
 		border-radius: 10px;
 		.card-head {
-			width: 280px;
+			width: 180px;
 			img {
 				border-radius: 10px;
 			}
@@ -122,6 +122,7 @@ export default {
 				padding-left: 0px;
 				display: grid;
 				grid-template-rows: auto auto auto;
+				text-align: center;
 				h2 {
 					display: inline-block;
 					font-size: 18px;

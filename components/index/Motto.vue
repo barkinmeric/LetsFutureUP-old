@@ -1,6 +1,6 @@
 <template>
 	<div class="motto">
-		<div class="container">Let’s Future<span class="green">UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.</div>
+		<div class="container">Let’s Future<span class="green">UP</span>, {{ $t("motto") }}</div>
 	</div>
 </template>
 

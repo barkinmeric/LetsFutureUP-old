@@ -298,14 +298,10 @@
 		"title": "Announcements",
 		"content": [
 			{
-				"title": "Announcement1",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
-				"date": "10.07.2021"
-			},
-			{
-				"title": "Announcement2",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
-				"date": "10.07.2021"
+				"title": "Mentor & Mentee Applications Started",
+				"text": "",
+				"image": "/img/index/announcements/en/1.png",
+				"date": "18.08.2021"
 			}
 		]
 	},
@@ -313,14 +309,28 @@
 		"title": "Events",
 		"content": [
 			{
-				"title": "Event1",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
+				"title": "International Support To Let’s FutureUP 1",
+				"text": "We met with Bosch England Director Ms. Eman Martin-Vignerte regarding the Let's FutureUP project. Ms. Eman was so impressed with our work that she extended her support to our program in the next semester into 2022. This is a great step for the Let's FutureUP organization to have such great contributors on board. Let's FutureUP is one step on the way to success!",
+				"image": "/img/index/events/en/1.png",
 				"date": "10.07.2021"
 			},
 			{
-				"title": "Event2",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
-				"date": "10.07.2021"
+				"title": "International Support To Let’s FutureUP 2",
+				"text": "We proudly announce that Ms Mirsada Kudric, the General Manager of BOSCH Croatia and Slovakia, now is a part of our Let’s FutureUP Mentorship Program. In regards to that she will be willing to share and coach the selected young people about various fields related to career skills and opportunities to our program in the next semester of 2022. Her competencies and experiences will be highly valuable for the youth who are preparing to enter the job market. Thus, what are you waiting for? Apply and join our project!",
+				"image": "/img/index/events/en/2.png",
+				"date": "15.07.2021"
+			},
+			{
+				"title": "International Support To Let’s FutureUP 3",
+				"text": "Our Let's FutureUP team met with Dogan Esiyok at the meeting with Bosch Germany. At the meeting, we were able to get the support of Bosch Germany by talking about our new term goals and projects. Our project, which has taken great steps globally, was also appreciated by Bosch Germany. Together with our volunteers, we are achieving our goal of reaching more students in the new term! Let’s FutureUP is one step closer to the success!",
+				"image": "/img/index/events/en/3.png",
+				"date": "17.07.2021"
+			},
+			{
+				"title": "Let's FutureUP Celebrates Its 1st Anniversary!",
+				"text": "Let's FutureUP Celebrates Its 1st Anniversary! We have left behind the first year of our project, which we started with great motivation and excitement as a team. The FutureUP team, which has been advancing with strength in the online platform with the bond of “volunteering” since the day it was founded, came together this time in Bursa Workinton. The team, which has accomplished great things together throughout the term, shared their ideas face to face this time and talked about their strategies for the next period. To Workinton Bursa, one of our sponsors who did not leave us alone on this special day; Thank you to Hacihasanogullari Baklava for being a part of this meaningful volunteer platform and supporting us! Stay tuned for the new term applications to touch the lives of more people in the new term and to be a part of our team. Love, Let's FutureUP",
+				"image": "/img/index/events/en/4.png",
+				"date": "02/08/2021"
 			}
 		]
 	},
