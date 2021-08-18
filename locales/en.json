@@ -7,7 +7,7 @@
 
 		"do": {
 			"title": "What Are We Doing?",
-			"content": ["News", "Events", "Announcements"]
+			"content": ["Events", "Announcements"]
 		},
 		"career": {
 			"title": "Hello To Career",
@@ -24,7 +24,7 @@
 		"3": "/img/index/slider/en/3.png",
 		"thumbnail": "/img/index/slider/en/thumbnail.png"
 	},
-	"motto": "gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
+	"motto": "Let’s Future<span style='color: #00ff00;'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
 	"hello-career": {
 		"title": "Hello Career",
 		"mentorship": {
@@ -105,6 +105,12 @@
 			{ "text": "MARCH 2021", "image": "/img/index/e-bulletin/en/03-2021.png", "file": "/files/e-bulletin/en/03-2021.pdf" },
 			{ "text": "APRIL 2021", "image": "/img/index/e-bulletin/en/04-2021.png", "file": "/files/e-bulletin/en/04-2021.pdf" }
 		]
+	},
+	"join-us": {
+		"title": "Sen de bize katılmak ister misin?",
+		"button": "Join Us!",
+		"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
+		"link": ""
 	},
 	"about": {
 		"title": "About Us",
@@ -331,21 +337,6 @@
 				"text": "Let's FutureUP Celebrates Its 1st Anniversary! We have left behind the first year of our project, which we started with great motivation and excitement as a team. The FutureUP team, which has been advancing with strength in the online platform with the bond of “volunteering” since the day it was founded, came together this time in Bursa Workinton. The team, which has accomplished great things together throughout the term, shared their ideas face to face this time and talked about their strategies for the next period. To Workinton Bursa, one of our sponsors who did not leave us alone on this special day; Thank you to Hacihasanogullari Baklava for being a part of this meaningful volunteer platform and supporting us! Stay tuned for the new term applications to touch the lives of more people in the new term and to be a part of our team. Love, Let's FutureUP",
 				"image": "/img/index/events/en/4.png",
 				"date": "02/08/2021"
-			}
-		]
-	},
-	"news": {
-		"title": "News",
-		"content": [
-			{
-				"title": "New1",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
-				"date": "10.07.2021"
-			},
-			{
-				"title": "New2",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
-				"date": "10.07.2021"
 			}
 		]
 	}

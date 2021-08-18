@@ -64,14 +64,6 @@ const pages = {
 		tr: "/etkinlikler/:name",
 		en: "/events/:name",
 	},
-	"news/index": {
-		tr: "/haberler",
-		en: "/news",
-	},
-	"news/_name": {
-		tr: "/haberler/:name",
-		en: "/news/:name",
-	},
 };
 
 export { i18n, pages };

@@ -1,6 +1,6 @@
 <template>
 	<div class="motto">
-		<div class="container">Let’s Future<span class="green">UP</span>, {{ $t("motto") }}</div>
+		<div class="container"><p v-html="$t('motto')"></p></div>
 	</div>
 </template>
 
@@ -19,9 +19,5 @@ export default {
 	background: #292929;
 	color: #fff;
 	letter-spacing: 1px;
-	span.green {
-		color: #00ff00;
-		font-weight: 700;
-	}
 }
 </style>

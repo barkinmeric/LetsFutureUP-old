@@ -12,6 +12,7 @@
 		<desktop-partner />
 		<mobile-supporter />
 		<desktop-supporter />
+		<join-us />
 	</div>
 </template>
 

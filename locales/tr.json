@@ -7,7 +7,7 @@
 
 		"do": {
 			"title": "Neler Yapıyoruz?",
-			"content": ["Haberler", "Etkinlikler", "Duyurular"]
+			"content": ["Etkinlikler", "Duyurular"]
 		},
 		"career": {
 			"title": "Kariyerine MerhabaDE",
@@ -24,7 +24,7 @@
 		"3": "/img/index/slider/tr/3.png",
 		"thumbnail": "/img/index/slider/tr/thumbnail.png"
 	},
-	"motto": "gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere, mentorluk ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
+	"motto": "Let’s Future<span style='color: #00ff00;'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
 	"hello-career": {
 		"title": "Kariyerine MerhabaDE",
 		"mentorship": {
@@ -105,6 +105,12 @@
 			{ "text": "MART 2021", "image": "/img/index/e-bulletin/tr/03-2021.png", "file": "/files/e-bulletin/tr/03-2021.pdf" },
 			{ "text": "NİSAN 2021", "image": "/img/index/e-bulletin/tr/04-2021.png", "file": "/files/e-bulletin/tr/04-2021.pdf" }
 		]
+	},
+	"join-us": {
+		"title": "Sen de bize katılmak ister misin?",
+		"button": "Bize Katıl!",
+		"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
+		"link": ""
 	},
 	"about": {
 		"title": "Hakkımızda",
@@ -328,21 +334,6 @@
 				"text": "Let's FutureUP 1. Yılını Kutluyor! Ekip olarak büyük motivasyon ve heyecanla başladığımız projemizin ilk senesini geride bıraktık. Kurulduğu günden itibaren “gönüllülük bağıyla, online platformda, güçle ilerleyen FutureUP ekibi bu kez Bursa Workinton'da bir araya geldi. Yeni dönemde daha çok kişinin hayatına dokunmak ve ekibimizin bir parçası olmak için yeni dönem başvurularını takipte kalın. Sevgiler, Let's FutureUP",
 				"image": "/img/index/events/tr/4.png",
 				"date": "02/08/2021"
-			}
-		]
-	},
-	"news": {
-		"title": "Haberler",
-		"content": [
-			{
-				"title": "Haber1",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
-				"date": "10.07.2021"
-			},
-			{
-				"title": "Haber2",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et scelerisque ex. Sed sed dolor dolor. Sed posuere sem aliquam mauris venenatis mattis. Nam ultrices nisl libero, eu porttitor arcu scelerisque sit amet. Donec dui sapien, pretium ut luctus et, molestie vel ex. Quisque iaculis vitae nulla finibus varius. Nunc ut lacus risus. Nam malesuada urna id leo consectetur, eu consequat est mattis. Sed neque magna, porta et orci vitae, dignissim laoreet tellus. Donec et molestie erat. Nullam venenatis felis et erat pellentesque iaculis. Nam bibendum urna sed eros elementum, vitae pretium mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam venenatis porttitor egestas. Phasellus efficitur et sem eu facilisis. Vestibulum porttitor lorem vel massa rhoncus finibus.",
-				"date": "10.07.2021"
 			}
 		]
 	}
