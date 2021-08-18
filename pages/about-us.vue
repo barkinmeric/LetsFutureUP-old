@@ -50,7 +50,7 @@ export default {
 			font-weight: normal;
 		}
 		ul {
-			padding: 0px;
+			padding: 5px 0px 10px 0px;
 		}
 		h2 {
 			font-size: 20px;

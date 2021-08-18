@@ -1,6 +1,7 @@
 <template>
 	<section class="mentorship-program">
 		<div class="container">
+			<mentorship-collapsible />
 			<div class="img">
 				<!-- <nuxt-img :src="$t('team.img')" alt="" /> -->
 			</div>
