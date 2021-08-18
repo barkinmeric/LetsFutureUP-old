@@ -102,4 +102,13 @@ export default {
 		}
 	}
 }
+@media (max-width: 1200px) {
+	.index-carousel {
+		.videoModal {
+			video {
+				width: 100%;
+			}
+		}
+	}
+}
 </style>
