@@ -38,7 +38,7 @@ export default {
 	methods: {
 		playVideo() {
 			this.$el.lastChild.lastChild.play();
-			window.clearInterval(this.$children[0].intervalId);
+			// window.clearInterval(this.$children[0].intervalId);
 		},
 		pauseVideo() {
 			this.$el.lastChild.lastChild.pause();

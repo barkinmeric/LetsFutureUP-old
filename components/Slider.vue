@@ -9,7 +9,7 @@
 				<button @click.prevent="prev" class="btn btn-prev">‹</button>
 			</div>
 			<div v-show="pagination" class="pagination">
-				<span v-for="i in slidesLength" :key="i" @click="scroll(i - 1)" class="dot" :style="coordinate == (i - 1) * -100 ? 'background-color:black;' : null"></span>
+				<span v-for="i in slidesLength" :key="i" @click="scroll(i - 1)" class="dot" :style="coordinate == (i - 1) * -100 ? 'background-color:#00ff00;' : null"></span>
 			</div>
 		</div>
 	</div>
@@ -84,12 +84,12 @@ export default {
 				height: 15px;
 				width: 15px;
 				background-color: rgba($color: white, $alpha: 0.5);
-				border: 1px solid rgba($color: black, $alpha: 0.5);
+				border: 1px solid rgba($color: #ccc, $alpha: 0.5);
 				border-radius: 50%;
 				display: inline-block;
 				&:hover {
-					background-color: black;
-					border-color: black;
+					background-color: $sideColor;
+					border-color: $sideColor;
 				}
 			}
 		}

@@ -10,7 +10,7 @@
 			"content": ["Etkinlikler", "Duyurular"]
 		},
 		"career": {
-			"title": "Kariyerine MerhabaDE",
+			"title": "Kariyerine MerhabaDE!",
 			"content": ["Mentorluk Programı", "Öğrenci Gelişim Programı", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		},
 		"join-us": {
@@ -26,7 +26,7 @@
 	},
 	"motto": "Let’s Future<span style='color: #00ff00;'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
 	"hello-career": {
-		"title": "Kariyerine MerhabaDE",
+		"title": "Kariyerine MerhabaDE!",
 		"mentorship": {
 			"title": "Mentorluk Programı",
 			"text": "Let’s FutureUP bünyesindeki öğrencileri profesyonel hayata hazırlamak için alanında profesyonel ve fark yaratan mentor ve menteelerle bağlantı kurabilmelerini sağlar. Bu amaçla projemizde yer alan öğrencilere 7 ay boyunca her ay en az 45 dakika olmak üzere online ya da yüz yüze olabilecek şekilde en az 7 görüşme yapma fırsatı sunulur. Mentor ve menteelerin eşleşmeleri ; mentor ve menteelerin beklentileri, çalışma alanları, ilgi alanları gibi birçok etken doğrultusunda yapılır. Bu programın sonunda öğrenciler, çalışma hayatlarında kendilerine ışık tutabilecek değerli tecrübeler kazanmakla kalmaz ayrıca alanında öncü isimlerle tanışmış ve kendilerini de onlara tanıtma fırsatı yakalamış olurlar."
@@ -53,7 +53,7 @@
 		}
 	},
 	"opinion": {
-		"title": "Let's FutureUP Hakkında Neler Düşünülüyor",
+		"title": "Kariyerinin zirvesindeki isimlerden Let's FutureUP'ı Tanıyalım",
 		"content": [
 			{
 				"name": "Taner KARSLIOĞLU",
@@ -242,7 +242,51 @@
 				"title": "Mentor Nedir?",
 				"text": "Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından alanında uzman kişiler detaylı bir şekilde araştırılır ve ilgili kişilerin mentorluk başvurusu alınır. Seçilen her mentorun sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en iyi şekilde kariyer yolculuklarına hazırlar."
 			}
-		]
+		],
+		"collapsible": {
+			"mentors": {
+				"title": "MENTÖRLER",
+				"content": [
+					"İskender Ulusay",
+					"Tanju Özkonuk",
+					"İsmail Yamangil",
+					"Arif Kaya",
+					"Bülent Kaçar",
+					"Yusuf Ziya Yüce",
+					"Taner Karslıoğlu",
+					"Gürkan Kantarcı",
+					"Ali Yağcı",
+					"Seval Öz",
+					"Ali Yaşar Topçu",
+					"Nur Sena Duman",
+					"Mustafa Bulut",
+					"Sebutay Göksu",
+					"Esen Öztemel",
+					"Erol Sapçı"
+				]
+			},
+			"mentees": {
+				"title": "MENTEELER",
+				"content": [
+					"Burcu Akgöz",
+					"Elif Çanga",
+					"Emre Günhan",
+					"Magdalena Tihon",
+					"Simge Bakış",
+					"Tuğba Buse Kılıç",
+					"Seda Kanburoğlu",
+					"Seran Saltık",
+					"Serra Tatlıcılar",
+					"Alperen Adatepe",
+					"Nida Ertan",
+					"Nur Sena Duman",
+					"Oğuzhan Boğaz",
+					"Ezgi Topaloğlu",
+					"Yusuf İzzettin Biçer",
+					"Ezgi Uysal"
+				]
+			}
+		}
 	},
 	"student": {
 		"title": "Öğrenci Gelişim Programı",

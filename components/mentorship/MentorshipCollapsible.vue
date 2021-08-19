@@ -2,8 +2,22 @@
 	<div class="mentorship-collapsible">
 		<button @click="toggleCollapsible = !toggleCollapsible" :class="{ active: toggleCollapsible }" type="button" class="collapsible">2020-2021</button>
 		<div class="content" v-show="toggleCollapsible">
-			<mentorship-collapsible-item />
-			<mentorship-collapsible-item />
+			<div class="mentorship-collapsible-item">
+				<div class="container">
+					<div class="title">{{ $t("mentorship.collapsible.mentors.title") }}</div>
+					<div class="flex-container">
+						<mentorship-modal v-for="item in $t('mentorship.collapsible.mentors.content')" :key="item" :name="item" />
+					</div>
+				</div>
+			</div>
+			<div class="mentorship-collapsible-item">
+				<div class="container">
+					<div class="title">{{ $t("mentorship.collapsible.mentees.title") }}</div>
+					<div class="flex-container">
+						<mentorship-modal v-for="item in $t('mentorship.collapsible.mentees.content')" :key="item" :name="item" />
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -54,6 +68,22 @@ export default {
 		padding: 0 18px;
 		overflow: hidden;
 		background-color: #f1f1f1;
+	}
+	.mentorship-collapsible-item {
+		text-align: center;
+		.title {
+			display: inline-block;
+			padding-top: 15px;
+			color: black;
+			font-weight: 500;
+			font-size: 22px;
+			border-bottom: 2px solid $sideColor;
+		}
+		.flex-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
 	}
 }
 </style>
