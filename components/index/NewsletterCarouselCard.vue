@@ -7,7 +7,7 @@
 				</div>
 				<div class="card-body">
 					<NuxtLink :to="`${localePath(section)}/${toUrl(item.title)}`"
-						><h2>{{ item.title }}</h2>
+						><h5>{{ item.title }}</h5>
 					</NuxtLink>
 					<p>{{ truncate(item.text, 250) }}</p>
 					<span>{{ item.date }}</span>
@@ -72,7 +72,7 @@ export default {
 			display: grid;
 			grid-template-rows: auto auto auto;
 			text-align: left;
-			h2 {
+			h5 {
 				display: inline-block;
 				font-size: 18px;
 				font-weight: 600;

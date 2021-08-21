@@ -14,13 +14,16 @@
 					<icon-times width="32px" height="32px" color="black" />
 				</div>
 			</div>
-		</div>
-
-		<div class="mobile-menu" v-show="isMobileMenuActive">
-			<mobile-navbar-dropdown tab="nav.us" />
-			<mobile-navbar-dropdown tab="nav.do" />
-			<mobile-navbar-dropdown tab="nav.career" />
-			<!-- <span class="menu-button"><a href="bize-katil">Bize Katıl</a></span> -->
+			<div class="mobile-menu" v-show="isMobileMenuActive">
+				<mobile-navbar-dropdown tab="nav.us" />
+				<mobile-navbar-dropdown tab="nav.do" />
+				<mobile-navbar-dropdown tab="nav.career" />
+				<a :href="$t('nav.join-us.link')">
+					<h3 class="join">
+						{{ $t("nav.join-us.title") }}
+					</h3>
+				</a>
+			</div>
 		</div>
 	</div>
 </template>
@@ -50,18 +53,31 @@ export default {
 .mobile-navbar {
 	.flex-container {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
 		.logo {
-			vertical-align: middle;
-			left: 0;
+			margin-right: auto;
 			padding: 8px 16px 0px 16px;
 		}
 		.mobile-menu-button {
-			vertical-align: middle;
-			right: 0;
-			padding: 8px 16px 1px 16px;
+			margin-left: auto;
+			margin-right: 16px;
 			cursor: pointer;
+			width: 32px;
+			height: 32px;
+		}
+	}
+	.mobile-menu {
+		.join {
+			text-align: left;
+			width: 100%;
+			line-height: 40px;
+			font-weight: 600;
+			font-size: 14px;
+			letter-spacing: 2px;
+			background-color: #fff;
+			color: $mainColor;
+			cursor: pointer;
+			padding: 12px 16px;
 		}
 	}
 }

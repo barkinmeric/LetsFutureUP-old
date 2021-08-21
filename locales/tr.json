@@ -66,7 +66,7 @@
 				},
 				{
 					"name": "Gürkan KANTARCI",
-					"place": "RB Karesi Tekstil",
+					"place": "RB Karesi Holding",
 					"position": "Üretim Yöneticisi",
 					"image": "/img/pages/index/opinions/gurkan-kantarci.png",
 					"text": "Gönüllülük esasına dayalı bir sosyal sorumluluk projesi olan Let's FutureUP oluşumunu, geleceğe umutla bakacak kalifiye bireylerin yetişmesi için destek verebileceğim bir aracı platform olarak gördüm. Cebimde bugüne kadar biriktirdiğim tecrübelerimi, geleceği şekillendirecek olan gençlerle paylaşmak suretiyle onların bu tecrübelerden yola çıkarak kendi rotalarını belirlemelerine katkı sağlamak arzusu doğrultusunda Let's Future Up projesinde yer almak istedim. Proje sonunda kendini daha iyi ifade edebilen, hedeflerini daha net belirleyebilen, sahip olduğu vasıfları hakkında farkındalıkları yüksek olan, iş hayatı ile ilgili bilinç seviyesini birkaç adım ileriye taşıyan ve almış olduğu ayrıcalıklı eğitimlerle kişisel gelişimine katkı sağlayan cesur ve umut dolu adayların, programda yer alma şansı bulamayan diğer adaylara kıyasla kariyer açısından avantajlı bir konum elde ettiklerini düşünmekteyim. Bu nedenle evet, bu proje bir öğrencinin kariyerini değiştirebilir."
@@ -128,7 +128,7 @@
 			"title": "Danışma Kurulu",
 			"content": [
 				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/index/board/erol-sapci.png" },
-				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Tekstil", "position": "Üretim Müdürü", "image": "/img/pages/index/board/gurkan-kantarci.png" },
+				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/index/board/gurkan-kantarci.png" },
 				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/img/pages/index/board/iskender-ulusay.png" },
 				{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/img/pages/index/board/tanju-ozkonuk.png" },
 				{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/index/board/yusuf-ziya-yuce.png" }
@@ -302,7 +302,7 @@
 						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/bulent-kacar.jpg" },
 						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/mentorship-program/mentor/yusuf-ziya-yuce.jpg" },
 						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
-						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Tekstil", "position": "Üretim Müdürü", "image": "/img/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
+						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
 						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/img/pages/mentorship-program/mentor/ali-yagci.jpg" },
 						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/img/pages/mentorship-program/mentor/seval-oz.jpg" },
 						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },

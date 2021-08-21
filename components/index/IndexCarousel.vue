@@ -19,7 +19,7 @@
 			</slider-inner>
 		</slider>
 		<div class="videoModal" v-show="toggleModal">
-			<span @click="(toggleModal = false) & pauseVideo()" class="close"><icon-times width="32px" height="32px" color="#ccc"/></span>
+			<span @click="(toggleModal = false) & pauseVideo()" class="close"><icon-times width="32px" height="32px"/></span>
 			<video @click="!$event.target.paused ? pauseVideo() : playVideo()" @touchstart="!$event.target.paused ? pauseVideo() : playVideo()" preload="none">
 				<source :src="$t('index.slider.1')" type="video/mp4" />
 			</video>
@@ -62,6 +62,9 @@ export default {
 			top: 50%;
 			transform: translate(-50%, -50%);
 			cursor: pointer;
+			border-radius: 100%;
+			box-shadow: 0px 0px 5px 1px $sideColor;
+			color: #d4d4d4;
 		}
 		img {
 			min-height: 200px;

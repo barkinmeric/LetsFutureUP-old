@@ -1,7 +1,7 @@
 <template>
 	<div class="newsletter-carousel">
 		<NuxtLink :to="localePath(toUrl($t(`${section}.title`, 'en')))">
-			<div class="title">{{ $t(`${section}.title`) }}</div>
+			<h4 class="title">{{ $t(`${section}.title`) }}</h4>
 		</NuxtLink>
 		<slider :pagination="true" :enableClick="true" :autoplay="true">
 			<slider-inner

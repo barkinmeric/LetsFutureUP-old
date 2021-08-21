@@ -1,11 +1,13 @@
 <template>
 	<div class="desktop-navbar-dropdown">
-		<button class="dropbtn">{{ $t(`${tab}.title`) }}</button>
-		<div class="dropdown-content">
-			<NuxtLink v-for="(item, index) in $t(`${tab}.content`)" :key="item" :to="localePath(toUrl($t(`${tab}.content`, 'en')[index]))">
-				<span>{{ item }}</span>
-			</NuxtLink>
-		</div>
+		<h2 class="dropdown-button">{{ $t(`${tab}.title`) }}</h2>
+		<ul class="dropdown-content">
+			<li v-for="(item, index) in $t(`${tab}.content`)" :key="item">
+				<NuxtLink :to="localePath(toUrl($t(`${tab}.content`, 'en')[index]))">
+					<h3 class="text">{{ item }}</h3>
+				</NuxtLink>
+			</li>
+		</ul>
 	</div>
 </template>
 
@@ -35,63 +37,65 @@ export default {
 .desktop-navbar-dropdown {
 	position: relative;
 	display: inline-block;
-	transition: all ease 0.2s;
-	height: 100%;
+	z-index: 20;
 	&:hover {
 		.dropdown-content {
-			transform: translateY(0);
-			visibility: visible;
-			span {
-				color: $mainColor;
-				transform: translateY(0);
-				visibility: visible;
-			}
+			display: block;
 		}
-		.dropbtn {
+		.dropdown-button {
 			background-color: $mainColor;
 			color: #fff;
 		}
 	}
-	.dropbtn {
-		height: 100%;
+	.dropdown-button {
+		margin: 0;
+		padding: 16px;
+		height: 70px;
 		line-height: 40px;
 		font-weight: 600;
-		font-size: 14px;
 		letter-spacing: 2px;
-		transition: all ease 0.2s;
+		font-size: 14px;
 		background-color: #fff;
 		color: $mainColor;
-		padding: 16px;
-		border: none;
 		cursor: pointer;
 	}
 	.dropdown-content {
-		transition: all ease 0.2s;
-		transform: translateY(25%);
-		visibility: hidden;
+		display: none;
+		width: fit-content;
+		min-width: 100%;
 		position: absolute;
-		background-color: #fff;
-		width: 100%;
-		z-index: 1;
-		span {
-			letter-spacing: 1px;
+		top: 100%;
+		left: 0;
+		perspective: 1000px;
+		background-color: white;
+		animation: growDown 300ms ease-in-out forwards;
+		transform-origin: top center;
+		.text {
 			white-space: nowrap;
 			line-height: 25px;
-			height: 100%;
+			width: 100%;
 			font-size: 12px;
 			font-weight: 400;
-			transition: all ease 0.2s;
-			transform: translateY(25%);
+			letter-spacing: 1px;
 			color: #fff;
 			padding: 12px 16px;
-			text-decoration: none;
-			visibility: hidden;
-			display: block;
+			color: $mainColor;
 			&:hover {
 				background-color: $mainColor;
 				color: #fff;
 			}
 		}
+	}
+}
+@keyframes growDown {
+	0% {
+		transform: scaleY(0);
+	}
+	80% {
+		transform: scaleY(1.1);
+	}
+	100% {
+		transform: scaleY(1);
 	}
 }
 </style>

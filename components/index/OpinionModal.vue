@@ -54,12 +54,12 @@ export default {
 		.position {
 			display: block;
 			font-weight: 600;
-			font-size: 18px;
+			font-size: 16px;
 			margin-bottom: 10px;
 		}
 		.text {
-			font-weight: 500;
-			font-size: 18px;
+			font-weight: normal;
+			font-size: 14px;
 		}
 	}
 }

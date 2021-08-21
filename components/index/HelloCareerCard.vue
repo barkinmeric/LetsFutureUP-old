@@ -6,11 +6,13 @@
 		<div class="hc-body">
 			<div class="title">
 				<NuxtLink :to="localePath(toUrl($t(`${content}.title`, 'en')))">
-					<span>{{ $t(`${content}.title`) }} </span>
+					<h3>{{ $t(`${content}.title`) }}</h3>
 				</NuxtLink>
 			</div>
 			<div class="text">
-				{{ truncate($t(`${content}.text`), 600) }}
+				<p>
+					{{ truncate($t(`${content}.text`), 600) }}
+				</p>
 			</div>
 		</div>
 	</div>
@@ -84,17 +86,21 @@ export default {
 		text-align: center;
 		.title {
 			display: inline-block;
-			font-weight: 700;
-			font-size: 20px;
 			border-bottom: 1px solid $sideColor;
 			border-bottom-width: 3px;
 			padding-bottom: 3px;
+			h3 {
+				font-weight: 700;
+				font-size: 20px;
+			}
 		}
 		.text {
 			text-align: center;
-			font-weight: 500;
 			padding: 10px 0px 10px 0px;
-			font-size: 14px;
+			p {
+				font-weight: 500;
+				font-size: 14px;
+			}
 		}
 	}
 }

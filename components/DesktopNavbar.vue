@@ -1,17 +1,17 @@
 <template>
 	<div class="desktop-navbar">
 		<div class="container">
-			<div class="grid-container">
+			<div class="flex-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img src="/img/logo/logo.png" height="70" width="230" fit="inside"/></NuxtLink>
+					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img src="/img/logo/logo.png" height="70" width="230"/></NuxtLink>
 				</div>
 				<div class="content">
 					<desktop-navbar-dropdown tab="nav.us" />
 					<desktop-navbar-dropdown tab="nav.do" />
 					<desktop-navbar-dropdown tab="nav.career" />
-					<button>
-						<a :href="$t('nav.join-us.link')">{{ $t("nav.join-us.title") }}</a>
-					</button>
+					<a :href="$t('nav.join-us.link')">
+						<h3 class="join">{{ $t("nav.join-us.title") }}</h3>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -26,35 +26,31 @@ export default {
 
 <style lang="scss" scoped>
 .desktop-navbar {
-	.grid-container {
-		display: grid;
-		justify-content: space-between;
-		grid-template-columns: 2px auto;
+	.flex-container {
+		display: flex;
+		height: 70px;
 		.logo {
+			margin-right: auto;
 			height: 100%;
-			img {
-				height: 100%;
-				width: auto;
-			}
 		}
 		.content {
-			button {
-				height: 100%;
+			margin-left: auto;
+			height: 100%;
+			.join {
+				display: inline-block;
+				margin: 0;
+				padding: 16px;
+				height: 70px;
 				line-height: 40px;
 				font-weight: 600;
-				font-size: 14px;
 				letter-spacing: 2px;
-				transition: all ease 0.2s;
+				font-size: 14px;
 				background-color: #fff;
 				color: $mainColor;
-				padding: 16px;
-				border: none;
 				cursor: pointer;
 				&:hover {
 					background: $mainColor;
-					a {
-						color: #fff;
-					}
+					color: #fff;
 				}
 			}
 		}

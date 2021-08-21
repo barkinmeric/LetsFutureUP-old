@@ -1,15 +1,15 @@
 <template>
 	<div class="mobile-navbar-dropdown">
-		<div class="container">
-			<div class="flex-container" @click="toggleDropdown()">
-				<button class="dropbtn">{{ $t(`${tab}.title`) }}</button>
-				<icon-angle-down color="black" icon-name="angle-down" width="24px" height="24px" />
+		<div class="flex-container" @click="toggleDropdown()">
+			<h2 class="dropdown-button">{{ $t(`${tab}.title`) }}</h2>
+			<div class="down-icon">
+				<icon-angle-down color="black" width="24px" height="24px" />
 			</div>
-			<div class="dropdown-content" v-show="isDropdownActive">
-				<NuxtLink v-for="(item, index) in $t(`${tab}.content`)" :key="item" :to="localePath(toUrl($t(`${tab}.content`, 'en')[index]))">
-					<span>{{ item }}</span>
-				</NuxtLink>
-			</div>
+		</div>
+		<div class="dropdown-content" v-show="isDropdownActive">
+			<NuxtLink v-for="(item, index) in $t(`${tab}.content`)" :key="item" :to="localePath(toUrl($t(`${tab}.content`, 'en')[index]))">
+				<h3 class="text">{{ item }}</h3>
+			</NuxtLink>
 		</div>
 	</div>
 </template>
@@ -54,38 +54,38 @@ export default {
 	.flex-container {
 		cursor: pointer;
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		.dropbtn {
-			vertical-align: middle;
-			left: 0;
+		.dropdown-button {
+			margin-right: auto;
 			width: 100%;
 			line-height: 40px;
 			font-weight: 600;
-			font-size: 12px;
+			font-size: 14px;
 			letter-spacing: 2px;
 			background-color: #fff;
 			color: $mainColor;
-			padding: 16px;
-			border: none;
 			cursor: pointer;
-			text-align: left;
+			padding: 12px 16px;
 		}
-		svg {
-			vertical-align: middle;
-			right: 0;
-			margin-right: 16px;
+		.down-icon {
+			margin-left: auto;
+			margin-right: 20px;
+			cursor: pointer;
+			width: 24px;
+			height: 24px;
 		}
-		&:focus-within {
+		&:hover {
 			background-color: $mainColor;
 			color: #fff;
-			.dropbtn {
+			.dropdown-button {
 				background-color: $mainColor;
 				color: #fff;
 			}
-			svg {
+			.down-icon {
 				background-color: $mainColor;
-				color: white;
+				svg {
+					color: white;
+				}
 			}
 		}
 	}
@@ -93,16 +93,14 @@ export default {
 		background-color: #fff;
 		width: 100%;
 		z-index: 1;
-		span {
+		.text {
 			letter-spacing: 1px;
-			white-space: nowrap;
 			line-height: 25px;
 			height: 100%;
 			font-size: 12px;
 			font-weight: 400;
 			color: $mainColor;
 			padding: 12px 16px;
-			text-decoration: none;
 			display: block;
 		}
 	}

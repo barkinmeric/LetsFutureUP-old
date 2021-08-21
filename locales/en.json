@@ -10,8 +10,8 @@
 			"content": ["Events", "Announcements"]
 		},
 		"career": {
-			"title": "Hello To Career",
-			"content": ["Mentorship Program", "Student Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
+			"title": "Hello Career",
+			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		},
 		"join-us": {
 			"title": "Join Us!",
@@ -34,7 +34,7 @@
 				"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
 			},
 			"student": {
-				"title": "Student Program",
+				"title": "Student Development Program",
 				"text": "During the Let's FutureUP Project, various trainings are organized to contribute to the development of students with the support of our volunteer educators who are experts in their fields within the scope of the Student Development Program. The student development program aims to transfer to students the golden information that they will use in business life, as well as to take them one step ahead with their knowledge and equipment when they start their business life. Every student involved in their career journey with Let's FutureUP attends these trainings throughout the project. They acquire new information that will be useful for them while attaining their goals and continue their career journey with strong steps."
 			},
 			"startup": {
@@ -66,7 +66,7 @@
 				},
 				{
 					"name": "Gürkan KANTARCI",
-					"place": "RB Karesi Textile",
+					"place": "RB Karesi Holding",
 					"position": "Production Manager",
 					"image": "/img/pages/index/opinions/gurkan-kantarci.png",
 					"text": "I saw Let's FutureUP, a volunteer-based social responsibility project, as an intermediary platform where I can support the training of qualified individuals who will look to the future with hope. I wanted to take part in the Let's Future Up project in line with the desire to contribute to the young people who will shape the future by sharing my experiences that I have accumulated in my pocket so far, and to help them determine their own route based on these experiences. In the end of the project ; I believe that the aspirants who could explain themselves better, determine their aims more clear, be aware of their abilities, conscious with professional life and contribute themselves with qualified trainings will have a more  advantageous position in terms of career compared to other aspirants who can not find it.Therefore, I believe that this project can change a student’s career."
@@ -128,7 +128,7 @@
 			"title": "Danışma Kurulu",
 			"content": [
 				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/index/board/erol-sapci.png" },
-				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Tekstil", "position": "Üretim Müdürü", "image": "/img/pages/index/board/gurkan-kantarci.png" },
+				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/index/board/gurkan-kantarci.png" },
 				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/img/pages/index/board/iskender-ulusay.png" },
 				{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/img/pages/index/board/tanju-ozkonuk.png" },
 				{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/index/board/yusuf-ziya-yuce.png" }
@@ -305,7 +305,7 @@
 						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/bulent-kacar.jpg" },
 						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/mentorship-program/mentor/yusuf-ziya-yuce.jpg" },
 						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
-						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Tekstil", "position": "Üretim Müdürü", "image": "/img/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
+						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
 						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/img/pages/mentorship-program/mentor/ali-yagci.jpg" },
 						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/img/pages/mentorship-program/mentor/seval-oz.jpg" },
 						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
@@ -341,7 +341,7 @@
 		}
 	},
 	"student": {
-		"title": "Student Program",
+		"title": "Student Development Program",
 		"desc": "During the Let's FutureUP Project, various trainings are organized to contribute to the development of students with the support of our volunteer educators who are experts in their fields within the scope of the Student Development Program. The student development program aims to transfer to students the golden information that they will use in business life, as well as to take them one step ahead with their knowledge and equipment when they start their business life. Every student involved in their career journey with Let's FutureUP attends these trainings throughout the project. They acquire new information that will be useful for them while attaining their goals and continue their career journey with strong steps."
 	},
 	"startup": {

@@ -28,9 +28,9 @@ const pages = {
 		tr: "/mentorluk-programi",
 		en: "/mentorship-program",
 	},
-	"student-program": {
+	"student-development-program": {
 		tr: "/ogrenci-gelisim-programi",
-		en: "/student-program",
+		en: "/student-development-program",
 	},
 	startup: {
 		tr: "/startup",

@@ -39,6 +39,7 @@ export default {
 		background-color: #eee;
 		color: #444;
 		cursor: pointer;
+		margin: 10px 0;
 		padding: 18px;
 		width: 100%;
 		text-align: left;

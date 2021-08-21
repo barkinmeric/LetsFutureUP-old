@@ -3,21 +3,21 @@
 		<div class="container">
 			<div class="grid-container">
 				<div class="footer-fast-menu">
-					<h4>{{ $t("nav.us.title") }}</h4>
+					<h5>{{ $t("nav.us.title") }}</h5>
 					<NuxtLink v-for="(item, index) in $t('nav.us.content')" :key="item" :to="localePath(toUrl($t('nav.us.content', 'en')[index]))">
-						<span>{{ item }}</span>
+						<h6>{{ item }}</h6>
 					</NuxtLink>
 				</div>
 				<div class="footer-fast-menu">
-					<h4>{{ $t("nav.do.title") }}</h4>
+					<h5>{{ $t("nav.do.title") }}</h5>
 					<NuxtLink v-for="(item, index) in $t('nav.do.content')" :key="item" :to="localePath(toUrl($t('nav.do.content', 'en')[index]))">
-						<span>{{ item }}</span>
+						<h6>{{ item }}</h6>
 					</NuxtLink>
 				</div>
 				<div class="footer-fast-menu">
-					<h4>{{ $t("nav.career.title") }}</h4>
+					<h5>{{ $t("nav.career.title") }}</h5>
 					<NuxtLink v-for="(item, index) in $t('nav.career.content')" :key="item" :to="localePath(toUrl($t('nav.career.content', 'en')[index]))">
-						<span>{{ item }}</span>
+						<h6>{{ item }}</h6>
 					</NuxtLink>
 				</div>
 				<div class="social-media-icons">
@@ -86,18 +86,21 @@ export default {
 				margin: 10px;
 				color: #ffffff90;
 				font-size: 14px;
-				h4 {
+				h5 {
 					display: inline-block;
 					white-space: nowrap;
 					color: #fff;
 					font-size: 20px;
+					font-weight: 700;
 					margin-bottom: 10px;
 					border-bottom: 1px solid $sideColor;
 					border-bottom-width: 3px;
 					padding-bottom: 3px;
 				}
 
-				span {
+				h6 {
+					font-size: 14px;
+					font-weight: 400;
 					margin-bottom: 2px;
 					display: block;
 					color: #ffffff90;
