@@ -4,15 +4,15 @@
 			<div class="hello-career-title">
 				Let's Future<span class="green">UP</span>
 				<br />
-				<span class="green">{{ $t("hello-career.title") }}</span>
+				<span class="green">{{ $t("index.hello-career.title") }}</span>
 			</div>
 			<div class="grid-container">
-				<hello-career-card content="hello-career.mentorship" icon="mentorship" />
-				<hello-career-card content="hello-career.student" icon="student" />
-				<hello-career-card content="hello-career.wetalk" icon="wetalk" />
-				<hello-career-card content="hello-career.startup" icon="startup" />
-				<hello-career-card content="hello-career.adviceup" icon="adviceup" />
-				<hello-career-card content="hello-career.talentup" icon="talentup" />
+				<hello-career-card content="index.hello-career.mentorship" icon="mentorship" />
+				<hello-career-card content="index.hello-career.student" icon="student" />
+				<hello-career-card content="index.hello-career.wetalk" icon="wetalk" />
+				<hello-career-card content="index.hello-career.startup" icon="startup" />
+				<hello-career-card content="index.hello-career.adviceup" icon="adviceup" />
+				<hello-career-card content="index.hello-career.talentup" icon="talentup" />
 			</div>
 		</div>
 	</div>

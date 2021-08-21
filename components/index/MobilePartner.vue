@@ -1,19 +1,10 @@
 <template>
 	<div class="mobile-partner">
 		<div class="container">
-			<div class="partner-title">İşbirlikçilerimiz</div>
+			<div class="partner-title">{{ $t("index.partner.title") }}</div>
 			<slider :pagination="true" :enableClick="true" :autoplay="true">
-				<slider-inner>
-					<partner-modal imgLink="/img/index/partners/adler.png" />
-				</slider-inner>
-				<slider-inner>
-					<partner-modal imgLink="/img/index/partners/haci-hasan.png" />
-				</slider-inner>
-				<slider-inner>
-					<partner-modal imgLink="/img/index/partners/hrpeak.png" />
-				</slider-inner>
-				<slider-inner>
-					<partner-modal imgLink="/img/index/partners/workinton.png" />
+				<slider-inner v-for="image in $t('index.partner.content')" :key="image">
+					<partner-modal :image="image" />
 				</slider-inner>
 			</slider>
 		</div>

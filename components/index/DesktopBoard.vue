@@ -1,13 +1,9 @@
 <template>
 	<div class="desktop-board">
 		<div class="container">
-			<div class="board-title">Danışma Kurulu</div>
+			<div class="board-title">{{ $t("index.board.title") }}</div>
 			<div class="grid-container">
-				<board-modal imgLink="/img/index/board/erol-sapci.png" name="Erol Sapçı" />
-				<board-modal imgLink="/img/index/board/gurkan-kantarci.png" name="Gürkan Kantarcı" />
-				<board-modal imgLink="/img/index/board/iskender-ulusay.png" name="İskender Ulusay" />
-				<board-modal imgLink="/img/index/board/tanju-ozkonuk.png" name="Tanju Özkonuk" />
-				<board-modal imgLink="/img/index/board/yusuf-ziya-yuce.png" name="Yusuf Ziya Yüce" />
+				<board-modal v-for="item in $t('index.board.content')" :key="item.name" :item="item" />
 			</div>
 		</div>
 	</div>

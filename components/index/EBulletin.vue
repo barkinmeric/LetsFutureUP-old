@@ -1,28 +1,28 @@
 <template>
 	<div class="e-bulletin">
 		<div class="container">
-			<div class="e-bulletin-head">{{ $t("e-bulletin.title") }}</div>
+			<div class="e-bulletin-head">{{ $t("index.e-bulletin.title") }}</div>
 			<div class="e-bulletin-body">
 				<div class="large">
 					<div class="flex-container">
-						<e-bulletin-item :item="$t('e-bulletin.content')[3]" />
-						<e-bulletin-item :item="$t('e-bulletin.content')[2]" />
-						<e-bulletin-item :item="$t('e-bulletin.content')[1]" />
-						<e-bulletin-item :item="$t('e-bulletin.content')[0]" />
+						<e-bulletin-item :item="$t('index.e-bulletin.content')[3]" />
+						<e-bulletin-item :item="$t('index.e-bulletin.content')[2]" />
+						<e-bulletin-item :item="$t('index.e-bulletin.content')[1]" />
+						<e-bulletin-item :item="$t('index.e-bulletin.content')[0]" />
 					</div>
 				</div>
 				<div class="medium">
 					<slider :pagination="true" :autoplay="true">
 						<slider-inner>
 							<div class="flex-container">
-								<e-bulletin-item :item="$t('e-bulletin.content')[3]" />
-								<e-bulletin-item :item="$t('e-bulletin.content')[2]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[3]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[2]" />
 							</div>
 						</slider-inner>
 						<slider-inner>
 							<div class="flex-container">
-								<e-bulletin-item :item="$t('e-bulletin.content')[1]" />
-								<e-bulletin-item :item="$t('e-bulletin.content')[0]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[1]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[0]" />
 							</div>
 						</slider-inner>
 					</slider>
@@ -31,22 +31,22 @@
 					<slider :pagination="true" :autoplay="true">
 						<slider-inner>
 							<div class="flex-container">
-								<e-bulletin-item :item="$t('e-bulletin.content')[3]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[3]" />
 							</div>
 						</slider-inner>
 						<slider-inner>
 							<div class="flex-container">
-								<e-bulletin-item :item="$t('e-bulletin.content')[2]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[2]" />
 							</div>
 						</slider-inner>
 						<slider-inner>
 							<div class="flex-container">
-								<e-bulletin-item :item="$t('e-bulletin.content')[1]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[1]" />
 							</div>
 						</slider-inner>
 						<slider-inner>
 							<div class="flex-container">
-								<e-bulletin-item :item="$t('e-bulletin.content')[0]" />
+								<e-bulletin-item :item="$t('index.e-bulletin.content')[0]" />
 							</div>
 						</slider-inner>
 					</slider>

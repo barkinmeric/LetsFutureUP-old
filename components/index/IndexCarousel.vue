@@ -4,24 +4,24 @@
 			<slider-inner>
 				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
 					<icon-play-button width="96px" height="96px" />
-					<nuxt-img draggable="false" :src="$t('slider.thumbnail')" alt="thumbnail" style="cursor:pointer;" />
+					<nuxt-img draggable="false" :src="$t('index.slider.thumbnail')" alt="thumbnail" style="cursor:pointer;" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img draggable="false" :src="$t('slider.2')" alt="carousel2" loading="lazy" />
+					<nuxt-img draggable="false" :src="$t('index.slider.2')" alt="carousel2" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img draggable="false" :src="$t('slider.3')" alt="carousel3" loading="lazy" />
+					<nuxt-img draggable="false" :src="$t('index.slider.3')" alt="carousel3" />
 				</div>
 			</slider-inner>
 		</slider>
 		<div class="videoModal" v-show="toggleModal">
 			<span @click="(toggleModal = false) & pauseVideo()" class="close"><icon-times width="32px" height="32px" color="#ccc"/></span>
 			<video @click="!$event.target.paused ? pauseVideo() : playVideo()" @touchstart="!$event.target.paused ? pauseVideo() : playVideo()" preload="none">
-				<source :src="$t('slider.1')" type="video/mp4" />
+				<source :src="$t('index.slider.1')" type="video/mp4" />
 			</video>
 		</div>
 	</div>

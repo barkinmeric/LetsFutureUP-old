@@ -1,20 +1,20 @@
 <template>
 	<div class="mentorship-collapsible">
-		<button @click="toggleCollapsible = !toggleCollapsible" :class="{ active: toggleCollapsible }" type="button" class="collapsible">2020-2021</button>
+		<button @click="toggleCollapsible = !toggleCollapsible" :class="{ active: toggleCollapsible }" type="button" class="collapsible">{{ $t("mentorship.collapsible.2020-2021.title") }}</button>
 		<div class="content" v-show="toggleCollapsible">
 			<div class="mentorship-collapsible-item">
 				<div class="container">
-					<div class="title">{{ $t("mentorship.collapsible.mentors.title") }}</div>
+					<div class="title">{{ $t("mentorship.collapsible.2020-2021.mentors.title") }}</div>
 					<div class="flex-container">
-						<mentorship-modal v-for="item in $t('mentorship.collapsible.mentors.content')" :key="item" :name="item" />
+						<mentorship-modal v-for="item in $t('mentorship.collapsible.2020-2021.mentors.content')" :key="item.name" :item="item" />
 					</div>
 				</div>
 			</div>
 			<div class="mentorship-collapsible-item">
 				<div class="container">
-					<div class="title">{{ $t("mentorship.collapsible.mentees.title") }}</div>
+					<div class="title">{{ $t("mentorship.collapsible.2020-2021.mentees.title") }}</div>
 					<div class="flex-container">
-						<mentorship-modal v-for="item in $t('mentorship.collapsible.mentees.content')" :key="item" :name="item" />
+						<mentorship-modal v-for="item in $t('mentorship.collapsible.2020-2021.mentees.content')" :key="item.name" :item="item" />
 					</div>
 				</div>
 			</div>
@@ -30,7 +30,6 @@ export default {
 			toggleCollapsible: false,
 		};
 	},
-	methods: {},
 };
 </script>
 

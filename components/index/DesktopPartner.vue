@@ -1,12 +1,9 @@
 <template>
 	<div class="desktop-partner">
 		<div class="container">
-			<div class="partner-title">İşbirlikçilerimiz</div>
+			<div class="partner-title">{{ $t("index.partner.title") }}</div>
 			<div class="grid-container">
-				<partner-modal imgLink="/img/index/partners/adler.png" />
-				<partner-modal imgLink="/img/index/partners/haci-hasan.png" />
-				<partner-modal imgLink="/img/index/partners/hrpeak.png" />
-				<partner-modal imgLink="/img/index/partners/workinton.png" />
+				<partner-modal v-for="image in $t('index.partner.content')" :key="image" :image="image" />
 			</div>
 		</div>
 	</div>

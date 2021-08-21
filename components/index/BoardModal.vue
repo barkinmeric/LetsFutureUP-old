@@ -1,12 +1,12 @@
 <template>
 	<div class="board-modal">
 		<div class="board-img">
-			<nuxt-img draggable="false" :src="imgLink" alt="" width="150px" />
+			<nuxt-img draggable="false" :src="item.image" alt="" width="150px" />
 		</div>
 		<div class="board-text">
-			<div class="name">{{ name }}</div>
-			<div class="corp">{{ corp }}</div>
-			<div class="title">{{ title }}</div>
+			<div class="name">{{ item.name }}</div>
+			<div class="corp">{{ item.place }}</div>
+			<div class="title">{{ item.position }}</div>
 		</div>
 	</div>
 </template>
@@ -15,10 +15,7 @@
 export default {
 	name: "BoardModal",
 	props: {
-		imgLink: String,
-		name: String,
-		corp: String,
-		title: String,
+		item: Object,
 	},
 };
 </script>

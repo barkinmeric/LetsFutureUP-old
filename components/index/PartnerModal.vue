@@ -1,7 +1,7 @@
 <template>
 	<div class="partner-modal">
 		<div class="partner-img">
-			<nuxt-img draggable="false" :src="imgLink" alt="" width="240px" />
+			<nuxt-img draggable="false" :src="image" alt="" width="240px" />
 		</div>
 	</div>
 </template>
@@ -10,7 +10,7 @@
 export default {
 	name: "PartnerModal",
 	props: {
-		imgLink: String,
+		image: String,
 	},
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
 	<div class="motto">
-		<div class="container"><p v-html="$t('motto')"></p></div>
+		<div class="container"><p v-html="$t('index.motto')"></p></div>
 	</div>
 </template>
 

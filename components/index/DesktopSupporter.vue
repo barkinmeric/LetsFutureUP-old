@@ -1,16 +1,9 @@
 <template>
 	<div class="desktop-supporter">
 		<div class="container">
-			<div class="supporter-title">Destekçilerimiz</div>
+			<div class="supporter-title">{{ $t("index.supporter.title") }}</div>
 			<div class="grid-container">
-				<supporter-modal imgLink="/img/index/supporters/aktas.png" />
-				<supporter-modal imgLink="/img/index/supporters/emek.png" />
-				<supporter-modal imgLink="/img/index/supporters/farba.png" />
-				<supporter-modal imgLink="/img/index/supporters/feka.png" />
-				<supporter-modal imgLink="/img/index/supporters/fki.png" />
-				<supporter-modal imgLink="/img/index/supporters/inoksan.png" />
-				<supporter-modal imgLink="/img/index/supporters/limakenerji.png" />
-				<supporter-modal imgLink="/img/index/supporters/valeo.png" />
+				<supporter-modal v-for="image in $t('index.supporter.content')" :key="image" :image="image" />
 			</div>
 		</div>
 	</div>

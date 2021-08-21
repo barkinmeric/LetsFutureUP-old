@@ -1,10 +1,11 @@
 <template>
 	<div class="opinion-modal">
 		<div class="opinion-img">
-			<nuxt-img draggable="false" :src="`/img/index/opinions/${toUrl(item.name)}.png`" alt="" width="150px" />
+			<nuxt-img draggable="false" :src="item.image" alt="" width="150px" />
 		</div>
 		<div class="opinion-body">
 			<span class="name">{{ item.name }}</span>
+			<span class="place">{{ item.place }}</span>
 			<span class="position">{{ item.position }}</span>
 			<div class="text">{{ item.text }}</div>
 		</div>
@@ -16,19 +17,6 @@ export default {
 	name: "OpinionModal",
 	props: {
 		item: Object,
-	},
-	methods: {
-		toUrl(text) {
-			return text
-				.toLowerCase()
-				.replace(/ /gim, "-")
-				.replace(/ğ/gim, "g")
-				.replace(/ü/gim, "u")
-				.replace(/ş/gim, "s")
-				.replace(/ı/gim, "i")
-				.replace(/ö/gim, "o")
-				.replace(/ç/gim, "c");
-		},
 	},
 };
 </script>
@@ -56,11 +44,17 @@ export default {
 			display: block;
 			font-weight: 800;
 			font-size: 20px;
+			margin-bottom: 5px;
+		}
+		.place {
+			display: block;
+			font-weight: 600;
+			font-size: 18px;
 		}
 		.position {
 			display: block;
-			font-weight: 800;
-			font-size: 20px;
+			font-weight: 600;
+			font-size: 18px;
 			margin-bottom: 10px;
 		}
 		.text {

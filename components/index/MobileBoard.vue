@@ -1,22 +1,10 @@
 <template>
 	<div class="mobile-board">
 		<div class="container">
-			<div class="board-title">Danışma Kurulu</div>
+			<div class="board-title">{{ $t("index.board.title") }}</div>
 			<slider :pagination="true" :arrows="true" :enableClick="true" :autoplay="true">
-				<slider-inner>
-					<board-modal imgLink="/img/index/board/erol-sapci.png" name="Erol Sapçı" />
-				</slider-inner>
-				<slider-inner>
-					<board-modal imgLink="/img/index/board/gurkan-kantarci.png" name="Gürkan Kantarcı" />
-				</slider-inner>
-				<slider-inner>
-					<board-modal imgLink="/img/index/board/iskender-ulusay.png" name="İskender Ulusay" />
-				</slider-inner>
-				<slider-inner>
-					<board-modal imgLink="/img/index/board/tanju-ozkonuk.png" name="Tanju Özkonuk" />
-				</slider-inner>
-				<slider-inner>
-					<board-modal imgLink="/img/index/board/yusuf-ziya-yuce.png" name="Yusuf Ziya Yüce" />
+				<slider-inner v-for="item in $t('index.board.content')" :key="item.name">
+					<board-modal :item="item" />
 				</slider-inner>
 			</slider>
 		</div>

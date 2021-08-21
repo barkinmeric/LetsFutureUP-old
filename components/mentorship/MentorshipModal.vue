@@ -1,10 +1,12 @@
 <template>
 	<div class="mentorship-modal">
 		<div class="mentorship-img">
-			<nuxt-img draggable="false" :src="`/img/pages/mentor-mentee/${toUrl(name)}.png`" alt="" width="150px" height="150px" />
+			<nuxt-img draggable="false" :src="item.image" alt="" width="150px" height="150px" />
 		</div>
 		<div class="mentorship-text">
-			<div class="name">{{ name }}</div>
+			<div class="name">{{ item.name }}</div>
+			<div class="place">{{ item.place }}</div>
+			<div class="position">{{ item.position }}</div>
 		</div>
 	</div>
 </template>
@@ -13,21 +15,7 @@
 export default {
 	name: "MentorshipModal",
 	props: {
-		name: String,
-	},
-	methods: {
-		toUrl(text) {
-			return text
-				.replace(/İ/gim, "I")
-				.toLowerCase()
-				.replace(/ /gim, "-")
-				.replace(/ğ/gim, "g")
-				.replace(/ü/gim, "u")
-				.replace(/ş/gim, "s")
-				.replace(/ı/gim, "i")
-				.replace(/ö/gim, "o")
-				.replace(/ç/gim, "c");
-		},
+		item: Object,
 	},
 };
 </script>
@@ -37,6 +25,7 @@ export default {
 	user-select: none;
 	padding: 20px;
 	text-align: center;
+	width: 250px;
 	.mentorship-img {
 		border-radius: 50%;
 		img {
@@ -53,6 +42,12 @@ export default {
 			font-weight: 800;
 			letter-spacing: 1px;
 			font-size: 18px;
+		}
+		.place {
+			width: 100%;
+		}
+		.position {
+			width: 100%;
 		}
 	}
 }

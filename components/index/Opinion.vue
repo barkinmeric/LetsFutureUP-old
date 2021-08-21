@@ -1,9 +1,9 @@
 <template>
 	<div class="opinion">
 		<div class="container">
-			<div class="opinion-title">{{ $t("opinion.title") }}</div>
+			<div class="opinion-title">{{ $t("index.opinion.title") }}</div>
 			<slider :pagination="true" :enableClick="true" :autoplay="true">
-				<slider-inner v-for="item in $t('opinion.content')" :key="item.name">
+				<slider-inner v-for="item in $t('index.opinion.content')" :key="item.name">
 					<opinion-modal :item="item" />
 				</slider-inner>
 			</slider>

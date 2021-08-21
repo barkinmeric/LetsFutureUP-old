@@ -1,31 +1,10 @@
 <template>
 	<div class="mobile-supporter">
 		<div class="container">
-			<div class="supporter-title">Destekçilerimiz</div>
+			<div class="supporter-title">{{ $t("index.supporter.title") }}</div>
 			<slider :pagination="true" :enableClick="true" :autoplay="true">
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/aktas.png" />
-				</slider-inner>
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/emek.png" />
-				</slider-inner>
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/farba.png" />
-				</slider-inner>
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/feka.png" />
-				</slider-inner>
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/fki.png" />
-				</slider-inner>
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/inoksan.png" />
-				</slider-inner>
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/limakenerji.png" />
-				</slider-inner>
-				<slider-inner>
-					<supporter-modal imgLink="/img/index/supporters/valeo.png" />
+				<slider-inner v-for="image in $t('index.supporter.content')" :key="image">
+					<supporter-modal :image="image" />
 				</slider-inner>
 			</slider>
 		</div>

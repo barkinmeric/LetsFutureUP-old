@@ -3,11 +3,11 @@
 		<div class="container">
 			<div class="grid-container">
 				<div class="text">
-					<div class="text-head">{{ $t("join-us.title") }}</div>
-					<div class="text-body" v-html="$t('join-us.text')"></div>
+					<div class="text-head">{{ $t("index.join-us.title") }}</div>
+					<div class="text-body" v-html="$t('index.join-us.text')"></div>
 				</div>
 				<div class="button">
-					<button>{{ $t("join-us.button") }}</button>
+					<button>{{ $t("index.join-us.button") }}</button>
 				</div>
 			</div>
 		</div>
