@@ -26,7 +26,7 @@
 			"4": "/img/pages/index/slider/en/4.webp",
 			"thumbnail": "/img/pages/index/slider/en/thumbnail.webp"
 		},
-		"motto": "Let’s Future<span style='color: #00ff00;'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
+		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides students who wants to say “Hello Career!” to their careers in the future from now by mentorship and different trainings based on volunteering.",
 		"hello-career": {
 			"title": "Hello Career",
 			"mentorship": {
@@ -55,7 +55,7 @@
 			}
 		},
 		"opinion": {
-			"title": "Let's get to know Let's FutureUP from the people at the top of their careers!",
+			"title": "Let's get to know Let's Future<span class='green'>UP</span> from the people at the top of their careers!",
 			"content": [
 				{
 					"name": "Taner KARSLIOĞLU",
@@ -116,7 +116,8 @@
 			]
 		},
 		"e-bulletin": {
-			"title": "E-Bulletin",
+			"title": "E-Journal",
+			"text": "IF YOU'D LIKE TO BE INFORMED ABOUT THE EVENTS,<br />PLEASE REGISTER TO THE E-JOURNAL WITH YOUR E-MAIL ADRESS!",
 			"content": [
 				{ "text": "DECEMBER 2020", "image": "/img/pages/index/e-bulletin/en/12-2020.png", "file": "/files/e-bulletin/en/12-2020.pdf" },
 				{ "text": "JANUARY 2021", "image": "/img/pages/index/e-bulletin/en/01-2021.png", "file": "/files/e-bulletin/en/01-2021.pdf" },
@@ -125,7 +126,7 @@
 			]
 		},
 		"board": {
-			"title": "Danışma Kurulu",
+			"title": "Board",
 			"content": [
 				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/index/board/erol-sapci.png" },
 				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/index/board/gurkan-kantarci.png" },
@@ -152,9 +153,9 @@
 			]
 		},
 		"join-us": {
-			"title": "Sen de bize katılmak ister misin?",
+			"title": "Do you want to join us?",
 			"button": "Join Us!",
-			"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
+			"text": "You could make an application as a mentor or a mentee to be a member of our project by clicking the button on the side!",
 			"link": ""
 		}
 	},

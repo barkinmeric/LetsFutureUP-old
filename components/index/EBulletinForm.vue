@@ -6,11 +6,7 @@
 					<lottie :options="lottieOptions" v-on:animCreated="handleAnimation" />
 				</div>
 				<div class="form">
-					<div class="head">
-						ETKİNLİKLERDEN HABERDAR OLMAK İÇİN
-						<br />
-						E-BÜLTEN'E MAİL İLE KAYIT OL!
-					</div>
+					<div class="head" v-html="$t('index.e-bulletin.text')"></div>
 					<div class="body">
 						<form action="https://hotmail.us6.list-manage.com/subscribe/post?u=10ada8958c932da0807f896f2&amp;id=7689a21846" name="mc-embedded-subscribe-form" method="post" target="_blank" novalidate>
 							<input type="email" name="EMAIL" placeholder="Mail Adresiniz" required />

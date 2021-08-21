@@ -26,6 +26,7 @@ export default {
 		toUrl(text) {
 			return text
 				.toLowerCase()
+				.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, "")
 				.replace(/ /gim, "-")
 				.replace(/ğ/gim, "g")
 				.replace(/ü/gim, "u")

@@ -26,7 +26,7 @@
 			"4": "/img/pages/index/slider/tr/4.webp",
 			"thumbnail": "/img/pages/index/slider/tr/thumbnail.webp"
 		},
-		"motto": "Let’s Future<span style='color: #00ff00;'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
+		"motto": "Let’s Future<span class='green'>UP</span>, gelecekteki kariyerlerine şimdiden merhaba demek isteyen gençlere,<br /> <b>mentorluk</b> ve <b>eğitim programları</b> ile yol gösteren <b>uluslararası</b> bir <b>sosyal sorumluluk</b> projesidir.",
 		"hello-career": {
 			"title": "Kariyerine MerhabaDE!",
 			"mentorship": {
@@ -55,7 +55,7 @@
 			}
 		},
 		"opinion": {
-			"title": "Kariyerinin zirvesindeki isimlerden Let's FutureUP'ı tanıyalım!",
+			"title": "Kariyerinin zirvesindeki isimlerden Let's Future<span class='green'>UP</span>'ı tanıyalım!",
 			"content": [
 				{
 					"name": "Taner KARSLIOĞLU",
@@ -117,6 +117,7 @@
 		},
 		"e-bulletin": {
 			"title": "E-Bülten",
+			"text": "ETKİNLİKLERDEN HABERDAR OLMAK İÇİN<br />E-BÜLTEN'E MAİL İLE KAYIT OL!",
 			"content": [
 				{ "text": "ARALIK 2020", "image": "/img/pages/index/e-bulletin/tr/12-2020.png", "file": "/files/e-bulletin/tr/12-2020.pdf" },
 				{ "text": "OCAK 2021", "image": "/img/pages/index/e-bulletin/tr/01-2021.png", "file": "/files/e-bulletin/tr/01-2021.pdf" },

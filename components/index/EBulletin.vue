@@ -109,7 +109,7 @@ export default {
 		}
 	}
 }
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
 	.e-bulletin {
 		.e-bulletin-body {
 			.large {

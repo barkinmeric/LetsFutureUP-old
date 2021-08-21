@@ -9,6 +9,11 @@
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
+					<nuxt-img draggable="false" :src="$t('index.slider.4')" alt="carousel4" />
+				</div>
+			</slider-inner>
+			<slider-inner>
+				<div class="slide-el">
 					<nuxt-img draggable="false" :src="$t('index.slider.2')" alt="carousel2" />
 				</div>
 			</slider-inner>
