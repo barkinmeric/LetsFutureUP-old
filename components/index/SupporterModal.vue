@@ -1,7 +1,7 @@
 <template>
 	<div class="supporter-modal">
 		<div class="supporter-img">
-			<nuxt-img draggable="false" :src="image" alt="" width="240px" />
+			<nuxt-img draggable="false" :src="image" alt="" width="240px" height="160px" />
 		</div>
 	</div>
 </template>
