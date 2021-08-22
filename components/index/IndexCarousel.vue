@@ -9,17 +9,17 @@
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img :src="$t('index.slider.4')" alt="carousel4" draggable="false" loading="lazy" />
+					<nuxt-img :src="$t('index.slider.4')" alt="carousel4" draggable="false" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img :src="$t('index.slider.2')" alt="carousel2" draggable="false" loading="lazy" />
+					<nuxt-img :src="$t('index.slider.2')" alt="carousel2" draggable="false" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img :src="$t('index.slider.3')" alt="carousel3" draggable="false" loading="lazy" />
+					<nuxt-img :src="$t('index.slider.3')" alt="carousel3" draggable="false" />
 				</div>
 			</slider-inner>
 		</slider>
