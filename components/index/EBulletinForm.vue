@@ -2,9 +2,7 @@
 	<div class="e-bulletin-form">
 		<div class="container">
 			<div class="grid-container">
-				<div class="lottie">
-					<lottie :options="lottieOptions" v-on:animCreated="handleAnimation" />
-				</div>
+				<div id="lottie"></div>
 				<div class="form">
 					<div class="head" v-html="$t('index.e-bulletin.text')"></div>
 					<div class="body">
@@ -20,23 +18,25 @@
 </template>
 
 <script>
-import lottie from "vue-lottie/src/lottie.vue";
-import * as animationData from "~/static/lottie/bulletin.json";
+import lottie from "lottie-web";
 export default {
 	name: "EBulletinForm",
-	components: {
-		lottie,
-	},
+	components: { lottie },
 	data() {
 		return {
-			anim: null, // for saving the reference to the animation
-			lottieOptions: { animationData: animationData.default },
+			animation: null,
 		};
 	},
-	methods: {
-		handleAnimation: function(anim) {
-			this.anim = anim;
-		},
+	mounted() {
+		setTimeout(function() {
+			this.animation = lottie.loadAnimation({
+				container: document.getElementById("lottie"),
+				renderer: "svg",
+				loop: true,
+				autoplay: true,
+				path: "/lottie/bulletin.json",
+			});
+		}, 2000);
 	},
 };
 </script>
@@ -46,6 +46,10 @@ export default {
 	.grid-container {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		#lottie {
+			width: 100%;
+			height: 100%;
+		}
 		.form {
 			display: inline-flex;
 			flex-direction: column;

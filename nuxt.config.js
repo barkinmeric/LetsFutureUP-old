@@ -31,7 +31,7 @@ export default {
 	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources", "@nuxtjs/google-fonts", "@nuxtjs/svg"],
+	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources", "@nuxtjs/google-fonts"],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: ["nuxt-i18n"],

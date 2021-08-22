@@ -1,7 +1,7 @@
 <template>
 	<div class="mentorship-collapsible">
 		<button @click="toggleCollapsible = !toggleCollapsible" :class="{ active: toggleCollapsible }" type="button" class="collapsible">{{ $t("mentorship.collapsible.2020-2021.title") }}</button>
-		<div class="content" v-show="toggleCollapsible">
+		<div class="content" v-if="toggleCollapsible">
 			<div class="mentorship-collapsible-item">
 				<div class="container">
 					<div class="title">{{ $t("mentorship.collapsible.2020-2021.mentors.title") }}</div>
