@@ -1,7 +1,7 @@
 <template>
 	<div class="e-bulletin-item">
 		<div class="e-bulletin-img">
-			<a :href="item.file" target="_blank"><nuxt-img :src="item.image" alt=""/></a>
+			<a :href="item.file" target="_blank"><nuxt-img :src="item.image" alt="" height="160px" width="240px" draggable="false" loading="lazy"/></a>
 		</div>
 		<div class="e-bulletin-text">{{ item.text }}</div>
 	</div>
@@ -25,8 +25,6 @@ export default {
 		height: 160px;
 		width: 240px;
 		img {
-			height: 160px;
-			width: 240px;
 			border-radius: 10px;
 		}
 	}

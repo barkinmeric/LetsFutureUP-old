@@ -1,7 +1,7 @@
 <template>
 	<div class="hello-career-card">
 		<div class="hc-head">
-			<nuxt-img draggable="false" :src="item.icon" width="64px" height="64px" />
+			<nuxt-img :src="item.icon" width="64px" height="64px" draggable="false" loading="lazy" />
 		</div>
 		<div class="hc-body">
 			<div class="title">
