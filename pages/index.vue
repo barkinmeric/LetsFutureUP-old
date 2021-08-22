@@ -18,6 +18,7 @@
 
 <script>
 export default {
+	middleware: "redirect",
 	head() {
 		return {
 			title: "Home Page",

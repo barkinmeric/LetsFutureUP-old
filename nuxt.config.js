@@ -53,13 +53,13 @@ export default {
 			{ code: "tr", iso: "tr-TR", name: "Türkçe" },
 			{ code: "en", iso: "en-US", name: "English" },
 		],
-		detectBrowserLanguage: {
-			fallbackLocale: "en",
-			useCookie: true,
-			cookieKey: "i18n_redirected",
-			onlyOnRoot: true,
-			// alwaysRedirect: true,
-		},
+		// detectBrowserLanguage: {
+		// 	fallbackLocale: "en",
+		// 	useCookie: true,
+		// 	cookieKey: "i18n_redirected",
+		// 	onlyOnRoot: true,
+		// 	// alwaysRedirect: true,
+		// },
 		vueI18n: {
 			fallbackLocale: "en",
 			messages: {
@@ -70,7 +70,7 @@ export default {
 		defaultLocale: "tr",
 		strategy: "prefix",
 		seo: true,
-		baseUrl: "https://letsfutureup-nuxt.netlify.app",
+		// baseUrl: "http://localhost:3000/",
 		parsePages: false,
 		pages: pages,
 	},
