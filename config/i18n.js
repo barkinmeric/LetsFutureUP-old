@@ -1,12 +1,3 @@
-import tr from "../locales/tr.json";
-import en from "../locales/en.json";
-
-const i18n = {
-	locale: "tr",
-	fallbackLocale: "tr",
-	messages: { tr, en },
-};
-
 const pages = {
 	"our-story": {
 		tr: "/hikayemiz",
@@ -66,4 +57,4 @@ const pages = {
 	},
 };
 
-export { i18n, pages };
+export { pages };

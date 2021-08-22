@@ -1,4 +1,4 @@
-import { i18n, pages } from "./config/i18n";
+import pages from "./config/i18n";
 
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
@@ -54,17 +54,25 @@ export default {
 			{ code: "en", iso: "en-US", name: "English" },
 		],
 		detectBrowserLanguage: {
+			fallbackLocale: "en",
 			useCookie: true,
 			cookieKey: "i18n_redirected",
 			onlyOnRoot: true,
-			alwaysRedirect: true,
+			// alwaysRedirect: true,
+		},
+		vueI18n: {
+			fallbackLocale: "en",
+			messages: {
+				tr: require("./locales/tr.json"),
+				en: require("./locales/en.json"),
+			},
 		},
 		defaultLocale: "tr",
 		strategy: "prefix",
 		seo: true,
+		baseUrl: "https://letsfutureup-nuxt.netlify.app",
 		parsePages: false,
 		pages: pages,
-		vueI18n: i18n,
 	},
 
 	googleFonts: {
