@@ -1,17 +1,17 @@
 <template>
 	<div class="hello-career-card">
 		<div class="hc-head">
-			<nuxt-img draggable="false" :src="require('~/assets/icons/' + icon + '.svg?data')" width="64px" height="64px" />
+			<nuxt-img draggable="false" :src="item.icon" width="64px" height="64px" />
 		</div>
 		<div class="hc-body">
 			<div class="title">
-				<NuxtLink :to="localePath(toUrl($t(`${content}.title`, 'en')))">
-					<h3>{{ $t(`${content}.title`) }}</h3>
+				<NuxtLink :to="localePath(toUrl($t('index.hello-career.content', 'en')[index].title))">
+					<h3>{{ item.title }}</h3>
 				</NuxtLink>
 			</div>
 			<div class="text">
 				<p>
-					{{ truncate($t(`${content}.text`), 600) }}
+					{{ truncate(item.text, 600) }}
 				</p>
 			</div>
 		</div>
@@ -22,8 +22,8 @@
 export default {
 	name: "HelloCareerCard",
 	props: {
-		content: String,
-		icon: String,
+		item: Object,
+		index: Number,
 	},
 	methods: {
 		toUrl(text) {
@@ -74,12 +74,6 @@ export default {
 		left: 50%;
 		top: 0px;
 		transform: translate(-50%, -50%);
-		img {
-			filter: grayscale(1);
-			&:hover {
-				filter: grayscale(0);
-			}
-		}
 	}
 	.hc-body {
 		padding: 50px 5px 10px 5px;

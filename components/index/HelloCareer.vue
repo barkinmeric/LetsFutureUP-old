@@ -6,12 +6,7 @@
 				<h2 class="green">{{ $t("index.hello-career.title") }}</h2>
 			</div>
 			<div class="grid-container">
-				<hello-career-card content="index.hello-career.mentorship" icon="mentorship" />
-				<hello-career-card content="index.hello-career.student" icon="student" />
-				<hello-career-card content="index.hello-career.wetalk" icon="wetalk" />
-				<hello-career-card content="index.hello-career.startup" icon="startup" />
-				<hello-career-card content="index.hello-career.adviceup" icon="adviceup" />
-				<hello-career-card content="index.hello-career.talentup" icon="talentup" />
+				<hello-career-card v-for="(item, index) in $t('index.hello-career.content')" :key="item.title" :item="item" :index="index" />
 			</div>
 		</div>
 	</div>

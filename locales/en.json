@@ -29,30 +29,38 @@
 		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides students who wants to say “Hello Career!” to their careers in the future from now by mentorship and different trainings based on volunteering.",
 		"hello-career": {
 			"title": "Hello Career",
-			"mentorship": {
-				"title": "Mentorship Program",
-				"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
-			},
-			"student": {
-				"title": "Student Development Program",
-				"text": "During the Let's FutureUP Project, various trainings are organized to contribute to the development of students with the support of our volunteer educators who are experts in their fields within the scope of the Student Development Program. The student development program aims to transfer to students the golden information that they will use in business life, as well as to take them one step ahead with their knowledge and equipment when they start their business life. Every student involved in their career journey with Let's FutureUP attends these trainings throughout the project. They acquire new information that will be useful for them while attaining their goals and continue their career journey with strong steps."
-			},
-			"startup": {
-				"title": "StartUP",
-				"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür"
-			},
-			"wetalk": {
-				"title": "WeTalk",
-				"text": "As part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants."
-			},
-			"adviceup": {
-				"title": "AdviceUP",
-				"text": "Students who take part in Let’s FutureUP Project, also join to the social responsibility project called AdviceUP. Mentees, simultaneously become mentor.  They are matched with 4th grade high school students  and share their knowledge and experiences regarding university entrance exam. The leading aim of this project is to make students become part of social sustainability. Besides, development of social sensitivity and awareness of responsibility are advocated. Thus, every student who are involved in Let’s FutureUP project raise their consciousness of social responsibility."
-			},
-			"talentup": {
-				"title": "TalentUP",
-				"text": "TalentUP skills development program; consists of various valuable trainings that preparatory, 1st and 2nd-year students can attend. In this program, which only includes selected students, students not only get opportunities to improve themselves but also get a great advantage for their future careers with the training they will receive from experts and professionals in their fields. TalentUP skills development program has 5 main objectives. These are: To create a wide “network” for students, to contribute to their personal development in their career journey with the help of “expert experience”, to take part in teamwork based on “volunteering”, to get maximum “efficiency” in all their work, and to fulfill the dreams of students. to “encourage” it."
-			}
+			"content": [
+				{
+					"title": "Mentorship Program",
+					"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do.",
+					"icon": "/img/pages/index/career/mentorship.svg"
+				},
+				{
+					"title": "Student Development Program",
+					"text": "During the Let's FutureUP Project, various trainings are organized to contribute to the development of students with the support of our volunteer educators who are experts in their fields within the scope of the Student Development Program. The student development program aims to transfer to students the golden information that they will use in business life, as well as to take them one step ahead with their knowledge and equipment when they start their business life. Every student involved in their career journey with Let's FutureUP attends these trainings throughout the project. They acquire new information that will be useful for them while attaining their goals and continue their career journey with strong steps.",
+					"icon": "/img/pages/index/career/student.svg"
+				},
+				{
+					"title": "StartUP",
+					"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+					"icon": "/img/pages/index/career/startup.svg"
+				},
+				{
+					"title": "WeTalk",
+					"text": "As part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants.",
+					"icon": "/img/pages/index/career/wetalk.svg"
+				},
+				{
+					"title": "AdviceUP",
+					"text": "Students who take part in Let’s FutureUP Project, also join to the social responsibility project called AdviceUP. Mentees, simultaneously become mentor.  They are matched with 4th grade high school students  and share their knowledge and experiences regarding university entrance exam. The leading aim of this project is to make students become part of social sustainability. Besides, development of social sensitivity and awareness of responsibility are advocated. Thus, every student who are involved in Let’s FutureUP project raise their consciousness of social responsibility.",
+					"icon": "/img/pages/index/career/adviceup.svg"
+				},
+				{
+					"title": "TalentUP",
+					"text": "TalentUP skills development program; consists of various valuable trainings that preparatory, 1st and 2nd-year students can attend. In this program, which only includes selected students, students not only get opportunities to improve themselves but also get a great advantage for their future careers with the training they will receive from experts and professionals in their fields. TalentUP skills development program has 5 main objectives. These are: To create a wide “network” for students, to contribute to their personal development in their career journey with the help of “expert experience”, to take part in teamwork based on “volunteering”, to get maximum “efficiency” in all their work, and to fulfill the dreams of students. to “encourage” it.",
+					"icon": "/img/pages/index/career/talentup.svg"
+				}
+			]
 		},
 		"opinion": {
 			"title": "Let's get to know Let's Future<span class='green'>UP</span> from the people at the top of their careers!",
@@ -118,6 +126,7 @@
 		"e-bulletin": {
 			"title": "E-Journal",
 			"text": "IF YOU'D LIKE TO BE INFORMED ABOUT THE EVENTS,<br />PLEASE REGISTER TO THE E-JOURNAL WITH YOUR E-MAIL ADRESS!",
+			"button": "REGISTER TO THE E-JOURNAL",
 			"content": [
 				{ "text": "DECEMBER 2020", "image": "/img/pages/index/e-bulletin/en/12-2020.png", "file": "/files/e-bulletin/en/12-2020.pdf" },
 				{ "text": "JANUARY 2021", "image": "/img/pages/index/e-bulletin/en/01-2021.png", "file": "/files/e-bulletin/en/01-2021.pdf" },
@@ -295,7 +304,7 @@
 		],
 		"collapsible": {
 			"2020-2021": {
-				"title": "2020-2021",
+				"title": "2020-2021 Dönemi Mentor-Mentee",
 				"mentors": {
 					"title": "MENTÖRLER",
 					"content": [
@@ -312,7 +321,7 @@
 						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
 						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/img/pages/mentorship-program/mentor/yasemin-uyar-duman.jpg" },
 						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/img/pages/mentorship-program/mentor/mustafa-bulut.jpg" },
-						{ "name": "Sebutay Göksu", "place": "Toyota Otomotiv Sanayi Türkiye A.Ş.", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/img/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
+						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/img/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
 						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/img/pages/mentorship-program/mentor/esen-oztemel.jpg" },
 						{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/erol-sapci.jpg" }
 					]

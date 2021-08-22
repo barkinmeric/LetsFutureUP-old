@@ -37,7 +37,7 @@ export default {
 .desktop-navbar-dropdown {
 	position: relative;
 	display: inline-block;
-	z-index: 20;
+	z-index: 15;
 	&:hover {
 		.dropdown-content {
 			display: block;
