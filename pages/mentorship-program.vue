@@ -2,9 +2,6 @@
 	<section class="mentorship-program">
 		<div class="container">
 			<mentorship-collapsible />
-			<div class="img">
-				<!-- <nuxt-img :src="$t('team.img')" alt="" /> -->
-			</div>
 			<div class="text">
 				<h2>{{ $t("mentorship.title") }}</h2>
 				<p>{{ $t("mentorship.desc") }}</p>
@@ -31,13 +28,6 @@ export default {
 <style lang="scss" scope>
 .mentorship-program {
 	margin-bottom: 10px;
-	.img {
-		z-index: -1;
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
 	.text {
 		p {
 			color: #292929;
@@ -50,7 +40,6 @@ export default {
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
-			text-transform: uppercase;
 			padding: 5px 0px;
 			color: #000;
 			display: inline-block;

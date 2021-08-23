@@ -41,14 +41,14 @@
 					"icon": "/img/pages/index/career/student.svg"
 				},
 				{
-					"title": "StartUP",
-					"text": "Geleceğine emin adımlarla ilerleyen, yaratıcı ve başarılı gençleri desteklemek amacıyla ortaya çıkmıştır. Geleceğin başarılı isimlerinin pek çok alanda kendini geliştirmiş, donanımlı ve fark yaratabilen bireyler olduğu gerçeği doğrultusunda bünyesinde bulunan öğrencilerin araştırmacı ve yaratıcı olmasını hedefler. Toplumsal konulara duyarlı yaklaşarak inovatif-fark yaratan fikirler üretir ve bunları yazılımlara dönüştürerek insanların hayatlarını kolaylaştırır. Bu doğrultuda sorunları her açıdan analiz eden ve bu sorunları yaptığı yazılımlarla aşmayı hedefleyen çalışmalar yapar. Her açıdan gelişimi hedefler ve üretilen fikirleri destekleyerek gerçekleşmeleri için ortam yaratır.",
-					"icon": "/img/pages/index/career/startup.svg"
-				},
-				{
 					"title": "WeTalk",
 					"text": "Projemizin WeTalk etkinlikleri kapsamında alanında uzman kişiler deneyim ve önerilerini, geleceğin yaratıcı ve başarılı isimleri olmaya aday öğrencilerle paylaşmak üzere konuşmak için davet edilirler. WeTalk’lar online ya da yüz yüze gerçekleştirilirler. Bu kapsamdaki hedefimiz, öğrencilerin çeşitli alanlarda, farklı başarılar kazanmış isimlerle buluşup gerçek hayat deneyimleri dinlemeleri, ilgili oldukları alanlarla ilgili tecrübeli kişilere birinci elden ulaşabilmeleri ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmelerine yardımcı olmaktır. Bu etkinlikler sadece Let’s FutureUP bünyesindeki öğrencilere değil, kariyerine MerhabaDE’mek isteyen tüm öğrencilere açık gerçekleştirilir.",
 					"icon": "/img/pages/index/career/wetalk.svg"
+				},
+				{
+					"title": "StartUP",
+					"text": "Geleceğine emin adımlarla ilerleyen, yaratıcı ve başarılı gençleri desteklemek amacıyla ortaya çıkmıştır. Geleceğin başarılı isimlerinin pek çok alanda kendini geliştirmiş, donanımlı ve fark yaratabilen bireyler olduğu gerçeği doğrultusunda bünyesinde bulunan öğrencilerin araştırmacı ve yaratıcı olmasını hedefler. Toplumsal konulara duyarlı yaklaşarak inovatif-fark yaratan fikirler üretir ve bunları yazılımlara dönüştürerek insanların hayatlarını kolaylaştırır. Bu doğrultuda sorunları her açıdan analiz eden ve bu sorunları yaptığı yazılımlarla aşmayı hedefleyen çalışmalar yapar. Her açıdan gelişimi hedefler ve üretilen fikirleri destekleyerek gerçekleşmeleri için ortam yaratır.",
+					"icon": "/img/pages/index/career/startup.svg"
 				},
 				{
 					"title": "AdviceUP",
@@ -66,11 +66,25 @@
 			"title": "Kariyerinin zirvesindeki isimlerden Let's Future<span class='green'>UP</span>'ı tanıyalım!",
 			"content": [
 				{
-					"name": "Taner KARSLIOĞLU",
-					"place": "Feka Grup",
+					"name": "Ali Yaşar TOPÇU",
+					"place": "Farba Otomotiv",
+					"position": "Fabrika Yöneticisi",
+					"image": "/img/pages/index/opinions/ali-yasar-topcu.png",
+					"text": "Meslektaş adaylarımıza mesleğe adım atmadan önce kendilerine en uygun sektör/bölüm seçimlerine destek olmak, onlara henüz okurken bir işletmede çalışıyor ve sorumluluk taşıyor hissini verebilmek için bu projeye katılmayı uygun gördüm. İşe aldığımız yeni mezun arkadaşlarımızda karşılaştığımız eksik noktaların, projedeki adaylarda da olmamasını sağlamak ve olabildiğince motive bir şekilde mesleğe adım atmalarına yardımcı olmak en büyük motivasyon kaynağımız oldu. Öğrencinin daha işe başlamadan doğru sektör/bölüm seçimi, işe başlayışından sonra en az bir yıl içerisinde öğrenebileceği birçok hususu bu işe yıllarını vermiş ve birçok tecrübeyi yaşamış kişilerden birebir duyarak ve görerek öğrenmeleri kişinin kariyerinde çok önemli fırsatlar yaratacaktır. Şahsen işe başladığım ilk dönemde birçok şeyi kendi başıma, düşe kalka öğrendim. Şimdi ise daha öğrenci iken bir mentor desteği alabilmek, gerçekten çok ciddi bir fırsat ve şans. Mentor olarak bizler için de yeni öğrenme fırsatları yaratan bir proje oldu."
+				},
+				{
+					"name": "Eman Martin-Vignerte",
+					"place": "Robert Bosch Birleşik Kırallık",
+					"position": "Dış İlişkiler ve Devlet ve Siyasi İlişkiler Yöneticisi",
+					"image": "/img/pages/index/opinions/eman-martin-vignerte.png",
+					"text": "Muhtemelen hayatınızda birisinin tavsiyesine veya yol göstericiliğine güvendiğiniz sayısız an olmuştur. Başvurduğunuz kişi ister bir öğretmen, arkadaş, aile bireyi, spor antrenörü isterse başka biri olsun; mentor ve eğitmenlerin önemi yadsınamaz. Bu proje öğrencilerin anlık durumlarını ve gelecek fırsatlarını daha iyiye taşımalarında onlara rehberlik edebilecek, onları yönlendirebilecek ve şekillendirebilecek bir etkiye sahiptir."
+				},
+				{
+					"name": "Erol SAPCI",
+					"place": "FKT Koltuk",
 					"position": "CEO",
-					"image": "/img/pages/index/opinions/taner-karslioglu.png",
-					"text": "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar. Bu süreç, kafalarında birçok soru işaretinin olduğu çok zorlayıcı bir süreç olabiliyor. Mentor programı yardımıyla, öğrencilerle tecrübelerimizi paylaşarak onlara bundan sonraki seçimlerinde yardımcı olmak ve doğru yolda ilerlemelerini sağlayabilmek fikri bana çok cazip geldi ve bu programa gönüllü olarak katıldım. Bu projenin öğrenciler için yararları, mentörlerin kendi bilgi ve deneyimlerini öğrencilerle paylaşması, bir dış göz olarak öğrencilerin kuvvetli ve zayıf yönlerini görmesi ve onları gelişmesine yardımcı olması, kendilerine güvenlerini artırması denebilir. Bu unsurlar sayesinde öğrencilerin farkındalığı artacak ve daha doğru seçimler yapacaklardır. Bazı öğrencilerde bunun kariyerlerini bile değiştirebileceğine yürekten inanıyorum."
+					"image": "/img/pages/index/opinions/erol-sapci.png",
+					"text": "Çalışma hayatım boyunca çalışma arkadaşlarımın strateji oluşturma, hedef belirleme ve karar verme konularında eksiklikler yaşadıklarını gördüm. Her zaman, bunun çözülebilir bir sorun olduğunu düşündüm. Bu platform tam da en uygun zamanda ve en uygun şekilde, öğrencilerin hayata atılmadan  tecrübeleri en üstün düzeydeki mentörlerden bu desteği alabilmelerini sağlıyor. Program aynı zamanda mentörler için yeni jenerasyonu tanıma, onların beklentilerini anlama yolunda da müthiş bir karşılıklı eğitime dönüşüyor. Yine Let’s FutureUP programında öğrenciler kendilerini gerçekleştirmek için; problem çözme, iletişim, eleştirel düşünme, karar verme, sorumluluk alma, network kurma gibi konularda mentörlerinden bilgi alıyorlar. Özetle bu projenin kesinlikle bir öğrencinin kariyerini olumlu yönde değiştireceğini düşünüyorum."
 				},
 				{
 					"name": "Gürkan KANTARCI",
@@ -80,11 +94,18 @@
 					"text": "Gönüllülük esasına dayalı bir sosyal sorumluluk projesi olan Let's FutureUP oluşumunu, geleceğe umutla bakacak kalifiye bireylerin yetişmesi için destek verebileceğim bir aracı platform olarak gördüm. Cebimde bugüne kadar biriktirdiğim tecrübelerimi, geleceği şekillendirecek olan gençlerle paylaşmak suretiyle onların bu tecrübelerden yola çıkarak kendi rotalarını belirlemelerine katkı sağlamak arzusu doğrultusunda Let's Future Up projesinde yer almak istedim. Proje sonunda kendini daha iyi ifade edebilen, hedeflerini daha net belirleyebilen, sahip olduğu vasıfları hakkında farkındalıkları yüksek olan, iş hayatı ile ilgili bilinç seviyesini birkaç adım ileriye taşıyan ve almış olduğu ayrıcalıklı eğitimlerle kişisel gelişimine katkı sağlayan cesur ve umut dolu adayların, programda yer alma şansı bulamayan diğer adaylara kıyasla kariyer açısından avantajlı bir konum elde ettiklerini düşünmekteyim. Bu nedenle evet, bu proje bir öğrencinin kariyerini değiştirebilir."
 				},
 				{
-					"name": "Yusuf Ziya YÜCE",
-					"place": "Limak Enerji A.Ş.",
-					"position": "Kurumsal İletişim Müdürü",
-					"image": "/img/pages/index/opinions/yusuf-ziya-yuce.png",
-					"text": "Benim için birilerine katkı sağlamak ve iyi yerlere geldiklerini görüp mutlu olmak; bir nevi “insan yetiştirmek” mesleğimin  sosyal sorumluluğuydu. Proje, öğrencilere katacağı tecrübelerle onların kariyerlerini ve hatta hayatlarını değiştirebilir. Çünkü şahsi kanaatimce, bu hayatta kazanılması en pahalı olan şey, tecrübedir."
+					"name": "Mirsada Kudric",
+					"place": "Robert Bosch Hırvatistan & Slovenya",
+					"position": "Genel Müdürü",
+					"image": "/img/pages/index/opinions/mirsada-kudric.png",
+					"text": "Teknolojik gelişim çağında, teknolojinin sürekli ilerleyerek insanların yerini aldığı böyle bir dönemde; bu proje gibi mentorluk programlarını her zamankinden daha önemli buluyorum. İnsan ilişkisi her alanda çok büyük bir önem kazandı. Bu, mentorluk için de geçerli. Ne yazık ki genç nesil, kendi gelişim yolculuklarında ciddi öneme sahip olan diğer insanların bilgisine, deneyimine, desteğine kısıtlı bir şekilde erişebilmektedir. Bu sorunu çözmek tam da bu serveti özveriyle paylaşabilecek ve paylaşması gerekenlerin sorumluluğundadır. Bu sayede her iki taraf da gelişip yücelebilir. Bu, mentorun edindiği tecrübe ve bilginin bir kısmını dünyanın dayandığı yeni nesillere aktarması ve böylece dolaylı olarak daha iyi bir yarının yaratılmasını etkilemesi için bir fırsattır."
+				},
+				{
+					"name": "Taner KARSLIOĞLU",
+					"place": "Feka Grup",
+					"position": "CEO",
+					"image": "/img/pages/index/opinions/taner-karslioglu.png",
+					"text": "Her yıl binlerce öğrenci üniversitelerden mezun oluyor ve kendilerini bundan sonraki hayata hazırlamaya çalışıyorlar. Bu süreç, kafalarında birçok soru işaretinin olduğu çok zorlayıcı bir süreç olabiliyor. Mentor programı yardımıyla, öğrencilerle tecrübelerimizi paylaşarak onlara bundan sonraki seçimlerinde yardımcı olmak ve doğru yolda ilerlemelerini sağlayabilmek fikri bana çok cazip geldi ve bu programa gönüllü olarak katıldım. Bu projenin öğrenciler için yararları, mentörlerin kendi bilgi ve deneyimlerini öğrencilerle paylaşması, bir dış göz olarak öğrencilerin kuvvetli ve zayıf yönlerini görmesi ve onları gelişmesine yardımcı olması, kendilerine güvenlerini artırması denebilir. Bu unsurlar sayesinde öğrencilerin farkındalığı artacak ve daha doğru seçimler yapacaklardır. Bazı öğrencilerde bunun kariyerlerini bile değiştirebileceğine yürekten inanıyorum."
 				},
 				{
 					"name": "Tanju ÖZKONUK",
@@ -94,32 +115,11 @@
 					"text": "Geçmişte olduğu gibi bugün de yarınlarımızı şekillendirecek olan, hedefleri ve farkındalıkları olan günümüzün gençleridir. Doğru iletişim kanalları üzerinden onlarla buluşabilmenin, onları dinlemenin, anlamanın ve  yeni fırsatlar için onları cesaretlendirebilmenin çok kıymetli olduğuna inanıyorum. Let’s FutureUP bu yolda bana aracı oldu, seyirci kalmamamın yolunu açtı.  Projeye katılan tüm öğrencilerimiz onları zorlayan bir sebep olmaksızın kişisel farkındalıkları ve hedefleri doğrultusunda öncelikle gönüllü olarak çalıştılar, zaman ayırdılar ve emek sarf ettiler. Görüşmelerimde bazen sorgulayıcıydılar, bazen dinleyiciydiler ve çoğunlukla da onları gelecekte nelerin beklediğini konuşmaya istekliydiler. Her durumda çözüme  odaklanmaları en etkileyici taraftı. Sorunlara değil, sorunların getirdiği fırsatlara ve çözümlere odaklanan bir gençliğin kariyer endişesi olabilir mi?"
 				},
 				{
-					"name": "Ali Yaşar TOPÇU",
-					"place": "Farba Otomotiv",
-					"position": "Fabrika Yöneticisi",
-					"image": "/img/pages/index/opinions/ali-yasar-topcu.png",
-					"text": "Meslektaş adaylarımıza mesleğe adım atmadan önce kendilerine en uygun sektör/bölüm seçimlerine destek olmak, onlara henüz okurken bir işletmede çalışıyor ve sorumluluk taşıyor hissini verebilmek için bu projeye katılmayı uygun gördüm. İşe aldığımız yeni mezun arkadaşlarımızda karşılaştığımız eksik noktaların, projedeki adaylarda da olmamasını sağlamak ve olabildiğince motive bir şekilde mesleğe adım atmalarına yardımcı olmak en büyük motivasyon kaynağımız oldu. Öğrencinin daha işe başlamadan doğru sektör/bölüm seçimi, işe başlayışından sonra en az bir yıl içerisinde öğrenebileceği birçok hususu bu işe yıllarını vermiş ve birçok tecrübeyi yaşamış kişilerden birebir duyarak ve görerek öğrenmeleri kişinin kariyerinde çok önemli fırsatlar yaratacaktır. Şahsen işe başladığım ilk dönemde birçok şeyi kendi başıma, düşe kalka öğrendim. Şimdi ise daha öğrenci iken bir mentor desteği alabilmek, gerçekten çok ciddi bir fırsat ve şans. Mentor olarak bizler için de yeni öğrenme fırsatları yaratan bir proje oldu."
-				},
-				{
-					"name": "Erol SAPCI",
-					"place": "FKT Koltuk",
-					"position": "CEO",
-					"image": "/img/pages/index/opinions/erol-sapci.png",
-					"text": "Çalışma hayatım boyunca, işe yeni başlayan arkadaşlarımın, bazen de uzun yıllar çalışma tecrübesi olan arkadaşlarımın strateji oluşturma, hedef belirleme ve karar verme konularında eksiklikler yaşadıklarını gördüm. Her zaman, bunun çözülebilir bir sorun olduğunu düşündüm. Ancak bunun için danışmaya istekli bir kişinin olması gerekiyordu. Bu platform tam da en uygun zamanda ve en uygun şekilde, öğrencilerin hayata atılmadan  tecrübeleri en üstün düzeydeki mentörlerden bu desteği alabilmelerini sağlıyor. Program aynı zamanda mentörler için yeni jenerasyonu tanıma, onların beklentilerini anlama yolunda da müthiş bir karşılıklı eğitime dönüşüyor. Hızlı değişimlerin önemli bir rol oynadığı günümüz dünyasında üretken, girişimci ve iletişim odaklı bir proje sürecine dâhil olmak öğrenci arkadaşlarımız için oldukça önemlidir. Bu proje süreci, teorik bilgilerin gelecek yıllarda uygulamada nasıl kullanılacağını  görmede yardımcı olmaktadır. Öğrencilere iş dünyasının beklentilerine uygun becerilere sahip olma yollarını gösterme imkânını da sağlar. Yine Let’s FutureUP programında öğrenciler kendilerini gerçekleştirmek için; problem çözme, iletişim, eleştirel düşünme, karar verme, sorumluluk alma, network kurma gibi konularda mentörlerinden bilgi alıyorlar. Özetle bu projenin kesinlikle bir öğrencinin kariyerini olumlu yönde değiştireceğini düşünüyorum. Ayrıca; onlarca insanı bütün dünyanın pandemi gibi bir sorun yaşadığı dönemde bir araya getirmek, bir amaç etrafında toplamak, motive etmek, harekete geçirmek ve en önemlisi sonuç almak gibi başarıları da gerçekleştirdikleri için projede emeği geçen herkesi kutluyorum."
-				},
-				{
-					"name": "Eman Martin-Vignerte",
-					"place": "Robert Bosch",
-					"position": "Birleşik Kırallık Dış İlişkiler ve Devlet ve Siyasi İlişkiler Yöneticisi",
-					"image": "/img/pages/index/opinions/eman-martin-vignerte.png",
-					"text": "Muhtemelen hayatınızda birisinin tavsiyesine veya yol göstericiliğine güvendiğiniz sayısız an olmuştur. Başvurduğunuz kişi ister bir öğretmen, arkadaş, aile bireyi, spor antrenörü isterse başka biri olsun; mentor ve eğitmenlerin önemi yadsınamaz. Bu proje öğrencilerin anlık durumlarını ve gelecek fırsatlarını daha iyiye taşımalarında onlara rehberlik edebilecek, onları yönlendirebilecek ve şekillendirebilecek bir etkiye sahiptir."
-				},
-				{
-					"name": "Mirsada Kudric",
-					"place": "Robert Bosch",
-					"position": "Hırvatistan & Slovenya Genel Müdürü",
-					"image": "/img/pages/index/opinions/mirsada-kudric.png",
-					"text": "Teknolojik gelişim çağında, teknolojinin sürekli ilerleyerek insanların yerini aldığı böyle bir dönemde; bu proje gibi mentorluk programlarını her zamankinden daha önemli buluyorum. İnsan ilişkisi her alanda çok büyük bir önem kazandı. Bu, mentorluk için de geçerli. Ne yazık ki genç nesil, kendi gelişim yolculuklarında ciddi öneme sahip olan diğer insanların bilgisine, deneyimine, desteğine kısıtlı bir şekilde erişebilmektedir. Bu sorunu çözmek tam da bu serveti özveriyle paylaşabilecek ve paylaşması gerekenlerin sorumluluğundadır. Bu sayede her iki taraf da gelişip yücelebilir. Bu, mentorun edindiği tecrübe ve bilginin bir kısmını dünyanın dayandığı yeni nesillere aktarması ve böylece dolaylı olarak daha iyi bir yarının yaratılmasını etkilemesi için bir fırsattır."
+					"name": "Yusuf Ziya YÜCE",
+					"place": "Limak Enerji A.Ş.",
+					"position": "Kurumsal İletişim Müdürü",
+					"image": "/img/pages/index/opinions/yusuf-ziya-yuce.png",
+					"text": "Benim için birilerine katkı sağlamak ve iyi yerlere geldiklerini görüp mutlu olmak; bir nevi “insan yetiştirmek” mesleğimin  sosyal sorumluluğuydu. Proje, öğrencilere katacağı tecrübelerle onların kariyerlerini ve hatta hayatlarını değiştirebilir. Çünkü şahsi kanaatimce, bu hayatta kazanılması en pahalı olan şey, tecrübedir."
 				}
 			]
 		},
@@ -169,7 +169,7 @@
 		}
 	},
 	"about": {
-		"title": "Hakkımızda",
+		"title": "HAKKIMIZDA",
 		"img": "/img/pages/about-us/tr/hakkimizda.webp",
 		"content": [
 			{
@@ -198,7 +198,7 @@
 		]
 	},
 	"story": {
-		"title": "Hikayemiz",
+		"title": "HİKAYEMİZ",
 		"img": "/img/pages/our-story/tr/hikayemiz.webp",
 		"content": [
 			"2020 yılının başlarından önce “Pandemi nedir?” diye sorsaydınız inanın cevabı Google’da arardık. Daha önce yaşanmış, tecrübe edilmiş bir durum değildi bizler için.",
@@ -208,38 +208,76 @@
 		]
 	},
 	"team": {
-		"title": "Proje Ekibi",
+		"title": "PROJE EKİBİ",
 		"img": "/img/pages/project-team/tr/proje-ekibi.webp",
 		"desc": "Let’s FutureUP Mentorluk ve Öğrenci Gelişim programlarını yöneten proje ekibi; İnsan Kaynakları, İş & Strateji Geliştirme, Kurumsal İletişim, Dış İlişkiler, Sosyal Medya ve Dijital Pazarlama, StartUP olarak altı departmandan oluşmaktadır. Bu departmanlarda, dünyanın dört bir yanında bulunan üniversitelerden gelen gönüllü öğrenciler yer almaktadır.",
 		"content": [
 			{
 				"title": "İNSAN KAYNAKLARI DEPARTMANI",
-				"text": "Let’s FutureUP Mentorluk Programı ve proje ekip üyesi alım sürecini organize eder, mülakat yapar ve olumlu adayların oryantasyon sürecini yönetir. Öğrencilerin gelişimlerine yönelik eğitimler organize eder. Aylık E-Bülten hazırlanmasında rol oynar. Mentorluk Programına dahil olan öğrencilerin ve ekip üyelerinin devamlılığını takip eder. Proje ekip üyelerinin motivasyonlarının yüksek tutulması ve birbirlerini daha yakından tanıyabilmeleri adına kaynaşma etkinlikleri düzenler. WeTALK etkinliklerinin ve eğitimlerin içerik yazılarının hazırlanmasında Sosyal Medya ve Dijital Pazarlama Departmanı ile çalışır."
+				"text": "Let’s FutureUP Mentorluk Programı ve proje ekip üyesi alım sürecini organize eder, mülakat yapar ve olumlu adayların oryantasyon sürecini yönetir. Öğrencilerin gelişimlerine yönelik eğitimler organize eder. Aylık E-Bülten hazırlanmasında rol oynar. Mentorluk Programına dahil olan öğrencilerin ve ekip üyelerinin devamlılığını takip eder. Proje ekip üyelerinin motivasyonlarının yüksek tutulması ve birbirlerini daha yakından tanıyabilmeleri adına kaynaşma etkinlikleri düzenler. WeTALK etkinliklerinin ve eğitimlerin içerik yazılarının hazırlanmasında Sosyal Medya ve Dijital Pazarlama Departmanı ile çalışır.",
+				"collapsible": [
+					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/img/pages/project-team/human-resources/nisan-kocak.png" },
+					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/img/pages/project-team/human-resources/nisa-yildirim.png" },
+					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/img/pages/project-team/human-resources/yaren-bato.png" }
+				]
 			},
 			{
 				"title": "KURUMSAL İLETİŞİM DEPARTMANI",
-				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerine yönelik olarak üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Sponsorluk çalışmaları yapar. Üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler."
+				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerine yönelik olarak üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Sponsorluk çalışmaları yapar. Üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
+				"collapsible": [
+					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/can-cakariz.png" },
+					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/doga-aydogdu.png" },
+					{ "name": "Eylül Şahinoğlu", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/eylul-sahinoglu.png" },
+					{ "name": "Gülsüm Yılmaz", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/gulsum-yilmaz.png" },
+					{ "name": "Hamza Otar", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/hamza-otar.png" },
+					{ "name": "Merve Özhavutçu", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/merve-ozhavutcu.png" },
+					{ "name": "Rana Canan Cömert", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/rana-canan-comert.png" }
+				]
 			},
 			{
 				"title": "İŞ & STRATEJİ GELİŞTİRME DEPARTMANI",
-				"text": "Let’s FutureUP projesinin misyonu ve vizyonu doğrultusunda stratejilerin geliştirilmesine destek vererek projenin hedeflerine ulaşması için inovatif fikirler ortaya koyar. Bu kapsamda projede bulunan departmanların yeni fikirler üretmesinde ve bu fikirlerin hayata geçirilmesinde liderlik eder. Yeni fikirlerin projeye nasıl entegre edilebileceği konusunda tüm departmanlar ile koordine bir şekilde çalışır."
+				"text": "Let’s FutureUP projesinin misyonu ve vizyonu doğrultusunda stratejilerin geliştirilmesine destek vererek projenin hedeflerine ulaşması için inovatif fikirler ortaya koyar. Bu kapsamda projede bulunan departmanların yeni fikirler üretmesinde ve bu fikirlerin hayata geçirilmesinde liderlik eder. Yeni fikirlerin projeye nasıl entegre edilebileceği konusunda tüm departmanlar ile koordine bir şekilde çalışır.",
+				"collapsible": [
+					{ "name": "Büşra Savran", "place": "", "position": "", "image": "/img/pages/project-team/business-development/busra-savran.png" },
+					{ "name": "Rümeysa Özsağlıcak", "place": "", "position": "", "image": "/img/pages/project-team/business-development/rumeysa-ozsaglicak.png" }
+				]
 			},
 			{
 				"title": "DIŞ İLİŞKİLER DEPARTMANI",
-				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerinin içeriklerine yönelik olarak uluslararası şirketlerin yurt dışı bölümünde çalışan üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Projeyi uluslararası bir konuma getirmek üzere yabancı öğrencilere ulaşabilmek için yurt dışındaki üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler."
+				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerinin içeriklerine yönelik olarak uluslararası şirketlerin yurt dışı bölümünde çalışan üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Projeyi uluslararası bir konuma getirmek üzere yabancı öğrencilere ulaşabilmek için yurt dışındaki üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
+				"collapsible": [
+					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/cansin-oksan.png" },
+					{ "name": "Kayra Özçakar", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/kayra-ozcakar.png" },
+					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/ratu-faidah.png" },
+					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/sophie-aigner.png" },
+					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/sueda-sahin.png" }
+				]
 			},
 			{
 				"title": "SOSYAL MEDYA VE DİJİTAL PAZARLAMA DEPARTMANI",
-				"text": "Let’s FutureUP Projesi’nin sosyal medya hesaplarının etkin bir şekilde kullanılmasını sağlar. Aynı zamanda projenin ulusal ve uluslararası kitlelere ulaşmasında rol alır. Sosyal medya hesaplarında paylaşılmak üzere gönderiler ve içerikler hazırlar. WeTALK etkinliklerinin ve eğitimlerin duyurulmasını sağlar."
+				"text": "Let’s FutureUP Projesi’nin sosyal medya hesaplarının etkin bir şekilde kullanılmasını sağlar. Aynı zamanda projenin ulusal ve uluslararası kitlelere ulaşmasında rol alır. Sosyal medya hesaplarında paylaşılmak üzere gönderiler ve içerikler hazırlar. WeTALK etkinliklerinin ve eğitimlerin duyurulmasını sağlar.",
+				"collapsible": [
+					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/img/pages/project-team/social-media/ayse-merve-ergun.png" },
+					{ "name": "Ece Nur Emre", "place": "", "position": "", "image": "/img/pages/project-team/social-media/ece-nur-emre.png" },
+					{ "name": "Şevval Sergün", "place": "", "position": "", "image": "/img/pages/project-team/social-media/sevval-sergun.png" },
+					{ "name": "Yağmur Dereli", "place": "", "position": "", "image": "/img/pages/project-team/social-media/yagmur-dereli.png" },
+					{ "name": "Yıldız Yüksel", "place": "", "position": "", "image": "/img/pages/project-team/social-media/yildiz-yuksel.png" }
+				]
 			},
 			{
 				"title": "STARTUP DEPARTMANI",
-				"text": "StartUP Ekibi, projemizin ilerleyen dönemlerinde gerçekleştireceğimiz girişim tabanlı etkinlikler için hazırlıklar yapar. Bu ekip, genelde web sitemizin kurulumu, iyileştirilmesi, ilerleyişi, gelişimi ve yönetimi üzerine çalışmalar gerçekleştirir. Ayrıca projeyi yöneten programların kodlarının yazılmasından ve dijitale aktarılmasından sorumludur."
+				"text": "StartUP Ekibi, projemizin ilerleyen dönemlerinde gerçekleştireceğimiz girişim tabanlı etkinlikler için hazırlıklar yapar. Bu ekip, genelde web sitemizin kurulumu, iyileştirilmesi, ilerleyişi, gelişimi ve yönetimi üzerine çalışmalar gerçekleştirir. Ayrıca projeyi yöneten programların kodlarının yazılmasından ve dijitale aktarılmasından sorumludur.",
+				"collapsible": [
+					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/img/pages/project-team/startup/barkin-meric.png" },
+					{ "name": "Elaa Jamazi", "place": "", "position": "", "image": "/img/pages/project-team/startup/elaa-jamazi.png" },
+					{ "name": "Olgu Batın Topal", "place": "", "position": "", "image": "/img/pages/project-team/startup/olgu-batin-topal.png" },
+					{ "name": "Pelin İşeri", "place": "", "position": "", "image": "/img/pages/project-team/startup/pelin-iseri.png" }
+				]
 			}
 		]
 	},
 	"faq": {
-		"title": "Sıkça Sorulan Sorular",
+		"title": "SIKÇA SORULAN SORULAR",
 		"img": "/img/pages/faq/tr/sss.webp",
 		"content": [
 			{
@@ -287,61 +325,61 @@
 		]
 	},
 	"mentorship": {
-		"title": "Mentorluk Programı",
+		"title": "MENTORLUK PROGRAMI",
 		"desc": "Projeye seçilen mentor ve menteelerin; beklentileri, çalışma alanları, ilgi alanları gibi birçok durum dikkate alınarak eşleştirmeleri yapılır. Proje süresince ayda bir kez, en az 45 dakika olmak üzere toplam 7 görüşme gerçekleştirilir. Buluşmalar mentor ve menteenin ortak kararına göre online veya yüz yüze olarak organize edilir ve 7 buluşmadan daha fazla görüşme yapmak onların inisiyatifine bırakılır.",
 		"content": [
 			{
-				"title": "Mentee Nedir?",
+				"title": "MENTEE NEDİR?",
 				"text": "Let’s FutureUP projesindeki menteeler; gelecekteki kariyerleri için şimdiden bir adım atmayı amaçlayan, sektörle ilgili bilgi-becerilerini geliştirmek isteyen, bir problemle karşılaştığında en verimli şekilde nasıl çözebileceğini merak eden ve bunun için de bir mentora başvuran öğrencilerdir. Let’s FutureUP Projesi kapsamında üniversitelerin 3. ve 4. sınıflarında okuyan 25 kişi mülakatlar ile mentee olarak seçilir ve onlara en uygun mentorla eşleştirilmesi yapılır. Menteeler mentorlar eşliğinde 7 aylık bir süreç geçirirler. Bu süreçte mentorları ile görüşmeler gerçekleştirirler. Her görüşme sonrası o görüşmede kendilerine neler kattıklarını ve sonraki görüşmelerinin konusunu belirlerler. Bütün görüşmelerin sonunda sorularına yanıt bulurlar, bilgi-becerilerini geliştirirler, problemlere karşı farklı çözüm yolları geliştirmeyi ve değişikliğe uyum sağlamayı öğrenirler."
 			},
 			{
-				"title": "Mentor Nedir?",
+				"title": "MENTOR NEDİR?",
 				"text": "Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından alanında uzman kişiler detaylı bir şekilde araştırılır ve ilgili kişilerin mentorluk başvurusu alınır. Seçilen her mentorun sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en iyi şekilde kariyer yolculuklarına hazırlar."
 			}
 		],
 		"collapsible": {
 			"2020-2021": {
-				"title": "2020-2021 Dönemi Mentor-Mentee",
+				"title": "2020-2021 DÖNEMİ MENTOR-MENTEE",
 				"mentors": {
-					"title": "MENTÖRLER",
+					"title": "MENTORLER",
 					"content": [
-						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/iskender-ulusay.jpg" },
-						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/img/pages/mentorship-program/mentor/tanju-ozkonuk.jpg" },
-						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Qatar", "position": "General Manager", "image": "/img/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
+						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/img/pages/mentorship-program/mentor/ali-yagci.jpg" },
+						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
 						{ "name": "Arif Kaya", "place": "HUGO BOSS Tekstil San. Ltd.", "position": "Türkiye Genel Müdürü", "image": "/img/pages/mentorship-program/mentor/arif-kaya.jpg" },
 						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/bulent-kacar.jpg" },
-						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/mentorship-program/mentor/yusuf-ziya-yuce.jpg" },
-						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
+						{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/erol-sapci.jpg" },
+						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/img/pages/mentorship-program/mentor/esen-oztemel.jpg" },
 						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
-						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/img/pages/mentorship-program/mentor/ali-yagci.jpg" },
-						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/img/pages/mentorship-program/mentor/seval-oz.jpg" },
-						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
-						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/img/pages/mentorship-program/mentor/yasemin-uyar-duman.jpg" },
+						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/iskender-ulusay.jpg" },
+						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Qatar", "position": "General Manager", "image": "/img/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
 						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/img/pages/mentorship-program/mentor/mustafa-bulut.jpg" },
 						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/img/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
-						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/img/pages/mentorship-program/mentor/esen-oztemel.jpg" },
-						{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/erol-sapci.jpg" }
+						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/img/pages/mentorship-program/mentor/seval-oz.jpg" },
+						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
+						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/img/pages/mentorship-program/mentor/tanju-ozkonuk.jpg" },
+						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/img/pages/mentorship-program/mentor/yasemin-uyar-duman.jpg" },
+						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/mentorship-program/mentor/yusuf-ziya-yuce.jpg" }
 					]
 				},
 				"mentees": {
 					"title": "MENTEELER",
 					"content": [
+						{ "name": "Alperen Adatepe", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/alperen-adatepe.jpg" },
 						{ "name": "Burcu Akgöz", "place": "İstanbul Üniversitesi", "position": "İşletme (İngilizce)", "image": "/img/pages/mentorship-program/mentee/burcu-akgoz.jpg" },
 						{ "name": "Elif Çanga", "place": "Boğaziçi Üniversitesi", "position": "Ekonomi", "image": "/img/pages/mentorship-program/mentee/elif-canga.jpg" },
 						{ "name": "Emre Günhan", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/img/pages/mentorship-program/mentee/emre-gunhan.jpg" },
+						{ "name": "Ezgi Topaloğlu", "place": "Boğaziçi Üniversitesi", "position": "Makine Mühendisliği", "image": "/img/pages/mentorship-program/mentee/ezgi-topaloglu.jpg" },
+						{ "name": "Ezgi Uysal", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/ezgi-uysal.jpg" },
 						{ "name": "Magdalena Tihon", "place": "İstanbul Teknik Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/img/pages/mentorship-program/mentee/magdalena-tihon.jpg" },
-						{ "name": "Simge Bakış", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/img/pages/mentorship-program/mentee/simge-bakis.jpg" },
-						{ "name": "Tuğba Buse Kılıç", "place": "Süleyman Demirel Üniversitesi", "position": "İktisat (İngilizce)", "image": "/img/pages/mentorship-program/mentee/tugba-buse-kilic.jpg" },
-						{ "name": "Seda Kanburoğlu", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/seda-kanburoglu.jpg" },
-						{ "name": "Seran Saltık", "place": "Uludağ Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/img/pages/mentorship-program/mentee/seran-saltik.jpg" },
-						{ "name": "Serra Tatlıcılar", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/serra-tatlicilar.jpg" },
-						{ "name": "Alperen Adatepe", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/alperen-adatepe.jpg" },
 						{ "name": "Nida Ertan", "place": "Uludağ Üniversitesi", "position": "Makine Mühendisliği", "image": "/img/pages/mentorship-program/mentee/nida-ertan.jpg" },
 						{ "name": "Nur Sena Duman", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/nur-sena-duman.jpg" },
 						{ "name": "Oğuzhan Boğaz", "place": "İstanbul Teknik Üniversitesi", "position": "Endüstri Mühendisliği (İngilizce)", "image": "/img/pages/mentorship-program/mentee/oguzhan-bogaz.jpg" },
-						{ "name": "Ezgi Topaloğlu", "place": "Boğaziçi Üniversitesi", "position": "Makine Mühendisliği", "image": "/img/pages/mentorship-program/mentee/ezgi-topaloglu.jpg" },
-						{ "name": "Yusuf İzzettin Biçer", "place": "Marmara Üniversitesi", "position": "İşletme", "image": "/img/pages/mentorship-program/mentee/yusuf-izzettin-bicer.jpg" },
-						{ "name": "Ezgi Uysal", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/ezgi-uysal.jpg" }
+						{ "name": "Seda Kanburoğlu", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/seda-kanburoglu.jpg" },
+						{ "name": "Seran Saltık", "place": "Uludağ Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/img/pages/mentorship-program/mentee/seran-saltik.jpg" },
+						{ "name": "Serra Tatlıcılar", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/serra-tatlicilar.jpg" },
+						{ "name": "Simge Bakış", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/img/pages/mentorship-program/mentee/simge-bakis.jpg" },
+						{ "name": "Tuğba Buse Kılıç", "place": "Süleyman Demirel Üniversitesi", "position": "İktisat (İngilizce)", "image": "/img/pages/mentorship-program/mentee/tugba-buse-kilic.jpg" },
+						{ "name": "Yusuf İzzettin Biçer", "place": "Marmara Üniversitesi", "position": "İşletme", "image": "/img/pages/mentorship-program/mentee/yusuf-izzettin-bicer.jpg" }
 					]
 				}
 			}

@@ -56,7 +56,6 @@ export default {
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
-			text-transform: uppercase;
 			padding: 5px 0px;
 			color: #000;
 			display: inline-block;

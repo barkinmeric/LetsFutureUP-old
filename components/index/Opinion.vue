@@ -2,7 +2,7 @@
 	<div class="opinion">
 		<div class="container">
 			<div class="opinion-title" v-html="$t('index.opinion.title')"></div>
-			<slider :pagination="true" :enableClick="true" :autoplay="true">
+			<slider :pagination="true" :autoplay="true">
 				<slider-inner v-for="item in $t('index.opinion.content')" :key="item.name">
 					<opinion-modal :item="item" />
 				</slider-inner>

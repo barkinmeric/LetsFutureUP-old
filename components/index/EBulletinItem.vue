@@ -20,6 +20,7 @@ export default {
 .e-bulletin-item {
 	margin: 20px;
 	.e-bulletin-img {
+		user-select: none;
 		border-radius: 10px;
 		box-shadow: 0px 0px 5px 1px #292929;
 		height: 160px;

@@ -8,7 +8,7 @@
 				<h2>{{ $t("team.title") }}</h2>
 				<p>{{ $t("team.desc") }}</p>
 				<div v-for="item in $t('team.content')" :key="item.title">
-					<h3>{{ item.title }}</h3>
+					<team-collapsible :item="item" />
 					<p>{{ item.text }}</p>
 				</div>
 			</div>
@@ -56,16 +56,6 @@ export default {
 			margin-bottom: 10px;
 			border-bottom: 1px solid $sideColor;
 			border-bottom-width: 3px;
-		}
-		h3 {
-			font-size: 18px;
-			font-weight: 550;
-			letter-spacing: 1px;
-			text-transform: uppercase;
-			position: relative;
-			padding: 5px 0px;
-			margin: 10px 0px 0px 0px;
-			color: #000;
 		}
 	}
 }

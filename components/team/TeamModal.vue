@@ -1,19 +1,19 @@
 <template>
-	<div class="board-modal">
-		<div class="board-img">
+	<div class="team-modal">
+		<div class="team-img">
 			<nuxt-img :src="item.image" alt="" width="150px" height="150px" draggable="false" loading="lazy" />
 		</div>
-		<div class="board-text">
+		<div class="team-text">
 			<div class="name">{{ item.name }}</div>
-			<div class="corp">{{ item.place }}</div>
-			<div class="title">{{ item.position }}</div>
+			<div class="place">{{ item.place }}</div>
+			<div class="position">{{ item.position }}</div>
 		</div>
 	</div>
 </template>
 
 <script>
 export default {
-	name: "BoardModal",
+	name: "TeamModal",
 	props: {
 		item: Object,
 	},
@@ -21,35 +21,33 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.board-modal {
+.team-modal {
+	user-select: none;
 	padding: 20px;
-	.board-img {
+	text-align: center;
+	width: 250px;
+	.team-img {
 		border-radius: 50%;
 		img {
-			user-select: none;
 			border-radius: 50%;
-			filter: grayscale(100%);
 			transition: all ease 0.5s;
 			&:hover {
-				filter: grayscale(0%);
 				animation: submit 1s infinite;
 			}
 		}
 	}
-	.board-text {
+	.team-text {
 		padding: 10px 0px;
 		.name {
 			font-weight: 800;
 			letter-spacing: 1px;
 			font-size: 18px;
 		}
-		.corp {
-			font-weight: 600;
-			font-size: 16px;
+		.place {
+			width: 100%;
 		}
-		.title {
-			font-weight: 500;
-			font-size: 14px;
+		.position {
+			width: 100%;
 		}
 	}
 }

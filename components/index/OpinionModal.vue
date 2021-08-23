@@ -23,11 +23,11 @@ export default {
 
 <style lang="scss" scoped>
 .opinion-modal {
-	user-select: none;
 	padding: 20px;
 	.opinion-img {
 		border-radius: 50%;
 		img {
+			user-select: none;
 			border-radius: 50%;
 			filter: grayscale(100%);
 			transition: all ease 0.5s;

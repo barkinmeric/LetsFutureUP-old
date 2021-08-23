@@ -65,6 +65,7 @@ export default {
 		.card-head {
 			width: 180px;
 			img {
+				user-select: none;
 				border-radius: 10px;
 			}
 		}
