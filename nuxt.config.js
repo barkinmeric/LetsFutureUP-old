@@ -34,7 +34,7 @@ export default {
 	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources", "@nuxtjs/google-fonts"],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["nuxt-i18n"],
+	modules: ["@nuxtjs/i18n"],
 
 	pwa: {
 		manifest: {
@@ -51,6 +51,7 @@ export default {
 	i18n: {
 		strategy: "prefix",
 		langDir: "~/locales/",
+		defaultLocale: "tr",
 		locales: [
 			{ code: "tr", iso: "tr-TR", file: "tr.json", name: "Türkçe" },
 			{ code: "en", iso: "en-US", file: "en.json", name: "English" },
@@ -58,7 +59,7 @@ export default {
 		detectBrowserLanguage: {
 			alwaysRedirect: true,
 		},
-		seo: true,
+		baseUrl: "https://letsfutureup-nuxt.netlify.app",
 		parsePages: false,
 		pages: pages,
 	},
