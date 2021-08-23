@@ -49,28 +49,21 @@ export default {
 	},
 
 	i18n: {
+		strategy: "prefix",
+		langDir: "~/locales/",
 		locales: [
-			{ code: "tr", iso: "tr-TR", name: "Türkçe" },
-			{ code: "en", iso: "en-US", name: "English" },
+			{ code: "tr", iso: "tr-TR", file: "tr.json", name: "Türkçe" },
+			{ code: "en", iso: "en-US", file: "en.json", name: "English" },
 		],
 		detectBrowserLanguage: {
+			alwaysRedirect: false,
 			fallbackLocale: "en",
+			redirectOn: "root",
 			useCookie: true,
-			cookieKey: "i18n_redirected",
-			onlyOnRoot: true,
-			// alwaysRedirect: true,
+			cookieKey: "i18n_lang",
 		},
-		vueI18n: {
-			fallbackLocale: "en",
-			messages: {
-				tr: require("./locales/tr.json"),
-				en: require("./locales/en.json"),
-			},
-		},
-		defaultLocale: "tr",
-		strategy: "prefix",
 		seo: true,
-		// baseUrl: "http://localhost:3000/",
+		baseUrl: "https://letsfutureup-nuxt.netlify.app",
 		parsePages: false,
 		pages: pages,
 	},
