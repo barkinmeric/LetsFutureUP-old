@@ -1,12 +1,12 @@
 <template>
 	<div class="data-page">
 		<div class="container">
-			<div class="img">
-				<nuxt-img draggable="false" :src="content.image" alt="" height="360" width="360" />
+			<div class="head">
+				<img class="image" draggable="false" :src="content.image" alt="" height="360" width="360" />
 			</div>
-			<div class="text">
-				<h2>{{ content.title }}</h2>
-				<p>{{ content.text }}</p>
+			<div class="body">
+				<h2 class="title">{{ content.title }}</h2>
+				<p class="text">{{ content.text }}</p>
 			</div>
 		</div>
 	</div>
@@ -23,35 +23,30 @@ export default {
 
 <style lang="scss" scoped>
 .data-page {
-	margin-bottom: 10px;
-	.img {
+	margin: 30px 0;
+	.head {
 		text-align: center;
+		margin-bottom: 20px;
+		.image {
+			max-width: 100%;
+			height: auto;
+		}
 	}
-	.text {
-		p {
+	.body {
+		.text {
 			color: #292929;
-			padding: 5px 0px 10px 0px;
-			margin: 0px;
 			font-size: 16px;
 			font-weight: normal;
 		}
-		h2 {
+		.title {
+			display: inline-block;
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
-			text-transform: uppercase;
-			position: relative;
-			padding: 5px 0px;
 			color: #000;
-			&::before {
-				content: "";
-				position: absolute;
-				height: 2px;
-				width: 75px;
-				bottom: 0px;
-				left: 0px;
-				background: $sideColor;
-			}
+			border-bottom: 3px solid $sideColor;
+			margin-bottom: 15px;
+			text-transform: uppercase;
 		}
 	}
 }

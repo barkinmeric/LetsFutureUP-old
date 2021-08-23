@@ -20,11 +20,11 @@
 	},
 	"index": {
 		"slider": {
-			"1": "/img/pages/index/slider/en/1.mp4",
-			"2": "/img/pages/index/slider/en/2.webp",
-			"3": "/img/pages/index/slider/en/3.webp",
-			"4": "/img/pages/index/slider/en/4.webp",
-			"thumbnail": "/img/pages/index/slider/en/thumbnail.webp"
+			"1": "/pages/index/slider/en/1.mp4",
+			"2": "/pages/index/slider/en/2.webp",
+			"3": "/pages/index/slider/en/3.webp",
+			"4": "/pages/index/slider/en/4.webp",
+			"thumbnail": "/pages/index/slider/en/thumbnail.webp"
 		},
 		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides students who wants to say “Hello Career!” to their careers in the future from now by mentorship and different trainings based on volunteering.",
 		"hello-career": {
@@ -33,32 +33,32 @@
 				{
 					"title": "Mentorship Program",
 					"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do.",
-					"icon": "/img/pages/index/career/mentorship.svg"
+					"icon": "/pages/index/career/mentorship.svg"
 				},
 				{
 					"title": "Student Development Program",
 					"text": "During the Let's FutureUP Project, various trainings are organized to contribute to the development of students with the support of our volunteer educators who are experts in their fields within the scope of the Student Development Program. The student development program aims to transfer to students the golden information that they will use in business life, as well as to take them one step ahead with their knowledge and equipment when they start their business life. Every student involved in their career journey with Let's FutureUP attends these trainings throughout the project. They acquire new information that will be useful for them while attaining their goals and continue their career journey with strong steps.",
-					"icon": "/img/pages/index/career/student.svg"
+					"icon": "/pages/index/career/student.svg"
 				},
 				{
 					"title": "WeTalk",
 					"text": "As part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants.",
-					"icon": "/img/pages/index/career/wetalk.svg"
+					"icon": "/pages/index/career/wetalk.svg"
 				},
 				{
 					"title": "StartUP",
 					"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
-					"icon": "/img/pages/index/career/startup.svg"
+					"icon": "/pages/index/career/startup.svg"
 				},
 				{
 					"title": "AdviceUP",
 					"text": "Students who take part in Let’s FutureUP Project, also join to the social responsibility project called AdviceUP. Mentees, simultaneously become mentor.  They are matched with 4th grade high school students  and share their knowledge and experiences regarding university entrance exam. The leading aim of this project is to make students become part of social sustainability. Besides, development of social sensitivity and awareness of responsibility are advocated. Thus, every student who are involved in Let’s FutureUP project raise their consciousness of social responsibility.",
-					"icon": "/img/pages/index/career/adviceup.svg"
+					"icon": "/pages/index/career/adviceup.svg"
 				},
 				{
 					"title": "TalentUP",
 					"text": "TalentUP skills development program; consists of various valuable trainings that preparatory, 1st and 2nd-year students can attend. In this program, which only includes selected students, students not only get opportunities to improve themselves but also get a great advantage for their future careers with the training they will receive from experts and professionals in their fields. TalentUP skills development program has 5 main objectives. These are: To create a wide “network” for students, to contribute to their personal development in their career journey with the help of “expert experience”, to take part in teamwork based on “volunteering”, to get maximum “efficiency” in all their work, and to fulfill the dreams of students. to “encourage” it.",
-					"icon": "/img/pages/index/career/talentup.svg"
+					"icon": "/pages/index/career/talentup.svg"
 				}
 			]
 		},
@@ -69,56 +69,56 @@
 					"name": "Ali Yaşar TOPÇU",
 					"place": "Farba Automotive",
 					"position": "Factory Manager",
-					"image": "/img/pages/index/opinions/ali-yasar-topcu.png",
+					"image": "/pages/index/opinions/ali-yasar-topcu.png",
 					"text": "I participated in this project to help our future- colleagues to choose the most suitable sector/department and before their graduation make them feel like they are working in a company with responsibility. Our biggest source of motivation was to ensure that the deficient points in our newly-employed colleagues are not also in the candidates in the project, and to help them a step into the profession with enthusiasm. Choosing the right sector/department before starting  the job, learning many issues that the student can learn in at least one year after starting the job, by hearing and seeing one-on-one from people who have spent years in this job and have had many experiences, will create very important opportunities in one’s career. Personally, I learned a lot of things on my own with great difficulty in the first period I started working. Now, getting guide with a mentor while still a student is a very great opportunity and chance. As mentors, also we could learn new things with this project."
 				},
 				{
 					"name": "Eman Martin-Vignerte",
 					"place": "Robert Bosch UK",
 					"position": "Director of External Affairs, Governmenal & Political Relations",
-					"image": "/img/pages/index/opinions/eman-martin-vignerte.png",
+					"image": "/pages/index/opinions/eman-martin-vignerte.png",
 					"text": "There’s probably been countless moments in your life where you’ve leaned on someone you trust for advice or assistance. Whether the person you turn to is a professor, friend, family member, athletic coach or other, the importance of mentors/trainers is undeniable. This project can help to guide, direct, and shape the student present situation and future opportunities for the better!"
 				},
 				{
 					"name": "Erol SAPÇI",
 					"place": "FKT Couches",
 					"position": "CEO",
-					"image": "/img/pages/index/opinions/erol-sapci.png",
+					"image": "/pages/index/opinions/erol-sapci.png",
 					"text": "During my professional career, I saw that some of my colleagues have some shortcomings with  developing strategies, determining goals and making decisions.I always thought that this is a solvable problem. With Let’s FutureUP; we could solve these problems by helping students through our experiences. Also this program is a chance for mentors to recognize the new generation. Moreover, students can learn from their mentors about solving problems, communication, critical thinking, making decisions, taking responsibilities and establishing networks with this Project. In brief, I believe that this Project will definitely change a student's career in a positive way."
 				},
 				{
 					"name": "Gürkan KANTARCI",
 					"place": "RB Karesi Holding",
 					"position": "Production Manager",
-					"image": "/img/pages/index/opinions/gurkan-kantarci.png",
+					"image": "/pages/index/opinions/gurkan-kantarci.png",
 					"text": "I saw Let's FutureUP, a volunteer-based social responsibility project, as an intermediary platform where I can support the training of qualified individuals who will look to the future with hope. I wanted to take part in the Let's Future Up project in line with the desire to contribute to the young people who will shape the future by sharing my experiences that I have accumulated in my pocket so far, and to help them determine their own route based on these experiences. In the end of the project ; I believe that the aspirants who could explain themselves better, determine their aims more clear, be aware of their abilities, conscious with professional life and contribute themselves with qualified trainings will have a more  advantageous position in terms of career compared to other aspirants who can not find it.Therefore, I believe that this project can change a student’s career."
 				},
 				{
 					"name": "Mirsada Kudric",
 					"place": "Robert Bosch Croatia & Slovenia",
 					"position": "General Manager",
-					"image": "/img/pages/index/opinions/mirsada-kudric.png",
+					"image": "/pages/index/opinions/mirsada-kudric.png",
 					"text": "In the time of technological advancement, when technology is replacing the man in an ever-widening segment, I find mentoring programs such as this one to be more important than ever before. Human contact, in all segments, has gained a significant importance. The same applies to mentoring. Unfortunately, young people have a limited access to other people's knowledge, experience, support – to everything that can significantly help them on their development path. And this is precisely the responsibility of those who can and should share this wealth selflessly. In this way both sides are ennobled. It is an opportunity for the mentor to pass on a part of his acquired experience and knowledge to new generations on which the world rests, thus indirectly influencing the creation of a better tomorrow."
 				},
 				{
 					"name": "Taner KARSLIOĞLU",
 					"place": "Feka Group",
 					"position": "CEO",
-					"image": "/img/pages/index/opinions/taner-karslioglu.png",
+					"image": "/pages/index/opinions/taner-karslioglu.png",
 					"text": "Thousands of students graduate from universities every year and they try to prepare themselves for the future life. This process could be a very challenging process with a lot of questions. Through the mentorship program the idea of sharing our experiences, and helping students to their next choices tempted me, and I participated in this program. The benefits of this project for students are that mentors share their knowledge and experience with students, see the strengths and weaknesses of students as an external eye and help them develop, increase their self-confidence. With these factors, the awareness of the students will increase, and they will make more proper choices. I believe in my heart this chance could even change their careers."
 				},
 				{
 					"name": "Tanju ÖZKONUK",
 					"place": "Bosch Rexroth",
 					"position": "Commercial General Manager",
-					"image": "/img/pages/index/opinions/tanju-ozkonuk.png",
+					"image": "/pages/index/opinions/tanju-ozkonuk.png",
 					"text": "Just like the past; today’s generation will shape the future with their goals and their awareness. I believe that it is very valuable to be able to meet with them through the right communication channels, to listen to them, to understand them and to encourage them for new opportunities. Let's FutureUP helped me on this path, paved the way for me not to be a bystander. All of the students that participated in this project worked and spent time without any compulsive factors; with their personal awareness and goals. In my meetings, they were sometimes interrogatives, sometimes listening, and mostly they were enthusiastic to talk about what awaits them in the future .In my opinion, the most impressive side of the students was their solution- oriented sight. Can a youth who focuses not on problems but on opportunities and solutions brought by problems have career concerns?"
 				},
 				{
 					"name": "Yusuf Ziya YÜCE",
 					"place": "Limak Energy I.C.",
 					"position": "Corporate Communications Manager",
-					"image": "/img/pages/index/opinions/yusuf-ziya-yuce.png",
+					"image": "/pages/index/opinions/yusuf-ziya-yuce.png",
 					"text": "For me, to contribute to someone and be happy to see that they have come to good places; in a way, “raising people” was the social responsibility of my profession. This Project can change students’ careers and even their lives with the experiences that it will bring to them. Because, in my personal opinion; the most precious thing to gain in this life is experience."
 				}
 			]
@@ -128,37 +128,37 @@
 			"text": "IF YOU'D LIKE TO BE INFORMED ABOUT THE EVENTS,<br />PLEASE REGISTER TO THE E-JOURNAL WITH YOUR E-MAIL ADRESS!",
 			"button": "REGISTER TO THE E-JOURNAL",
 			"content": [
-				{ "text": "DECEMBER 2020", "image": "/img/pages/index/e-bulletin/en/12-2020.png", "file": "/files/e-bulletin/en/12-2020.pdf" },
-				{ "text": "JANUARY 2021", "image": "/img/pages/index/e-bulletin/en/01-2021.png", "file": "/files/e-bulletin/en/01-2021.pdf" },
-				{ "text": "MARCH 2021", "image": "/img/pages/index/e-bulletin/en/03-2021.png", "file": "/files/e-bulletin/en/03-2021.pdf" },
-				{ "text": "APRIL 2021", "image": "/img/pages/index/e-bulletin/en/04-2021.png", "file": "/files/e-bulletin/en/04-2021.pdf" }
+				{ "text": "DECEMBER 2020", "image": "/pages/index/e-bulletin/en/12-2020.png", "file": "/files/e-bulletin/en/12-2020.pdf" },
+				{ "text": "JANUARY 2021", "image": "/pages/index/e-bulletin/en/01-2021.png", "file": "/files/e-bulletin/en/01-2021.pdf" },
+				{ "text": "MARCH 2021", "image": "/pages/index/e-bulletin/en/03-2021.png", "file": "/files/e-bulletin/en/03-2021.pdf" },
+				{ "text": "APRIL 2021", "image": "/pages/index/e-bulletin/en/04-2021.png", "file": "/files/e-bulletin/en/04-2021.pdf" }
 			]
 		},
 		"board": {
 			"title": "Board",
 			"content": [
-				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/index/board/erol-sapci.png" },
-				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/index/board/gurkan-kantarci.png" },
-				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/img/pages/index/board/iskender-ulusay.png" },
-				{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/img/pages/index/board/tanju-ozkonuk.png" },
-				{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/index/board/yusuf-ziya-yuce.png" }
+				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/pages/index/board/erol-sapci.png" },
+				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/index/board/gurkan-kantarci.png" },
+				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/index/board/iskender-ulusay.png" },
+				{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/index/board/tanju-ozkonuk.png" },
+				{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/pages/index/board/yusuf-ziya-yuce.png" }
 			]
 		},
 		"partner": {
 			"title": "İşbirlikçilerimiz",
-			"content": ["/img/pages/index/partners/adler.png", "/img/pages/index/partners/haci-hasan.png", "/img/pages/index/partners/hrpeak.png", "/img/pages/index/partners/workinton.png"]
+			"content": ["/pages/index/partners/adler.png", "/pages/index/partners/haci-hasan.png", "/pages/index/partners/hrpeak.png", "/pages/index/partners/workinton.png"]
 		},
 		"supporter": {
 			"title": "Destekçilerimiz",
 			"content": [
-				"/img/pages/index/supporters/aktas.png",
-				"/img/pages/index/supporters/emek.png",
-				"/img/pages/index/supporters/farba.png",
-				"/img/pages/index/supporters/feka.png",
-				"/img/pages/index/supporters/fki.png",
-				"/img/pages/index/supporters/inoksan.png",
-				"/img/pages/index/supporters/limakenerji.png",
-				"/img/pages/index/supporters/valeo.png"
+				"/pages/index/supporters/aktas.png",
+				"/pages/index/supporters/emek.png",
+				"/pages/index/supporters/farba.png",
+				"/pages/index/supporters/feka.png",
+				"/pages/index/supporters/fki.png",
+				"/pages/index/supporters/inoksan.png",
+				"/pages/index/supporters/limakenerji.png",
+				"/pages/index/supporters/valeo.png"
 			]
 		},
 		"join-us": {
@@ -170,7 +170,7 @@
 	},
 	"about": {
 		"title": "ABOUT US",
-		"img": "/img/pages/about-us/en/about.webp",
+		"img": "/pages/about-us/en/about.webp",
 		"content": [
 			{
 				"title": "LET’S FUTURE UP PROJECT VISION-MISSION",
@@ -199,7 +199,7 @@
 	},
 	"story": {
 		"title": "OUR STORY",
-		"img": "/img/pages/our-story/en/story.webp",
+		"img": "/pages/our-story/en/story.webp",
 		"content": [
 			"Before the beginning of 2020, If you asked what pandemic is, we would definitely search at Google. It was not the situation we have experienced before.",
 			"Now, we know that this was an outbreak that make people stay at their homes, construct social distance with other people and enforce them to embrace New World Order. While New World Order was mentioned during Pandemic, we intended to build this new order together and we took the road with the notion “Guiding to Future”.",
@@ -209,76 +209,76 @@
 	},
 	"team": {
 		"title": "PROJECT TEAM",
-		"img": "/img/pages/project-team/en/team.webp",
+		"img": "/pages/project-team/en/team.webp",
 		"desc": "Let’s FutureUP project consists of six departments including Human Resources, Business Development, Corporate Communication, External Affairs, Startup, Social Media and Digital Marketing. Students from various universities comprise these departments.",
 		"content": [
 			{
 				"title": "HUMAN RESOURCES DEPARTMENT",
 				"text": "This department arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members to Let’s FutureUP events. They act to keep motivation of students high and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
 				"collapsible": [
-					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/img/pages/project-team/human-resources/nisan-kocak.png" },
-					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/img/pages/project-team/human-resources/nisa-yildirim.png" },
-					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/img/pages/project-team/human-resources/yaren-bato.png" }
+					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
+					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisa-yildirim.png" },
+					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/pages/project-team/human-resources/yaren-bato.png" }
 				]
 			},
 			{
 				"title": "CORPORATE COMMUNICATION DEPARTMENT",
 				"text": "They contact with high level managers/executives and offer them to be spokesperson/trainer/mentor in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertize for the project.",
 				"collapsible": [
-					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/can-cakariz.png" },
-					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/doga-aydogdu.png" },
-					{ "name": "Eylül Şahinoğlu", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/eylul-sahinoglu.png" },
-					{ "name": "Gülsüm Yılmaz", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/gulsum-yilmaz.png" },
-					{ "name": "Hamza Otar", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/hamza-otar.png" },
-					{ "name": "Merve Özhavutçu", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/merve-ozhavutcu.png" },
-					{ "name": "Rana Canan Cömert", "place": "", "position": "", "image": "/img/pages/project-team/corporate-communication/rana-canan-comert.png" }
+					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
+					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/doga-aydogdu.png" },
+					{ "name": "Eylül Şahinoğlu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/eylul-sahinoglu.png" },
+					{ "name": "Gülsüm Yılmaz", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/gulsum-yilmaz.png" },
+					{ "name": "Hamza Otar", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/hamza-otar.png" },
+					{ "name": "Merve Özhavutçu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/merve-ozhavutcu.png" },
+					{ "name": "Rana Canan Cömert", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/rana-canan-comert.png" }
 				]
 			},
 			{
 				"title": "BUSINESS DEVELOPMENT DEPARTMENT",
 				"text": "Members of this department, produce innovative ideas by encouraging the development of strategies through vision-mission. In this context, it leads the departments to embrace new ideas and bring about these. They work collaboratively with other departments regarding how these new concepts can be integrated into the project.",
 				"collapsible": [
-					{ "name": "Büşra Savran", "place": "", "position": "", "image": "/img/pages/project-team/business-development/busra-savran.png" },
-					{ "name": "Rümeysa Özsağlıcak", "place": "", "position": "", "image": "/img/pages/project-team/business-development/rumeysa-ozsaglicak.png" }
+					{ "name": "Büşra Savran", "place": "", "position": "", "image": "/pages/project-team/business-development/busra-savran.png" },
+					{ "name": "Rümeysa Özsağlıcak", "place": "", "position": "", "image": "/pages/project-team/business-development/rumeysa-ozsaglicak.png" }
 				]
 			},
 			{
 				"title": "EXTERNAL AFFAIRS DEPARTMENT",
 				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
 				"collapsible": [
-					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/cansin-oksan.png" },
-					{ "name": "Kayra Özçakar", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/kayra-ozcakar.png" },
-					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/ratu-faidah.png" },
-					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/sophie-aigner.png" },
-					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/img/pages/project-team/external-affairs/sueda-sahin.png" }
+					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/pages/project-team/external-affairs/cansin-oksan.png" },
+					{ "name": "Kayra Özçakar", "place": "", "position": "", "image": "/pages/project-team/external-affairs/kayra-ozcakar.png" },
+					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/external-affairs/ratu-faidah.png" },
+					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/external-affairs/sophie-aigner.png" },
+					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/external-affairs/sueda-sahin.png" }
 				]
 			},
 			{
 				"title": "SOCIAL MEDIA AND DIGITAL MARKETING DEPARTMENT",
 				"text": "They are responsible for effective utility of the social media accounts of the project. At the same time, they play essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
 				"collapsible": [
-					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/img/pages/project-team/social-media/ayse-merve-ergun.png" },
-					{ "name": "Ece Nur Emre", "place": "", "position": "", "image": "/img/pages/project-team/social-media/ece-nur-emre.png" },
-					{ "name": "Şevval Sergün", "place": "", "position": "", "image": "/img/pages/project-team/social-media/sevval-sergun.png" },
-					{ "name": "Yağmur Dereli", "place": "", "position": "", "image": "/img/pages/project-team/social-media/yagmur-dereli.png" },
-					{ "name": "Yıldız Yüksel", "place": "", "position": "", "image": "/img/pages/project-team/social-media/yildiz-yuksel.png" }
+					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
+					{ "name": "Ece Nur Emre", "place": "", "position": "", "image": "/pages/project-team/social-media/ece-nur-emre.png" },
+					{ "name": "Şevval Sergün", "place": "", "position": "", "image": "/pages/project-team/social-media/sevval-sergun.png" },
+					{ "name": "Yağmur Dereli", "place": "", "position": "", "image": "/pages/project-team/social-media/yagmur-dereli.png" },
+					{ "name": "Yıldız Yüksel", "place": "", "position": "", "image": "/pages/project-team/social-media/yildiz-yuksel.png" }
 				]
 			},
 			{
 				"title": "STARTUP DEPARTMENT",
 				"text": "They are well prepared for startup based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team are responsible for writing the codes of the programs that execute and digitalize the project.",
 				"collapsible": [
-					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/img/pages/project-team/startup/barkin-meric.png" },
-					{ "name": "Elaa Jamazi", "place": "", "position": "", "image": "/img/pages/project-team/startup/elaa-jamazi.png" },
-					{ "name": "Olgu Batın Topal", "place": "", "position": "", "image": "/img/pages/project-team/startup/olgu-batin-topal.png" },
-					{ "name": "Pelin İşeri", "place": "", "position": "", "image": "/img/pages/project-team/startup/pelin-iseri.png" }
+					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/pages/project-team/startup/barkin-meric.png" },
+					{ "name": "Elaa Jamazi", "place": "", "position": "", "image": "/pages/project-team/startup/elaa-jamazi.png" },
+					{ "name": "Olgu Batın Topal", "place": "", "position": "", "image": "/pages/project-team/startup/olgu-batin-topal.png" },
+					{ "name": "Pelin İşeri", "place": "", "position": "", "image": "/pages/project-team/startup/pelin-iseri.png" }
 				]
 			}
 		]
 	},
 	"faq": {
 		"title": "FREQUENTLY ASKED QUESTIONS",
-		"img": "/img/pages/faq/en/faq.webp",
+		"img": "/pages/faq/en/faq.webp",
 		"content": [
 			{
 				"title": "1-) How long does the project last?",
@@ -346,43 +346,43 @@
 				"mentors": {
 					"title": "MENTORS",
 					"content": [
-						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/img/pages/mentorship-program/mentor/ali-yagci.jpg" },
-						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
-						{ "name": "Arif Kaya", "place": "HUGO BOSS Tekstil San. Ltd.", "position": "Türkiye Genel Müdürü", "image": "/img/pages/mentorship-program/mentor/arif-kaya.jpg" },
-						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/img/pages/mentorship-program/mentor/bulent-kacar.jpg" },
-						{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/erol-sapci.jpg" },
-						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/img/pages/mentorship-program/mentor/esen-oztemel.jpg" },
-						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/img/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
-						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/iskender-ulusay.jpg" },
-						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Qatar", "position": "General Manager", "image": "/img/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
-						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/img/pages/mentorship-program/mentor/mustafa-bulut.jpg" },
-						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/img/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
-						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/img/pages/mentorship-program/mentor/seval-oz.jpg" },
-						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/img/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
-						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/img/pages/mentorship-program/mentor/tanju-ozkonuk.jpg" },
-						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/img/pages/mentorship-program/mentor/yasemin-uyar-duman.jpg" },
-						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/img/pages/mentorship-program/mentor/yusuf-ziya-yuce.jpg" }
+						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/pages/mentorship-program/mentor/ali-yagci.jpg" },
+						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
+						{ "name": "Arif Kaya", "place": "HUGO BOSS Tekstil San. Ltd.", "position": "Türkiye Genel Müdürü", "image": "/pages/mentorship-program/mentor/arif-kaya.jpg" },
+						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/mentor/bulent-kacar.jpg" },
+						{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/pages/mentorship-program/mentor/erol-sapci.jpg" },
+						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/pages/mentorship-program/mentor/esen-oztemel.jpg" },
+						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
+						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/mentorship-program/mentor/iskender-ulusay.jpg" },
+						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Qatar", "position": "General Manager", "image": "/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
+						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/pages/mentorship-program/mentor/mustafa-bulut.jpg" },
+						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
+						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/pages/mentorship-program/mentor/seval-oz.jpg" },
+						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
+						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/mentorship-program/mentor/tanju-ozkonuk.jpg" },
+						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/pages/mentorship-program/mentor/yasemin-uyar-duman.jpg" },
+						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/pages/mentorship-program/mentor/yusuf-ziya-yuce.jpg" }
 					]
 				},
 				"mentees": {
 					"title": "MENTEES",
 					"content": [
-						{ "name": "Alperen Adatepe", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/alperen-adatepe.jpg" },
-						{ "name": "Burcu Akgöz", "place": "İstanbul Üniversitesi", "position": "İşletme (İngilizce)", "image": "/img/pages/mentorship-program/mentee/burcu-akgoz.jpg" },
-						{ "name": "Elif Çanga", "place": "Boğaziçi Üniversitesi", "position": "Ekonomi", "image": "/img/pages/mentorship-program/mentee/elif-canga.jpg" },
-						{ "name": "Emre Günhan", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/img/pages/mentorship-program/mentee/emre-gunhan.jpg" },
-						{ "name": "Ezgi Topaloğlu", "place": "Boğaziçi Üniversitesi", "position": "Makine Mühendisliği", "image": "/img/pages/mentorship-program/mentee/ezgi-topaloglu.jpg" },
-						{ "name": "Ezgi Uysal", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/ezgi-uysal.jpg" },
-						{ "name": "Magdalena Tihon", "place": "İstanbul Teknik Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/img/pages/mentorship-program/mentee/magdalena-tihon.jpg" },
-						{ "name": "Nida Ertan", "place": "Uludağ Üniversitesi", "position": "Makine Mühendisliği", "image": "/img/pages/mentorship-program/mentee/nida-ertan.jpg" },
-						{ "name": "Nur Sena Duman", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/nur-sena-duman.jpg" },
-						{ "name": "Oğuzhan Boğaz", "place": "İstanbul Teknik Üniversitesi", "position": "Endüstri Mühendisliği (İngilizce)", "image": "/img/pages/mentorship-program/mentee/oguzhan-bogaz.jpg" },
-						{ "name": "Seda Kanburoğlu", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/seda-kanburoglu.jpg" },
-						{ "name": "Seran Saltık", "place": "Uludağ Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/img/pages/mentorship-program/mentee/seran-saltik.jpg" },
-						{ "name": "Serra Tatlıcılar", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/img/pages/mentorship-program/mentee/serra-tatlicilar.jpg" },
-						{ "name": "Simge Bakış", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/img/pages/mentorship-program/mentee/simge-bakis.jpg" },
-						{ "name": "Tuğba Buse Kılıç", "place": "Süleyman Demirel Üniversitesi", "position": "İktisat (İngilizce)", "image": "/img/pages/mentorship-program/mentee/tugba-buse-kilic.jpg" },
-						{ "name": "Yusuf İzzettin Biçer", "place": "Marmara Üniversitesi", "position": "İşletme", "image": "/img/pages/mentorship-program/mentee/yusuf-izzettin-bicer.jpg" }
+						{ "name": "Alperen Adatepe", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/mentee/alperen-adatepe.jpg" },
+						{ "name": "Burcu Akgöz", "place": "İstanbul Üniversitesi", "position": "İşletme (İngilizce)", "image": "/pages/mentorship-program/mentee/burcu-akgoz.jpg" },
+						{ "name": "Elif Çanga", "place": "Boğaziçi Üniversitesi", "position": "Ekonomi", "image": "/pages/mentorship-program/mentee/elif-canga.jpg" },
+						{ "name": "Emre Günhan", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/pages/mentorship-program/mentee/emre-gunhan.jpg" },
+						{ "name": "Ezgi Topaloğlu", "place": "Boğaziçi Üniversitesi", "position": "Makine Mühendisliği", "image": "/pages/mentorship-program/mentee/ezgi-topaloglu.jpg" },
+						{ "name": "Ezgi Uysal", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/mentee/ezgi-uysal.jpg" },
+						{ "name": "Magdalena Tihon", "place": "İstanbul Teknik Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/pages/mentorship-program/mentee/magdalena-tihon.jpg" },
+						{ "name": "Nida Ertan", "place": "Uludağ Üniversitesi", "position": "Makine Mühendisliği", "image": "/pages/mentorship-program/mentee/nida-ertan.jpg" },
+						{ "name": "Nur Sena Duman", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/mentee/nur-sena-duman.jpg" },
+						{ "name": "Oğuzhan Boğaz", "place": "İstanbul Teknik Üniversitesi", "position": "Endüstri Mühendisliği (İngilizce)", "image": "/pages/mentorship-program/mentee/oguzhan-bogaz.jpg" },
+						{ "name": "Seda Kanburoğlu", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/mentee/seda-kanburoglu.jpg" },
+						{ "name": "Seran Saltık", "place": "Uludağ Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/pages/mentorship-program/mentee/seran-saltik.jpg" },
+						{ "name": "Serra Tatlıcılar", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/mentee/serra-tatlicilar.jpg" },
+						{ "name": "Simge Bakış", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/pages/mentorship-program/mentee/simge-bakis.jpg" },
+						{ "name": "Tuğba Buse Kılıç", "place": "Süleyman Demirel Üniversitesi", "position": "İktisat (İngilizce)", "image": "/pages/mentorship-program/mentee/tugba-buse-kilic.jpg" },
+						{ "name": "Yusuf İzzettin Biçer", "place": "Marmara Üniversitesi", "position": "İşletme", "image": "/pages/mentorship-program/mentee/yusuf-izzettin-bicer.jpg" }
 					]
 				}
 			}
@@ -447,7 +447,7 @@
 			{
 				"title": "Mentor & Mentee Applications Started",
 				"text": "",
-				"image": "/img/pages/index/announcements/en/1.png",
+				"image": "/pages/announcements/en/1.png",
 				"date": "18.08.2021"
 			}
 		]
@@ -458,25 +458,25 @@
 			{
 				"title": "International Support To Let’s FutureUP 1",
 				"text": "We met with Bosch England Director Ms. Eman Martin-Vignerte regarding the Let's FutureUP project. Ms. Eman was so impressed with our work that she extended her support to our program in the next semester into 2022. This is a great step for the Let's FutureUP organization to have such great contributors on board. Let's FutureUP is one step on the way to success!",
-				"image": "/img/pages/index/events/en/1.png",
+				"image": "/pages/events/en/1.png",
 				"date": "10.07.2021"
 			},
 			{
 				"title": "International Support To Let’s FutureUP 2",
 				"text": "We proudly announce that Ms Mirsada Kudric, the General Manager of BOSCH Croatia and Slovakia, now is a part of our Let’s FutureUP Mentorship Program. In regards to that she will be willing to share and coach the selected young people about various fields related to career skills and opportunities to our program in the next semester of 2022. Her competencies and experiences will be highly valuable for the youth who are preparing to enter the job market. Thus, what are you waiting for? Apply and join our project!",
-				"image": "/img/pages/index/events/en/2.png",
+				"image": "/pages/events/en/2.png",
 				"date": "15.07.2021"
 			},
 			{
 				"title": "International Support To Let’s FutureUP 3",
 				"text": "Our Let's FutureUP team met with Dogan Esiyok at the meeting with Bosch Germany. At the meeting, we were able to get the support of Bosch Germany by talking about our new term goals and projects. Our project, which has taken great steps globally, was also appreciated by Bosch Germany. Together with our volunteers, we are achieving our goal of reaching more students in the new term! Let’s FutureUP is one step closer to the success!",
-				"image": "/img/pages/index/events/en/3.png",
+				"image": "/pages/events/en/3.png",
 				"date": "17.07.2021"
 			},
 			{
 				"title": "Let's FutureUP Celebrates Its 1st Anniversary!",
 				"text": "Let's FutureUP Celebrates Its 1st Anniversary! We have left behind the first year of our project, which we started with great motivation and excitement as a team. The FutureUP team, which has been advancing with strength in the online platform with the bond of “volunteering” since the day it was founded, came together this time in Bursa Workinton. The team, which has accomplished great things together throughout the term, shared their ideas face to face this time and talked about their strategies for the next period. To Workinton Bursa, one of our sponsors who did not leave us alone on this special day; Thank you to Hacihasanogullari Baklava for being a part of this meaningful volunteer platform and supporting us! Stay tuned for the new term applications to touch the lives of more people in the new term and to be a part of our team. Love, Let's FutureUP",
-				"image": "/img/pages/index/events/en/4.png",
+				"image": "/pages/events/en/4.png",
 				"date": "02/08/2021"
 			}
 		]

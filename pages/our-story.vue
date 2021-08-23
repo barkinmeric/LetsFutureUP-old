@@ -1,12 +1,12 @@
 <template>
 	<section class="our-story">
 		<div class="container">
-			<div class="img">
-				<nuxt-img draggable="false" :src="$t('story.img')" alt="" />
+			<div class="head">
+				<img class="image" draggable="false" :src="$t('story.img')" alt="" height="1080" width="1920" />
 			</div>
-			<div class="text">
-				<h2>{{ $t("story.title") }}</h2>
-				<p v-for="paragraph in $t('story.content')" :key="paragraph">{{ paragraph }}</p>
+			<div class="body">
+				<h2 class="title">{{ $t("story.title") }}</h2>
+				<p class="text" v-for="paragraph in $t('story.content')" :key="paragraph">{{ paragraph }}</p>
 			</div>
 		</div>
 	</section>
@@ -25,32 +25,30 @@ export default {
 
 <style lang="scss" scoped>
 .our-story {
-	margin-bottom: 10px;
-	.img {
-		z-index: -1;
-		img {
-			width: 100%;
+	margin-bottom: 15px;
+	.head {
+		text-align: center;
+		margin-bottom: 10px;
+		.image {
+			max-width: 100%;
 			height: auto;
 		}
 	}
-	.text {
-		p {
+	.body {
+		.text {
 			color: #292929;
-			padding: 5px 0px 10px 0px;
-			margin: 0px;
 			font-size: 16px;
 			font-weight: normal;
+			margin-bottom: 10px;
 		}
-		h2 {
+		.title {
+			display: inline-block;
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
-			padding: 5px 0px;
 			color: #000;
-			display: inline-block;
+			border-bottom: 3px solid $sideColor;
 			margin-bottom: 10px;
-			border-bottom: 1px solid $sideColor;
-			border-bottom-width: 3px;
 		}
 	}
 }

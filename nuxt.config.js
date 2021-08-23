@@ -16,11 +16,11 @@ export default {
 			{ hid: "description", name: "description", content: "" },
 			{ name: "format-detection", content: "telephone=no" },
 		],
-		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon/favicon.png" }],
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["@/assets/css/normalize.css", "@/assets/scss/colors.scss", "@/assets/scss/style.scss"],
+	css: ["@/assets/css/normalize.css", "@/assets/css/montserrat.css", "@/assets/scss/colors.scss", "@/assets/scss/style.scss"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [],
@@ -31,15 +31,15 @@ export default {
 	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources", "@nuxtjs/google-fonts"],
+	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources"],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: ["@nuxtjs/i18n"],
 
 	pwa: {
-		manifest: {
-			lang: "en",
-		},
+		meta: false,
+		icon: false,
+		manifest: false,
 	},
 
 	image: {},
@@ -63,17 +63,6 @@ export default {
 		baseUrl: "https://letsfutureup-nuxt.netlify.app",
 		parsePages: false,
 		pages: pages,
-	},
-
-	googleFonts: {
-		download: true,
-		prefetch: true,
-		families: {
-			Montserrat: {
-				wght: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-				// ital: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-			},
-		},
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
