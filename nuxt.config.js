@@ -51,12 +51,13 @@ export default {
 	i18n: {
 		strategy: "prefix",
 		langDir: "~/locales/",
-		defaultLocale: "tr",
+		defaultLocale: "en",
 		locales: [
 			{ code: "tr", iso: "tr-TR", file: "tr.json", name: "Türkçe" },
 			{ code: "en", iso: "en-US", file: "en.json", name: "English" },
 		],
 		detectBrowserLanguage: {
+			fallbackLocale: "en",
 			alwaysRedirect: true,
 		},
 		baseUrl: "https://letsfutureup-nuxt.netlify.app",
