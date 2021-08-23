@@ -1,4 +1,4 @@
-import pages from "./config/i18n";
+import { pages } from "./config/i18n";
 
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
