@@ -15,7 +15,7 @@
 		},
 		"join-us": {
 			"title": "Bize Katıl!",
-			"link": ""
+			"link": "https://docs.google.com/forms/d/e/1FAIpQLSeXwBBOqDy0Qv44pHGRsHf5HP-xkV8G7U4rTGuuDakgY4vA-g/viewform?usp=sf_link"
 		}
 	},
 	"index": {
@@ -165,7 +165,7 @@
 			"title": "Sen de bize katılmak ister misin?",
 			"button": "Bize Katıl!",
 			"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
-			"link": ""
+			"link": "https://docs.google.com/forms/d/e/1FAIpQLSeXwBBOqDy0Qv44pHGRsHf5HP-xkV8G7U4rTGuuDakgY4vA-g/viewform?usp=sf_link"
 		}
 	},
 	"about": {
@@ -444,7 +444,7 @@
 			{
 				"title": "Mentor & Mentee Başvuruları Başladı!",
 				"text": "",
-				"image": "/pages/announcements/tr/1.png",
+				"image": "/pages/announcements/tr/1.webp",
 				"date": "18.08.2021"
 			}
 		]
@@ -453,27 +453,51 @@
 		"title": "Etkinlikler",
 		"content": [
 			{
+				"title": "Başarmak kolay olabilir",
+				"text": "Sıradaki WeTalk etkinliğimiz, 20 Ocak saat 19.30’da, Yazaki’nin eski Kuzey Amerika Tesisleri Yöneticisi Ruud de Rejike ile gerçekleşecek. Ruud de Rejike, otomotiv alanında 25 yıllık bir tecrübeye sahip. Kariyerine 1933’te Liamar’da “malzeme planlayıcı” olarak başlamıştır. Liamar’da 7 yıl çalıştıktan sonra Yazaki Kuzey Amerika’ya “kıdemli malzeme koordinatörü” olarak geçiş yapmıştır. 20 yıl boyunca “kıdemli malzeme koordinatörlüğü”, “proje yöneticiliği”, “tesis yöneticiliği” gibi çeşitli pozisyonlarda bulunmuştur. Kariyerinin yanı sıra Rejike, “işe alım gönüllüsü” ve “etkinlik süpervizörlüğü” gibi çeşitli gönüllü etkinliklerde de bulunmuştur. Etkinlik linki 19 Ocak’ta e-mail üzerinden paylaşılacaktır. Etkinliğe katılabilmek için katılımcıların İngilizce seviyelerinin B1 üstü olması gerekmektedir.",
+				"image": "/pages/events/tr/1.png",
+				"date": "20.01.2021"
+			},
+			{
+				"title": "CEO Yolculuğu",
+				"text": "Let's FutureUP ekibimizin gerçekleştireceği sıradaki WeTalk'umuz Eczacıbaşı Tüketim Ürünleri CEO'su Sayın Alp Günvaran ile 'CEO Yolculuğu' üzerine. Alp Bey'in değerli tecrübe ve bilgilerini paylaşacağı WeTalk etkinliğimize hepiniz davetlisiniz!",
+				"image": "/pages/events/tr/2.png",
+				"date": "12.02.2021"
+			},
+			{
+				"title": "Üniversite ve Kariyer",
+				"text": "Let's FutureUP ekibimizin WeTALK etkinlikleri hız kesmeden devam ediyor! Şimdi sırada Makine Mühendisi & Oşinograf sayın Derya Akkaynak'ın “İş Hayatı & Üniversite Hayatı Arasında Seçimler” isimli etkinliği ile karşınızdayız. Derya Hanım'ın değerli bilgi ve tecrübelerini paylaşacağı etkinliğimizi kaçırmayın. Etkinliğimiz kontenjanlıdır.",
+				"image": "/pages/events/tr/3.png",
+				"date": "12.03.2021"
+			},
+			{
+				"title": "“En iyi kendin” ol",
+				"text": "Let's FutureUP ekibimizin WeTALK etkinlikleri hız kesmeden devam ediyor! Şimdi sırada Anadolu Efes Spor Kulübü Basketbol Oyuncusu Doğuş Balbay var! Sayın Balbay’ın “Potansiyelimin Zirvesine Nasıl Ulaşırım?” konulu değerli tecrübelerini paylaşacağı etkinliğimize hepiniz davetlisiniz. Etkinliğimiz kontenjanlıdır. Kaçırmamak için hemen başvurmayı unutmayın.",
+				"image": "/pages/events/tr/4.png",
+				"date": "28.03.2021"
+			},
+			{
 				"title": "Let's FutureUP'a Uluslararası Destek 1",
 				"text": "Let's FutureUP projesi ile ilgili olarak Bosch İngiltere Direktörü Bayan Eman Martin-Vignerte ile bir araya geldik. Eman Hanım çalışmalarımızdan o kadar etkilendi ki, önümüzdeki dönemde programımıza verdiği desteği 2022 yılına kadar uzattı. Bu, Let's FutureUP organizasyonunun bu kadar büyük katkıları olması için harika bir adımdır. Let's FutureUP başarıya giden yolda bir adım!",
-				"image": "/pages/events/tr/1.png",
+				"image": "/pages/events/tr/5.png",
 				"date": "10.07.2021"
 			},
 			{
 				"title": "Let's FutureUP'a Uluslararası Destek 2",
 				"text": "BOSCH Hırvatistan ve Slovakya Genel Müdürü Mirsada Kudric'in artık Let's FutureUP Mentorluk Programımızın bir parçası olduğunu gururla duyuruyoruz. Bununla ilgili olarak, seçilen gençleri 2022'nin bir sonraki döneminde programımıza kariyer becerileri ve fırsatları ile ilgili çeşitli alanlar hakkında paylaşmaya ve koçluk yapmaya istekli olacaktır. Yetkinlikleri ve deneyimleri, iş piyasasına girmeye hazırlanan gençler için oldukça değerli olacaktır. Bu yüzden, ne bekliyorsun? Başvurun ve projemize katılın!",
-				"image": "/pages/events/tr/2.png",
+				"image": "/pages/events/tr/6.png",
 				"date": "15.07.2021"
 			},
 			{
 				"title": "Let's FutureUP'a Uluslararası Destek 3",
 				"text": "Let's FutureUP ekibimiz Bosch Almanya ile yapılan toplantıda Doğan Esiyok ile bir araya geldi. Toplantıda yeni dönem hedeflerimizden ve projelerimizden bahsederek Bosch Almanya'nın desteğini alabildik. Globalde büyük adımlar atan projemiz Bosch Almanya tarafından da takdirle karşılandı. Gönüllülerimizle birlikte yeni dönemde daha fazla öğrenciye ulaşma hedefimize ulaşıyoruz! Let's FutureUP başarıya bir adım daha yaklaştı!",
-				"image": "/pages/events/tr/3.png",
+				"image": "/pages/events/tr/7.png",
 				"date": "17.07.2021"
 			},
 			{
 				"title": "Let's FutureUP 1. Yılını Kutluyor!",
 				"text": "Let's FutureUP 1. Yılını Kutluyor! Ekip olarak büyük motivasyon ve heyecanla başladığımız projemizin ilk senesini geride bıraktık. Kurulduğu günden itibaren “gönüllülük bağıyla, online platformda, güçle ilerleyen FutureUP ekibi bu kez Bursa Workinton'da bir araya geldi. Yeni dönemde daha çok kişinin hayatına dokunmak ve ekibimizin bir parçası olmak için yeni dönem başvurularını takipte kalın. Sevgiler, Let's FutureUP",
-				"image": "/pages/events/tr/4.png",
+				"image": "/pages/events/tr/8.png",
 				"date": "02/08/2021"
 			}
 		]

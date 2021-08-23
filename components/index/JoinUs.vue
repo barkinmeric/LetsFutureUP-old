@@ -7,7 +7,9 @@
 					<div class="text-body" v-html="$t('index.join-us.text')"></div>
 				</div>
 				<div class="button">
-					<button>{{ $t("index.join-us.button") }}</button>
+					<a :href="$t('index.join-us.link')" target="_blank">
+						<button>{{ $t("index.join-us.button") }}</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -47,14 +49,18 @@ export default {};
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			button {
-				cursor: pointer;
-				width: 70%;
-				padding: 20px 0px;
-				font-weight: 700;
-				border-radius: 20px;
-				background: #fff;
-				animation: join 2s infinite;
+			a {
+				height: 100%;
+				width: 100%;
+				button {
+					cursor: pointer;
+					width: 70%;
+					padding: 20px 0px;
+					font-weight: 700;
+					border-radius: 20px;
+					background: #fff;
+					animation: join 2s infinite;
+				}
 			}
 		}
 	}

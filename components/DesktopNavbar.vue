@@ -9,7 +9,7 @@
 					<desktop-navbar-dropdown tab="nav.us" />
 					<desktop-navbar-dropdown tab="nav.do" />
 					<desktop-navbar-dropdown tab="nav.career" />
-					<a :href="$t('nav.join-us.link')">
+					<a :href="$t('nav.join-us.link')" target="_blank">
 						<h3 class="join">{{ $t("nav.join-us.title") }}</h3>
 					</a>
 				</div>

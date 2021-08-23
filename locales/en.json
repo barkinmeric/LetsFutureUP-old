@@ -15,7 +15,7 @@
 		},
 		"join-us": {
 			"title": "Join Us!",
-			"link": ""
+			"link": "https://docs.google.com/forms/d/e/1FAIpQLSfcCcrZXEJ7k8NtcQFh2VJBPJ85jY8mxbrAuyInEQywmey-Vw/viewform?usp=sf_link"
 		}
 	},
 	"index": {
@@ -165,7 +165,7 @@
 			"title": "Do you want to join us?",
 			"button": "Join Us!",
 			"text": "You could make an application as a mentor or a mentee to be a member of our project by clicking the button on the side!",
-			"link": ""
+			"link": "https://docs.google.com/forms/d/e/1FAIpQLSfcCcrZXEJ7k8NtcQFh2VJBPJ85jY8mxbrAuyInEQywmey-Vw/viewform?usp=sf_link"
 		}
 	},
 	"about": {
@@ -447,7 +447,7 @@
 			{
 				"title": "Mentor & Mentee Applications Started",
 				"text": "",
-				"image": "/pages/announcements/en/1.png",
+				"image": "/pages/announcements/en/1.webp",
 				"date": "18.08.2021"
 			}
 		]
@@ -456,27 +456,51 @@
 		"title": "Events",
 		"content": [
 			{
+				"title": "Achieving Can Be Easy!",
+				"text": "Our WeTalk event will be with Yazaki’s former North America Facilities Manager Ruud de Reijke on the 20th of January at 19.30. Ruud de Reijke has experienced more than 25 years in the automotive field. He started his career as a Material Planner in 1993 at Liamar. After spending 7 years at Liamar, he moved to Yazaki North America as Senior Material Coordinator. For the past 20 years, he had worked for Yazaki North America in different positions respectively Senior Material Coordinator, Project Manager, Facilities Manager. Besides his career, Reijke has taken responsibilities in voluntary projects such as recruitment volunteer and event supervisor. The event’s quota is limited. The last day for application is the 18th of January. The link of the WeTalk will be shared on the 19th of January via e-mail. Participants’ English level must above the B1 level in order to attend the event.",
+				"image": "/pages/events/tr/1.png",
+				"date": "20.01.2021"
+			},
+			{
+				"title": "The Road of CEO ",
+				"text": "The next WeTalk of our Let’s FutureUP team is “The Road of CEO” with CEO of consumer products of Eczacıbaşı, Alp GÜNVARAN. You’re invited to our event with precious experiences and knowledge of Alp GÜNVARAN.",
+				"image": "/pages/events/tr/2.png",
+				"date": "12.02.2021"
+			},
+			{
+				"title": "University and Career",
+				"text": "WeTalk events of our Let’s FutureUP team are continuing steadily! We’re here with our next event, which is “Choosing Between Professional Life and University Life” of mechanical engineer and oceanographer Derya AKKAYNAK. Be careful not to miss this event with precious informations and experiences of Derya AKKAYNAK. Our event is limited by quota.",
+				"image": "/pages/events/tr/3.png",
+				"date": "12.03.2021"
+			},
+			{
+				"title": "Be “the best you”",
+				"text": "WeTALK events of our Let's FutureUP team continue non-stop! Doğuş Balbay who Anadolu Efes Sports Club Basketball Player is will be with us! You are all invited to our event. Mr. Balbay will share his valuable experiences on “How Do I Reach the Peak of My Potential?”. Participation number is limited. Don't forget to apply now so that you don't miss out.",
+				"image": "/pages/events/tr/4.png",
+				"date": "28.03.2021"
+			},
+			{
 				"title": "International Support To Let’s FutureUP 1",
 				"text": "We met with Bosch England Director Ms. Eman Martin-Vignerte regarding the Let's FutureUP project. Ms. Eman was so impressed with our work that she extended her support to our program in the next semester into 2022. This is a great step for the Let's FutureUP organization to have such great contributors on board. Let's FutureUP is one step on the way to success!",
-				"image": "/pages/events/en/1.png",
+				"image": "/pages/events/en/5.png",
 				"date": "10.07.2021"
 			},
 			{
 				"title": "International Support To Let’s FutureUP 2",
 				"text": "We proudly announce that Ms Mirsada Kudric, the General Manager of BOSCH Croatia and Slovakia, now is a part of our Let’s FutureUP Mentorship Program. In regards to that she will be willing to share and coach the selected young people about various fields related to career skills and opportunities to our program in the next semester of 2022. Her competencies and experiences will be highly valuable for the youth who are preparing to enter the job market. Thus, what are you waiting for? Apply and join our project!",
-				"image": "/pages/events/en/2.png",
+				"image": "/pages/events/en/6.png",
 				"date": "15.07.2021"
 			},
 			{
 				"title": "International Support To Let’s FutureUP 3",
 				"text": "Our Let's FutureUP team met with Dogan Esiyok at the meeting with Bosch Germany. At the meeting, we were able to get the support of Bosch Germany by talking about our new term goals and projects. Our project, which has taken great steps globally, was also appreciated by Bosch Germany. Together with our volunteers, we are achieving our goal of reaching more students in the new term! Let’s FutureUP is one step closer to the success!",
-				"image": "/pages/events/en/3.png",
+				"image": "/pages/events/en/7.png",
 				"date": "17.07.2021"
 			},
 			{
 				"title": "Let's FutureUP Celebrates Its 1st Anniversary!",
 				"text": "Let's FutureUP Celebrates Its 1st Anniversary! We have left behind the first year of our project, which we started with great motivation and excitement as a team. The FutureUP team, which has been advancing with strength in the online platform with the bond of “volunteering” since the day it was founded, came together this time in Bursa Workinton. The team, which has accomplished great things together throughout the term, shared their ideas face to face this time and talked about their strategies for the next period. To Workinton Bursa, one of our sponsors who did not leave us alone on this special day; Thank you to Hacihasanogullari Baklava for being a part of this meaningful volunteer platform and supporting us! Stay tuned for the new term applications to touch the lives of more people in the new term and to be a part of our team. Love, Let's FutureUP",
-				"image": "/pages/events/en/4.png",
+				"image": "/pages/events/en/8.png",
 				"date": "02/08/2021"
 			}
 		]
