@@ -1,4 +1,5 @@
 import { pages } from "./config/i18n";
+import { routes } from "./config/sitemap";
 
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
@@ -34,7 +35,7 @@ export default {
 	buildModules: ["@nuxtjs/pwa", "@nuxt/image", "@nuxtjs/style-resources"],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["@nuxtjs/i18n"],
+	modules: ["@nuxtjs/i18n", "@nuxtjs/robots", "@nuxtjs/sitemap"],
 
 	pwa: {
 		// meta: false,
@@ -63,6 +64,17 @@ export default {
 		baseUrl: "https://letsfutureup-nuxt.netlify.app",
 		parsePages: false,
 		pages: pages,
+	},
+
+	robots: {
+		UserAgent: "*",
+		Sitemap: "https://letsfutureup-nuxt.netlify.app/sitemap.xml",
+	},
+
+	sitemap: {
+		hostname: "https://letsfutureup-nuxt.netlify.app",
+		exclude: ["/*"],
+		routes: routes,
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
