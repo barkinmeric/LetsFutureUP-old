@@ -2,14 +2,14 @@
 	<section class="about-us">
 		<div class="container">
 			<div class="head">
-				<img class="image" draggable="false" :src="$t('about.img')" alt="" height="1080" width="1920" />
+				<nuxt-img class="image" draggable="false" :src="$t('about.img')" alt="" height="500" width="1920" />
 			</div>
 			<div class="body">
 				<h2 class="title">{{ $t("about.title") }}</h2>
 				<div v-for="item in $t('about.content')" :key="item.title">
-					<h3>{{ item.title }}</h3>
+					<h3 class="item-title">{{ item.title }}</h3>
 					<ul v-if="item.title == `HEDEFLERİMİZ` || item.title == 'OUR GOALS'">
-						<li v-for="text in item.text" :key="text">
+						<li class="item-text" v-for="text in item.text" :key="text">
 							{{ text }}
 						</li>
 					</ul>
@@ -56,15 +56,15 @@ export default {
 			letter-spacing: 1px;
 			color: #000;
 			border-bottom: 3px solid $sideColor;
-			margin-bottom: 15px;
+			margin-bottom: 20px;
 		}
-		li {
+		.item-text {
 			color: #292929;
 			font-size: 16px;
 			font-weight: normal;
-			margin-bottom: 10px;
+			margin-bottom: 15px;
 		}
-		h3 {
+		.item-title {
 			font-size: 18px;
 			font-weight: 500;
 			letter-spacing: 1px;

@@ -1,15 +1,15 @@
 <template>
 	<section class="project-team">
 		<div class="container">
-			<div class="img">
-				<nuxt-img draggable="false" :src="$t('team.img')" alt="" />
+			<div class="head">
+				<nuxt-img class="image" draggable="false" :src="$t('team.img')" alt="" height="500" width="1920" />
 			</div>
-			<div class="text">
-				<h2>{{ $t("team.title") }}</h2>
-				<p>{{ $t("team.desc") }}</p>
+			<div class="body">
+				<h2 class="title">{{ $t("team.title") }}</h2>
+				<p class="text">{{ $t("team.desc") }}</p>
 				<div v-for="item in $t('team.content')" :key="item.title">
 					<team-collapsible :item="item" />
-					<p>{{ item.text }}</p>
+					<p class="item-text">{{ item.text }}</p>
 				</div>
 			</div>
 		</div>
@@ -29,33 +29,36 @@ export default {
 
 <style lang="scss" scope>
 .project-team {
-	margin-bottom: 10px;
-	.img {
-		z-index: -1;
-		img {
-			width: 100%;
+	margin-bottom: 30px;
+	.head {
+		text-align: center;
+		margin-bottom: 20px;
+		.image {
+			max-width: 100%;
 			height: auto;
 		}
 	}
-	.text {
-		p {
+	.body {
+		.text {
 			color: #292929;
-			padding: 5px 0px 10px 0px;
-			margin: 0px;
 			font-size: 16px;
 			font-weight: normal;
+			margin-bottom: 15px;
 		}
-		h2 {
+		.title {
+			display: inline-block;
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
-			text-transform: uppercase;
-			padding: 5px 0px;
 			color: #000;
-			display: inline-block;
-			margin-bottom: 10px;
-			border-bottom: 1px solid $sideColor;
-			border-bottom-width: 3px;
+			border-bottom: 3px solid $sideColor;
+			margin-bottom: 20px;
+		}
+		.item-text {
+			color: #292929;
+			font-size: 16px;
+			font-weight: normal;
+			margin-bottom: 15px;
 		}
 	}
 }

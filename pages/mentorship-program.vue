@@ -2,12 +2,12 @@
 	<section class="mentorship-program">
 		<div class="container">
 			<mentorship-collapsible />
-			<div class="text">
-				<h2>{{ $t("mentorship.title") }}</h2>
-				<p>{{ $t("mentorship.desc") }}</p>
+			<div class="body">
+				<h2 class="title">{{ $t("mentorship.title") }}</h2>
+				<p class="text">{{ $t("mentorship.desc") }}</p>
 				<div v-for="item in $t('mentorship.content')" :key="item.title">
-					<h3>{{ item.title }}</h3>
-					<p>{{ item.text }}</p>
+					<h3 class="item-title">{{ item.title }}</h3>
+					<p class="item-text">{{ item.text }}</p>
 				</div>
 			</div>
 		</div>
@@ -27,35 +27,35 @@ export default {
 
 <style lang="scss" scope>
 .mentorship-program {
-	margin-bottom: 10px;
-	.text {
-		p {
+	margin-bottom: 30px;
+	.body {
+		.text {
 			color: #292929;
-			padding: 5px 0px 10px 0px;
-			margin: 0px;
 			font-size: 16px;
 			font-weight: normal;
+			margin-bottom: 15px;
 		}
-		h2 {
+		.title {
+			display: inline-block;
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
-			padding: 5px 0px;
 			color: #000;
-			display: inline-block;
-			margin-bottom: 10px;
-			border-bottom: 1px solid $sideColor;
-			border-bottom-width: 3px;
+			border-bottom: 3px solid $sideColor;
+			margin-bottom: 20px;
 		}
-		h3 {
+		.item-text {
+			color: #292929;
+			font-size: 16px;
+			font-weight: normal;
+			margin-bottom: 15px;
+		}
+		.item-title {
 			font-size: 18px;
-			font-weight: 550;
+			font-weight: 500;
 			letter-spacing: 1px;
-			text-transform: uppercase;
-			position: relative;
-			padding: 5px 0px;
-			margin: 10px 0px 0px 0px;
 			color: #000;
+			margin-bottom: 10px;
 		}
 	}
 }

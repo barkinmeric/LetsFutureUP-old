@@ -37,9 +37,9 @@ export default {
 	modules: ["@nuxtjs/i18n"],
 
 	pwa: {
-		meta: false,
-		icon: false,
-		manifest: false,
+		// meta: false,
+		// icon: false,
+		// manifest: false,
 	},
 
 	image: {},

@@ -1,6 +1,6 @@
 <template>
 	<div class="index-carousel">
-		<slider :pagination="true" :autoplay="true">
+		<slider :pagination="true">
 			<slider-inner>
 				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
 					<icon-play-button width="96px" height="96px" />
@@ -67,9 +67,11 @@ export default {
 			top: 50%;
 			transform: translate(-50%, -50%);
 			cursor: pointer;
+			border: 10px solid $sideColor;
 			border-radius: 100%;
-			box-shadow: 0px 0px 5px 1px $sideColor;
 			color: #d4d4d4;
+			background-color: $sideColor;
+			animation: submit 1s infinite;
 		}
 		img {
 			min-height: 200px;
@@ -116,6 +118,17 @@ export default {
 				width: 100%;
 			}
 		}
+	}
+}
+@keyframes submit {
+	0% {
+		box-shadow: 0px 0px 0px 0px rgba(0, 255, 0, 0.7);
+	}
+	70% {
+		box-shadow: 0px 0px 0px 10px rgba(0, 255, 0, 0);
+	}
+	100% {
+		box-shadow: 0px 0px 0px 0px rgba(0, 255, 0, 0);
 	}
 }
 </style>

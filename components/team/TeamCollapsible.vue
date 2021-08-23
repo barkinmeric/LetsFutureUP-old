@@ -1,6 +1,6 @@
 <template>
 	<div class="team-collapsible">
-		<button @click="toggleCollapsible = !toggleCollapsible" :class="{ active: toggleCollapsible }" type="button" class="collapsible">{{ item.title }}</button>
+		<h3 @click="toggleCollapsible = !toggleCollapsible" :class="{ active: toggleCollapsible }" class="collapsible">{{ item.title }}</h3>
 		<div class="content" v-if="toggleCollapsible">
 			<div class="team-collapsible-item">
 				<div class="container">
@@ -31,18 +31,15 @@ export default {
 .team-collapsible {
 	.collapsible {
 		background-color: #eee;
-		color: #444;
+		color: #000;
 		cursor: pointer;
-		margin-top: 10px;
 		width: 100%;
 		text-align: left;
 		line-height: 30px;
 		font-size: 18px;
-		font-weight: 550;
+		font-weight: 500;
 		letter-spacing: 1px;
-		text-transform: uppercase;
 		padding: 10px 18px 10px 0;
-		color: #000;
 		&:after {
 			content: "\002B";
 			color: black;

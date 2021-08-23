@@ -2,7 +2,7 @@
 	<div class="data-page">
 		<div class="container">
 			<div class="head">
-				<img class="image" draggable="false" :src="content.image" alt="" height="360" width="360" />
+				<nuxt-img class="image" draggable="false" :src="content.image" alt="" height="360" width="360" />
 			</div>
 			<div class="body">
 				<h2 class="title">{{ content.title }}</h2>
@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 .data-page {
-	margin: 30px 0;
+	margin-bottom: 30px;
 	.head {
 		text-align: center;
 		margin-bottom: 20px;
@@ -45,7 +45,7 @@ export default {
 			letter-spacing: 1px;
 			color: #000;
 			border-bottom: 3px solid $sideColor;
-			margin-bottom: 15px;
+			margin-bottom: 20px;
 			text-transform: uppercase;
 		}
 	}
