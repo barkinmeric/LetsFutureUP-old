@@ -1,5 +1,6 @@
 <template>
 	<section class="faq">
+		<social-head :title="$t('faq.title')" :description="$t('index.desc')" />
 		<div class="container">
 			<div class="head">
 				<nuxt-img class="image" draggable="false" :src="$t('faq.img')" alt="" height="500" width="1920" />

@@ -1,5 +1,6 @@
 <template>
 	<div class="list">
+		<social-head :title="$t('events.title')" :description="$t('index.desc')" />
 		<div
 			v-for="item in $t('events.content')
 				.slice()

@@ -1,5 +1,8 @@
 <template>
-	<data-page :content="data" />
+	<div>
+		<social-head :title="data.title" :description="data.text" :image="`https://letsfutureup-nuxt.netlify.app${data.image}`" />
+		<data-page :content="data" />
+	</div>
 </template>
 
 <script>

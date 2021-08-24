@@ -1,5 +1,6 @@
 <template>
 	<section class="mentorship-program">
+		<social-head :title="$t('mentorship.title')" :description="$t('mentorship.desc')" />
 		<div class="container">
 			<mentorship-collapsible />
 			<div class="body">
