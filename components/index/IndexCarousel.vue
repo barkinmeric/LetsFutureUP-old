@@ -58,7 +58,6 @@ export default {
 	.slide-el {
 		height: 100%;
 		width: 100%;
-		min-height: 200px;
 		max-height: 700px;
 		background-color: $mainColor;
 		svg {

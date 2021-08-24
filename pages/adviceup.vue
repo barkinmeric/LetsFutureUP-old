@@ -1,67 +1,51 @@
 <template>
-	<div></div>
+	<section class="adviceup">
+		<social-head :title="$t('adviceup.title')" :description="$t('adviceup.desc')" />
+		<div class="container">
+			<div class="body">
+				<h2 class="title">{{ $t("adviceup.title") }}</h2>
+				<p class="text">{{ $t("adviceup.desc") }}</p>
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>
 export default {
 	head() {
 		return {
-			title: "Home Page",
-			meta: [],
+			title: `Let's FutureUP ${this.$i18n.t("adviceup.title")} ${this.$i18n.t("url")}`,
+			meta: [
+				{
+					hid: "description",
+					name: "description",
+					content: this.$i18n.t("adviceup.desc"),
+				},
+			],
 		};
 	},
 };
 </script>
 
-<style lang="scss" scoped>
-.side-page {
-	.img {
-		max-height: 300px;
-		z-index: -1;
-		img {
-			max-height: 300px;
-			width: 100%;
-			height: auto;
-		}
-	}
-	.text {
-		p {
+<style lang="scss" scope>
+.adviceup {
+	margin-bottom: 30px;
+	.body {
+		.text {
 			color: #292929;
-			padding: 5px 0px 10px 0px;
-			margin: 0px;
 			font-size: 16px;
 			font-weight: normal;
+			margin-bottom: 15px;
 		}
-		ul {
-			padding: 0px;
-		}
-		h2 {
+		.title {
+			display: inline-block;
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 1px;
-			text-transform: uppercase;
-			position: relative;
-			padding: 5px 0px;
 			color: #000;
-			&::before {
-				content: "";
-				position: absolute;
-				height: 2px;
-				width: 75px;
-				bottom: 0px;
-				left: 0px;
-				background: #00ff00;
-			}
-		}
-		h3 {
-			font-size: 18px;
-			font-weight: 550;
-			letter-spacing: 1px;
+			border-bottom: 3px solid $sideColor;
+			margin: 20px 0;
 			text-transform: uppercase;
-			position: relative;
-			padding: 5px 0px;
-			margin: 10px 0px 0px 0px;
-			color: #000;
 		}
 	}
 }

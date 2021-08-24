@@ -73,4 +73,11 @@ export default {
 		}
 	}
 }
+@media (max-width: 768px) {
+	.team-collapsible {
+		.collapsible {
+			font-size: 14px;
+		}
+	}
+}
 </style>

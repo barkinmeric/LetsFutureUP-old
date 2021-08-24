@@ -422,7 +422,9 @@
 		"content": [
 			{
 				"title": "What is TalentUP Talent Development Program?",
-				"text": "Let’s FutureUP, offers various education programs at which students can participate to take a step to their careers. One of these education programs is TalentUP Skills Development Program. This program consists of valuable tranings which are suitable for preparatory, 1st and 2nd grades. In this program with chosen students, students have chance to improve themselves alongside taking advantage of courses they will take from experts and professionals in their sectors."
+				"text": [
+					"Let’s FutureUP, offers various education programs at which students can participate to take a step to their careers. One of these education programs is TalentUP Skills Development Program. This program consists of valuable tranings which are suitable for preparatory, 1st and 2nd grades. In this program with chosen students, students have chance to improve themselves alongside taking advantage of courses they will take from experts and professionals in their sectors."
+				]
 			},
 			{
 				"title": "What does TalentUP Talent Development Program Aim?",
