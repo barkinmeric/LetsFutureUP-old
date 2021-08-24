@@ -20,7 +20,13 @@ export default {
 	head() {
 		return {
 			title: `Let's FutureUP ${this.$i18n.t("mentorship.title")} ${this.$i18n.t("url")}`,
-			meta: [],
+			meta: [
+				{
+					hid: "description",
+					name: "description",
+					content: this.$i18n.t("mentorship.desc"),
+				},
+			],
 		};
 	},
 };

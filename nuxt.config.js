@@ -67,7 +67,7 @@ export default {
 	robots: {
 		UserAgent: "*",
 		Allow: "",
-		Disallow: "",
+		Disallow: "/*.pdf",
 		Sitemap: "https://letsfutureup-nuxt.netlify.app/sitemap.xml",
 	},
 

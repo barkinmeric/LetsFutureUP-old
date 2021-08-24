@@ -10,7 +10,13 @@ export default {
 	head() {
 		return {
 			title: `${this.data.title} | Let's FutureUP ${this.$i18n.t("announcements.title")} | letsfutureup.com`,
-			meta: [],
+			meta: [
+				{
+					hid: "description",
+					name: "description",
+					content: this.data.text,
+				},
+			],
 		};
 	},
 	data() {
