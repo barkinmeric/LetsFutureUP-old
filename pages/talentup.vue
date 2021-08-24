@@ -1,6 +1,6 @@
 <template>
 	<section class="talentup">
-		<social-head :title="$t('talentup.title')" :description="$t('talentup.desc')" />
+		<social-head :title="$t('talentup.title')" :description="$t('talentup.content')[0].text[0]" />
 		<div class="container">
 			<div class="body">
 				<h2 class="title">{{ $t("talentup.title") }}</h2>
@@ -22,7 +22,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: this.$i18n.t("talentup.desc"),
+					content: this.$i18n.t("talentup.content")[0].text[0],
 				},
 			],
 		};

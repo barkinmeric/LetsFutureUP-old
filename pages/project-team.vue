@@ -3,7 +3,7 @@
 		<social-head :title="$t('team.title')" :description="$t('team.desc')" />
 		<div class="container">
 			<div class="head">
-				<nuxt-img format="jpg" class="image" draggable="false" :src="$t('team.img')" :alt="$t('tean.title')" height="500" width="1920" />
+				<nuxt-img format="jpg" class="image" draggable="false" :src="$t('team.img')" :alt="$t('team.title')" height="500" width="1920" />
 			</div>
 			<div class="body">
 				<h2 class="title">{{ $t("team.title") }}</h2>
