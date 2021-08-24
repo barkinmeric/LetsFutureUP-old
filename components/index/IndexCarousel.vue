@@ -94,15 +94,13 @@ export default {
 		.close {
 			width: 100%;
 			height: 52px;
-			padding: 10px;
+			padding: 20px;
 			display: inline-block;
 			text-align: right;
 			font-weight: bold;
+			color: white;
 			&:hover {
 				cursor: pointer;
-				svg {
-					color: white;
-				}
 			}
 		}
 		video {
