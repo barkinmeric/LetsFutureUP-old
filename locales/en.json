@@ -148,11 +148,11 @@
 			]
 		},
 		"partner": {
-			"title": "İşbirlikçilerimiz",
+			"title": "Partners",
 			"content": ["/pages/index/partners/adler.png", "/pages/index/partners/haci-hasan.png", "/pages/index/partners/hrpeak.png", "/pages/index/partners/workinton.png"]
 		},
 		"supporter": {
-			"title": "Destekçilerimiz",
+			"title": "Supporters",
 			"content": [
 				"/pages/index/supporters/aktas.png",
 				"/pages/index/supporters/emek.png",
