@@ -18,7 +18,7 @@
 				<mobile-navbar-dropdown tab="nav.us" />
 				<mobile-navbar-dropdown tab="nav.do" />
 				<mobile-navbar-dropdown tab="nav.career" />
-				<a :href="$t('nav.join-us.link')" target="_blank">
+				<a :href="$t('nav.join-us.link')" target="_blank" rel="noopener">
 					<h3 class="join">
 						{{ $t("nav.join-us.title") }}
 					</h3>

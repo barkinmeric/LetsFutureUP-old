@@ -22,27 +22,27 @@
 				</div>
 				<div class="social-media-icons">
 					<div class="twitter">
-						<a href="https://twitter.com/LetsFutureUP" target="_blank">
+						<a href="https://twitter.com/LetsFutureUP" target="_blank" rel="noopener">
 							<icon-twitter width="24px" height="24px" color="white" />
 						</a>
 					</div>
 					<div class="instagram">
-						<a href="https://www.instagram.com/letsfutureup" target="_blank">
+						<a href="https://www.instagram.com/letsfutureup" target="_blank" rel="noopener">
 							<icon-instagram width="24px" height="24px" color="white" />
 						</a>
 					</div>
 					<div class="facebook">
-						<a href="https://www.facebook.com/letsfutureup.315" target="_blank">
+						<a href="https://www.facebook.com/letsfutureup.315" target="_blank" rel="noopener">
 							<icon-facebook width="24px" height="24px" color="white" />
 						</a>
 					</div>
 					<div class="linkedin">
-						<a href="https://www.linkedin.com/in/let-s-future-up-176a291aa/" target="_blank">
+						<a href="https://www.linkedin.com/in/let-s-future-up-176a291aa/" target="_blank" rel="noopener">
 							<icon-linkedin width="24px" height="24px" color="white" />
 						</a>
 					</div>
 					<div class="youtube">
-						<a href="https://www.youtube.com/channel/UCU0m0_xCHakxtQqAH3PztQQ?view_as=subscriber" target="_blank">
+						<a href="https://www.youtube.com/channel/UCU0m0_xCHakxtQqAH3PztQQ?view_as=subscriber" target="_blank" rel="noopener">
 							<icon-youtube width="24px" height="24px" color="white" />
 						</a>
 					</div>
