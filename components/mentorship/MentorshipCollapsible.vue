@@ -39,8 +39,8 @@ export default {
 		background-color: #eee;
 		color: #444;
 		cursor: pointer;
-		margin: 10px 0;
-		padding: 18px;
+		margin: 20px 0;
+		padding: 20px;
 		width: 100%;
 		text-align: left;
 		font-size: 15px;

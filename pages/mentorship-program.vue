@@ -6,7 +6,7 @@
 			<div class="body">
 				<h2 class="title">{{ $t("mentorship.title") }}</h2>
 				<p class="text">{{ $t("mentorship.desc") }}</p>
-				<div v-for="item in $t('mentorship.content')" :key="item.title">
+				<div class="whatDiv" v-for="item in $t('mentorship.content')" :key="item.title">
 					<h3 class="item-title">{{ item.title }}</h3>
 					<p class="item-text">{{ item.text }}</p>
 				</div>
@@ -49,22 +49,25 @@ export default {
 			letter-spacing: 1px;
 			color: #000;
 			border-bottom: 3px solid $sideColor;
-			margin-bottom: 20px;
-			text-transform: uppercase;
-		}
-		.item-text {
-			color: #292929;
-			font-size: 16px;
-			font-weight: normal;
 			margin-bottom: 15px;
-		}
-		.item-title {
-			font-size: 18px;
-			font-weight: 500;
-			letter-spacing: 1px;
-			color: #000;
-			margin-bottom: 10px;
 			text-transform: uppercase;
+		}
+		.whatDiv {
+			margin: 30px 0;
+			.item-text {
+				color: #292929;
+				font-size: 16px;
+				font-weight: normal;
+				margin-bottom: 10px;
+			}
+			.item-title {
+				font-size: 18px;
+				font-weight: 500;
+				letter-spacing: 1px;
+				color: #000;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+			}
 		}
 	}
 }

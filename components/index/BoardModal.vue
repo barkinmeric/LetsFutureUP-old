@@ -1,7 +1,7 @@
 <template>
 	<div class="board-modal">
 		<div class="board-img">
-			<nuxt-img :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
+			<nuxt-img format="jpg" :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
 		</div>
 		<div class="board-text">
 			<div class="name">{{ item.name }}</div>

@@ -2,7 +2,7 @@
 	<div class="data-page">
 		<div class="container">
 			<div class="head">
-				<nuxt-img class="image" draggable="false" :src="content.image" :alt="content.title" height="360" width="360" />
+				<nuxt-img format="jpg" class="image" draggable="false" :src="content.image" :alt="content.title" height="360" width="360" />
 			</div>
 			<div class="body">
 				<h2 class="title">{{ content.title }}</h2>
@@ -26,7 +26,7 @@ export default {
 	margin-bottom: 30px;
 	.head {
 		text-align: center;
-		margin-bottom: 20px;
+		margin: 20px 0;
 		.image {
 			max-width: 100%;
 			height: auto;

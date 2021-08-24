@@ -1,7 +1,7 @@
 <template>
 	<div class="mentorship-modal">
 		<div class="mentorship-img">
-			<nuxt-img :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
+			<nuxt-img format="jpg" :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
 		</div>
 		<div class="mentorship-text">
 			<div class="name">{{ item.name }}</div>

@@ -36,10 +36,10 @@ export default {
 		width: 100%;
 		text-align: left;
 		line-height: 30px;
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: 500;
 		letter-spacing: 1px;
-		padding: 10px 18px 10px 0;
+		padding: 10px 20px;
 		text-transform: uppercase;
 		&:after {
 			content: "\002B";

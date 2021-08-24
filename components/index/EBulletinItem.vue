@@ -1,7 +1,7 @@
 <template>
 	<div class="e-bulletin-item">
 		<div class="e-bulletin-img">
-			<a :href="item.file" target="_blank" rel="noopener"><nuxt-img :src="item.image" :alt="item.text" height="160px" width="240px" draggable="false" loading="lazy"/></a>
+			<a :href="item.file" target="_blank" rel="noopener"><nuxt-img format="jpg" :src="item.image" :alt="item.text" height="160px" width="240px" draggable="false" loading="lazy"/></a>
 		</div>
 		<div class="e-bulletin-text">{{ item.text }}</div>
 	</div>

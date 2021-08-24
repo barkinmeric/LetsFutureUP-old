@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="flex-container">
 				<div class="logo">
-					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img draggable="false" src="/logo/logo.png" alt="logo" width="164" height="50"/></NuxtLink>
+					<NuxtLink :to="`/${this.$i18n.locale}`"><nuxt-img format="jpg" draggable="false" src="/logo/logo.png" alt="logo" width="164" height="50"/></NuxtLink>
 				</div>
 
 				<div class="mobile-menu-button" @click="toggleMobileMenu()" v-show="!isMobileMenuActive">

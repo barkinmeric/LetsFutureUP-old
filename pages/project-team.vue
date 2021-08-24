@@ -3,7 +3,7 @@
 		<social-head :title="$t('team.title')" :description="$t('team.desc')" />
 		<div class="container">
 			<div class="head">
-				<nuxt-img class="image" draggable="false" :src="$t('team.img')" :alt="$t('tean.title')" height="500" width="1920" />
+				<nuxt-img format="jpg" class="image" draggable="false" :src="$t('team.img')" :alt="$t('tean.title')" height="500" width="1920" />
 			</div>
 			<div class="body">
 				<h2 class="title">{{ $t("team.title") }}</h2>
@@ -39,7 +39,7 @@ export default {
 	margin-bottom: 30px;
 	.head {
 		text-align: center;
-		margin-bottom: 20px;
+		margin: 20px 0;
 		.image {
 			max-width: 100%;
 			height: auto;
@@ -64,9 +64,9 @@ export default {
 		}
 		.item-text {
 			color: #292929;
-			font-size: 16px;
+			font-size: 14px;
 			font-weight: normal;
-			margin-bottom: 15px;
+			margin: 20px 0;
 		}
 	}
 }

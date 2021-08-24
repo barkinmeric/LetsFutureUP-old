@@ -1,7 +1,7 @@
 <template>
 	<div class="opinion-modal">
 		<div class="opinion-img">
-			<nuxt-img :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
+			<nuxt-img format="jpg" :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
 		</div>
 		<div class="opinion-body">
 			<span class="name">{{ item.name }}</span>

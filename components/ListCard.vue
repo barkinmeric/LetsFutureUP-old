@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="card-item">
 				<div class="card-head">
-					<nuxt-img class="image" draggable="false" :src="item.image" :alt="item.image" height="180" width="180" />
+					<nuxt-img format="jpg" class="image" draggable="false" :src="item.image" :alt="item.image" height="180" width="180" />
 				</div>
 				<div class="card-body">
 					<NuxtLink :to="`${localePath(section)}/${toUrl(item.title)}`"

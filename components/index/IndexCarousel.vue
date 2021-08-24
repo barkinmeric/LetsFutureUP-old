@@ -4,22 +4,22 @@
 			<slider-inner>
 				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
 					<icon-play-button width="96px" height="96px" />
-					<nuxt-img draggable="false" :src="$t('index.slider.thumbnail')" alt="thumbnail" style="cursor:pointer;" />
+					<nuxt-img format="jpg" draggable="false" :src="$t('index.slider.thumbnail')" alt="thumbnail" style="cursor:pointer;" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img :src="$t('index.slider.4')" alt="carousel4" draggable="false" />
+					<nuxt-img format="jpg" :src="$t('index.slider.4')" alt="carousel4" draggable="false" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img :src="$t('index.slider.2')" alt="carousel2" draggable="false" />
+					<nuxt-img format="jpg" :src="$t('index.slider.2')" alt="carousel2" draggable="false" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img :src="$t('index.slider.3')" alt="carousel3" draggable="false" />
+					<nuxt-img format="jpg" :src="$t('index.slider.3')" alt="carousel3" draggable="false" />
 				</div>
 			</slider-inner>
 		</slider>
@@ -67,14 +67,15 @@ export default {
 			top: 50%;
 			transform: translate(-50%, -50%);
 			cursor: pointer;
-			border: 10px solid $sideColor;
+			border: 2px solid $sideColor;
 			border-radius: 100%;
 			color: #d4d4d4;
 			background-color: $sideColor;
-			animation: submit 1s infinite;
+			&:hover {
+				animation: submit 1s infinite;
+			}
 		}
 		img {
-			min-height: 200px;
 			max-height: 700px;
 			max-width: 1920px;
 			height: 100%;

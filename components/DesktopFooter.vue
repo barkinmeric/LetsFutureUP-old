@@ -179,7 +179,7 @@ export default {
 						white-space: nowrap;
 						content: "Let's FutureUP";
 						position: absolute;
-						background: #833ab4;
+						background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 						width: 100px;
 						height: 20px;
 						line-height: 20px;
