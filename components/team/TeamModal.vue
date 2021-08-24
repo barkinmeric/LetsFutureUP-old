@@ -1,7 +1,10 @@
 <template>
 	<div class="team-modal">
 		<div class="team-img">
-			<nuxt-img format="jpg" :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
+			<a v-if="item.url" :href="item.url">
+				<nuxt-img format="jpg" :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
+			</a>
+			<nuxt-img v-else format="jpg" :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
 		</div>
 		<div class="team-text">
 			<div class="name">{{ item.name }}</div>

@@ -271,9 +271,9 @@
 				"title": "Startup department",
 				"text": "They are well prepared for startup based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team are responsible for writing the codes of the programs that execute and digitalize the project.",
 				"collapsible": [
-					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/pages/project-team/startup/barkin-meric.png" },
+					{ "name": "Barkın Meriç", "url": "https://barkinmeric.com", "place": "", "position": "", "image": "/pages/project-team/startup/barkin-meric.png" },
 					{ "name": "Elaa Jamazi", "place": "", "position": "", "image": "/pages/project-team/startup/elaa-jamazi.png" },
-					{ "name": "Olgu Batın Topal", "place": "", "position": "", "image": "/pages/project-team/startup/olgu-batin-topal.png" },
+					{ "name": "Olgu Batın Topal", "url": "http://ekads.co/", "place": "", "position": "", "image": "/pages/project-team/startup/olgu-batin-topal.png" },
 					{ "name": "Pelin İşeri", "place": "", "position": "", "image": "/pages/project-team/startup/pelin-iseri.png" }
 				]
 			}
