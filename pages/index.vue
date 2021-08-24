@@ -20,7 +20,7 @@
 export default {
 	head() {
 		return {
-			title: "Home Page",
+			title: `Let's FutureUP ${this.$i18n.t("index.title")} ${this.$i18n.t("url")}`,
 			meta: [],
 		};
 	},

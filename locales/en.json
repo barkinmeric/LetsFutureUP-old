@@ -1,4 +1,5 @@
 {
+	"url": "| Hello Career | letsfutureup.com",
 	"nav": {
 		"us": {
 			"title": "Who Are We?",
@@ -19,6 +20,7 @@
 		}
 	},
 	"index": {
+		"title": "Home Page",
 		"slider": {
 			"1": "/pages/index/slider/en/1.mp4",
 			"2": "/pages/index/slider/en/2.webp",
@@ -169,23 +171,23 @@
 		}
 	},
 	"about": {
-		"title": "ABOUT US",
+		"title": "About Us",
 		"img": "/pages/about-us/en/about.webp",
 		"content": [
 			{
-				"title": "LET’S FUTURE UP PROJECT VISION-MISSION",
+				"title": "Let’s future up project vision-mission",
 				"text": "We aim to be a universal project that guides the careers of university students, contributes to their development, helps them become beneficial individuals for society, and enables them to get to know the business world through the student development program and mentorship program we offer."
 			},
 			{
-				"title": "WHAT IS THE LET’S FUTUREUP PROJECT?",
+				"title": "What is the let’s futureup project?",
 				"text": "Let's FutureUP Project is an international social responsibility project that guides university students who want to greet their future careers with mentoring and training programs. Let's FutureUP is a student development program that stands as a bridge between the business world and university students."
 			},
 			{
-				"title": "THE AIM OF THE PROJECT",
+				"title": "The aim of the project",
 				"text": "Let's FutureUP is a student development program established to support the sustainable career development of students from different cultures at the university with its mentoring program and training programs. It helps to lead change and development to realize the dreams of young people, diversify their perspectives within the framework of universal values, and provide them with competencies that will prompt them to think innovatively in science and technology."
 			},
 			{
-				"title": "OUR GOALS",
+				"title": "Our goals",
 				"text": [
 					"• Contributing to the career development of university students with mentoring programs and providing future-oriented individual and general training with student development programs.",
 					"• Leading students to become valuable individuals for society by enabling them to take part in social responsibility projects.",
@@ -198,7 +200,7 @@
 		]
 	},
 	"story": {
-		"title": "OUR STORY",
+		"title": "Our Story",
 		"img": "/pages/our-story/en/story.webp",
 		"content": [
 			"Before the beginning of 2020, If you asked what pandemic is, we would definitely search at Google. It was not the situation we have experienced before.",
@@ -208,12 +210,12 @@
 		]
 	},
 	"team": {
-		"title": "PROJECT TEAM",
+		"title": "Project Team",
 		"img": "/pages/project-team/en/team.webp",
 		"desc": "Let’s FutureUP project consists of six departments including Human Resources, Business Development, Corporate Communication, External Affairs, Startup, Social Media and Digital Marketing. Students from various universities comprise these departments.",
 		"content": [
 			{
-				"title": "HUMAN RESOURCES DEPARTMENT",
+				"title": "Human resources department",
 				"text": "This department arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members to Let’s FutureUP events. They act to keep motivation of students high and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
 				"collapsible": [
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
@@ -222,7 +224,7 @@
 				]
 			},
 			{
-				"title": "CORPORATE COMMUNICATION DEPARTMENT",
+				"title": "Corporate communication department",
 				"text": "They contact with high level managers/executives and offer them to be spokesperson/trainer/mentor in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertize for the project.",
 				"collapsible": [
 					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
@@ -235,7 +237,7 @@
 				]
 			},
 			{
-				"title": "BUSINESS DEVELOPMENT DEPARTMENT",
+				"title": "Business development department",
 				"text": "Members of this department, produce innovative ideas by encouraging the development of strategies through vision-mission. In this context, it leads the departments to embrace new ideas and bring about these. They work collaboratively with other departments regarding how these new concepts can be integrated into the project.",
 				"collapsible": [
 					{ "name": "Büşra Savran", "place": "", "position": "", "image": "/pages/project-team/business-development/busra-savran.png" },
@@ -243,7 +245,7 @@
 				]
 			},
 			{
-				"title": "EXTERNAL AFFAIRS DEPARTMENT",
+				"title": "External affairs department",
 				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
 				"collapsible": [
 					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/pages/project-team/external-affairs/cansin-oksan.png" },
@@ -254,7 +256,7 @@
 				]
 			},
 			{
-				"title": "SOCIAL MEDIA AND DIGITAL MARKETING DEPARTMENT",
+				"title": "Social media and digital marketing department",
 				"text": "They are responsible for effective utility of the social media accounts of the project. At the same time, they play essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
 				"collapsible": [
 					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
@@ -265,7 +267,7 @@
 				]
 			},
 			{
-				"title": "STARTUP DEPARTMENT",
+				"title": "Startup department",
 				"text": "They are well prepared for startup based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team are responsible for writing the codes of the programs that execute and digitalize the project.",
 				"collapsible": [
 					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/pages/project-team/startup/barkin-meric.png" },
@@ -277,7 +279,7 @@
 		]
 	},
 	"faq": {
-		"title": "FREQUENTLY ASKED QUESTIONS",
+		"title": "Frequently Asked Questions",
 		"img": "/pages/faq/en/faq.webp",
 		"content": [
 			{
@@ -328,15 +330,15 @@
 		]
 	},
 	"mentorship": {
-		"title": "MENTORSHIP PROGRAM",
+		"title": "Mentorship Program",
 		"desc": "While matching mentors and mentees, many conditions such as expectations, work/interest fields of them are taken into consideration. During the project, 7 meetings are arranged in total. These meetings lasts at least 45 minutes every month. Meetings could be organized face-to-face or online based on decision of mentor and mentee. It is possible that they are able to meet more than 7 times.",
 		"content": [
 			{
-				"title": "WHO IS A MENTEE?",
+				"title": "Who is a mentee?",
 				"text": "Mentees in the Let's FutureUP project are students who aim to take a step for their future careers, want to improve their knowledge and skills about the sector, wonder how to solve a problem in the most efficient way when they encounter it, apply for a mentor for this. Within the scope of the Let's FutureUP Project, 25 students studying in the 3rd and 4th grades of universities are selected as mentees through interviews and they are matched with the most suitable mentor. Mentees go through a period of 7 months in the company of mentors. In this process, they hold meetings with their mentor. After each meeting, they determine what they have contributed to them in that meeting and the topic of their next meeting. At the end of all interviews, they find answers to their questions, improve their knowledge-skills, learn to develop different solutions to problems and adapt to change."
 			},
 			{
-				"title": "WHO IS A MENTOR?",
+				"title": "Who is a mentor?",
 				"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
 			}
 		],
@@ -344,7 +346,7 @@
 			"2020-2021": {
 				"title": "2020-2021 Dönemi Mentor-Mentee",
 				"mentors": {
-					"title": "MENTORS",
+					"title": "Mentors",
 					"content": [
 						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/pages/mentorship-program/mentor/ali-yagci.jpg" },
 						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
@@ -365,7 +367,7 @@
 					]
 				},
 				"mentees": {
-					"title": "MENTEES",
+					"title": "Mentees",
 					"content": [
 						{ "name": "Alperen Adatepe", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/mentee/alperen-adatepe.jpg" },
 						{ "name": "Burcu Akgöz", "place": "İstanbul Üniversitesi", "position": "İşletme (İngilizce)", "image": "/pages/mentorship-program/mentee/burcu-akgoz.jpg" },
@@ -445,7 +447,7 @@
 		"title": "Announcements",
 		"content": [
 			{
-				"title": "Mentor & Mentee Applications Started",
+				"title": "Mentor& Mentee Applications Started",
 				"text": "",
 				"image": "/pages/announcements/en/1.webp",
 				"date": "18.08.2021"

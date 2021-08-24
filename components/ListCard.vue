@@ -3,14 +3,14 @@
 		<div class="container">
 			<div class="card-item">
 				<div class="card-head">
-					<nuxt-img draggable="false" :src="item.image" alt="" height="180" width="180" />
+					<nuxt-img class="image" draggable="false" :src="item.image" alt="" height="180" width="180" />
 				</div>
 				<div class="card-body">
 					<NuxtLink :to="`${localePath(section)}/${toUrl(item.title)}`"
-						><h2>{{ item.title }}</h2>
+						><h2 class="title">{{ item.title }}</h2>
 					</NuxtLink>
-					<p>{{ truncate(item.text, 600) }}</p>
-					<span>{{ item.date }}</span>
+					<p class="text">{{ truncate(item.text, 600) }}</p>
+					<span class="date">{{ item.date }}</span>
 				</div>
 			</div>
 		</div>
@@ -64,7 +64,7 @@ export default {
 		border-radius: 10px;
 		.card-head {
 			width: 180px;
-			img {
+			.image {
 				user-select: none;
 				border-radius: 10px;
 			}
@@ -73,25 +73,25 @@ export default {
 			padding-left: 16px;
 			display: grid;
 			grid-template-rows: auto auto auto;
-			h2 {
+			.title {
 				display: inline-block;
 				font-size: 18px;
 				font-weight: 600;
 				letter-spacing: 1px;
 				padding: 5px 0px;
 				color: #fff;
-				text-transform: uppercase;
 				border-bottom: 1px solid $sideColor;
 				border-bottom-width: 3px;
 				padding-bottom: 3px;
+				text-transform: uppercase;
 			}
-			p {
+			.text {
 				margin: 10px 0px;
 				font-size: 14px;
 				font-weight: 400;
 				color: #eee;
 			}
-			span {
+			.date {
 				padding-right: 10px;
 				margin-bottom: 10px;
 				align-self: center;
@@ -107,7 +107,6 @@ export default {
 		.card-item {
 			display: grid;
 			grid-template-columns: 100%;
-			justify-content: center;
 			padding: 10px;
 			height: auto;
 			background: #292929;
@@ -115,7 +114,7 @@ export default {
 
 			.card-head {
 				margin: 0 auto;
-				img {
+				.image {
 					border-radius: 10px;
 				}
 			}
@@ -123,7 +122,7 @@ export default {
 				padding-left: 0px;
 				display: grid;
 				grid-template-rows: auto auto auto;
-				h2 {
+				.title {
 					display: inline-block;
 					font-size: 18px;
 					font-weight: 600;
@@ -131,17 +130,16 @@ export default {
 					padding: 5px 0px;
 					color: #fff;
 					text-transform: uppercase;
-					border-bottom: 1px solid $sideColor;
-					border-bottom-width: 2px;
+					border-bottom: 2px solid $sideColor;
 					padding-bottom: 3px;
 				}
-				p {
+				.text {
 					margin: 10px 0px;
 					font-size: 14px;
 					font-weight: 400;
 					color: #eee;
 				}
-				span {
+				.date {
 					padding-right: 10px;
 					text-align: right;
 					color: $sideColor;

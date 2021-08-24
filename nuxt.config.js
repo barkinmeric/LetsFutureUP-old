@@ -38,7 +38,7 @@ export default {
 	modules: ["@nuxtjs/i18n", "@nuxtjs/robots", "@nuxtjs/sitemap"],
 
 	pwa: {
-		// meta: false,
+		meta: false,
 		// icon: false,
 		// manifest: false,
 	},
@@ -68,6 +68,8 @@ export default {
 
 	robots: {
 		UserAgent: "*",
+		Allow: "",
+		Disallow: "",
 		Sitemap: "https://letsfutureup-nuxt.netlify.app/sitemap.xml",
 	},
 

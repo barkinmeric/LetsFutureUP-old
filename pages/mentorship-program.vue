@@ -18,7 +18,7 @@
 export default {
 	head() {
 		return {
-			title: this.$i18n.t("team.title"),
+			title: `Let's FutureUP ${this.$i18n.t("mentorship.title")} ${this.$i18n.t("url")}`,
 			meta: [],
 		};
 	},
@@ -43,6 +43,7 @@ export default {
 			color: #000;
 			border-bottom: 3px solid $sideColor;
 			margin-bottom: 20px;
+			text-transform: uppercase;
 		}
 		.item-text {
 			color: #292929;
@@ -56,6 +57,7 @@ export default {
 			letter-spacing: 1px;
 			color: #000;
 			margin-bottom: 10px;
+			text-transform: uppercase;
 		}
 	}
 }

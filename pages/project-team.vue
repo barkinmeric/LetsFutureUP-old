@@ -20,7 +20,7 @@
 export default {
 	head() {
 		return {
-			title: this.$i18n.t("team.title"),
+			title: `Let's FutureUP ${this.$i18n.t("team.title")} ${this.$i18n.t("url")}`,
 			meta: [],
 		};
 	},
@@ -53,6 +53,7 @@ export default {
 			color: #000;
 			border-bottom: 3px solid $sideColor;
 			margin-bottom: 20px;
+			text-transform: uppercase;
 		}
 		.item-text {
 			color: #292929;

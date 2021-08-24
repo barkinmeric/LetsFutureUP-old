@@ -40,6 +40,7 @@ export default {
 		font-weight: 500;
 		letter-spacing: 1px;
 		padding: 10px 18px 10px 0;
+		text-transform: uppercase;
 		&:after {
 			content: "\002B";
 			color: black;

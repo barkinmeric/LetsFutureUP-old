@@ -6,7 +6,7 @@
 export default {
 	head() {
 		return {
-			title: this.data.title,
+			title: `${this.data.title} | Let's FutureUP ${this.$i18n.t("events.title")} | letsfutureup.com`,
 			meta: [],
 		};
 	},

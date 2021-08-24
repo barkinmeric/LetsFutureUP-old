@@ -16,7 +16,7 @@
 export default {
 	head() {
 		return {
-			title: this.$i18n.t("story.title"),
+			title: `Let's FutureUP ${this.$i18n.t("story.title")} ${this.$i18n.t("url")}`,
 			meta: [],
 		};
 	},
@@ -49,6 +49,7 @@ export default {
 			color: #000;
 			border-bottom: 3px solid $sideColor;
 			margin-bottom: 10px;
+			text-transform: uppercase;
 		}
 	}
 }

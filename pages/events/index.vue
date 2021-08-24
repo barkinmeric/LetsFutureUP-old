@@ -16,7 +16,7 @@ export default {
 	name: "List",
 	head() {
 		return {
-			title: this.$i18n.t("events.title"),
+			title: `Let's FutureUP ${this.$i18n.t("announcements.title")} ${this.$i18n.t("url")}`,
 			meta: [],
 		};
 	},

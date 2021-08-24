@@ -1,4 +1,5 @@
 {
+	"url": "| Kariyerine MerhabaDE | letsfutureup.com",
 	"nav": {
 		"us": {
 			"title": "Biz Kimiz?",
@@ -19,6 +20,7 @@
 		}
 	},
 	"index": {
+		"title": "Anasayfa",
 		"slider": {
 			"1": "/pages/index/slider/tr/1.mp4",
 			"2": "/pages/index/slider/tr/2.webp",
@@ -169,23 +171,23 @@
 		}
 	},
 	"about": {
-		"title": "HAKKIMIZDA",
+		"title": "Hakkımızda",
 		"img": "/pages/about-us/tr/hakkimizda.webp",
 		"content": [
 			{
-				"title": "VİZYON-MİSYON",
+				"title": "Vizyon-misyon",
 				"text": "Şimdi ve gelecekte öğrenci gelişim programı ve mentorluk programı ile üniversiteli gençlerin kariyerlerine liderlik eden, onların gelişimlerine katkıda bulunan ve topluma faydalı bireyler olmalarına öncülük eden, iş dünyasını şimdiden tanımalarına olanak sağlayan evrensel bir proje olmaktır."
 			},
 			{
-				"title": "LET’S FUTUREUP PROJESİ NEDİR?",
+				"title": "Let’s futureup projesi nedir?",
 				"text": "Let’s FutureUP Projesi; gelecekteki kariyerlerine şimdiden merhaba demek isteyen üniversite öğrencilerine, mentorluk programı ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir. Öğrenci gelişim programı olan Let’s FutureUP, iş dünyası ile üniversiteli öğrenciler arasında bir köprü görevi üstlenmektedir."
 			},
 			{
-				"title": "AMACIMIZ",
+				"title": "Amacımız",
 				"text": "Let’s FutureUP, mentorluk programı ve eğitim programlarıyla üniversitedeki farklı kültürlerden gelen öğrencilerin sürdürülebilir kariyer gelişimlerini destekleyerek gençlerin hayallerini gerçekleştirmek için değişime ve gelişime liderlik eder. Evrensel değerler çerçevesinde öğrencilerin bakış açılarını çeşitlendirmek, onlara bilim ve teknoloji alanında inovatif düşünmeye sevk edecek yetkinlikleri kazandırmak için kurulmuş bir öğrenci gelişim programıdır."
 			},
 			{
-				"title": "HEDEFLERİMİZ",
+				"title": "Hedeflerimiz",
 				"text": [
 					"• Öğrenci gelişim programlarıyla geleceğe yönelik bireysel ve genel eğitimler vererek bir mentor eşliğinde yapılan mentorluk programıyla üniversitede okuyan öğrencilerin kariyer gelişimine katkı sağlamak,",
 					"• Öğrencilerin sosyal sorumluluk projelerinde görev almalarını sağlayarak onların topluma faydalı bireyler olmalarına öncülük etmek,",
@@ -198,7 +200,7 @@
 		]
 	},
 	"story": {
-		"title": "HİKAYEMİZ",
+		"title": "Hikayemiz",
 		"img": "/pages/our-story/tr/hikayemiz.webp",
 		"content": [
 			"2020 yılının başlarından önce “Pandemi nedir?” diye sorsaydınız inanın cevabı Google’da arardık. Daha önce yaşanmış, tecrübe edilmiş bir durum değildi bizler için.",
@@ -208,12 +210,12 @@
 		]
 	},
 	"team": {
-		"title": "PROJE EKİBİ",
+		"title": "Proje Ekibi",
 		"img": "/pages/project-team/tr/proje-ekibi.webp",
 		"desc": "Let’s FutureUP Mentorluk ve Öğrenci Gelişim programlarını yöneten proje ekibi; İnsan Kaynakları, İş & Strateji Geliştirme, Kurumsal İletişim, Dış İlişkiler, Sosyal Medya ve Dijital Pazarlama, StartUP olarak altı departmandan oluşmaktadır. Bu departmanlarda, dünyanın dört bir yanında bulunan üniversitelerden gelen gönüllü öğrenciler yer almaktadır.",
 		"content": [
 			{
-				"title": "İNSAN KAYNAKLARI DEPARTMANI",
+				"title": "İnsan kaynakları departmanı",
 				"text": "Let’s FutureUP Mentorluk Programı ve proje ekip üyesi alım sürecini organize eder, mülakat yapar ve olumlu adayların oryantasyon sürecini yönetir. Öğrencilerin gelişimlerine yönelik eğitimler organize eder. Aylık E-Bülten hazırlanmasında rol oynar. Mentorluk Programına dahil olan öğrencilerin ve ekip üyelerinin devamlılığını takip eder. Proje ekip üyelerinin motivasyonlarının yüksek tutulması ve birbirlerini daha yakından tanıyabilmeleri adına kaynaşma etkinlikleri düzenler. WeTALK etkinliklerinin ve eğitimlerin içerik yazılarının hazırlanmasında Sosyal Medya ve Dijital Pazarlama Departmanı ile çalışır.",
 				"collapsible": [
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
@@ -222,7 +224,7 @@
 				]
 			},
 			{
-				"title": "KURUMSAL İLETİŞİM DEPARTMANI",
+				"title": "Kurumsal iletişim departmanı",
 				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerine yönelik olarak üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Sponsorluk çalışmaları yapar. Üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
 				"collapsible": [
 					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
@@ -235,7 +237,7 @@
 				]
 			},
 			{
-				"title": "İŞ & STRATEJİ GELİŞTİRME DEPARTMANI",
+				"title": "İş & strateji geliştirme departmanı",
 				"text": "Let’s FutureUP projesinin misyonu ve vizyonu doğrultusunda stratejilerin geliştirilmesine destek vererek projenin hedeflerine ulaşması için inovatif fikirler ortaya koyar. Bu kapsamda projede bulunan departmanların yeni fikirler üretmesinde ve bu fikirlerin hayata geçirilmesinde liderlik eder. Yeni fikirlerin projeye nasıl entegre edilebileceği konusunda tüm departmanlar ile koordine bir şekilde çalışır.",
 				"collapsible": [
 					{ "name": "Büşra Savran", "place": "", "position": "", "image": "/pages/project-team/business-development/busra-savran.png" },
@@ -243,7 +245,7 @@
 				]
 			},
 			{
-				"title": "DIŞ İLİŞKİLER DEPARTMANI",
+				"title": "Dış ilişkiler departmanı",
 				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerinin içeriklerine yönelik olarak uluslararası şirketlerin yurt dışı bölümünde çalışan üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Projeyi uluslararası bir konuma getirmek üzere yabancı öğrencilere ulaşabilmek için yurt dışındaki üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
 				"collapsible": [
 					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/pages/project-team/external-affairs/cansin-oksan.png" },
@@ -254,7 +256,7 @@
 				]
 			},
 			{
-				"title": "SOSYAL MEDYA VE DİJİTAL PAZARLAMA DEPARTMANI",
+				"title": "Sosyal medya ve dijital pazarlama departmanı",
 				"text": "Let’s FutureUP Projesi’nin sosyal medya hesaplarının etkin bir şekilde kullanılmasını sağlar. Aynı zamanda projenin ulusal ve uluslararası kitlelere ulaşmasında rol alır. Sosyal medya hesaplarında paylaşılmak üzere gönderiler ve içerikler hazırlar. WeTALK etkinliklerinin ve eğitimlerin duyurulmasını sağlar.",
 				"collapsible": [
 					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
@@ -265,7 +267,7 @@
 				]
 			},
 			{
-				"title": "STARTUP DEPARTMANI",
+				"title": "Startup departmanı",
 				"text": "StartUP Ekibi, projemizin ilerleyen dönemlerinde gerçekleştireceğimiz girişim tabanlı etkinlikler için hazırlıklar yapar. Bu ekip, genelde web sitemizin kurulumu, iyileştirilmesi, ilerleyişi, gelişimi ve yönetimi üzerine çalışmalar gerçekleştirir. Ayrıca projeyi yöneten programların kodlarının yazılmasından ve dijitale aktarılmasından sorumludur.",
 				"collapsible": [
 					{ "name": "Barkın Meriç", "place": "", "position": "", "image": "/pages/project-team/startup/barkin-meric.png" },
@@ -277,71 +279,71 @@
 		]
 	},
 	"faq": {
-		"title": "SIKÇA SORULAN SORULAR",
+		"title": "Sıkça Sorulan Sorular",
 		"img": "/pages/faq/tr/sss.webp",
 		"content": [
 			{
-				"title": "1-) PROJE NE KADAR SÜRÜYOR?",
+				"title": "1-) Proje ne kadar sürüyor?",
 				"text": "Let’s FutureUP projesi, Kasım-Mayıs aylarını kapsayacak şekilde 7 ay sürmektedir. Bu süre boyunca seçilmiş öğrencilere Mentorluk ve Öğrenci Gelişim programları çerçevesinde eğitimler sunulmaktadır."
 			},
 			{
-				"title": "2-) KİMLER MENTEE OLARAK BAŞVURABİLİR?",
+				"title": "2-) Kimler mentee olarak başvurabilir?",
 				"text": "Dünya çapındaki tüm şehirlerde, üniversite 3. ve 4. sınıfta okuyan tüm öğrenciler mentee olarak programa başvurabilir. Bunun dışında kalan öğrenci kitlesi (lise son, üniversite hazırlık,1. ve 2. sınıf öğrenciler) Let’s FutureUP Projesi kapsamındaki diğer öğrenci gelişim programları için başvuru yapabilir."
 			},
 			{
-				"title": "3-) TÜM ŞEHİRLERDEN KATILIM YAPILABİLİYORSA EĞER, ETKİNLİKLER NEREDE OLACAK?",
+				"title": "3-) Tüm şehirlerden katılım yapılabiliyorsa eğer, etkinlikler nerede olacak?",
 				"text": "Let’s FutureUP Projesi kapsamındaki Mentorluk Programı, Öğrenci Gelişim Programı ve diğer tüm etkinlikler online olarak gerçekleştirilir."
 			},
-			{ "title": "4-) KAÇ KİŞİLİK MENTEE KONTENJANI VAR?", "text": "2021-2022 döneminde başvurular arasından gerekli kriterlerin sağlanması durumunda 25 öğrenci Lets FutureUP Projesi’ne dahil olacaktır." },
+			{ "title": "4-) Kaç kişilik mentee kontenjanı var?", "text": "2021-2022 döneminde başvurular arasından gerekli kriterlerin sağlanması durumunda 25 öğrenci Lets FutureUP Projesi’ne dahil olacaktır." },
 			{
-				"title": "5-) BAŞVURULARI KİMLER DEĞERLENDİRİYOR?",
+				"title": "5-) Başvuruları kimler değerlendiriyor?",
 				"text": "Başvuru değerlendirmeleri Let’s FutureUP proje ekibi ve Danışma Kurulu’nun katkılarıyla titizlikle yapılmakta, en uygun mentor-mentee eşleştirmesi için öğrenciler seçilmektedir."
 			},
 			{
-				"title": "6-) MENTOR-MENTEE EŞLEŞTİRMELERİ NEYE GÖRE YAPILIYOR?",
+				"title": "6-) Mentor-mentee eşleştirmeleri neye göre yapılıyor?",
 				"text": "Mentorluk programı doğrultusunda uygun mentor ve mentee eşleştirmeleri yapmaya Let’s FutureUP ekip üyeleri tarafından büyük özen gösteriliyor. Eşleştirmeler yapılırken mentor ve menteelerin projeden beklentileri, hedefleri, ilgi alanları ve menteenin öğrenim gördüğü bölüm ile mentorun çalıştığı alan gibi birçok faktör dikkate alınıyor."
 			},
 			{
-				"title": "7-) MENTOR SEÇME SÜRECİ NASIL İLERLİYOR?",
+				"title": "7-) Mentor seçme süreci nasıl ilerliyor?",
 				"text": "Mentorluk Programı için hazırlanan başvuru formu doldurulduktan sonra mentor adaylarıyla online görüşmeler gerçekleştirilir. Yapılan değerlendirmeler sonucunda Mentorluk Programı için en uygun mentorler projemize dahil edilir."
 			},
 			{
-				"title": "8-) MENTEE SEÇME SÜRECİ NASIL İLERLİYOR?",
+				"title": "8-) Mentee seçme süreci nasıl ilerliyor?",
 				"text": "Mentee başvuru formu doldurulduktan sonra Let’s FutureUP ekibi tarafından başvuruların değerlendirilmesi yapılır, uygun görülen adaylar online mülakata davet edilir ve mülakat sonucunda uygun adaylar projemize dahil edilir."
 			},
-			{ "title": "9-) PROJE BİTİMİNDE SERTİFİKA VERİLECEK Mİ?", "text": "Evet, proje sonunda şartları sağlayan herkese Let’s FutureUP tarafından özgeçmişlerine ekleyebilecekleri İngilizce sertifika verilecektir." },
+			{ "title": "9-) Proje bitiminde sertifika verilecek mi?", "text": "Evet, proje sonunda şartları sağlayan herkese Let’s FutureUP tarafından özgeçmişlerine ekleyebilecekleri İngilizce sertifika verilecektir." },
 			{
-				"title": "10-) PROGRAMDAN MEZUN OLMAK İÇİN GEREKLİ ŞARTLAR NELERDİR?",
+				"title": "10-) Programdan mezun olmak için gerekli şartlar nelerdir?",
 				"text": "Let’s FutureUP projesi tarafından düzenlenen tüm etkinliklere en az %80 oranında katılım sağlamak ve proje kapsamında belirlenen sosyal sorumluluk projesini bitirmek mezun olma şartlarıdır."
 			},
 			{
-				"title": "11-) PROJE EKİBİ HANGİ DEPARTMANLARDAN OLUŞUYOR?",
+				"title": "11-) Proje ekibi hangi departmanlardan oluşuyor?",
 				"text": "Let’s FutureUP Mentorluk ve Öğrenci Gelişim programları proje ekibi:  İnsan Kaynakları, İş&Strateji Geliştirme, Kurumsal İletişim, Dış İlişkiler, Sosyal Medya ve Dijital Pazarlama, StartUP olarak altı departmandan oluşmaktadır. Bu departmanlarda, dünyanın dört bir yanındaki üniversitelerden gelen öğrenciler yer almaktadır."
 			},
 			{
-				"title": "12-) PROJE EKİP ÜYESİ OLMAK İÇİN NELER YAPMALIYIM?",
+				"title": "12-) Proje ekip üyesi olmak için neler yapmalıyım?",
 				"text": "Let’s FutureUP ekip üyesi olmak için ekip üyesi alımlarımızı sosyal medya hesaplarımızdan takip ederek web sitemizde bulunan başvuru formunu doldurmalı, mülakatlarda kendinizi açık ve net olarak ifade etmeniz gerekmektedir. Seçildiğiniz takdirde haftalık en az 6 saatinizi gönüllü olarak projeye ayırmanız beklenmektedir."
 			}
 		]
 	},
 	"mentorship": {
-		"title": "MENTORLUK PROGRAMI",
+		"title": "Mentorluk Programı",
 		"desc": "Projeye seçilen mentor ve menteelerin; beklentileri, çalışma alanları, ilgi alanları gibi birçok durum dikkate alınarak eşleştirmeleri yapılır. Proje süresince ayda bir kez, en az 45 dakika olmak üzere toplam 7 görüşme gerçekleştirilir. Buluşmalar mentor ve menteenin ortak kararına göre online veya yüz yüze olarak organize edilir ve 7 buluşmadan daha fazla görüşme yapmak onların inisiyatifine bırakılır.",
 		"content": [
 			{
-				"title": "MENTEE NEDİR?",
+				"title": "Mentee nedir?",
 				"text": "Let’s FutureUP projesindeki menteeler; gelecekteki kariyerleri için şimdiden bir adım atmayı amaçlayan, sektörle ilgili bilgi-becerilerini geliştirmek isteyen, bir problemle karşılaştığında en verimli şekilde nasıl çözebileceğini merak eden ve bunun için de bir mentora başvuran öğrencilerdir. Let’s FutureUP Projesi kapsamında üniversitelerin 3. ve 4. sınıflarında okuyan 25 kişi mülakatlar ile mentee olarak seçilir ve onlara en uygun mentorla eşleştirilmesi yapılır. Menteeler mentorlar eşliğinde 7 aylık bir süreç geçirirler. Bu süreçte mentorları ile görüşmeler gerçekleştirirler. Her görüşme sonrası o görüşmede kendilerine neler kattıklarını ve sonraki görüşmelerinin konusunu belirlerler. Bütün görüşmelerin sonunda sorularına yanıt bulurlar, bilgi-becerilerini geliştirirler, problemlere karşı farklı çözüm yolları geliştirmeyi ve değişikliğe uyum sağlamayı öğrenirler."
 			},
 			{
-				"title": "MENTOR NEDİR?",
+				"title": "Mentor nedir?",
 				"text": "Let’s FutureUP projesindeki mentorlar, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren, deneyimlerini paylaşan, öğretirken öğrenen ve rehberlik eden kişilerdir. Let’s FutureUP ekibi tarafından alanında uzman kişiler detaylı bir şekilde araştırılır ve ilgili kişilerin mentorluk başvurusu alınır. Seçilen her mentorun sorumluluğuna bir mentee verilir ve proje süresince menteesi ile görüşme yapması beklenir. Bu görüşmelerde mentorlar menteelerini en iyi şekilde kariyer yolculuklarına hazırlar."
 			}
 		],
 		"collapsible": {
 			"2020-2021": {
-				"title": "2020-2021 DÖNEMİ MENTOR-MENTEE",
+				"title": "2020-2021 Dönemi Mentor-Mentee",
 				"mentors": {
-					"title": "MENTORLER",
+					"title": "Mentorler",
 					"content": [
 						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/pages/mentorship-program/mentor/ali-yagci.jpg" },
 						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
@@ -362,7 +364,7 @@
 					]
 				},
 				"mentees": {
-					"title": "MENTEELER",
+					"title": "Menteeler",
 					"content": [
 						{ "name": "Alperen Adatepe", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/mentee/alperen-adatepe.jpg" },
 						{ "name": "Burcu Akgöz", "place": "İstanbul Üniversitesi", "position": "İşletme (İngilizce)", "image": "/pages/mentorship-program/mentee/burcu-akgoz.jpg" },
@@ -442,7 +444,7 @@
 		"title": "Duyurular",
 		"content": [
 			{
-				"title": "Mentor & Mentee Başvuruları Başladı!",
+				"title": "Mentor& Mentee Başvuruları Başladı!",
 				"text": "",
 				"image": "/pages/announcements/tr/1.webp",
 				"date": "18.08.2021"

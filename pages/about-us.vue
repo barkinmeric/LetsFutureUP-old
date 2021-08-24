@@ -8,7 +8,7 @@
 				<h2 class="title">{{ $t("about.title") }}</h2>
 				<div v-for="item in $t('about.content')" :key="item.title">
 					<h3 class="item-title">{{ item.title }}</h3>
-					<ul v-if="item.title == `HEDEFLERİMİZ` || item.title == 'OUR GOALS'">
+					<ul v-if="item.title == `Hedeflerimiz` || item.title == 'Our goals'">
 						<li class="item-text" v-for="text in item.text" :key="text">
 							{{ text }}
 						</li>
@@ -24,7 +24,7 @@
 export default {
 	head() {
 		return {
-			title: this.$i18n.t("about.title"),
+			title: `Let's FutureUP ${this.$i18n.t("about.title")} ${this.$i18n.t("url")}`,
 			meta: [],
 		};
 	},
@@ -57,6 +57,7 @@ export default {
 			color: #000;
 			border-bottom: 3px solid $sideColor;
 			margin-bottom: 20px;
+			text-transform: uppercase;
 		}
 		.item-text {
 			color: #292929;
@@ -70,6 +71,7 @@ export default {
 			letter-spacing: 1px;
 			color: #000;
 			margin-bottom: 10px;
+			text-transform: uppercase;
 		}
 	}
 }
