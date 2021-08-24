@@ -68,7 +68,7 @@ export default {
 			cursor: pointer;
 			border: 2px solid $sideColor;
 			border-radius: 100%;
-			color: #d4d4d4;
+			color: white;
 			background-color: $sideColor;
 			&:hover {
 				animation: submit 1s infinite;
