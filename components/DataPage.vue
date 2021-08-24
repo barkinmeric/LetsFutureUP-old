@@ -2,7 +2,7 @@
 	<div class="data-page">
 		<div class="container">
 			<div class="head">
-				<nuxt-img class="image" draggable="false" :src="content.image" alt="" height="360" width="360" />
+				<nuxt-img class="image" draggable="false" :src="content.image" :alt="content.title" height="360" width="360" />
 			</div>
 			<div class="body">
 				<h2 class="title">{{ content.title }}</h2>

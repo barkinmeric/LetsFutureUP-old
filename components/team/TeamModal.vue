@@ -1,7 +1,7 @@
 <template>
 	<div class="team-modal">
 		<div class="team-img">
-			<nuxt-img :src="item.image" alt="" width="150px" height="150px" draggable="false" loading="lazy" />
+			<nuxt-img :src="item.image" :alt="item.name" width="150px" height="150px" draggable="false" loading="lazy" />
 		</div>
 		<div class="team-text">
 			<div class="name">{{ item.name }}</div>
