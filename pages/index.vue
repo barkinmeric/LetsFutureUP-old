@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<social-head :title="$t('index.title')" :description="$t('index.title')" />
 		<index-carousel />
 		<motto />
 		<hello-career />

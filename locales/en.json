@@ -21,6 +21,7 @@
 	},
 	"index": {
 		"title": "Home Page",
+		"desc": "Let’s FutureUP Projesi; gelecekteki kariyerlerine şimdiden merhaba demek isteyen üniversite öğrencilerine, mentorluk programı ve eğitim programları ile yol gösteren uluslararası bir sosyal sorumluluk projesidir.",
 		"slider": {
 			"1": "/pages/index/slider/en/1.mp4",
 			"2": "/pages/index/slider/en/2.webp",

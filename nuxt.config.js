@@ -10,14 +10,12 @@ export default {
 		title: "Let's FutureUP",
 		meta: [
 			{ charset: "utf-8" },
-			{
-				name: "viewport",
-				content: "width=device-width, initial-scale=1",
-			},
-			{ hid: "description", name: "description", content: "" },
-			{ name: "format-detection", content: "telephone=no" },
+			{ name: "viewport", content: "width=device-width, initial-scale=1" },
+			{ name: "robots", content: "follow,index" },
+			{ "http-equiv": "X-UA-Compatible", content: "IE=edge" },
+			{ name: "keywords", content: "Let's FutureUP, Mentorluk Programı, Öğrenci Gelişim Programı, Mentorluk, Menteelik, Mentor ve Mentee" },
 		],
-		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon/favicon.png" }],
+		link: [{ rel: "icon", type: "image/png", href: "/favicon/favicon.png" }],
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css

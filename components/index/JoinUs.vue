@@ -46,9 +46,7 @@ export default {};
 
 		.button {
 			padding: 20px 0px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
+			text-align: center;
 			a {
 				height: 100%;
 				width: 100%;

@@ -132,7 +132,7 @@ export default {
 					background: #3b5998;
 				}
 				div.instagram {
-					background: #833ab4;
+					background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 				}
 				div.twitter {
 					background: #00acee;
