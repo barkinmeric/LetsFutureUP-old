@@ -54,9 +54,7 @@
 			</div>
 			<div class="container">
 				<div class="grid-container">
-					<client-only>
-						<e-journal-lottie />
-					</client-only>
+					<e-journal-lottie />
 					<e-journal-form />
 				</div>
 			</div>
