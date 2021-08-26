@@ -6,9 +6,10 @@
 				<div class="form">
 					<div class="head" v-html="$t('index.e-bulletin.text')"></div>
 					<div class="body">
-						<form name="e-journal" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
+						<form name="e-journal" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
 							<input type="email" name="email" placeholder="E-Mail" required />
-							<input type="submit" name="subscribe" :value="$t('index.e-bulletin.button')" />
+							<!-- <input type="submit" name="subscribe" :value="$t('index.e-bulletin.button')" /> -->
+							<button type="submit">{{ $t("index.e-bulletin.button") }}</button>
 						</form>
 					</div>
 				</div>
@@ -65,7 +66,8 @@ export default {
 				margin: 40px 0px 0px 0px;
 				form {
 					width: 100%;
-					input {
+					input,
+					button {
 						background: #12203c;
 						border-radius: 0px;
 						padding: 10px;
