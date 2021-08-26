@@ -55,7 +55,7 @@
 			<div class="container">
 				<div class="grid-container">
 					<e-journal-lottie />
-					<e-journal-form />
+					<!-- <e-journal-form /> -->
 				</div>
 			</div>
 		</div>
