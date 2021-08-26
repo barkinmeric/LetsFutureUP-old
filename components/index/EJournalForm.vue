@@ -3,7 +3,7 @@
 		<client-only>
 			<div class="head" v-html="$t('index.e-journal.text')"></div>
 			<div class="body">
-				<form name="e-journal" method="POST" netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+				<form name="e-journal" method="POST" netlify data-netlify-recaptcha="true" netlify-honeypot="bot-field">
 					<input type="email" name="email" placeholder="E-Mail" required />
 					<div data-netlify-recaptcha="true"></div>
 					<button type="submit">{{ $t("index.e-journal.button") }}</button>
