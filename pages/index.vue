@@ -6,7 +6,7 @@
 		<hello-career />
 		<opinion />
 		<newsletter />
-		<e-bulletin />
+		<e-journal />
 		<mobile-board />
 		<desktop-board />
 		<mobile-partner />

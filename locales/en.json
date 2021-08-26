@@ -126,15 +126,15 @@
 				}
 			]
 		},
-		"e-bulletin": {
+		"e-journal": {
 			"title": "E-Journal",
 			"text": "IF YOU'D LIKE TO BE INFORMED ABOUT THE EVENTS,<br />PLEASE REGISTER TO THE E-JOURNAL WITH YOUR E-MAIL ADRESS!",
 			"button": "REGISTER TO THE E-JOURNAL",
 			"content": [
-				{ "text": "DECEMBER 2020", "image": "/pages/index/e-bulletin/en/12-2020.png", "file": "/files/e-bulletin/en/12-2020.pdf" },
-				{ "text": "JANUARY 2021", "image": "/pages/index/e-bulletin/en/01-2021.png", "file": "/files/e-bulletin/en/01-2021.pdf" },
-				{ "text": "MARCH 2021", "image": "/pages/index/e-bulletin/en/03-2021.png", "file": "/files/e-bulletin/en/03-2021.pdf" },
-				{ "text": "APRIL 2021", "image": "/pages/index/e-bulletin/en/04-2021.png", "file": "/files/e-bulletin/en/04-2021.pdf" }
+				{ "text": "DECEMBER 2020", "image": "/pages/index/e-journal/en/12-2020.png", "file": "/files/e-journal/en/12-2020.pdf" },
+				{ "text": "JANUARY 2021", "image": "/pages/index/e-journal/en/01-2021.png", "file": "/files/e-journal/en/01-2021.pdf" },
+				{ "text": "MARCH 2021", "image": "/pages/index/e-journal/en/03-2021.png", "file": "/files/e-journal/en/03-2021.pdf" },
+				{ "text": "APRIL 2021", "image": "/pages/index/e-journal/en/04-2021.png", "file": "/files/e-journal/en/04-2021.pdf" }
 			]
 		},
 		"board": {
@@ -217,7 +217,7 @@
 		"content": [
 			{
 				"title": "Human resources department",
-				"text": "This department arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members to Let’s FutureUP events. They act to keep motivation of students high and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
+				"text": "This department arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-journal. Besides, it checks for the attendance of students and team members to Let’s FutureUP events. They act to keep motivation of students high and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
 				"collapsible": [
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
 					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisa-yildirim.png" },

@@ -126,15 +126,15 @@
 				}
 			]
 		},
-		"e-bulletin": {
+		"e-journal": {
 			"title": "E-Bülten",
 			"text": "ETKİNLİKLERDEN HABERDAR OLMAK İÇİN<br />E-BÜLTEN'E MAİL İLE KAYIT OL!",
 			"button": "E-BÜLTEN'E KAYIT OL!",
 			"content": [
-				{ "text": "ARALIK 2020", "image": "/pages/index/e-bulletin/tr/12-2020.png", "file": "/files/e-bulletin/tr/12-2020.pdf" },
-				{ "text": "OCAK 2021", "image": "/pages/index/e-bulletin/tr/01-2021.png", "file": "/files/e-bulletin/tr/01-2021.pdf" },
-				{ "text": "MART 2021", "image": "/pages/index/e-bulletin/tr/03-2021.png", "file": "/files/e-bulletin/tr/03-2021.pdf" },
-				{ "text": "NİSAN 2021", "image": "/pages/index/e-bulletin/tr/04-2021.png", "file": "/files/e-bulletin/tr/04-2021.pdf" }
+				{ "text": "ARALIK 2020", "image": "/pages/index/e-journal/tr/12-2020.png", "file": "/files/e-journal/tr/12-2020.pdf" },
+				{ "text": "OCAK 2021", "image": "/pages/index/e-journal/tr/01-2021.png", "file": "/files/e-journal/tr/01-2021.pdf" },
+				{ "text": "MART 2021", "image": "/pages/index/e-journal/tr/03-2021.png", "file": "/files/e-journal/tr/03-2021.pdf" },
+				{ "text": "NİSAN 2021", "image": "/pages/index/e-journal/tr/04-2021.png", "file": "/files/e-journal/tr/04-2021.pdf" }
 			]
 		},
 		"board": {

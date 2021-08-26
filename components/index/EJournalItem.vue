@@ -1,15 +1,15 @@
 <template>
-	<div class="e-bulletin-item">
-		<div class="e-bulletin-img">
+	<div class="e-journal-item">
+		<div class="e-journal-img">
 			<a :href="item.file" target="_blank" rel="noopener"><nuxt-img format="jpg" :src="item.image" :alt="item.text" height="160px" width="240px" draggable="false" loading="lazy"/></a>
 		</div>
-		<div class="e-bulletin-text">{{ item.text }}</div>
+		<div class="e-journal-text">{{ item.text }}</div>
 	</div>
 </template>
 
 <script>
 export default {
-	name: "EBulletinItem",
+	name: "EJournalItem",
 	props: {
 		item: Object,
 	},
@@ -17,9 +17,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.e-bulletin-item {
+.e-journal-item {
 	margin: 20px;
-	.e-bulletin-img {
+	.e-journal-img {
 		user-select: none;
 		border-radius: 10px;
 		box-shadow: 0px 0px 5px 1px #292929;
@@ -29,7 +29,7 @@ export default {
 			border-radius: 10px;
 		}
 	}
-	.e-bulletin-text {
+	.e-journal-text {
 		text-align: center;
 		padding: 10px 0px;
 		font-weight: 500;
