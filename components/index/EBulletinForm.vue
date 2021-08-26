@@ -9,6 +9,7 @@
 						<form name="e-journal" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
 							<input type="email" name="email" placeholder="E-Mail" required />
 							<!-- <input type="submit" name="subscribe" :value="$t('index.e-bulletin.button')" /> -->
+							<div data-netlify-recaptcha="true"></div>
 							<button type="submit">{{ $t("index.e-bulletin.button") }}</button>
 						</form>
 					</div>
