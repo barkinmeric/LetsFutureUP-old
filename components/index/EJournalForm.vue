@@ -2,11 +2,13 @@
 	<div class="e-journal-form">
 		<div class="head" v-html="$t('index.e-journal.text')"></div>
 		<div class="body">
-			<form name="e-journal" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-				<input type="hidden" name="e-journal" />
-				<input type="email" name="email" placeholder="E-Mail" required />
-				<button type="submit">{{ $t("index.e-journal.button") }}</button>
-			</form>
+			<client-only>
+				<form name="e-journal" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+					<input type="hidden" name="e-journal" />
+					<input type="email" name="email" placeholder="E-Mail" required />
+					<button type="submit">{{ $t("index.e-journal.button") }}</button>
+				</form>
+			</client-only>
 		</div>
 	</div>
 </template>
