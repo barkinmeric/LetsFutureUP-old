@@ -6,8 +6,8 @@
 				<div class="form">
 					<div class="head" v-html="$t('index.e-bulletin.text')"></div>
 					<div class="body">
-						<form action="https://hotmail.us6.list-manage.com/subscribe/post?u=10ada8958c932da0807f896f2&amp;id=7689a21846" name="mc-embedded-subscribe-form" method="post" target="_blank" novalidate rel="noopener">
-							<input type="email" name="EMAIL" placeholder="E-Mail" required />
+						<form name="e-journal" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
+							<input type="email" name="email" placeholder="E-Mail" required />
 							<input type="submit" name="subscribe" :value="$t('index.e-bulletin.button')" />
 						</form>
 					</div>
