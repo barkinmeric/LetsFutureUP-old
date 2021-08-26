@@ -54,10 +54,10 @@
 			</div>
 			<div class="container">
 				<div class="grid-container">
-					<e-journal-lottie />
 					<client-only>
-						<e-journal-form />
+						<e-journal-lottie />
 					</client-only>
+					<e-journal-form />
 				</div>
 			</div>
 		</div>
