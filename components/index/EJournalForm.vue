@@ -2,13 +2,10 @@
 	<div class="e-journal-form">
 		<div class="head" v-html="$t('index.e-journal.text')"></div>
 		<div class="body">
-			<client-only>
-				<form name="e-journal" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-					<input type="hidden" name="e-journal" />
-					<input type="email" name="email" placeholder="E-Mail" required />
-					<button type="submit">{{ $t("index.e-journal.button") }}</button>
-				</form>
-			</client-only>
+			<form action="https://hotmail.us6.list-manage.com/subscribe/post?u=10ada8958c932da0807f896f2&amp;id=7689a21846" name="mc-embedded-subscribe-form" method="post" target="_blank" novalidate rel="noopener">
+				<input type="email" name="EMAIL" placeholder="E-Mail" required />
+				<button type="submit" name="subscribe">{{ $t("index.e-journal.button") }}</button>
+			</form>
 		</div>
 	</div>
 </template>
