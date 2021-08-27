@@ -12,7 +12,7 @@
 					</div>
 				</div>
 				<div class="medium">
-					<slider :pagination="true" :autoplay="true">
+					<slider :pagination="true" :autoplay="5000">
 						<slider-inner>
 							<div class="flex-container">
 								<e-journal-item :item="$t('index.e-journal.content')[3]" />
@@ -28,7 +28,7 @@
 					</slider>
 				</div>
 				<div class="small">
-					<slider :pagination="true" :autoplay="true">
+					<slider :pagination="true" :autoplay="5000">
 						<slider-inner>
 							<div class="flex-container">
 								<e-journal-item :item="$t('index.e-journal.content')[3]" />
@@ -77,7 +77,7 @@ export default {
 		padding: 20px 0px 10px 0px;
 		font-size: 24px;
 		font-weight: 600;
-		border-bottom: 1px solid $mainColor;
+		border-bottom: 1px solid $sideColor;
 		border-bottom-width: 3px;
 		padding-bottom: 3px;
 	}

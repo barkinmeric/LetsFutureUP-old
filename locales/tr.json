@@ -329,11 +329,11 @@
 	},
 	"mentorship": {
 		"title": "Mentorluk Programı",
-		"desc": "Projeye seçilen mentor ve menteelerin; beklentileri, çalışma alanları, ilgi alanları gibi birçok durum dikkate alınarak eşleştirmeleri yapılır. Proje süresince ayda bir kez, en az 45 dakika olmak üzere toplam 7 görüşme gerçekleştirilir. Buluşmalar mentor ve menteenin ortak kararına göre online veya yüz yüze olarak organize edilir ve 7 buluşmadan daha fazla görüşme yapmak onların inisiyatifine bırakılır.",
+		"desc": "Projeye seçilen mentor ve menteelerin; beklentileri, çalışma alanları, ilgi alanları gibi birçok durum dikkate alınarak eşleştirmeleri yapılır. Proje süresince ayda bir kez, en az 45 dakika olmak üzere toplam 7 görüşme gerçekleştirilir. Buluşmalar mentor ve menteenin ortak kararına göre online veya yüz yüze olarak organize edilir. 7 buluşmadan daha fazla görüşme yapmak onların inisiyatifine bırakılır.",
 		"content": [
 			{
 				"title": "Mentee nedir?",
-				"text": "Let’s FutureUP projesindeki menteeler; gelecekteki kariyerleri için şimdiden bir adım atmayı amaçlayan, sektörle ilgili bilgi-becerilerini geliştirmek isteyen, bir problemle karşılaştığında en verimli şekilde nasıl çözebileceğini merak eden ve bunun için de bir mentora başvuran öğrencilerdir. Let’s FutureUP Projesi kapsamında üniversitelerin 3. ve 4. sınıflarında okuyan 25 kişi mülakatlar ile mentee olarak seçilir ve onlara en uygun mentorla eşleştirilmesi yapılır. Menteeler mentorlar eşliğinde 7 aylık bir süreç geçirirler. Bu süreçte mentorları ile görüşmeler gerçekleştirirler. Her görüşme sonrası o görüşmede kendilerine neler kattıklarını ve sonraki görüşmelerinin konusunu belirlerler. Bütün görüşmelerin sonunda sorularına yanıt bulurlar, bilgi-becerilerini geliştirirler, problemlere karşı farklı çözüm yolları geliştirmeyi ve değişikliğe uyum sağlamayı öğrenirler."
+				"text": "Let’s FutureUP projesindeki menteeler; gelecekteki kariyerleri için şimdiden bir adım atmayı amaçlayan, sektörle ilgili bilgi-becerilerini geliştirmek isteyen, bir problemle karşılaştığında en verimli şekilde nasıl çözebileceğini merak eden ve bunun için de bir mentora başvuran öğrencilerdir. Let’s FutureUP Projesi kapsamında üniversitelerin 3. ve 4. sınıflarında okuyan 25 öğrenci mülakatlar ile mentee olarak seçilir ve onlara en uygun mentorla eşleştirilmesi yapılır. Menteeler mentorlar eşliğinde 7 aylık bir süreç geçirirler. Bu süreçte mentorları ile görüşmeler gerçekleştirirler. Her görüşme sonrası o görüşmede kendilerine neler kattıklarını ve sonraki görüşmelerinin konusunu belirlerler. Bütün görüşmelerin sonunda sorularına yanıt bulurlar, bilgi-becerilerini geliştirirler, problemlere karşı farklı çözüm yolları geliştirmeyi ve değişikliğe uyum sağlamayı öğrenirler."
 			},
 			{
 				"title": "Mentor nedir?",
@@ -346,7 +346,7 @@
 				"mentors": {
 					"title": "Mentorler",
 					"content": [
-						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Engineering Manager", "image": "/pages/mentorship-program/mentor/ali-yagci.jpg" },
+						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Mühendislik Yöneticisi", "image": "/pages/mentorship-program/mentor/ali-yagci.jpg" },
 						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/mentor/ali-yasar-topcu.jpg" },
 						{ "name": "Arif Kaya", "place": "HUGO BOSS Tekstil San. Ltd.", "position": "Türkiye Genel Müdürü", "image": "/pages/mentorship-program/mentor/arif-kaya.jpg" },
 						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/mentor/bulent-kacar.jpg" },
@@ -354,11 +354,11 @@
 						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/pages/mentorship-program/mentor/esen-oztemel.jpg" },
 						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
 						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/mentorship-program/mentor/iskender-ulusay.jpg" },
-						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Qatar", "position": "General Manager", "image": "/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
+						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Katar", "position": "General Manager", "image": "/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
 						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/pages/mentorship-program/mentor/mustafa-bulut.jpg" },
 						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
-						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/pages/mentorship-program/mentor/seval-oz.jpg" },
-						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
+						{ "name": "Seval Öz", "place": "Pioneer Elektronik", "position": "Yönetim Kurulu Danışmanı", "image": "/pages/mentorship-program/mentor/seval-oz.jpg" },
+						{ "name": "Taner Karslıoğlu", "place": "Feka Grup", "position": "CEO", "image": "/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
 						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/mentorship-program/mentor/tanju-ozkonuk.jpg" },
 						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/pages/mentorship-program/mentor/yasemin-uyar-duman.jpg" },
 						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/pages/mentorship-program/mentor/yusuf-ziya-yuce.jpg" }
@@ -394,24 +394,24 @@
 	},
 	"startup": {
 		"title": "StartUP",
-		"desc": "Let’s FutureUP Projesi toplumsal ve çevresel sorunlara duyarlı yaklaşımıyla inovatif ve fark yaratan fikirlerin üretilmesine olanak sağlayarak Startup’ları hayata geçirir.",
+		"desc": "Geleceğine emin adımlarla ilerleyen, yaratıcı ve başarılı gençleri desteklemek amacıyla ortaya çıkmıştır. Geleceğin başarılı isimlerinin pek çok alanda kendini geliştirmiş, donanımlı ve fark yaratabilen bireyler olduğu gerçeği doğrultusunda bünyesinde bulunan öğrencilerin araştırmacı ve yaratıcı olmasını hedefler. Toplumsal konulara duyarlı yaklaşarak inovatif-fark yaratan fikirler üretir ve bunları yazılımlara dönüştürerek insanların hayatlarını kolaylaştırır. Bu doğrultuda sorunları her açıdan analiz eden ve bu sorunları yaptığı yazılımlarla aşmayı hedefleyen çalışmalar yapar. Her açıdan gelişimi hedefler ve üretilen fikirleri destekleyerek gerçekleşmeleri için ortam yaratır.",
 		"content": [
 			{
 				"title": "Startup Nedir?",
-				"text": "Startup kelimesi “girişim” şeklinde Türkçeleşmiştir ve anlam olarak “başlama” demektir. Kişilerin bir konu hakkında teknolojiyi sunarak, kullanarak bir iyileştirme noktası ya da yeni bir fikir tespit etmesi sonucunda o konu üzerinde geniş kitlelere hizmet sağlayarak sürekliliğe sahip ve geliştirilmeye uygun fikirlere kısaca STARTUP diyoruz."
+				"text": "Startup kelimesi ‘girişim’ şeklinde Türkçeleşmiştir ve anlam olarak ‘başlama’ demektir. Kişilerin bir konu hakkında teknolojiyi sunarak, kullanarak bir iyileştirme noktası ya da yeni bir fikir tespit etmesi sonucunda o konu üzerinde geniş kitlelere hizmet sağlayarak sürekliliğe sahip ve geliştirilmeye uygun fikirlere kısaca STARTUP diyoruz."
 			},
 			{
 				"title": "Startup Nasıl Kurulur?",
-				"text": "Startup kurmak için başarılı ve iyi hazırlanmış inovatif bir iş modeli oluşturmanız, kendinizi olumlu/olumsuz sonuçlara hazırlamanız gerekiyor. Başlangıç seviyesinde bir ekip ve bütçe sanılanın aksine yeterli olmaktadır. Fikrinizi hayata geçirmeden önce network’ünüzü kuvvetlendirmenizin size avantajı olacaktır. Birlikte çalışacağınız şirketleri ve kişileri önceden belirlemiş olmanız, onlarla iletişime geçmeniz de büyük yarar sağlayacaktır."
+				"text": "Startup kurmak için başarılı ve iyi hazırlanmış inovatif bir iş modeli oluşturmanız, kendinizi olumlu/olumsuz sonuçlara hazırlamanız gerekiyor. Başlangıç seviyesinde bir ekip ve bütçe sanılanın aksine yeterli olmamaktadır. Fikrinizi hayata geçirmeden önce ‘’Network‘’ ünüzü kuvvetlendirmenizin size avantajı olacaktır. Birlikte çalışacağınız şirketleri ve kişileri önceden belirlemiş olmanız, onlarla iletişime geçmeniz de büyük yarar sağlayacaktır."
 			}
 		]
 	},
 	"wetalk": {
 		"title": "WeTalk",
-		"desc": "Projemizin WeTalk etkinlikleri kapsamında alanında uzman kişiler, tecrübe ve deneyimlerini öğrencilerle paylaşması için projeye davet edilirler. WeTalk'lar online ya da yüz yüze gerçekleştirilir. Amacımız öğrencilerin farklı kişilerden farklı deneyimleri dinlemesi, ilgili oldukları alanlarla ilgili tecrübeli kişilere ulaşabilmesi ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmesine yardımcı olmaktır. WeTalk etkinliği sadece Let’s FutureUP bünyesindeki öğrencilere değil, dışarıdan da katılımcılara açıktır."
+		"desc": "Projemizin WeTalk etkinlikleri kapsamında alanında uzman kişiler, tecrübe ve deneyimlerini öğrencilerle paylaşması için projeye davet edilirler. WeTalk'lar online ya da yüz yüze gerçekleştirilir. Amacımız öğrencilerin farklı kişilerden farklı deneyimleri dinlemesi, ilgili oldukları alanlardaki tecrübeli kişilere ulaşabilmesi ve akıllarındaki soruların cevaplarını en doğru kişilerden alabilmesine yardımcı olmaktır. WeTalk etkinliği sadece Let’s FutureUP bünyesindeki öğrencilere değil, dışarıdan da katılımcılara açıktır."
 	},
 	"adviceup": {
-		"title": "AdviceUP",
+		"title": "ADVICEUP",
 		"desc": "Let’s FutureUP ile kariyer yolculuğuna dahil olmuş her öğrenci AdviceUP programı adı altında belirlenen sosyal sorumluluk projelerinde yer alır. Menteeler kendileriyle eşleştirilmiş lise son sınıf öğrencilerine mentorlarından öğrendikleri, bilgi ve donanımlarıyla özellikle üniversiteye giriş sınavı konusundaki deneyimleriyle mentorluk yaparlar. Bu programın temel amacı öğrencilerin toplumsal yaşamın sürdürülebilirliğinin bir parçası olmasıdır. Ayrıca bu program sayesinde öğrencilerin toplumsal duyarlılık, sorumluluk ve farkındalık bilincinin gelişimi desteklenmiş olur. Let's FutureUP projesine dahil olan her öğrenci, AdviceUP ile sosyal sorumluluk bilincini arttırır ve yaygınlaştırır."
 	},
 	"talentup": {
@@ -420,7 +420,7 @@
 			{
 				"title": "TalentUP Yetenek Geliştirme Programı Nedir?",
 				"text": [
-					"Let’s FutureUP, öğrencilerin kariyerlerine başarılı bir adım atmak için katılabilecekleri çeşitli eğitim programları sunar. Bu öğrenci geliştirme programlardan biri TalentUP Yetenek Geliştirme Programıdır. TalentUP Yetenek Geliştirme Programımız; hazırlık, 1. ve 2. sınıf öğrencilerinin katılabileceği birbirinden değerli çeşitli eğitimden oluşur. Seçilmiş öğrencilerin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına büyük fırsat yakalamanın yanı sıra uzman ve alanında profesyonel kişilerden alacakları eğitimlerle gelecekteki kariyerleri için büyük bir avantaj yakalarlar."
+					"Let’s FutureUP, öğrencilerin kariyerlerine başarılı bir adım atmak için katılabilecekleri çeşitli eğitim programları sunar. Bu öğrenci geliştirme programlardan biri TalentUP Yetenek Geliştirme Programıdır. TalentUP Yetenek Geliştirme Programımız; hazırlık, 1. ve 2. sınıf öğrencilerinin katılabileceği birbirinden değerli çeşitli eğitimlerden oluşur. Seçilmiş öğrencilerin bulunduğu bu programda öğrenciler kendilerini geliştirmek adına büyük fırsat yakalamanın yanı sıra uzman ve alanında profesyonel kişilerden alacakları eğitimlerle gelecekteki kariyerleri için büyük bir avantaj yakalarlar."
 				]
 			},
 			{
@@ -471,7 +471,7 @@
 			},
 			{
 				"title": "Üniversite ve Kariyer",
-				"text": "Let's FutureUP ekibimizin WeTALK etkinlikleri hız kesmeden devam ediyor! Şimdi sırada Makine Mühendisi & Oşinograf sayın Derya Akkaynak'ın “İş Hayatı & Üniversite Hayatı Arasında Seçimler” isimli etkinliği ile karşınızdayız. Derya Hanım'ın değerli bilgi ve tecrübelerini paylaşacağı etkinliğimizi kaçırmayın. Etkinliğimiz kontenjanlıdır.",
+				"text": "Let's FutureUP ekibimizin WeTALK etkinlikleri hız kesmeden devam ediyor! Şimdi sırada Makine Mühendisi & Oşinograf sayın Derya Akkaynak'ın “İş & Üniversite Hayatı Arasında Seçimler” isimli etkinliği ile karşınızdayız. Derya Hanım'ın değerli bilgi ve tecrübelerini paylaşacağı etkinliğimizi kaçırmayın. Etkinliğimiz kontenjanlıdır.",
 				"image": "/pages/events/tr/3.png",
 				"date": "12.03.2021"
 			},
@@ -483,7 +483,7 @@
 			},
 			{
 				"title": "Let's FutureUP'a Uluslararası Destek 1",
-				"text": "Let's FutureUP projesi ile ilgili olarak Bosch İngiltere Direktörü Bayan Eman Martin-Vignerte ile bir araya geldik. Eman Hanım çalışmalarımızdan o kadar etkilendi ki, önümüzdeki dönemde programımıza verdiği desteği 2022 yılına kadar uzattı. Bu, Let's FutureUP organizasyonunun bu kadar büyük katkıları olması için harika bir adımdır. Let's FutureUP başarıya giden yolda bir adım!",
+				"text": "Let's FutureUP projesi ile ilgili olarak Bosch İngiltere Direktörü Sayın Eman Martin-Vignerte ile bir araya geldik. Eman Hanım çalışmalarımızdan o kadar etkilendi ki, önümüzdeki dönemde programımıza destek verecek. Let's FutureUP organizasyonunu öğrencilere ve gençlere büyük katkıları olması için harika bir adım ve başarıya giden tek yoldur.",
 				"image": "/pages/events/tr/5.png",
 				"date": "10.07.2021"
 			},
@@ -495,13 +495,13 @@
 			},
 			{
 				"title": "Let's FutureUP'a Uluslararası Destek 3",
-				"text": "Let's FutureUP ekibimiz Bosch Almanya ile yapılan toplantıda Doğan Esiyok ile bir araya geldi. Toplantıda yeni dönem hedeflerimizden ve projelerimizden bahsederek Bosch Almanya'nın desteğini alabildik. Globalde büyük adımlar atan projemiz Bosch Almanya tarafından da takdirle karşılandı. Gönüllülerimizle birlikte yeni dönemde daha fazla öğrenciye ulaşma hedefimize ulaşıyoruz! Let's FutureUP başarıya bir adım daha yaklaştı!",
+				"text": "Let's FutureUP ekibimiz Bosch Almanya ile yapılan toplantıda sayın Doğan Esiyok ile bir araya geldi. Toplantıda yeni dönem hedeflerimizden ve projelerimizden bahsederek Bosch Almanya'nın desteğini alabildik. Globalde büyük adımlar atan projemiz Bosch Almanya tarafından da takdirle karşılandı. Gönüllülerimizle birlikte yeni dönemde daha fazla öğrenciye ulaşma hedefimize ulaşıyoruz! Let's FutureUP başarıya bir adım daha yaklaştı!",
 				"image": "/pages/events/tr/7.png",
 				"date": "17.07.2021"
 			},
 			{
 				"title": "Let's FutureUP 1. Yılını Kutluyor!",
-				"text": "Let's FutureUP 1. Yılını Kutluyor! Ekip olarak büyük motivasyon ve heyecanla başladığımız projemizin ilk senesini geride bıraktık. Kurulduğu günden itibaren “gönüllülük bağıyla, online platformda, güçle ilerleyen FutureUP ekibi bu kez Bursa Workinton'da bir araya geldi. Yeni dönemde daha çok kişinin hayatına dokunmak ve ekibimizin bir parçası olmak için yeni dönem başvurularını takipte kalın. Sevgiler, Let's FutureUP",
+				"text": "Let's FutureUP 1. Yılını Kutluyor! Ekip olarak büyük motivasyon ve heyecanla başladığımız projemizin ilk senesini geride bıraktık. Kurulduğu günden itibaren “gönüllülük bağıyla, online platformda, güçlenerek ilerleyen FutureUP ekibi bu kez Bursa Workinton'da bir araya geldi. Yeni dönemde daha çok kişinin hayatına dokunmak ve ekibimizin bir parçası olmak için yeni dönem başvurularını takipte kalın. Sevgiler, Let's FutureUP",
 				"image": "/pages/events/tr/8.png",
 				"date": "02/08/2021"
 			}

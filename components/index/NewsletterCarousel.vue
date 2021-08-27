@@ -3,7 +3,7 @@
 		<NuxtLink :to="localePath(toUrl($t(`${section}.title`, 'en')))">
 			<h4 class="title">{{ $t(`${section}.title`) }}</h4>
 		</NuxtLink>
-		<slider :pagination="true" :autoplay="true">
+		<slider :pagination="true" :autoplay="5000">
 			<slider-inner
 				v-for="item in $t(`${section}.content`)
 					.slice()

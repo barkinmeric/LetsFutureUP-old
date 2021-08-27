@@ -29,7 +29,7 @@ export default {
 		enableClick: Boolean,
 		arrows: Boolean,
 		pagination: Boolean,
-		autoplay: Boolean,
+		autoplay: Number,
 	},
 	mounted() {
 		this.slidesLength = this.$children.length;
@@ -57,7 +57,7 @@ export default {
 		autoplayFunc() {
 			this.intervalId = window.setInterval(() => {
 				this.next();
-			}, 7000);
+			}, this.autoplay);
 		},
 	},
 };

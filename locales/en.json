@@ -50,7 +50,7 @@
 				},
 				{
 					"title": "StartUP",
-					"text": "Let’s FutureUP projesindeki mentorler, sektöre dair bilgi ve becerilerini geliştirmek isteyen öğrencilere/menteelere proje planıyla paralel olarak yol gösteren iş insanlarıdır. Mentor; menteenin aklındaki sorulara veya gelecek hakkındaki endişelerine, tecrübelerine dayanarak öneri ve tavsiyelerde bulunur. Let’s FutureUP, alanında uzman iş insanlarının, kariyer basamaklarını çıkan gençlere yol göstermelerinde köprü vazifesi görür",
+					"text": "",
 					"icon": "/pages/index/career/startup.svg"
 				},
 				{
@@ -119,7 +119,7 @@
 				},
 				{
 					"name": "Yusuf Ziya YÜCE",
-					"place": "Limak Energy I.C.",
+					"place": "Limak Energy",
 					"position": "Corporate Communications Manager",
 					"image": "/pages/index/opinions/yusuf-ziya-yuce.png",
 					"text": "For me, to contribute to someone and be happy to see that they have come to good places; in a way, “raising people” was the social responsibility of my profession. This Project can change students’ careers and even their lives with the experiences that it will bring to them. Because, in my personal opinion; the most precious thing to gain in this life is experience."
@@ -140,11 +140,11 @@
 		"board": {
 			"title": "Board",
 			"content": [
-				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/pages/index/board/erol-sapci.png" },
-				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/index/board/gurkan-kantarci.png" },
+				{ "name": "Erol Sapçı", "place": "FKT Couches", "position": "CEO", "image": "/pages/index/board/erol-sapci.png" },
+				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Production Manager", "image": "/pages/index/board/gurkan-kantarci.png" },
 				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/index/board/iskender-ulusay.png" },
-				{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/index/board/tanju-ozkonuk.png" },
-				{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/pages/index/board/yusuf-ziya-yuce.png" }
+				{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth", "position": "Commercial General Manager", "image": "/pages/index/board/tanju-ozkonuk.png" },
+				{ "name": "Yusuf Ziya Yüce", "place": "Limak Energy", "position": "Corporate Communications Manager", "image": "/pages/index/board/yusuf-ziya-yuce.png" }
 			]
 		},
 		"partner": {
@@ -204,10 +204,10 @@
 		"title": "Our Story",
 		"img": "/pages/our-story/en/story.webp",
 		"content": [
-			"Before the beginning of 2020, If you asked what pandemic is, we would definitely search at Google. It was not the situation we have experienced before.",
+			"Before the beginning of 2020, If you asked what a pandemic is, we would definitely search at Google. It was not the situation we have experienced before.",
 			"Now, we know that this was an outbreak that make people stay at their homes, construct social distance with other people and enforce them to embrace New World Order. While New World Order was mentioned during Pandemic, we intended to build this new order together and we took the road with the notion “Guiding to Future”.",
-			"While people are trying to fit their lives into their homes, exploring themselves and the environment during the Pandemic, they are feeling worried about not finding self-satisfying answers to question which is “Where is our existence in this process ?”. Spending whole time at homes, people understood the importance of such notions as personal growth, social responsibility and awareness. The whole world turned into their inside and thought of what type of changes they would love to make in their lives. People realized that they forgot finding themselves in their daily lives and they felt the significance of gaining their life experiences again.",
-			"Therefore, in this pursuit, in order to be an answer for people, by inspiring from the quote of Mahatma Gandhi “If we could change ourselves, the tendencies in the world would also change. As a man changes his own nature, so does the attitude of the world change towards him. We need not wait to see what others do.”, we created Let’s FutureUP project for young people who care about their development and want to say hello to their future career."
+			"While people are trying to fit their lives into their home, exploring themselves and the environment during the Pandemic, they are feeling worried about not finding self-satisfying answers to question which is “Where is our existence in this process ?”. Spending whole time at homes, people understood the importance of such notions as personal growth, social responsibility and awareness. The whole world turned into their inside and thought of what type of changes they would love to make in their lives. People realized that they forgot finding themselves in their daily lives and they felt the significance of gaining their life experiences again.",
+			"Therefore, in this pursuit, in order to be an answer for people, by inspiring from the quote of Mahatma Gandhi “If we could change ourselves, the tendencies in the world would also change. As a man changes his own nature, so does the attitude of the world change towards him. We need not wait to see what others do.”, we created Let’s FutureUP project for young people who care about their development and want to say hello to their future careers."
 		]
 	},
 	"team": {
@@ -217,7 +217,7 @@
 		"content": [
 			{
 				"title": "Human resources department",
-				"text": "This department arranges/organizes recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes role in the preparation of e-journal. Besides, it checks for the attendance of students and team members to Let’s FutureUP events. They act to keep motivation of students high and accordingly, they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
+				"text": "This department arranges/organizes the recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes a role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members at Let’s FutureUP events. They act to keep the motivation of students high and accordingly; they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
 				"collapsible": [
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
 					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisa-yildirim.png" },
@@ -226,7 +226,7 @@
 			},
 			{
 				"title": "Corporate communication department",
-				"text": "They contact with high level managers/executives and offer them to be spokesperson/trainer/mentor in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertize for the project.",
+				"text": "They contact with high level managers/executives and offer them to be spokespersons/trainers/mentors in programs as regards Let’s FutureUP project which are the Mentorship Program, Say Hello to your Career, Student Development Programs and WeTalk events. They also set meetings so as to introduce the project to the candidate mentors and they contribute to the organization of such events and announcement of them to shareholders. They engage in sponsorship activities. Moreover, they hold meetings with university clubs and advertise for the project.",
 				"collapsible": [
 					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
 					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/doga-aydogdu.png" },
@@ -246,7 +246,7 @@
 				]
 			},
 			{
-				"title": "External affairs department",
+				"title": "Foreign affairs department",
 				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
 				"collapsible": [
 					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/pages/project-team/external-affairs/cansin-oksan.png" },
@@ -258,7 +258,7 @@
 			},
 			{
 				"title": "Social media and digital marketing department",
-				"text": "They are responsible for effective utility of the social media accounts of the project. At the same time, they play essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
+				"text": "They are responsible for effective utilization of the social media accounts of the project. At the same time, they play an essential role while gaining international recognition. Besides, they prepare posts and informative materials which announce the WeTALK events and other training activities of the project.",
 				"collapsible": [
 					{ "name": "Ayşe Merve Ergün", "place": "", "position": "", "image": "/pages/project-team/social-media/ayse-merve-ergun.png" },
 					{ "name": "Ece Nur Emre", "place": "", "position": "", "image": "/pages/project-team/social-media/ece-nur-emre.png" },
@@ -269,7 +269,7 @@
 			},
 			{
 				"title": "Startup department",
-				"text": "They are well prepared for startup based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team are responsible for writing the codes of the programs that execute and digitalize the project.",
+				"text": "They are well prepared for startup-based activities that will take the stage in the following periods. This team generally works on the installation, enhancement and management processes of our website. In addition, the team is responsible for writing the codes of the programs that execute and digitalize the project.",
 				"collapsible": [
 					{ "name": "Barkın Meriç", "url": "https://barkinmeric.com", "place": "", "position": "", "image": "/pages/project-team/startup/barkin-meric.png" },
 					{ "name": "Elaa Jamazi", "place": "", "position": "", "image": "/pages/project-team/startup/elaa-jamazi.png" },
@@ -285,28 +285,28 @@
 		"content": [
 			{
 				"title": "1-) How long does the project last?",
-				"text": "Let’s FutureUP Project lasts for 7 months which includes the months between November and May. During this time, the project offers chosen students a Mentorship and Student Growth Program and other activities."
+				"text": "Let’s FutureUP Project which includes the months between November and May lasts for 7 months. During this time, the project offers chosen students a Mentorship and Student Development Program and other activities."
 			},
 			{
 				"title": "2-) Who can apply as a mentee?",
-				"text": "3rd or 4th grade university students in all cities worldwide can apply for the project as a mentee. Students in other grades (preparation year, first grade, second grade) can apply for other Student Growth programs that Let’s FutureUP Project offers."
+				"text": "3rd or 4th grade university students in all cities worldwide can apply for the project as a mentee. Students in other grades (preparatory, first grade, second grade) can apply for other Student Development programs that Let’s FutureUP Project offers."
 			},
 			{
 				"title": "3-) If it is possible to apply from all cities worldwide, where will the activities take place?",
-				"text": "Mentorship Program, Student Growth Program or any other activities that Let’s FutureUP Project offers will be held online."
+				"text": "Mentorship Program, Student Growth Program or other activities that Let’s FutureUP Project offers hold online."
 			},
-			{ "title": "4-) How many mentee quota are there?", "text": "As long as they satisfy the qualifications and expectations, in the term 2021-2022 it will be 20 students involved in the Let’s FutureUP Projects as a mentee." },
+			{ "title": "4-) How many mentee quota are there?", "text": "As long as they satisfy the qualifications and expectations, in the term of 2021-2022 it will be 25 students involved in the Let’s FutureUP Project as a mentee." },
 			{
 				"title": "5-) Who is evaluating the applications?",
-				"text": "Application evaluations are made meticulously with the contributions of the advisory board formed by the Let's FutureUP project team, and students are selected for the most appropriate mentor-mentee matching."
+				"text": "Application evaluations are made meticulously with the contributions of the advisory board formed by the Let's FutureUP project team, and students are selected according to the most appropriate mentor-mentee matching."
 			},
 			{
 				"title": "6-) How are Mentor-Mentee pairings made?",
-				"text": "In line with the mentoring program, Let's FutureUP team members take great thoroughness to match the appropriate mentor and mentee. While making pairings; many factors such as the expectations, goals, interests of the mentors and mentees from the project, and the department where the mentee is studying and the field where the mentor works are taken into consideration."
+				"text": "In line with the Mentorship Program, Let's FutureUP team members take great thoroughness to match the appropriate mentor and mentee. While making pairings; many factors such as the expectations, goals, interests of the mentors and mentees from the project, and the department where the mentee is studying and the field where the mentor is working are taken into consideration."
 			},
 			{
 				"title": "7-) How does the mentor selection process work?",
-				"text": "After completing the application form for the Mentoring Program, Let's FutureUP team conducts online interviews with mentor candidates. As a result of the evaluations, the most suitable mentors for the Mentoring Program are included in our project."
+				"text": "After completing the application form for the Mentorship Program, Let's FutureUP team conducts online interviews with mentor candidates. As a result of the evaluations, the most suitable mentors for the Mentoring Program are included in our project."
 			},
 			{
 				"title": "8-) How does the mentee selection process work?",
@@ -322,25 +322,25 @@
 			},
 			{
 				"title": "11-) What departments does the project team consist of?",
-				"text": "Let's FutureUP Mentoring Program and Student Development Program project team consists of six departments: Human Resources, Business Development, Corporate Communication, Foreign Relations, Startup and, Social Media and Digital Marketing. These departments are composed of university students from universities all over the World."
+				"text": "Let's FutureUP Mentoring Program and Student Development Program project team consists of six departments: Human Resources, Business Development and Strategies, Corporate Communications, Foreign Affairs, Startup, and Social Media and Digital Marketing. These departments are composed of university students from universities all over the world."
 			},
 			{
 				"title": "12-) What should I do to become a project team member?",
-				"text": "To become a Let's FutureUP team member, you must follow our team member recruitments on our social media accounts, fill out the application form on our website, and express yourself clearly in both application form and the interview."
+				"text": "In order to become a Let's FutureUP team member, you must follow our team member recruitments on our social media accounts, fill out the application form on our website, and express yourself clearly in both application form and the interview."
 			}
 		]
 	},
 	"mentorship": {
 		"title": "Mentorship Program",
-		"desc": "While matching mentors and mentees, many conditions such as expectations, work/interest fields of them are taken into consideration. During the project, 7 meetings are arranged in total. These meetings lasts at least 45 minutes every month. Meetings could be organized face-to-face or online based on decision of mentor and mentee. It is possible that they are able to meet more than 7 times.",
+		"desc": "While matching mentors and mentees, many conditions such as expectations, work/interest fields of them are taken into consideration. During the project, 7 meetings are arranged in total. These meetings last at least 45 minutes every month. Meetings could be organized face-to-face or online based on decision of mentor and mentee. It is possible that they are able to meet more than 7 times.",
 		"content": [
 			{
 				"title": "Who is a mentee?",
-				"text": "Mentees in the Let's FutureUP project are students who aim to take a step for their future careers, want to improve their knowledge and skills about the sector, wonder how to solve a problem in the most efficient way when they encounter it, apply for a mentor for this. Within the scope of the Let's FutureUP Project, 25 students studying in the 3rd and 4th grades of universities are selected as mentees through interviews and they are matched with the most suitable mentor. Mentees go through a period of 7 months in the company of mentors. In this process, they hold meetings with their mentor. After each meeting, they determine what they have contributed to them in that meeting and the topic of their next meeting. At the end of all interviews, they find answers to their questions, improve their knowledge-skills, learn to develop different solutions to problems and adapt to change."
+				"text": "Mentees in the Let's FutureUP project are students who aim to take a step for their future careers, want to improve their knowledge and skills about the sector, wonder how to solve a problem in the most efficient way when they encounter it, apply for a mentor for this. Within the scope of the Let's FutureUP Project, 25 students studying in the 3rd and 4th grades of universities are selected as mentees through interviews and they are matched with the most suitable mentors. Mentees go through a period of 7 months in the company of mentors. In this process, they hold meetings with their mentor. After each meeting, they determine what they have contributed to them in that meeting and the topic of their next meeting. At the end of all interviews, they find answers to their questions, improve their knowledge-skills, learn to develop different solutions to problems and adapt to change."
 			},
 			{
 				"title": "Who is a mentor?",
-				"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
+				"text": "Mentors in Let’s FutureUP project, are experts guiding students and share their experiences with students who want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do."
 			}
 		],
 		"collapsible": {
@@ -360,7 +360,7 @@
 						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Qatar", "position": "General Manager", "image": "/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
 						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/pages/mentorship-program/mentor/mustafa-bulut.jpg" },
 						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
-						{ "name": "Seval Öz", "place": "", "position": "Executive Advisor", "image": "/pages/mentorship-program/mentor/seval-oz.jpg" },
+						{ "name": "Seval Öz", "place": "Pioneer Electronics", "position": "Executive Advisor", "image": "/pages/mentorship-program/mentor/seval-oz.jpg" },
 						{ "name": "Taner Karslıoğlu", "place": "Feka Otomotiv San.ve Tic. A.ş.", "position": "CEO", "image": "/pages/mentorship-program/mentor/taner-karslioglu.jpg" },
 						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/mentorship-program/mentor/tanju-ozkonuk.jpg" },
 						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/pages/mentorship-program/mentor/yasemin-uyar-duman.jpg" },
@@ -401,7 +401,7 @@
 		"content": [
 			{
 				"title": "What is a StartUP?",
-				"text": "The word “StartUp” is naturalized into Turkish as “attempt” and has the meaning of “to begin”. “STARTUP” can be called briefly the entrepreneurial ideas that have continuity and are suitable for development and advance by providing service to large masses on that subject that someone can offer and use technology to determine a missing or new opinion."
+				"text": "The word “StartUp” is naturalized into Turkish as “attempt” and has the meaning of “to begin”. “STARTUP” can be called briefly the entrepreneurial ideas that have continuity and are suitable for development and advance by providing service to large masses on that subject that someone can offer and use technology to determine missing and new opinions."
 			},
 			{
 				"title": "How to build a StartUP?",
@@ -411,29 +411,29 @@
 	},
 	"wetalk": {
 		"title": "WeTalk",
-		"desc": "As part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants."
+		"desc": "As a part of the WeTalk events of our project, experts in their fields are invited to the project to share their experiences with the students. Our aim is to make students take advantage of different experiences from different people, reach experienced people in their fields of interest, and get answers to their questions from the right people. The WeTalk event is open not only to students within Let's FutureUP but also to outside participants."
 	},
 	"adviceup": {
 		"title": "AdviceUP",
-		"desc": "Students who take part in Let’s FutureUP Project, also join to the social responsibility project called AdviceUP. Mentees, simultaneously become mentor.  They are matched with 4th grade high school students  and share their knowledge and experiences regarding university entrance exam. The leading aim of this project is to make students become part of social sustainability. Besides, development of social sensitivity and awareness of responsibility are advocated. Thus, every student who are involved in Let’s FutureUP project raise their consciousness of social responsibility."
+		"desc": "Students who take part in Let’s FutureUP Project, also join to the social responsibility project called AdviceUP. Mentees, simultaneously become mentor. They are matched with 4th grade high school students and share their knowledge and experiences regarding university entrance exam. The leading aim of this project is to make students become part of social sustainability. Besides, development of social sensitivity and awareness of responsibility are advocated. Every student who are involved in Let’s FutureUP project raise their consciousness of social responsibility."
 	},
 	"talentup": {
 		"title": "TalentUP",
 		"content": [
 			{
-				"title": "What is TalentUP Talent Development Program?",
+				"title": "What is TalentUP Skills Development Program?",
 				"text": [
 					"Let’s FutureUP, offers various education programs at which students can participate to take a step to their careers. One of these education programs is TalentUP Skills Development Program. This program consists of valuable tranings which are suitable for preparatory, 1st and 2nd grades. In this program with chosen students, students have chance to improve themselves alongside taking advantage of courses they will take from experts and professionals in their sectors."
 				]
 			},
 			{
-				"title": "What does TalentUP Talent Development Program Aim?",
+				"title": "What does TalentUP Skills Development Program Aim?",
 				"text": [
 					"Let’s FutureUP project aims 5 fundamental points with TalentUP program:",
 					"• Likewise in our other student development programs, it aims for chosen students to gain networks from other chosen students and project team members.",
-					"• TalentUP Program aims to enhance abilities of its students, maket them gain new perspectives, synchronize their experiences which are obtained during the program with their own lives, under favor of the professionals’ experience and training they will receive from C level managers with the extent of our TalentUP Program.",
-					"• Teaching team work through volunteering and bringing social consciousness to chosen students through social responsibility projects are among our aims.",
-					"• Student development program focuses on efficiency and inform students in the topic of “How would the efficient study be?” and “How maximum efficiency can be taken from the work we do?”",
+					"• TalentUP Program aims to enhance abilities of its students, make them gain new perspectives, synchronize their experiences which are obtained during the program with their own lives, under favor of the professionals’ experience and training they will receive from C level managers with the extent of our TalentUP Program.",
+					"• Teaching teamwork through volunteering and bringing social consciousness to chosen students through social responsibility projects are among our aims.",
+					"• Student development program focuses on efficiency and inform students on the topic of “How would the efficient study be?” and “How maximum efficiency can be taken from the work we do?”",
 					"• It encourages students to reach their dreams and goals after completing their education within the scope of student development programs and revealing their potential."
 				]
 			},
@@ -462,37 +462,37 @@
 		"content": [
 			{
 				"title": "Achieving Can Be Easy!",
-				"text": "Our WeTalk event will be with Yazaki’s former North America Facilities Manager Ruud de Reijke on the 20th of January at 19.30. Ruud de Reijke has experienced more than 25 years in the automotive field. He started his career as a Material Planner in 1993 at Liamar. After spending 7 years at Liamar, he moved to Yazaki North America as Senior Material Coordinator. For the past 20 years, he had worked for Yazaki North America in different positions respectively Senior Material Coordinator, Project Manager, Facilities Manager. Besides his career, Reijke has taken responsibilities in voluntary projects such as recruitment volunteer and event supervisor. The event’s quota is limited. The last day for application is the 18th of January. The link of the WeTalk will be shared on the 19th of January via e-mail. Participants’ English level must above the B1 level in order to attend the event.",
-				"image": "/pages/events/tr/1.png",
+				"text": "Our WeTalk event will be with Yazaki’s former North America Facilities Manager Ruud de Reijke on the 20th of January at 19.30. Ruud de Reijke has experienced more than 25 years in the automotive field. He started his career as a Material Planner in 1993 at Liamar. After spending 7 years at Liamar, he moved to Yazaki North America as Senior Material Coordinator. For the past 20 years, he had worked for Yazaki North America in different positions respectively Senior Material Coordinator, Project Manager, Facilities Manager. Besides his career, Reijke has taken responsibilities in voluntary projects such as recruitment volunteer and event supervisor. The event’s quota is limited. The last day for application is the 18th of January. The link to the WeTalk will be shared on the 19th of January via e-mail. Participants’ English level must be above the B1 level in order to attend the event.",
+				"image": "/pages/events/en/1.png",
 				"date": "20.01.2021"
 			},
 			{
 				"title": "The Road of CEO ",
-				"text": "The next WeTalk of our Let’s FutureUP team is “The Road of CEO” with CEO of consumer products of Eczacıbaşı, Alp GÜNVARAN. You’re invited to our event with precious experiences and knowledge of Alp GÜNVARAN.",
-				"image": "/pages/events/tr/2.png",
+				"text": "The next WeTalk of our Let’s FutureUP team is “The Road with the CEO” with CEO of Eczacıbaşı Consumer Products, Alp GÜNVARAN. You’re invited to our event with precious experiences and knowledge of Alp GÜNVARAN.",
+				"image": "/pages/events/en/2.png",
 				"date": "12.02.2021"
 			},
 			{
 				"title": "University and Career",
-				"text": "WeTalk events of our Let’s FutureUP team are continuing steadily! We’re here with our next event, which is “Choosing Between Professional Life and University Life” of mechanical engineer and oceanographer Derya AKKAYNAK. Be careful not to miss this event with precious informations and experiences of Derya AKKAYNAK. Our event is limited by quota.",
-				"image": "/pages/events/tr/3.png",
+				"text": "WeTalk events of our Let’s FutureUP team are continuing steadily! We’re here with our next event, which is “Choosing Between Professional Life and University Life” of a mechanical engineer and oceanographer Derya AKKAYNAK. Be careful not to miss this event with precious information and experiences of Derya AKKAYNAK. Our event is limited by quota.",
+				"image": "/pages/events/en/3.png",
 				"date": "12.03.2021"
 			},
 			{
 				"title": "Be “the best you”",
-				"text": "WeTALK events of our Let's FutureUP team continue non-stop! Doğuş Balbay who Anadolu Efes Sports Club Basketball Player is will be with us! You are all invited to our event. Mr. Balbay will share his valuable experiences on “How Do I Reach the Peak of My Potential?”. Participation number is limited. Don't forget to apply now so that you don't miss out.",
-				"image": "/pages/events/tr/4.png",
+				"text": "WeTALK events of our Let's FutureUP team continue non-stop! Doğuş Balbay who Anadolu Efes Sports Club Basketball Player is will be with us! You are all invited to our event. Mr. Balbay will share his valuable experiences on “How Do I Reach the Peak of My Potential?”. Our event has a limited quota. Don't forget to apply now so that you don't miss out.",
+				"image": "/pages/events/en/4.png",
 				"date": "28.03.2021"
 			},
 			{
 				"title": "International Support To Let’s FutureUP 1",
-				"text": "We met with Bosch England Director Ms. Eman Martin-Vignerte regarding the Let's FutureUP project. Ms. Eman was so impressed with our work that she extended her support to our program in the next semester into 2022. This is a great step for the Let's FutureUP organization to have such great contributors on board. Let's FutureUP is one step on the way to success!",
+				"text": "We met with Bosch England Director Ms. Eman Martin-Vignerte regarding the Let's FutureUP project. Ms. Eman was so impressed with our work that she extended her support to our program in the next semester of 2022. This is a great step for the Let's FutureUP organization to have such great contributors on board. Let's FutureUP is one step on the way to success!",
 				"image": "/pages/events/en/5.png",
 				"date": "10.07.2021"
 			},
 			{
 				"title": "International Support To Let’s FutureUP 2",
-				"text": "We proudly announce that Ms Mirsada Kudric, the General Manager of BOSCH Croatia and Slovakia, now is a part of our Let’s FutureUP Mentorship Program. In regards to that she will be willing to share and coach the selected young people about various fields related to career skills and opportunities to our program in the next semester of 2022. Her competencies and experiences will be highly valuable for the youth who are preparing to enter the job market. Thus, what are you waiting for? Apply and join our project!",
+				"text": "We proudly announce that Ms. Mirsada Kudric, the General Manager of BOSCH Croatia and Slovakia, now is a part of our Let’s FutureUP Mentorship Program. In regards to that she will be willing to share and coach the selected young people about various fields related to career skills and opportunities to our program in the next semester of 2022. Her competencies and experiences will be highly valuable for the youth who are preparing to enter the business life. What are you waiting for? Apply and join our project!",
 				"image": "/pages/events/en/6.png",
 				"date": "15.07.2021"
 			},

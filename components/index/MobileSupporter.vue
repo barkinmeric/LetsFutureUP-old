@@ -2,7 +2,7 @@
 	<div class="mobile-supporter">
 		<div class="container">
 			<div class="supporter-title">{{ $t("index.supporter.title") }}</div>
-			<slider :pagination="true" :enableClick="true" :autoplay="true">
+			<slider :pagination="true" :enableClick="true" :autoplay="5000">
 				<slider-inner v-for="image in $t('index.supporter.content')" :key="image">
 					<supporter-modal :image="image" />
 				</slider-inner>
@@ -28,7 +28,7 @@ export default {
 		font-size: 22px;
 		font-weight: 600;
 		display: inline-block;
-		border-bottom: 1px solid $mainColor;
+		border-bottom: 1px solid $sideColor;
 		border-bottom-width: 3px;
 		padding-bottom: 3px;
 	}

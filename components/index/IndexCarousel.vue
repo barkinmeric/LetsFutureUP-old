@@ -1,6 +1,6 @@
 <template>
 	<div class="index-carousel">
-		<slider :pagination="true">
+		<slider :pagination="true" :autoplay="10000">
 			<slider-inner>
 				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
 					<icon-play-button width="96px" height="96px" />
