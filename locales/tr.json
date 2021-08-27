@@ -219,6 +219,8 @@
 				"title": "İnsan kaynakları departmanı",
 				"text": "Let’s FutureUP Mentorluk Programı ve proje ekip üyesi alım sürecini organize eder, mülakat yapar ve olumlu adayların oryantasyon sürecini yönetir. Öğrencilerin gelişimlerine yönelik eğitimler organize eder. Aylık E-Bülten hazırlanmasında rol oynar. Mentorluk Programına dahil olan öğrencilerin ve ekip üyelerinin devamlılığını takip eder. Proje ekip üyelerinin motivasyonlarının yüksek tutulması ve birbirlerini daha yakından tanıyabilmeleri adına kaynaşma etkinlikleri düzenler. WeTALK etkinliklerinin ve eğitimlerin içerik yazılarının hazırlanmasında Sosyal Medya ve Dijital Pazarlama Departmanı ile çalışır.",
 				"collapsible": [
+					{ "name": "Deren Yoloğlu", "place": "", "position": "", "image": "/pages/project-team/human-resources/deren-yologlu.png" },
+					{ "name": "İlkay Çil", "place": "", "position": "", "image": "/pages/project-team/human-resources/ilkay-cil.png" },
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
 					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisa-yildirim.png" },
 					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/pages/project-team/human-resources/yaren-bato.png" }
@@ -234,14 +236,14 @@
 					{ "name": "Gülsüm Yılmaz", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/gulsum-yilmaz.png" },
 					{ "name": "Hamza Otar", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/hamza-otar.png" },
 					{ "name": "Merve Özhavutçu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/merve-ozhavutcu.png" },
-					{ "name": "Rana Canan Cömert", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/rana-canan-comert.png" }
+					{ "name": "Rana Cömert", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/rana-comert.png" }
 				]
 			},
 			{
 				"title": "İş & strateji geliştirme departmanı",
 				"text": "Let’s FutureUP projesinin misyonu ve vizyonu doğrultusunda stratejilerin geliştirilmesine destek vererek projenin hedeflerine ulaşması için inovatif fikirler ortaya koyar. Bu kapsamda projede bulunan departmanların yeni fikirler üretmesinde ve bu fikirlerin hayata geçirilmesinde liderlik eder. Yeni fikirlerin projeye nasıl entegre edilebileceği konusunda tüm departmanlar ile koordine bir şekilde çalışır.",
 				"collapsible": [
-					{ "name": "Büşra Savran", "place": "", "position": "", "image": "/pages/project-team/business-development/busra-savran.png" },
+					{ "name": "Arif Numanoğlu", "place": "", "position": "", "image": "/pages/project-team/business-development/arif-numanoglu.png" },
 					{ "name": "Rümeysa Özsağlıcak", "place": "", "position": "", "image": "/pages/project-team/business-development/rumeysa-ozsaglicak.png" }
 				]
 			},
@@ -249,11 +251,9 @@
 				"title": "Dış ilişkiler departmanı",
 				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerinin içeriklerine yönelik olarak uluslararası şirketlerin yurt dışı bölümünde çalışan üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Projeyi uluslararası bir konuma getirmek üzere yabancı öğrencilere ulaşabilmek için yurt dışındaki üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
 				"collapsible": [
-					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/pages/project-team/external-affairs/cansin-oksan.png" },
-					{ "name": "Kayra Özçakar", "place": "", "position": "", "image": "/pages/project-team/external-affairs/kayra-ozcakar.png" },
-					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/external-affairs/ratu-faidah.png" },
-					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/external-affairs/sophie-aigner.png" },
-					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/external-affairs/sueda-sahin.png" }
+					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/ratu-faidah.png" },
+					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sophie-aigner.png" },
+					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sueda-sahin.png" }
 				]
 			},
 			{

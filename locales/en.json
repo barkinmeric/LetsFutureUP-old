@@ -219,6 +219,8 @@
 				"title": "Human resources department",
 				"text": "This department arranges/organizes the recruitment process of project team member, interviews and manages the orientation of favorable candidates. It takes a role in the preparation of e-bulletin. Besides, it checks for the attendance of students and team members at Let’s FutureUP events. They act to keep the motivation of students high and accordingly; they arrange some activities to help students get familiar with each other. They work with the Social Media and Digital Marketing Department while preparing content of WeTALK events and other training programs.",
 				"collapsible": [
+					{ "name": "Deren Yoloğlu", "place": "", "position": "", "image": "/pages/project-team/human-resources/deren-yologlu.png" },
+					{ "name": "İlkay Çil", "place": "", "position": "", "image": "/pages/project-team/human-resources/ilkay-cil.png" },
 					{ "name": "Nisan Koçak", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisan-kocak.png" },
 					{ "name": "Nisa Yıldırım", "place": "", "position": "", "image": "/pages/project-team/human-resources/nisa-yildirim.png" },
 					{ "name": "Yaren Bato", "place": "", "position": "", "image": "/pages/project-team/human-resources/yaren-bato.png" }
@@ -234,14 +236,14 @@
 					{ "name": "Gülsüm Yılmaz", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/gulsum-yilmaz.png" },
 					{ "name": "Hamza Otar", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/hamza-otar.png" },
 					{ "name": "Merve Özhavutçu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/merve-ozhavutcu.png" },
-					{ "name": "Rana Canan Cömert", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/rana-canan-comert.png" }
+					{ "name": "Rana Cömert", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/rana-comert.png" }
 				]
 			},
 			{
-				"title": "Business development department",
+				"title": "Business & strategy development department",
 				"text": "Members of this department, produce innovative ideas by encouraging the development of strategies through vision-mission. In this context, it leads the departments to embrace new ideas and bring about these. They work collaboratively with other departments regarding how these new concepts can be integrated into the project.",
 				"collapsible": [
-					{ "name": "Büşra Savran", "place": "", "position": "", "image": "/pages/project-team/business-development/busra-savran.png" },
+					{ "name": "Arif Numanoğlu", "place": "", "position": "", "image": "/pages/project-team/business-development/arif-numanoglu.png" },
 					{ "name": "Rümeysa Özsağlıcak", "place": "", "position": "", "image": "/pages/project-team/business-development/rumeysa-ozsaglicak.png" }
 				]
 			},
@@ -249,11 +251,9 @@
 				"title": "Foreign affairs department",
 				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
 				"collapsible": [
-					{ "name": "Cansın Okşan", "place": "", "position": "", "image": "/pages/project-team/external-affairs/cansin-oksan.png" },
-					{ "name": "Kayra Özçakar", "place": "", "position": "", "image": "/pages/project-team/external-affairs/kayra-ozcakar.png" },
-					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/external-affairs/ratu-faidah.png" },
-					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/external-affairs/sophie-aigner.png" },
-					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/external-affairs/sueda-sahin.png" }
+					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/ratu-faidah.png" },
+					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sophie-aigner.png" },
+					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sueda-sahin.png" }
 				]
 			},
 			{
@@ -293,7 +293,7 @@
 			},
 			{
 				"title": "3-) If it is possible to apply from all cities worldwide, where will the activities take place?",
-				"text": "Mentorship Program, Student Growth Program or other activities that Let’s FutureUP Project offers hold online."
+				"text": "Mentorship Program, Student Development Program or other activities that Let’s FutureUP Project offers hold online."
 			},
 			{ "title": "4-) How many mentee quota are there?", "text": "As long as they satisfy the qualifications and expectations, in the term of 2021-2022 it will be 25 students involved in the Let’s FutureUP Project as a mentee." },
 			{
