@@ -4,29 +4,33 @@
 			<slider-inner>
 				<div class="slide-el" @click="(toggleModal = !toggleModal) & playVideo()">
 					<icon-play-button width="96px" height="96px" />
-					<nuxt-img format="jpg" draggable="false" :src="$t('index.slider.thumbnail')" alt="thumbnail" style="cursor:pointer;" />
+					<nuxt-img class="mobile" format="jpg" draggable="false" :src="$t('index.slider.mobile.1')" alt="thumbnail" />
+					<nuxt-img class="desktop" format="jpg" draggable="false" :src="$t('index.slider.desktop.1')" alt="thumbnail" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img format="jpg" :src="$t('index.slider.4')" alt="carousel4" draggable="false" />
+					<nuxt-img class="mobile" format="jpg" draggable="false" :src="$t('index.slider.mobile.4')" alt="4" />
+					<nuxt-img class="desktop" format="jpg" draggable="false" :src="$t('index.slider.desktop.4')" alt="4" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img format="jpg" :src="$t('index.slider.2')" alt="carousel2" draggable="false" />
+					<nuxt-img class="mobile" format="jpg" draggable="false" :src="$t('index.slider.mobile.2')" alt="2" />
+					<nuxt-img class="desktop" format="jpg" draggable="false" :src="$t('index.slider.desktop.2')" alt="2" />
 				</div>
 			</slider-inner>
 			<slider-inner>
 				<div class="slide-el">
-					<nuxt-img format="jpg" :src="$t('index.slider.3')" alt="carousel3" draggable="false" />
+					<nuxt-img class="mobile" format="jpg" draggable="false" :src="$t('index.slider.mobile.3')" alt="3" />
+					<nuxt-img class="desktop" format="jpg" draggable="false" :src="$t('index.slider.desktop.3')" alt="3" />
 				</div>
 			</slider-inner>
 		</slider>
 		<div class="videoModal" v-show="toggleModal">
 			<span @click="(toggleModal = false) & pauseVideo()" class="close"><icon-times width="32px" height="32px"/></span>
 			<video @click="!$event.target.paused ? pauseVideo() : playVideo()" @touchstart="!$event.target.paused ? pauseVideo() : playVideo()" preload="none">
-				<source :src="$t('index.slider.1')" type="video/mp4" />
+				<source :src="$t('index.slider.video')" type="video/mp4" />
 			</video>
 		</div>
 	</div>
@@ -74,7 +78,14 @@ export default {
 				animation: submit 1s infinite;
 			}
 		}
+		.mobile {
+			display: none;
+		}
+		.desktop {
+			display: block;
+		}
 		img {
+			cursor: pointer;
 			max-height: 700px;
 			max-width: 1920px;
 			height: 100%;
@@ -114,6 +125,14 @@ export default {
 		.videoModal {
 			video {
 				width: 100%;
+			}
+		}
+		.slide-el {
+			.mobile {
+				display: block;
+			}
+			.desktop {
+				display: none;
 			}
 		}
 	}

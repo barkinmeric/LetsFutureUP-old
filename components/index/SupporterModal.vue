@@ -1,7 +1,7 @@
 <template>
 	<div class="supporter-modal">
 		<div class="supporter-img">
-			<nuxt-img format="jpg" :src="image" alt="supporter" width="240px" height="160px" draggable="false" loading="lazy" />
+			<nuxt-img format="jpg" :src="image" alt="supporter" width="300px" height="200px" draggable="false" loading="lazy" />
 		</div>
 	</div>
 </template>
