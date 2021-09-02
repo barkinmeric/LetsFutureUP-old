@@ -260,6 +260,7 @@
 				"title": "Dış ilişkiler departmanı",
 				"text": "Projede yer alan Mentorluk Programı, Kariyerine MerhabaDE! Öğrenci Gelişim Programı ve WeTALK etkinliklerinin içeriklerine yönelik olarak uluslararası şirketlerin yurt dışı bölümünde çalışan üst düzey yöneticilerle iletişime geçerek mentor/eğitmen/konuşmacı olmaları için teklifte bulunur, toplantılar düzenleyerek projeyi tanıtır. Bu etkinliklerin organize edilmesinde ve paydaşlara duyurulmasında rol oynar. Projeyi uluslararası bir konuma getirmek üzere yabancı öğrencilere ulaşabilmek için yurt dışındaki üniversite kulüpleriyle iletişime geçerek tanışma toplantıları düzenler.",
 				"collapsible": [
+					{ "name": "Hazal Öykü Hoca", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/hazal-oyku-hoca.png" },
 					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/ratu-faidah.png" },
 					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sophie-aigner.png" },
 					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sueda-sahin.png" }

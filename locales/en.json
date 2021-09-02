@@ -260,6 +260,7 @@
 				"title": "Foreign affairs department",
 				"text": "They contact with high level managers/executives from abroad and offer them to be spokesperson/trainer/mentor in programs involved in the Let’s FutureUP project including Mentorship Program, Say Hello to your Career, Student Development Programs and WeTALK events. They arrange meetings with foreign executives to explain the project in details. In addition, they take responsibility for organizing the events and announcing them to shareholders. They intend to reach foreign university clubs and contact with foreign students in order to introduce the project and improve it internationally.",
 				"collapsible": [
+					{ "name": "Hazal Öykü Hoca", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/hazal-oyku-hoca.png" },
 					{ "name": "Ratu Faidah", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/ratu-faidah.png" },
 					{ "name": "Sophie Aigner", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sophie-aigner.png" },
 					{ "name": "Sueda Şahin", "place": "", "position": "", "image": "/pages/project-team/foreign-affairs/sueda-sahin.png" }
