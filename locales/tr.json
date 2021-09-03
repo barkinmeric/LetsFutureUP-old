@@ -16,7 +16,7 @@
 		},
 		"join-us": {
 			"title": "Bize Katıl!",
-			"link": "https://letsfutureup.net"
+			"link": "https://www.letsfutureup.net"
 		}
 	},
 	"index": {
@@ -177,7 +177,7 @@
 			"title": "Sen de bize katılmak ister misin?",
 			"button": "Bize Katıl!",
 			"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
-			"link": "https://letsfutureup.net"
+			"link": "https://www.letsfutureup.net"
 		}
 	},
 	"about": {
@@ -365,7 +365,7 @@
 						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/pages/mentorship-program/mentor/esen-oztemel.jpg" },
 						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/mentorship-program/mentor/gurkan-kantarci.jpg" },
 						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/mentorship-program/mentor/iskender-ulusay.jpg" },
-						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Katar", "position": "General Manager", "image": "/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
+						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Katar", "position": "Genel Müdür", "image": "/pages/mentorship-program/mentor/ismail-yamangil.jpg" },
 						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/pages/mentorship-program/mentor/mustafa-bulut.jpg" },
 						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/pages/mentorship-program/mentor/sebutay-goksu.jpg" },
 						{ "name": "Seval Öz", "place": "Pioneer Elektronik", "position": "Yönetim Kurulu Danışmanı", "image": "/pages/mentorship-program/mentor/seval-oz.jpg" },
