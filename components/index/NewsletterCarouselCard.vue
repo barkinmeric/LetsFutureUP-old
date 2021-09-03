@@ -30,6 +30,7 @@ export default {
 				.toLowerCase()
 				.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, "")
 				.replace(/ /gim, "-")
+				.replace(/--/gim, "-")
 				.replace(/ğ/gim, "g")
 				.replace(/ü/gim, "u")
 				.replace(/ş/gim, "s")

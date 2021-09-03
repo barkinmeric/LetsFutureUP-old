@@ -21,6 +21,7 @@ export default {
 		display: grid;
 		grid-template-columns: 50% 50%;
 		column-gap: 15px;
+		padding-right: 15px;
 	}
 }
 @media (max-width: 991px) {
