@@ -1,5 +1,5 @@
 {
-	"url": "| Hello Career | letsfutureup.com",
+	"url": "| HelloCareer | letsfutureup.com",
 	"nav": {
 		"us": {
 			"title": "Who Are We?",
@@ -11,7 +11,7 @@
 			"content": ["Events", "Announcements"]
 		},
 		"career": {
-			"title": "Hello Career",
+			"title": "HelloCareer",
 			"content": ["Mentorship Program", "Student Development Program", "StartUP", "WeTalk", "AdviceUP", "TalentUP"]
 		},
 		"join-us": {
@@ -37,7 +37,7 @@
 				"4": "/pages/index/slider/desktop/en/4.webp"
 			}
 		},
-		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides students who wants to say “Hello Career!” to their careers in the future from now by mentorship and different trainings based on volunteering.",
+		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides students who wants to say “HelloCareer!” to their careers in the future from now by mentorship and different trainings based on volunteering.",
 		"hello-career": {
 			"title": "HelloCareer",
 			"content": [
