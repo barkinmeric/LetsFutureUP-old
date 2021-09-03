@@ -27,10 +27,12 @@ export default {
 		color: #fff;
 		text-align: center;
 		h1 {
+			margin: 0;
 			font-size: 26px;
 			font-weight: 600;
 		}
 		h2 {
+			margin: 0;
 			font-size: 26px;
 			font-weight: 600;
 		}
