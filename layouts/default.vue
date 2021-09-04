@@ -6,6 +6,7 @@
 		<nuxt />
 		<desktop-footer />
 		<mobile-footer />
+		<contacts-footer />
 	</div>
 </template>
 

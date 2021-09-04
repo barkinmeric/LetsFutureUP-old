@@ -2,7 +2,7 @@
 	<div class="desktop-supporter">
 		<div class="container">
 			<div class="supporter-title">{{ $t("index.supporter.title") }}</div>
-			<div class="grid-container">
+			<div class="flex-container">
 				<supporter-modal v-for="image in $t('index.supporter.content')" :key="image" :image="image" />
 			</div>
 		</div>
@@ -30,7 +30,7 @@ export default {
 		border-bottom-width: 3px;
 		padding-bottom: 3px;
 	}
-	.grid-container {
+	.flex-container {
 		padding-top: 10px;
 		display: flex;
 		flex-wrap: wrap;

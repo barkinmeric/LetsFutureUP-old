@@ -2,7 +2,7 @@
 	<div class="desktop-partner">
 		<div class="container">
 			<div class="partner-title">{{ $t("index.partner.title") }}</div>
-			<div class="grid-container">
+			<div class="flex-container">
 				<partner-modal v-for="image in $t('index.partner.content')" :key="image" :image="image" />
 			</div>
 		</div>
@@ -30,7 +30,7 @@ export default {
 		border-bottom-width: 3px;
 		padding-bottom: 3px;
 	}
-	.grid-container {
+	.flex-container {
 		padding-top: 10px;
 		display: flex;
 		flex-wrap: wrap;

@@ -2,7 +2,7 @@
 	<div class="e-journal-form">
 		<div class="head" v-html="$t('index.e-journal.text')"></div>
 		<div class="body">
-			<form action="https://hotmail.us6.list-manage.com/subscribe/post?u=10ada8958c932da0807f896f2&amp;id=7689a21846" name="mc-embedded-subscribe-form" method="post" target="_blank" novalidate rel="noopener">
+			<form action="https://app.us5.list-manage.com/subscribe/post?u=bab5f94ae1024031672a7ea3b&amp;id=f65d4afdf1" name="mc-embedded-subscribe-form" method="post" target="_blank" novalidate rel="noopener">
 				<input type="email" name="EMAIL" placeholder="E-Mail" required />
 				<button type="submit" name="subscribe">{{ $t("index.e-journal.button") }}</button>
 			</form>
