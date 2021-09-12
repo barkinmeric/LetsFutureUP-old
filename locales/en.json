@@ -37,13 +37,13 @@
 				"4": "/pages/index/slider/desktop/en/4.webp"
 			}
 		},
-		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides students who wants to say “HelloCareer!” to their careers in the future from now by mentorship and different trainings based on volunteering.",
+		"motto": "Let's Future<span class='green'>UP</span> project is a global mentorship project that guides student who wants to say “HelloCareer!” to their careers in the future by mentorship and different trainings based on volunteering.",
 		"hello-career": {
 			"title": "HelloCareer",
 			"content": [
 				{
 					"title": "Mentorship Program",
-					"text": "Mentors in Let’s FutureUP project, are experts who guide students and share their experiences with students that want to develop their business skills and abilities. These experts in their fields are researched by project team in detailed way and their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best manner they could do.",
+					"text": "Mentors in Let’s FutureUP project are experts who guide students and share their experiences with students who want to develop their business skills and abilities. These experts are researched by project team memebers in detailed way and then their applications are taken. Mentor selected is given a mentee and it is expected that mentor and her/his mentee have to set meetings during the project. In these meetings, mentors make their mentees prepared for their career path in the best way possible.",
 					"icon": "/pages/index/career/mentorship.svg"
 				},
 				{
