@@ -2,7 +2,8 @@
 	<section class="mentorship-program">
 		<social-head :title="$t('mentorship.title')" :description="$t('mentorship.desc')" />
 		<div class="container">
-			<mentorship-collapsible />
+			<mentorship-collapsible year="2020-2021" />
+			<mentorship-collapsible year="2021-2022" />
 			<div class="body">
 				<h2 class="title">{{ $t("mentorship.title") }}</h2>
 				<p class="text">{{ $t("mentorship.desc") }}</p>
