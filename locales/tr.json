@@ -16,7 +16,7 @@
 		},
 		"join-us": {
 			"title": "Bize Katıl!",
-			"link": "https://letsfutureup.net"
+			"link": "https://basvuruformu.letsfutureup.com"
 		}
 	},
 	"index": {
@@ -149,10 +149,25 @@
 			"title": "Danışma Kurulu",
 			"content": [
 				{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/pages/index/board/erol-sapci.png" },
-				{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/index/board/gurkan-kantarci.png" },
+				{
+					"name": "Gürkan Kantarcı",
+					"place": "RB Karesi Holding",
+					"position": "Üretim Müdürü",
+					"image": "/pages/index/board/gurkan-kantarci.png"
+				},
 				{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/index/board/iskender-ulusay.png" },
-				{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/index/board/tanju-ozkonuk.png" },
-				{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/pages/index/board/yusuf-ziya-yuce.png" }
+				{
+					"name": "Tanju Özkonuk",
+					"place": "Bosch Rexroth A.Ş",
+					"position": "Ticari Genel Müdür",
+					"image": "/pages/index/board/tanju-ozkonuk.png"
+				},
+				{
+					"name": "Yusuf Ziya Yüce",
+					"place": "Limak Enerji",
+					"position": "Kurumsal İletişim Müdürü",
+					"image": "/pages/index/board/yusuf-ziya-yuce.png"
+				}
 			]
 		},
 		"partner": {
@@ -177,7 +192,7 @@
 			"title": "Sen de bize katılmak ister misin?",
 			"button": "Bize Katıl!",
 			"text": "Yanda bulunan butona tıklayarak <b>mentor</b>, <b>mentee</b> veya <b>ekip üyesi</b> olarak<br /> başvuru yapabilir ve bize katılabilirsin!",
-			"link": "https://letsfutureup.net"
+			"link": "https://basvuruformu.letsfutureup.com"
 		}
 	},
 	"about": {
@@ -241,10 +256,25 @@
 				"collapsible": [
 					{ "name": "Can Çakarız", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/can-cakariz.png" },
 					{ "name": "Doğa Aydoğdu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/doga-aydogdu.png" },
-					{ "name": "Eylül Şahinoğlu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/eylul-sahinoglu.png" },
-					{ "name": "Gülsüm Yılmaz", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/gulsum-yilmaz.png" },
+					{
+						"name": "Eylül Şahinoğlu",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/corporate-communication/eylul-sahinoglu.png"
+					},
+					{
+						"name": "Gülsüm Yılmaz",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/corporate-communication/gulsum-yilmaz.png"
+					},
 					{ "name": "Hamza Otar", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/hamza-otar.png" },
-					{ "name": "Merve Özhavutçu", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/merve-ozhavutcu.png" },
+					{
+						"name": "Merve Özhavutçu",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/corporate-communication/merve-ozhavutcu.png"
+					},
 					{ "name": "Rana Cömert", "place": "", "position": "", "image": "/pages/project-team/corporate-communication/rana-comert.png" }
 				]
 			},
@@ -253,7 +283,12 @@
 				"text": "Let’s FutureUP projesinin misyonu ve vizyonu doğrultusunda stratejilerin geliştirilmesine destek vererek projenin hedeflerine ulaşması için inovatif fikirler ortaya koyar. Bu kapsamda projede bulunan departmanların yeni fikirler üretmesinde ve bu fikirlerin hayata geçirilmesinde liderlik eder. Yeni fikirlerin projeye nasıl entegre edilebileceği konusunda tüm departmanlar ile koordine bir şekilde çalışır.",
 				"collapsible": [
 					{ "name": "Arif Numanoğlu", "place": "", "position": "", "image": "/pages/project-team/business-development/arif-numanoglu.png" },
-					{ "name": "Rümeysa Özsağlıcak", "place": "", "position": "", "image": "/pages/project-team/business-development/rumeysa-ozsaglicak.png" }
+					{
+						"name": "Rümeysa Özsağlıcak",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/business-development/rumeysa-ozsaglicak.png"
+					}
 				]
 			},
 			{
@@ -282,9 +317,21 @@
 				"text": "StartUP Ekibi, projemizin ilerleyen dönemlerinde gerçekleştireceğimiz girişim tabanlı etkinlikler için hazırlıklar yapar. Bu ekip, genelde web sitemizin kurulumu, iyileştirilmesi, ilerleyişi, gelişimi ve yönetimi üzerine çalışmalar gerçekleştirir. Ayrıca projeyi yöneten programların kodlarının yazılmasından ve dijitale aktarılmasından sorumludur.",
 				"collapsible": [
 					{ "name": "Ataberk Karaman", "place": "", "position": "", "image": "/pages/project-team/startup/ataberk-karaman.png" },
-					{ "name": "Barkın Meriç", "url": "https://barkinmeric.com", "place": "", "position": "", "image": "/pages/project-team/startup/barkin-meric.png" },
+					{
+						"name": "Barkın Meriç",
+						"url": "https://barkinmeric.com",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/startup/barkin-meric.png"
+					},
 					{ "name": "Elaa Jamazi", "place": "", "position": "", "image": "/pages/project-team/startup/elaa-jamazi.png" },
-					{ "name": "Olgu Batın Topal", "url": "http://ekads.co/", "place": "", "position": "", "image": "/pages/project-team/startup/olgu-batin-topal.png" },
+					{
+						"name": "Olgu Batın Topal",
+						"url": "http://ekads.co/",
+						"place": "",
+						"position": "",
+						"image": "/pages/project-team/startup/olgu-batin-topal.png"
+					},
 					{ "name": "Pelin İşeri", "place": "", "position": "", "image": "/pages/project-team/startup/pelin-iseri.png" }
 				]
 			}
@@ -306,7 +353,10 @@
 				"title": "3-) Tüm şehirlerden katılım yapılabiliyorsa eğer, etkinlikler nerede olacak?",
 				"text": "Let’s FutureUP Projesi kapsamındaki Mentorluk Programı, Öğrenci Gelişim Programı ve diğer tüm etkinlikler online olarak gerçekleştirilir."
 			},
-			{ "title": "4-) Kaç kişilik mentee kontenjanı var?", "text": "2021-2022 döneminde başvurular arasından gerekli kriterlerin sağlanması durumunda 25 öğrenci Lets FutureUP Projesi’ne dahil olacaktır." },
+			{
+				"title": "4-) Kaç kişilik mentee kontenjanı var?",
+				"text": "2021-2022 döneminde başvurular arasından gerekli kriterlerin sağlanması durumunda 25 öğrenci Lets FutureUP Projesi’ne dahil olacaktır."
+			},
 			{
 				"title": "5-) Başvuruları kimler değerlendiriyor?",
 				"text": "Başvuru değerlendirmeleri Let’s FutureUP proje ekibi ve Danışma Kurulu’nun katkılarıyla titizlikle yapılmakta, en uygun mentor-mentee eşleştirmesi için öğrenciler seçilmektedir."
@@ -323,7 +373,10 @@
 				"title": "8-) Mentee seçme süreci nasıl ilerliyor?",
 				"text": "Mentee başvuru formu doldurulduktan sonra Let’s FutureUP ekibi tarafından başvuruların değerlendirilmesi yapılır, uygun görülen adaylar online mülakata davet edilir ve mülakat sonucunda uygun adaylar projemize dahil edilir."
 			},
-			{ "title": "9-) Proje bitiminde sertifika verilecek mi?", "text": "Evet, proje sonunda şartları sağlayan herkese Let’s FutureUP tarafından özgeçmişlerine ekleyebilecekleri İngilizce sertifika verilecektir." },
+			{
+				"title": "9-) Proje bitiminde sertifika verilecek mi?",
+				"text": "Evet, proje sonunda şartları sağlayan herkese Let’s FutureUP tarafından özgeçmişlerine ekleyebilecekleri İngilizce sertifika verilecektir."
+			},
 			{
 				"title": "10-) Programdan mezun olmak için gerekli şartlar nelerdir?",
 				"text": "Let’s FutureUP projesi tarafından düzenlenen tüm etkinliklere en az %80 oranında katılım sağlamak ve proje kapsamında belirlenen sosyal sorumluluk projesini bitirmek mezun olma şartlarıdır."
@@ -357,43 +410,203 @@
 				"mentors": {
 					"title": "Mentorler",
 					"content": [
-						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Mühendislik Yöneticisi", "image": "/pages/mentorship-program/2020-2021/mentor/ali-yagci.jpg" },
-						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/ali-yasar-topcu.jpg" },
-						{ "name": "Arif Kaya", "place": "HUGO BOSS Tekstil San. Ltd.", "position": "Türkiye Genel Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/arif-kaya.jpg" },
-						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/bulent-kacar.jpg" },
-						{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/pages/mentorship-program/2020-2021/mentor/erol-sapci.jpg" },
-						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/pages/mentorship-program/2020-2021/mentor/esen-oztemel.jpg" },
-						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/gurkan-kantarci.jpg" },
-						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/mentorship-program/2020-2021/mentor/iskender-ulusay.jpg" },
-						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Katar", "position": "Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/ismail-yamangil.jpg" },
-						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/mustafa-bulut.jpg" },
-						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/sebutay-goksu.jpg" },
-						{ "name": "Seval Öz", "place": "Pioneer Elektronik", "position": "Yönetim Kurulu Danışmanı", "image": "/pages/mentorship-program/2020-2021/mentor/seval-oz.jpg" },
-						{ "name": "Taner Karslıoğlu", "place": "Feka Grup", "position": "CEO", "image": "/pages/mentorship-program/2020-2021/mentor/taner-karslioglu.jpg" },
-						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/tanju-ozkonuk.jpg" },
-						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/pages/mentorship-program/2020-2021/mentor/yasemin-uyar-duman.jpg" },
-						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/yusuf-ziya-yuce.jpg" }
+						{
+							"name": "Ali Yağcı",
+							"place": "Orhan Holding",
+							"position": "Global Mühendislik Yöneticisi",
+							"image": "/pages/mentorship-program/2020-2021/mentor/ali-yagci.jpg"
+						},
+						{
+							"name": "Ali Yaşar Topçu",
+							"place": "FARBA Otomotiv A.Ş.",
+							"position": "Fabrika Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/ali-yasar-topcu.jpg"
+						},
+						{
+							"name": "Arif Kaya",
+							"place": "HUGO BOSS Tekstil San. Ltd.",
+							"position": "Türkiye Genel Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/arif-kaya.jpg"
+						},
+						{
+							"name": "Bülent Kaçar",
+							"place": "Valeo",
+							"position": "Fabrika Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/bulent-kacar.jpg"
+						},
+						{
+							"name": "Erol Sapçı",
+							"place": "FKT Koltuk A.Ş.",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2020-2021/mentor/erol-sapci.jpg"
+						},
+						{
+							"name": "Esen Öztemel",
+							"place": "Bosch Kuzey Amerika",
+							"position": "Tedarik Zinciri Yöneticisi",
+							"image": "/pages/mentorship-program/2020-2021/mentor/esen-oztemel.jpg"
+						},
+						{
+							"name": "Gürkan Kantarcı",
+							"place": "RB Karesi Holding",
+							"position": "Üretim Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/gurkan-kantarci.jpg"
+						},
+						{
+							"name": "İskender Ulusay",
+							"place": "AKTAŞ Holding",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2020-2021/mentor/iskender-ulusay.jpg"
+						},
+						{
+							"name": "İsmail Yamangil",
+							"place": "Schneider Electric LLC Katar",
+							"position": "Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/ismail-yamangil.jpg"
+						},
+						{
+							"name": "Mustafa Bulut",
+							"place": "Bosch San. Tic A.Ş.",
+							"position": "Teknik Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/mustafa-bulut.jpg"
+						},
+						{
+							"name": "Sebutay Göksu",
+							"place": "",
+							"position": "Otomotiv Profesyoneli / Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/sebutay-goksu.jpg"
+						},
+						{
+							"name": "Seval Öz",
+							"place": "Pioneer Elektronik",
+							"position": "Yönetim Kurulu Danışmanı",
+							"image": "/pages/mentorship-program/2020-2021/mentor/seval-oz.jpg"
+						},
+						{
+							"name": "Taner Karslıoğlu",
+							"place": "Feka Grup",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2020-2021/mentor/taner-karslioglu.jpg"
+						},
+						{
+							"name": "Tanju Özkonuk",
+							"place": "Bosch Rexroth A.Ş",
+							"position": "Ticari Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/tanju-ozkonuk.jpg"
+						},
+						{
+							"name": "Yasemin Uyar Duman",
+							"place": "Emek Yağ Sanayii A.Ş.",
+							"position": "Marka Yöneticisi / Yönetim Kurulu Üyesi",
+							"image": "/pages/mentorship-program/2020-2021/mentor/yasemin-uyar-duman.jpg"
+						},
+						{
+							"name": "Yusuf Ziya Yüce",
+							"place": "Limak Enerji",
+							"position": "Kurumsal İletişim Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/yusuf-ziya-yuce.jpg"
+						}
 					]
 				},
 				"mentees": {
 					"title": "Menteeler",
 					"content": [
-						{ "name": "Alperen Adatepe", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/alperen-adatepe.jpg" },
-						{ "name": "Burcu Akgöz", "place": "İstanbul Üniversitesi", "position": "İşletme (İngilizce)", "image": "/pages/mentorship-program/2020-2021/mentee/burcu-akgoz.jpg" },
-						{ "name": "Elif Çanga", "place": "Boğaziçi Üniversitesi", "position": "Ekonomi", "image": "/pages/mentorship-program/2020-2021/mentee/elif-canga.jpg" },
-						{ "name": "Emre Günhan", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/emre-gunhan.jpg" },
-						{ "name": "Ezgi Topaloğlu", "place": "Boğaziçi Üniversitesi", "position": "Makine Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/ezgi-topaloglu.jpg" },
-						{ "name": "Ezgi Uysal", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/ezgi-uysal.jpg" },
-						{ "name": "Magdalena Tihon", "place": "İstanbul Teknik Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/magdalena-tihon.jpg" },
-						{ "name": "Nida Ertan", "place": "Uludağ Üniversitesi", "position": "Makine Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/nida-ertan.jpg" },
-						{ "name": "Nur Sena Duman", "place": "Galatasaray Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/nur-sena-duman.jpg" },
-						{ "name": "Oğuzhan Boğaz", "place": "İstanbul Teknik Üniversitesi", "position": "Endüstri Mühendisliği (İngilizce)", "image": "/pages/mentorship-program/2020-2021/mentee/oguzhan-bogaz.jpg" },
-						{ "name": "Seda Kanburoğlu", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/seda-kanburoglu.jpg" },
-						{ "name": "Seran Saltık", "place": "Uludağ Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/seran-saltik.jpg" },
-						{ "name": "Serra Tatlıcılar", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/serra-tatlicilar.jpg" },
-						{ "name": "Simge Bakış", "place": "Uludağ Üniversitesi", "position": "Elektrik Elektronik Mühendisliği", "image": "/pages/mentorship-program/2020-2021/mentee/simge-bakis.jpg" },
-						{ "name": "Tuğba Buse Kılıç", "place": "Süleyman Demirel Üniversitesi", "position": "İktisat (İngilizce)", "image": "/pages/mentorship-program/2020-2021/mentee/tugba-buse-kilic.jpg" },
-						{ "name": "Yusuf İzzettin Biçer", "place": "Marmara Üniversitesi", "position": "İşletme", "image": "/pages/mentorship-program/2020-2021/mentee/yusuf-izzettin-bicer.jpg" }
+						{
+							"name": "Alperen Adatepe",
+							"place": "Uludağ Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/alperen-adatepe.jpg"
+						},
+						{
+							"name": "Burcu Akgöz",
+							"place": "İstanbul Üniversitesi",
+							"position": "İşletme (İngilizce)",
+							"image": "/pages/mentorship-program/2020-2021/mentee/burcu-akgoz.jpg"
+						},
+						{
+							"name": "Elif Çanga",
+							"place": "Boğaziçi Üniversitesi",
+							"position": "Ekonomi",
+							"image": "/pages/mentorship-program/2020-2021/mentee/elif-canga.jpg"
+						},
+						{
+							"name": "Emre Günhan",
+							"place": "Uludağ Üniversitesi",
+							"position": "Elektrik Elektronik Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/emre-gunhan.jpg"
+						},
+						{
+							"name": "Ezgi Topaloğlu",
+							"place": "Boğaziçi Üniversitesi",
+							"position": "Makine Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/ezgi-topaloglu.jpg"
+						},
+						{
+							"name": "Ezgi Uysal",
+							"place": "Galatasaray Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/ezgi-uysal.jpg"
+						},
+						{
+							"name": "Magdalena Tihon",
+							"place": "İstanbul Teknik Üniversitesi",
+							"position": "Tekstil Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/magdalena-tihon.jpg"
+						},
+						{
+							"name": "Nida Ertan",
+							"place": "Uludağ Üniversitesi",
+							"position": "Makine Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/nida-ertan.jpg"
+						},
+						{
+							"name": "Nur Sena Duman",
+							"place": "Galatasaray Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/nur-sena-duman.jpg"
+						},
+						{
+							"name": "Oğuzhan Boğaz",
+							"place": "İstanbul Teknik Üniversitesi",
+							"position": "Endüstri Mühendisliği (İngilizce)",
+							"image": "/pages/mentorship-program/2020-2021/mentee/oguzhan-bogaz.jpg"
+						},
+						{
+							"name": "Seda Kanburoğlu",
+							"place": "Uludağ Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/seda-kanburoglu.jpg"
+						},
+						{
+							"name": "Seran Saltık",
+							"place": "Uludağ Üniversitesi",
+							"position": "Tekstil Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/seran-saltik.jpg"
+						},
+						{
+							"name": "Serra Tatlıcılar",
+							"place": "Uludağ Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/serra-tatlicilar.jpg"
+						},
+						{
+							"name": "Simge Bakış",
+							"place": "Uludağ Üniversitesi",
+							"position": "Elektrik Elektronik Mühendisliği",
+							"image": "/pages/mentorship-program/2020-2021/mentee/simge-bakis.jpg"
+						},
+						{
+							"name": "Tuğba Buse Kılıç",
+							"place": "Süleyman Demirel Üniversitesi",
+							"position": "İktisat (İngilizce)",
+							"image": "/pages/mentorship-program/2020-2021/mentee/tugba-buse-kilic.jpg"
+						},
+						{
+							"name": "Yusuf İzzettin Biçer",
+							"place": "Marmara Üniversitesi",
+							"position": "İşletme",
+							"image": "/pages/mentorship-program/2020-2021/mentee/yusuf-izzettin-bicer.jpg"
+						}
 					]
 				}
 			},
@@ -402,50 +615,245 @@
 				"mentors": {
 					"title": "Mentorler",
 					"content": [
-						{ "name": "Ali Yağcı", "place": "Orhan Holding", "position": "Global Mühendislik Yöneticisi", "image": "/pages/mentorship-program/2020-2021/mentor/ali-yagci.jpg" },
-						{ "name": "Ali Yaşar Topçu", "place": "FARBA Otomotiv A.Ş.", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/ali-yasar-topcu.jpg" },
-						{ "name": "Arif Kaya", "place": "HUGO BOSS Tekstil San. Ltd.", "position": "Türkiye Genel Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/arif-kaya.jpg" },
-						{ "name": "Bülent Kaçar", "place": "Valeo", "position": "Fabrika Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/bulent-kacar.jpg" },
-						{ "name": "Erol Sapçı", "place": "FKT Koltuk A.Ş.", "position": "CEO", "image": "/pages/mentorship-program/2020-2021/mentor/erol-sapci.jpg" },
-						{ "name": "Esen Öztemel", "place": "Bosch Kuzey Amerika", "position": "Tedarik Zinciri Yöneticisi", "image": "/pages/mentorship-program/2020-2021/mentor/esen-oztemel.jpg" },
-						{ "name": "Gürkan Kantarcı", "place": "RB Karesi Holding", "position": "Üretim Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/gurkan-kantarci.jpg" },
-						{ "name": "İskender Ulusay", "place": "AKTAŞ Holding", "position": "CEO", "image": "/pages/mentorship-program/2020-2021/mentor/iskender-ulusay.jpg" },
-						{ "name": "İsmail Yamangil", "place": "Schneider Electric LLC Katar", "position": "Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/ismail-yamangil.jpg" },
-						{ "name": "Mustafa Bulut", "place": "Bosch San. Tic A.Ş.", "position": "Teknik Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/mustafa-bulut.jpg" },
-						{ "name": "Sebutay Göksu", "place": "", "position": "Otomotiv Profesyoneli / Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/sebutay-goksu.jpg" },
-						{ "name": "Seval Öz", "place": "Pioneer Elektronik", "position": "Yönetim Kurulu Danışmanı", "image": "/pages/mentorship-program/2020-2021/mentor/seval-oz.jpg" },
-						{ "name": "Taner Karslıoğlu", "place": "Feka Grup", "position": "CEO", "image": "/pages/mentorship-program/2020-2021/mentor/taner-karslioglu.jpg" },
-						{ "name": "Tanju Özkonuk", "place": "Bosch Rexroth A.Ş", "position": "Ticari Genel Müdür", "image": "/pages/mentorship-program/2020-2021/mentor/tanju-ozkonuk.jpg" },
-						{ "name": "Yasemin Uyar Duman", "place": "Emek Yağ Sanayii A.Ş.", "position": "Marka Yöneticisi / Yönetim Kurulu Üyesi", "image": "/pages/mentorship-program/2020-2021/mentor/yasemin-uyar-duman.jpg" },
-						{ "name": "Yusuf Ziya Yüce", "place": "Limak Enerji", "position": "Kurumsal İletişim Müdürü", "image": "/pages/mentorship-program/2020-2021/mentor/yusuf-ziya-yuce.jpg" }
+						{
+							"name": "Ali Yağcı",
+							"place": "Orhan Holding",
+							"position": "Global Mühendislik Yöneticisi",
+							"image": "/pages/mentorship-program/2020-2021/mentor/ali-yagci.jpg"
+						},
+						{
+							"name": "Ali Yaşar Topçu",
+							"place": "FARBA Otomotiv A.Ş.",
+							"position": "Fabrika Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/ali-yasar-topcu.jpg"
+						},
+						{
+							"name": "Arif Kaya",
+							"place": "HUGO BOSS Tekstil San. Ltd.",
+							"position": "Türkiye Genel Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/arif-kaya.jpg"
+						},
+						{
+							"name": "Bülent Kaçar",
+							"place": "Valeo",
+							"position": "Fabrika Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/bulent-kacar.jpg"
+						},
+						{
+							"name": "Erol Sapçı",
+							"place": "FKT Koltuk A.Ş.",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2020-2021/mentor/erol-sapci.jpg"
+						},
+						{
+							"name": "Esen Öztemel",
+							"place": "Bosch Kuzey Amerika",
+							"position": "Tedarik Zinciri Yöneticisi",
+							"image": "/pages/mentorship-program/2020-2021/mentor/esen-oztemel.jpg"
+						},
+						{
+							"name": "Gürkan Kantarcı",
+							"place": "RB Karesi Holding",
+							"position": "Üretim Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/gurkan-kantarci.jpg"
+						},
+						{
+							"name": "İskender Ulusay",
+							"place": "AKTAŞ Holding",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2020-2021/mentor/iskender-ulusay.jpg"
+						},
+						{
+							"name": "İsmail Yamangil",
+							"place": "Schneider Electric LLC Katar",
+							"position": "Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/ismail-yamangil.jpg"
+						},
+						{
+							"name": "Mustafa Bulut",
+							"place": "Bosch San. Tic A.Ş.",
+							"position": "Teknik Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/mustafa-bulut.jpg"
+						},
+						{
+							"name": "Sebutay Göksu",
+							"place": "",
+							"position": "Otomotiv Profesyoneli / Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/sebutay-goksu.jpg"
+						},
+						{
+							"name": "Seval Öz",
+							"place": "Pioneer Elektronik",
+							"position": "Yönetim Kurulu Danışmanı",
+							"image": "/pages/mentorship-program/2020-2021/mentor/seval-oz.jpg"
+						},
+						{
+							"name": "Taner Karslıoğlu",
+							"place": "Feka Grup",
+							"position": "CEO",
+							"image": "/pages/mentorship-program/2020-2021/mentor/taner-karslioglu.jpg"
+						},
+						{
+							"name": "Tanju Özkonuk",
+							"place": "Bosch Rexroth A.Ş",
+							"position": "Ticari Genel Müdür",
+							"image": "/pages/mentorship-program/2020-2021/mentor/tanju-ozkonuk.jpg"
+						},
+						{
+							"name": "Yasemin Uyar Duman",
+							"place": "Emek Yağ Sanayii A.Ş.",
+							"position": "Marka Yöneticisi / Yönetim Kurulu Üyesi",
+							"image": "/pages/mentorship-program/2020-2021/mentor/yasemin-uyar-duman.jpg"
+						},
+						{
+							"name": "Yusuf Ziya Yüce",
+							"place": "Limak Enerji",
+							"position": "Kurumsal İletişim Müdürü",
+							"image": "/pages/mentorship-program/2020-2021/mentor/yusuf-ziya-yuce.jpg"
+						}
 					]
 				},
 				"mentees": {
 					"title": "Mentees",
 					"content": [
-						{ "name": "Ahmet Çalık", "place": "Bursa Teknik Üniversitesi", "position": "Makina Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/ahmet-calik.jpeg" },
-						{ "name": "Ayşe Mert", "place": "İstanbul Teknik Üniversitesi", "position": "İşletme Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/ayse-mert.jpeg" },
-						{ "name": "Bahar Şen", "place": "Bursa Uludağ Üniversitesi", "position": "Sosyoloji", "image": "/pages/mentorship-program/2021-2022/mentee/bahar-sen.jpeg" },
-						{ "name": "Bensu Gökmen", "place": "Ted Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/bensu-gokmen.jpeg" },
-						{ "name": "Berkay Can Tunçel", "place": "Orta Doğu Teknik Üniversitesi", "position": "Makina Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/berkay-can-tuncel.jpeg" },
-						{ "name": "Bilal Durmaz", "place": "Dokuz Eylül Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/bilal-durmaz.jpeg" },
-						{ "name": "Celal Cankut Hosanlı", "place": "Yıldız Teknik Üniversitesi", "position": "Elektronik ve Haberleşme Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/celal-cankut-hosanli.jpeg" },
-						{ "name": "Elif Gödüş", "place": "Sabancı Üniversitesi", "position": "Bilgisayar Bilimi ve Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/elif-godus.jpeg" },
-						{ "name": "Elif Yılmaz", "place": "Yıldız Teknik Üniversitesi", "position": "Kimya Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/elif-yilmaz.jpeg" },
-						{ "name": "Enes Başak", "place": "Bursa Uludağ Üniversitesi", "position": "Otomotiv Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/enes-basak.jpeg" },
-						{ "name": "Eylül Burçak Uzmanoğlu", "place": "Boğaziçi Üniversitesi", "position": "Makina Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/eylul-burcak-uzmanoglu.jpeg" },
-						{ "name": "Fatih Çetin", "place": "Boğaziçi Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/fatih-cetin.jpeg" },
-						{ "name": "Gizem Avcı", "place": "Bursa Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/gizem-avci.jpeg" },
-						{ "name": "İlkay Çil", "place": "Gazi Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/ilkay-cil.jpeg" },
-						{ "name": "Kutay Bayhan", "place": "Orta Doğu Teknik Üniversitesi", "position": "Mimarlık", "image": "/pages/mentorship-program/2021-2022/mentee/kutay-bayhan.jpeg" },
-						{ "name": "M. Hamza Otar", "place": "Bursa Teknik Üniversitesi", "position": "Makina Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/hamza-otar.jpg" },
-						{ "name": "Melis Küçük", "place": "Marmara Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/melis-kucuk.jpeg" },
-						{ "name": "Melis Rana Gök", "place": "Köln Üniversitesi", "position": "Hukuk", "image": "/pages/mentorship-program/2021-2022/mentee/melis-rana-gok.jpeg" },
-						{ "name": "Muhammed Fatih Ayar", "place": "İstanbul Teknik Üniversitesi", "position": "Makina Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/muhammet-fatih-ayar.jpeg" },
-						{ "name": "Nazlı Can Daşdemir", "place": "Özyeğin Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/nazlican-dasdemir.jpeg" },
-						{ "name": "Sedanur Kocatürk", "place": "İstanbul Teknik Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/sedanur-kocaturk.jpeg" },
-						{ "name": "Seval Ergun", "place": "İstanbul Teknik Üniversitesi", "position": "Tekstil Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/seval-ergun.jpeg" },
-						{ "name": "Tuğba Gencer", "place": "Uludağ Üniversitesi", "position": "Endüstri Mühendisliği", "image": "/pages/mentorship-program/2021-2022/mentee/tugba-gencer.jpeg" }
+						{
+							"name": "Ahmet Çalık",
+							"place": "Bursa Teknik Üniversitesi",
+							"position": "Makina Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/ahmet-calik.jpeg"
+						},
+						{
+							"name": "Ayşe Mert",
+							"place": "İstanbul Teknik Üniversitesi",
+							"position": "İşletme Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/ayse-mert.jpeg"
+						},
+						{
+							"name": "Bahar Şen",
+							"place": "Bursa Uludağ Üniversitesi",
+							"position": "Sosyoloji",
+							"image": "/pages/mentorship-program/2021-2022/mentee/bahar-sen.jpeg"
+						},
+						{
+							"name": "Bensu Gökmen",
+							"place": "Ted Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/bensu-gokmen.jpeg"
+						},
+						{
+							"name": "Berkay Can Tunçel",
+							"place": "Orta Doğu Teknik Üniversitesi",
+							"position": "Makina Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/berkay-can-tuncel.jpeg"
+						},
+						{
+							"name": "Bilal Durmaz",
+							"place": "Dokuz Eylül Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/bilal-durmaz.jpeg"
+						},
+						{
+							"name": "Celal Cankut Hosanlı",
+							"place": "Yıldız Teknik Üniversitesi",
+							"position": "Elektronik ve Haberleşme Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/celal-cankut-hosanli.jpeg"
+						},
+						{
+							"name": "Elif Gödüş",
+							"place": "Sabancı Üniversitesi",
+							"position": "Bilgisayar Bilimi ve Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/elif-godus.jpeg"
+						},
+						{
+							"name": "Elif Yılmaz",
+							"place": "Yıldız Teknik Üniversitesi",
+							"position": "Kimya Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/elif-yilmaz.jpeg"
+						},
+						{
+							"name": "Enes Başak",
+							"place": "Bursa Uludağ Üniversitesi",
+							"position": "Otomotiv Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/enes-basak.jpeg"
+						},
+						{
+							"name": "Eylül Burçak Uzmanoğlu",
+							"place": "Boğaziçi Üniversitesi",
+							"position": "Makina Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/eylul-burcak-uzmanoglu.jpeg"
+						},
+						{
+							"name": "Fatih Çetin",
+							"place": "Boğaziçi Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/fatih-cetin.jpeg"
+						},
+						{
+							"name": "Gizem Avcı",
+							"place": "Bursa Uludağ Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/gizem-avci.jpeg"
+						},
+						{
+							"name": "İlkay Çil",
+							"place": "Gazi Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/ilkay-cil.jpeg"
+						},
+						{
+							"name": "Kutay Bayhan",
+							"place": "Orta Doğu Teknik Üniversitesi",
+							"position": "Mimarlık",
+							"image": "/pages/mentorship-program/2021-2022/mentee/kutay-bayhan.jpeg"
+						},
+						{
+							"name": "M. Hamza Otar",
+							"place": "Bursa Teknik Üniversitesi",
+							"position": "Makina Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/hamza-otar.jpg"
+						},
+						{
+							"name": "Melis Küçük",
+							"place": "Marmara Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/melis-kucuk.jpeg"
+						},
+						{
+							"name": "Melis Rana Gök",
+							"place": "Köln Üniversitesi",
+							"position": "Hukuk",
+							"image": "/pages/mentorship-program/2021-2022/mentee/melis-rana-gok.jpeg"
+						},
+						{
+							"name": "Muhammed Fatih Ayar",
+							"place": "İstanbul Teknik Üniversitesi",
+							"position": "Makina Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/muhammet-fatih-ayar.jpeg"
+						},
+						{
+							"name": "Nazlı Can Daşdemir",
+							"place": "Özyeğin Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/nazlican-dasdemir.jpeg"
+						},
+						{
+							"name": "Sedanur Kocatürk",
+							"place": "İstanbul Teknik Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/sedanur-kocaturk.jpeg"
+						},
+						{
+							"name": "Seval Ergun",
+							"place": "İstanbul Teknik Üniversitesi",
+							"position": "Tekstil Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/seval-ergun.jpeg"
+						},
+						{
+							"name": "Tuğba Gencer",
+							"place": "Uludağ Üniversitesi",
+							"position": "Endüstri Mühendisliği",
+							"image": "/pages/mentorship-program/2021-2022/mentee/tugba-gencer.jpeg"
+						}
 					]
 				}
 			}
